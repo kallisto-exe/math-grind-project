@@ -1,0 +1,1 @@
+{"id":"prob-exp-003","subject":"Probability","topic":"Expectation & Variance","subtopic":"Moment Generating Functions","difficulty":"advanced","question":"If M_X(t) = e^(t + t^2/2), what is E[X]?","options":{"A":"0","B":"1/2","C":"1","D":"e"},"answer":"C","explanation":"E[X] = M_X'(0). M_X'(t) = (1+t)e^(t+t^2/2). At t=0: 1. This is the MGF of N(1,1), confirming μ=1."}

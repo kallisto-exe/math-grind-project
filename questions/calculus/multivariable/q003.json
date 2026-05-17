@@ -1,0 +1,1 @@
+{"id":"calc-multi-003","subject":"Calculus","topic":"Multivariable Calculus","subtopic":"Double Integrals","difficulty":"intermediate","question":"Evaluate the double integral over [0,1]x[0,1] of (x + y) dA.","options":{"A":"1/2","B":"1","C":"2","D":"1/4"},"answer":"B","explanation":"Inner integral over y: x + 1/2. Outer integral over x: 1/2 + 1/2 = 1."}

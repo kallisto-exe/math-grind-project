@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stat Theory Crash Course</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f7; color: #1d1d1f; }
+    button { font-family: inherit; }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useCallback } = React;
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+async function fetchJSON(path) {
+  const r = await fetch(path);
+  if (!r.ok) throw new Error(`Failed to fetch ${path}: ${r.status}`);
+  return r.json();
+}
+
+function buildQueues(questionIndex) {
+  const queues = {};
+  for (const [subj, topics] of Object.entries(questionIndex)) {
+    for (const [topic, paths] of Object.entries(topics)) {
+      queues[`${subj}::${topic}`] = { paths: shuffle(paths), pos: 0 };
+    }
+  }
+  return queues;
+}
+
+function nextPath(queues, key) {
+  const q = queues[key];
+  if (!q || q.paths.length === 0) return null;
+  if (q.pos >= q.paths.length) { q.paths = shuffle(q.paths); q.pos = 0; }
+  return q.paths[q.pos++];
+}
+
+function useAppData() {
+  const [state, setState] = useState({ status: "loading", data: null, error: null });
+  useEffect(() => {
+    Promise.all([
+      fetchJSON("data/curriculum.json"),
+      fetchJSON("data/explanations.json"),
+      fetchJSON("data/resources.json"),
+      fetchJSON("questions/index.json"),
+    ])
+    .then(([curriculum, explanations, resources, questionIndex]) => {
+      setState({ status: "ready", data: { curriculum, explanations, resources, questionIndex }, error: null });
+    })
+    .catch(err => setState({ status: "error", data: null, error: err.message }));
+  }, []);
+  return state;
+}
+
+function App() {
+  const { status, data, error } = useAppData();
+  if (status === "loading") return <div style={{ display:"flex", alignItems:"center", justifyContent:"center", height:"100vh", color:"#888", fontSize:15 }}>Loading...</div>;
+  if (status === "error") return (
+    <div style={{ padding:40, maxWidth:600, margin:"60px auto", background:"#fff", borderRadius:12, border:"1px solid #e5e5ea" }}>
+      <div style={{ fontSize:20, fontWeight:600, marginBottom:12, color:"#993C1D" }}>Could not load data</div>
+      <div style={{ fontSize:14, lineHeight:1.7, color:"#444", marginBottom:16 }}>Run via a local server, not by opening the file directly.</div>
+      <div style={{ fontSize:13, background:"#f5f5f7", padding:14, borderRadius:8, fontFamily:"monospace", lineHeight:1.8 }}>
+        cd stat-crash-course<br/>python3 -m http.server<br/># open http://localhost:8000
+      </div>
+      <div style={{ fontSize:12, color:"#999", marginTop:12 }}>Error: {error}</div>
+    </div>
+  );
+  return <Course data={data} />;
+}
+
+function Course({ data }) {
+  const { curriculum, explanations, resources, questionIndex } = data;
+  const subjects = curriculum.subjects;
+  const milestones = curriculum.milestones;
+  const subjMeta = {};
+  subjects.forEach(s => { subjMeta[s.label] = { color: s.color, light: s.light, icon: s.icon }; });
+
+  const [subj, setSubj]           = useState(subjects[0].label);
+  const [topic, setTopic]         = useState(subjects[0].topics[0]);
+  const [view, setView]           = useState("practice");
+  const [sidebar, setSidebar]     = useState(true);
+  const [showExp, setShowExp]     = useState(false);
+  const [showMS, setShowMS]       = useState(false);
+  const [xp, setXp]               = useState(0);
+  const [streak, setStreak]       = useState(0);
+  const [toast, setToast]         = useState(null);
+  const [sessionLog, setSessionLog] = useState({});
+  const [currentQ, setCurrentQ]   = useState(null);
+  const [qLoading, setQLoading]   = useState(false);
+  const [qError, setQError]       = useState(null);
+  const [selected, setSelected]   = useState(null);
+  const [submitted, setSubmitted] = useState(false);
+  const [queues, setQueues]       = useState(() => buildQueues(questionIndex));
+
+  const loadQuestion = useCallback(async (s, t, qs) => {
+    const key = `${s}::${t}`;
+    const path = nextPath(qs, key);
+    if (!path) { setCurrentQ(null); setQLoading(false); return; }
+    setQLoading(true); setQError(null); setCurrentQ(null); setSelected(null); setSubmitted(false);
+    try {
+      const q = await fetchJSON(`questions/${path}`);
+      setCurrentQ(q);
+    } catch (e) {
+      setQError(`Could not load: questions/${path}`);
+    }
+    setQLoading(false);
+  }, []);
+
+  useEffect(() => { loadQuestion(subjects[0].label, subjects[0].topics[0], queues); }, []);
+
+  function pickTopic(s, t) {
+    setSubj(s); setTopic(t); setView("practice"); setShowExp(false);
+    setSelected(null); setSubmitted(false); setCurrentQ(null);
+    loadQuestion(s, t, queues);
+  }
+
+  function handleSubmit() {
+    if (!selected || submitted || !currentQ) return;
+    const correct = selected === currentQ.answer;
+    setSubmitted(true);
+    const key = `${subj}::${topic}`;
+    setSessionLog(prev => ({ ...prev, [key]: [...(prev[key] || []), { qId: currentQ.id, correct }] }));
+    if (correct) {
+      const nx = xp + 20;
+      setXp(nx); setStreak(s => s + 1);
+      const just = milestones.find(m => xp < m.xp && nx >= m.xp);
+      if (just) { setToast(just); setTimeout(() => setToast(null), 3500); }
+    } else { setStreak(0); }
+  }
+
+  function getCatStats(subjLabel) {
+    const s = subjects.find(s => s.label === subjLabel);
+    if (!s) return { correct:0, total:0, pct:null };
+    let c=0, t=0;
+    s.topics.forEach(tp => {
+      (sessionLog[`${subjLabel}::${tp}`] || []).forEach(e => { t++; if (e.correct) c++; });
+    });
+    return { correct:c, total:t, pct: t ? Math.round(100*c/t) : null };
+  }
+
+  function getTopicStats(subjLabel, tp) {
+    const log = sessionLog[`${subjLabel}::${tp}`] || [];
+    return { correct: log.filter(e => e.correct).length, total: log.length };
+  }
+
+  const totalAnswered = Object.values(sessionLog).flat();
+  const totalCorrect  = totalAnswered.filter(e => e.correct).length;
+  const earned  = milestones.filter(m => xp >= m.xp);
+  const nextM   = milestones.find(m => xp < m.xp);
+  const prevXP  = earned.length > 0 ? milestones[earned.length-1].xp : 0;
+  const barPct  = nextM ? Math.round(100*(xp-prevXP)/(nextM.xp-prevXP)) : 100;
+  const sd = subjMeta[subj] || { color:"#534AB7", light:"#EEEDFE" };
+  const C = sd.color, L = sd.light;
+
+  return (
+    <div style={{ display:"flex", height:"100vh", overflow:"hidden", background:"#f5f5f7" }}>
+      {toast && (
+        <div style={{ position:"fixed", top:16, left:"50%", transform:"translateX(-50%)", zIndex:999, background:"#534AB7", color:"#fff", padding:"12px 28px", borderRadius:12, fontSize:14, textAlign:"center", pointerEvents:"none", boxShadow:"0 4px 20px rgba(0,0,0,0.15)" }}>
+          <div style={{ fontSize:22 }}>{toast.icon}</div>
+          <div style={{ fontWeight:600 }}>Milestone: {toast.label}</div>
+          <div style={{ fontSize:12, opacity:0.85 }}>{toast.desc}</div>
+        </div>
+      )}
+
+      {/* Sidebar */}
+      <div style={{ width:sidebar?240:0, minWidth:sidebar?240:0, transition:"all 0.2s", overflow:"hidden", background:"#fff", borderRight:"1px solid #e5e5ea", display:"flex", flexDirection:"column" }}>
+        <div style={{ padding:"12px 14px 10px", borderBottom:"1px solid #e5e5ea" }}>
+          <div style={{ display:"flex", justifyContent:"space-between", marginBottom:5 }}>
+            <span style={{ fontSize:12, fontWeight:600, color:"#534AB7" }}>{xp} XP</span>
+            <span style={{ fontSize:11, color:"#888" }}>{streak > 1 ? `🔥 ${streak} streak` : ""}</span>
+          </div>
+          <div style={{ height:5, background:"#f0f0f0", borderRadius:3 }}>
+            <div style={{ height:5, width:`${barPct}%`, background:"#534AB7", borderRadius:3, transition:"width 0.4s" }}/>
+          </div>
+          {nextM && <div style={{ fontSize:11, color:"#888", marginTop:3 }}>{nextM.xp-xp} XP to {nextM.icon} {nextM.label}</div>}
+          <button onClick={() => setShowMS(s => !s)} style={{ marginTop:7, fontSize:11, padding:"2px 8px", cursor:"pointer", background:"transparent", color:"#888", border:"1px solid #ddd", borderRadius:6 }}>
+            {earned.length}/{milestones.length} milestones
+          </button>
+          {showMS && (
+            <div style={{ marginTop:8 }}>
+              {milestones.map(m => {
+                const e = xp >= m.xp;
+                return <div key={m.xp} style={{ display:"flex", alignItems:"center", gap:6, padding:"3px 0", fontSize:11, color:e?"#1d1d1f":"#bbb" }}>
+                  <span style={{ fontSize:13 }}>{m.icon}</span><span>{m.label}</span>
+                  {e && <span style={{ marginLeft:"auto", color:"#0F6E56", fontSize:10 }}>✓</span>}
+                </div>;
+              })}
+            </div>
+          )}
+        </div>
+        <div style={{ flex:1, overflowY:"auto", padding:"6px 0" }}>
+          {subjects.map(s => {
+            const cat = getCatStats(s.label);
+            return <div key={s.label}>
+              <div style={{ padding:"8px 12px 3px", fontSize:11, fontWeight:600, color:s.color, display:"flex", justifyContent:"space-between", alignItems:"center" }}>
+                <span>{s.icon} {s.label}</span>
+                {cat.total > 0 && <span style={{ fontSize:10, background:s.light, color:s.color, padding:"1px 6px", borderRadius:10 }}>{cat.correct}/{cat.total}{cat.pct !== null ? ` · ${cat.pct}%` : ""}</span>}
+              </div>
+              {s.topics.map(t => {
+                const ts = getTopicStats(s.label, t);
+                const active = subj === s.label && topic === t;
+                return <div key={t} onClick={() => pickTopic(s.label, t)}
+                  style={{ padding:"5px 12px 5px 20px", fontSize:13, cursor:"pointer", background:active?s.light:"transparent", color:active?s.color:"#1d1d1f", fontWeight:active?500:400, display:"flex", justifyContent:"space-between", alignItems:"center" }}>
+                  <span style={{ lineHeight:1.3 }}>{t}</span>
+                  {ts.total > 0 && <span style={{ fontSize:11, color:"#888", marginLeft:4 }}>{ts.correct}/{ts.total}</span>}
+                </div>;
+              })}
+            </div>;
+          })}
+        </div>
+        <div style={{ padding:"8px 14px", borderTop:"1px solid #e5e5ea", fontSize:11, color:"#888" }}>
+          {totalCorrect}/{totalAnswered.length} correct this session
+        </div>
+      </div>
+
+      {/* Main */}
+      <div style={{ flex:1, display:"flex", flexDirection:"column", overflow:"hidden" }}>
+        <div style={{ padding:"10px 16px", background:"#fff", borderBottom:"1px solid #e5e5ea", display:"flex", alignItems:"center", gap:12 }}>
+          <button onClick={() => setSidebar(s => !s)} style={{ padding:"4px 8px", fontSize:14, cursor:"pointer", background:"transparent", border:"1px solid #ddd", borderRadius:6 }}>☰</button>
+          <div style={{ flex:1 }}>
+            <span style={{ fontSize:12, color:"#888" }}>{subj} / </span>
+            <span style={{ fontSize:14, fontWeight:500, color:C }}>{topic}</span>
+          </div>
+          {["practice","resources"].map(v => (
+            <button key={v} onClick={() => setView(v)} style={{ padding:"4px 10px", fontSize:12, cursor:"pointer", background:view===v?L:"transparent", color:view===v?C:"#888", border:`1px solid ${view===v?C:"#ddd"}`, borderRadius:6, textTransform:"capitalize" }}>{v}</button>
+          ))}
+        </div>
+
+        <div style={{ flex:1, overflowY:"auto", padding:"24px 32px", maxWidth:780 }}>
+          {view === "resources" ? (
+            <div>
+              <div style={{ fontSize:14, color:"#666", marginBottom:16 }}>Free resources for <strong>{topic}</strong></div>
+              {(resources[subj]?.[topic] || []).map((r, i) => (
+                <a key={i} href={r.url} target="_blank" rel="noreferrer"
+                  style={{ display:"flex", alignItems:"center", gap:10, padding:"12px 14px", marginBottom:8, background:"#fff", border:"1px solid #e5e5ea", borderRadius:8, color:"#1d1d1f", fontSize:14, textDecoration:"none" }}>
+                  <span style={{ color:C, fontSize:16 }}>↗</span>{r.title}
+                </a>
+              ))}
+            </div>
+          ) : (
+            <div>
+              <div style={{ marginBottom:22 }}>
+                <button onClick={() => setShowExp(s => !s)} style={{ padding:"6px 14px", fontSize:13, cursor:"pointer", background:L, color:C, border:`1px solid ${C}`, borderRadius:6 }}>
+                  {showExp ? "Hide explanation" : "📖 Explain this concept"}
+                </button>
+                {showExp && (
+                  <div style={{ marginTop:12, padding:"16px 18px", background:"#fff", border:`1.5px solid ${C}`, borderRadius:8, fontSize:14, lineHeight:1.85, color:"#1d1d1f", whiteSpace:"pre-wrap" }}>
+                    {explanations[subj]?.[topic] || "Explanation not found."}
+                  </div>
+                )}
+              </div>
+
+              {(() => {
+                const ts = getTopicStats(subj, topic);
+                const bankSize = (questionIndex[subj]?.[topic] || []).length;
+                return <div style={{ fontSize:12, color:"#888", marginBottom:16 }}>{bankSize} questions in bank{ts.total > 0 ? ` · ${ts.correct}/${ts.total} correct this session` : ""}</div>;
+              })()}
+
+              {qLoading && <div style={{ fontSize:14, color:"#888", padding:"30px 0" }}>Loading question...</div>}
+              {qError && <div style={{ fontSize:14, color:"#993C1D", padding:"20px 0" }}>{qError} <button onClick={() => loadQuestion(subj, topic, queues)} style={{ marginLeft:12, padding:"4px 12px", fontSize:13, cursor:"pointer", borderRadius:6, border:"1px solid #ddd", background:"transparent" }}>Retry</button></div>}
+
+              {currentQ && !qLoading && (
+                <div>
+                  <div style={{ display:"flex", gap:8, marginBottom:12, alignItems:"center" }}>
+                    {currentQ.subtopic && <span style={{ fontSize:11, padding:"2px 8px", background:L, color:C, borderRadius:10 }}>{currentQ.subtopic}</span>}
+                    {currentQ.difficulty && <span style={{ fontSize:11, padding:"2px 8px", background:"#f0f0f0", color:"#555", borderRadius:10, textTransform:"capitalize" }}>{currentQ.difficulty}</span>}
+                    <span style={{ fontSize:11, color:"#ccc", marginLeft:"auto" }}>#{currentQ.id}</span>
+                  </div>
+                  <div style={{ padding:"16px 18px", marginBottom:14, background:"#fff", border:"1px solid #e5e5ea", borderRadius:10 }}>
+                    <div style={{ fontSize:15, lineHeight:1.85, color:"#1d1d1f" }}>{currentQ.question}</div>
+                  </div>
+                  <div style={{ display:"flex", flexDirection:"column", gap:8, marginBottom:18 }}>
+                    {Object.entries(currentQ.options).map(([letter, text]) => {
+                      let bg="#fff", border="1px solid #ddd", color="#1d1d1f";
+                      if (submitted) {
+                        if (letter === currentQ.answer) { bg="#E1F5EE"; border="1.5px solid #0F6E56"; color="#0F6E56"; }
+                        else if (letter === selected)   { bg="#FAECE7"; border="1.5px solid #993C1D"; color="#993C1D"; }
+                      } else if (selected === letter) { bg=L; border=`1.5px solid ${C}`; color=C; }
+                      return <div key={letter} onClick={() => !submitted && setSelected(letter)}
+                        style={{ padding:"12px 14px", borderRadius:8, background:bg, border, color, cursor:submitted?"default":"pointer", fontSize:14, lineHeight:1.6, display:"flex", gap:10, alignItems:"flex-start" }}>
+                        <span style={{ fontWeight:600, minWidth:18 }}>{letter}.</span><span>{text}</span>
+                      </div>;
+                    })}
+                  </div>
+                  {!submitted ? (
+                    <button onClick={handleSubmit} disabled={!selected} style={{ padding:"9px 26px", fontSize:14, cursor:selected?"pointer":"not-allowed", background:selected?C:"#e0e0e0", color:selected?"#fff":"#999", border:"none", borderRadius:8 }}>Submit</button>
+                  ) : (
+                    <div>
+                      <div style={{ padding:"14px 16px", marginBottom:14, background:selected===currentQ.answer?"#E1F5EE":"#FAECE7", borderRadius:8, fontSize:14, lineHeight:1.85 }}>
+                        <div style={{ fontWeight:600, marginBottom:6, color:selected===currentQ.answer?"#0F6E56":"#993C1D" }}>
+                          {selected===currentQ.answer ? "✓ Correct! +20 XP" : `✗ Incorrect — the answer is ${currentQ.answer}`}
+                        </div>
+                        <div style={{ color:"#1d1d1f" }}>{currentQ.explanation}</div>
+                      </div>
+                      <button onClick={() => loadQuestion(subj, topic, queues)} style={{ padding:"9px 24px", fontSize:14, cursor:"pointer", background:C, color:"#fff", border:"none", borderRadius:8 }}>Next Question →</button>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+</script>
+</body>
+</html>

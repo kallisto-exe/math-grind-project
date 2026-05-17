@@ -1,0 +1,1 @@
+{"id":"st-est-002","subject":"Stat Theory","topic":"Point Estimation","subtopic":"Unbiasedness","difficulty":"intro","question":"An estimator T is unbiased for θ if:","options":{"A":"T=θ always","B":"E[T]=θ for all θ","C":"Var(T)=0","D":"MSE(T)<1"},"answer":"B","explanation":"Unbiased means E[T]=θ for every possible value of θ. It says nothing about individual realizations."}

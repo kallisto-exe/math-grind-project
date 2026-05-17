@@ -1,0 +1,20 @@
+{
+  "subjects": [
+    { "id": "calculus", "label": "Calculus", "icon": "∫", "color": "#534AB7", "light": "#EEEDFE",
+      "topics": ["Limits & Continuity","Derivatives","Integration","Multivariable Calculus","Series & Convergence"] },
+    { "id": "linear_algebra", "label": "Linear Algebra", "icon": "⊗", "color": "#0F6E56", "light": "#E1F5EE",
+      "topics": ["Vectors & Matrices","Systems of Equations","Determinants & Inverses","Eigenvalues & Eigenvectors","Projections & Least Squares"] },
+    { "id": "probability", "label": "Probability", "icon": "P", "color": "#993C1D", "light": "#FAECE7",
+      "topics": ["Axioms & Counting","Conditional Probability & Bayes","Random Variables & Distributions","Expectation & Variance","Joint Distributions","Limit Theorems"] },
+    { "id": "stat_theory", "label": "Stat Theory", "icon": "θ", "color": "#185FA5", "light": "#E6F1FB",
+      "topics": ["Point Estimation","Sufficient Statistics","Hypothesis Testing","Confidence Intervals"] }
+  ],
+  "milestones": [
+    { "xp": 30,  "label": "First Steps",      "icon": "🌱", "desc": "Got your first answer right" },
+    { "xp": 100, "label": "On a Roll",        "icon": "🔥", "desc": "100 XP earned" },
+    { "xp": 200, "label": "Calculus Capable", "icon": "∫",  "desc": "200 XP earned" },
+    { "xp": 350, "label": "Probability Pro",  "icon": "🎲", "desc": "350 XP earned" },
+    { "xp": 500, "label": "Algebra Ace",      "icon": "⊗",  "desc": "500 XP earned" },
+    { "xp": 700, "label": "Stat Theorist",    "icon": "θ",  "desc": "700 XP — you're ready!" }
+  ]
+}

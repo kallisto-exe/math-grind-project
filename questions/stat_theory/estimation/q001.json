@@ -1,0 +1,1 @@
+{"id":"st-est-001","subject":"Stat Theory","topic":"Point Estimation","subtopic":"MLE","difficulty":"intermediate","question":"The MLE of λ for a Poisson sample x_1,...,x_n is:","options":{"A":"1/x-bar","B":"x-bar","C":"n·x-bar","D":"median(x_i)"},"answer":"B","explanation":"Log-likelihood: l(λ)=-nλ+(sum x_i)log(λ). Setting dl/dλ=0: λ-hat = x-bar."}

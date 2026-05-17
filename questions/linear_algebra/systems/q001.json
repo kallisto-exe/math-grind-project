@@ -1,0 +1,1 @@
+{"id":"la-sys-001","subject":"Linear Algebra","topic":"Systems of Equations","subtopic":"Solution Sets","difficulty":"intro","question":"How many solutions does x+y=2, 2x+2y=4 have?","options":{"A":"Exactly one","B":"Exactly two","C":"None","D":"Infinitely many"},"answer":"D","explanation":"Equation 2 is 2 times equation 1 — the same line. Every (x, 2-x) is a solution."}

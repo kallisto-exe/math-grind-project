@@ -1,0 +1,1 @@
+{"id":"calc-series-002","subject":"Calculus","topic":"Series & Convergence","subtopic":"Taylor Series","difficulty":"intro","question":"The Taylor series of e^x centered at 0 is:","options":{"A":"sum x^n","B":"sum x^n/n!","C":"sum (-1)^n x^n/n!","D":"sum x^n/n"},"answer":"B","explanation":"The k-th derivative of e^x at 0 is 1. Taylor series: sum(n=0 to inf) x^n/n!."}

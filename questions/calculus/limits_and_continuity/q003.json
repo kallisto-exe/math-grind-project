@@ -1,0 +1,1 @@
+{"id":"calc-limits-003","subject":"Calculus","topic":"Limits & Continuity","subtopic":"Indeterminate Forms","difficulty":"intermediate","question":"Evaluate: lim(x→2) (x^2 - 4) / (x - 2)","options":{"A":"0","B":"2","C":"4","D":"Does not exist"},"answer":"C","explanation":"Factor: x^2-4 = (x+2)(x-2). Cancel (x-2) to get x+2. As x→2, x+2 → 4."}

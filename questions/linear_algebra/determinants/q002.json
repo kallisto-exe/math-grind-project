@@ -1,0 +1,1 @@
+{"id":"la-det-002","subject":"Linear Algebra","topic":"Determinants & Inverses","subtopic":"Determinant Properties","difficulty":"intro","question":"If det(A)=3 and det(B)=2, then det(AB) equals:","options":{"A":"5","B":"6","C":"9","D":"Cannot determine"},"answer":"B","explanation":"det(AB) = det(A)·det(B) = 3·2 = 6."}

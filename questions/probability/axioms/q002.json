@@ -1,0 +1,1 @@
+{"id":"prob-axioms-002","subject":"Probability","topic":"Axioms & Counting","subtopic":"Inclusion-Exclusion","difficulty":"intro","question":"If P(A)=0.4, P(B)=0.5, P(A∩B)=0.2, then P(A∪B) equals:","options":{"A":"0.9","B":"0.7","C":"0.2","D":"1.1"},"answer":"B","explanation":"P(A∪B) = P(A)+P(B)-P(A∩B) = 0.4+0.5-0.2 = 0.7."}

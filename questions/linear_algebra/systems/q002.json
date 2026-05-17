@@ -1,0 +1,1 @@
+{"id":"la-sys-002","subject":"Linear Algebra","topic":"Systems of Equations","subtopic":"Inconsistent Systems","difficulty":"intro","question":"The system x+y=1, x+y=2 has:","options":{"A":"One solution","B":"Two solutions","C":"Infinitely many","D":"No solution"},"answer":"D","explanation":"Subtracting: 0=1, a contradiction. The system is inconsistent."}

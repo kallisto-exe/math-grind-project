@@ -1,0 +1,1 @@
+{"id":"la-eig-001","subject":"Linear Algebra","topic":"Eigenvalues & Eigenvectors","subtopic":"Finding Eigenvalues","difficulty":"intro","question":"What are the eigenvalues of [[3,1],[0,3]]?","options":{"A":"1 and 3","B":"3 (repeated)","C":"0 and 3","D":"3 and 4"},"answer":"B","explanation":"det(A-λI) = (3-λ)^2 = 0 gives λ=3 with multiplicity 2."}

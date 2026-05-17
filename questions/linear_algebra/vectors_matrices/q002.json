@@ -1,0 +1,1 @@
+{"id":"la-vec-002","subject":"Linear Algebra","topic":"Vectors & Matrices","subtopic":"Dot Product","difficulty":"intro","question":"The dot product of u=(1,2,3) and v=(4,-1,0) is:","options":{"A":"2","B":"5","C":"10","D":"0"},"answer":"A","explanation":"u·v = (1)(4)+(2)(-1)+(3)(0) = 4-2+0 = 2."}

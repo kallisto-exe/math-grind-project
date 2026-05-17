@@ -1,0 +1,30 @@
+{
+  "Calculus": {
+    "Limits & Continuity": ["calculus/limits_and_continuity/q001.json","calculus/limits_and_continuity/q002.json","calculus/limits_and_continuity/q003.json"],
+    "Derivatives": ["calculus/derivatives/q001.json","calculus/derivatives/q002.json","calculus/derivatives/q003.json"],
+    "Integration": ["calculus/integration/q001.json","calculus/integration/q002.json","calculus/integration/q003.json"],
+    "Multivariable Calculus": ["calculus/multivariable/q001.json","calculus/multivariable/q002.json","calculus/multivariable/q003.json"],
+    "Series & Convergence": ["calculus/series/q001.json","calculus/series/q002.json","calculus/series/q003.json"]
+  },
+  "Linear Algebra": {
+    "Vectors & Matrices": ["linear_algebra/vectors_matrices/q001.json","linear_algebra/vectors_matrices/q002.json","linear_algebra/vectors_matrices/q003.json"],
+    "Systems of Equations": ["linear_algebra/systems/q001.json","linear_algebra/systems/q002.json","linear_algebra/systems/q003.json"],
+    "Determinants & Inverses": ["linear_algebra/determinants/q001.json","linear_algebra/determinants/q002.json","linear_algebra/determinants/q003.json"],
+    "Eigenvalues & Eigenvectors": ["linear_algebra/eigenvalues/q001.json","linear_algebra/eigenvalues/q002.json","linear_algebra/eigenvalues/q003.json"],
+    "Projections & Least Squares": ["linear_algebra/projections/q001.json","linear_algebra/projections/q002.json","linear_algebra/projections/q003.json"]
+  },
+  "Probability": {
+    "Axioms & Counting": ["probability/axioms/q001.json","probability/axioms/q002.json","probability/axioms/q003.json"],
+    "Conditional Probability & Bayes": ["probability/conditional/q001.json","probability/conditional/q002.json","probability/conditional/q003.json"],
+    "Random Variables & Distributions": ["probability/distributions/q001.json","probability/distributions/q002.json","probability/distributions/q003.json"],
+    "Expectation & Variance": ["probability/expectation/q001.json","probability/expectation/q002.json","probability/expectation/q003.json"],
+    "Joint Distributions": ["probability/joint/q001.json","probability/joint/q002.json","probability/joint/q003.json"],
+    "Limit Theorems": ["probability/limits/q001.json","probability/limits/q002.json","probability/limits/q003.json"]
+  },
+  "Stat Theory": {
+    "Point Estimation": ["stat_theory/estimation/q001.json","stat_theory/estimation/q002.json","stat_theory/estimation/q003.json"],
+    "Sufficient Statistics": ["stat_theory/sufficiency/q001.json","stat_theory/sufficiency/q002.json","stat_theory/sufficiency/q003.json"],
+    "Hypothesis Testing": ["stat_theory/testing/q001.json","stat_theory/testing/q002.json","stat_theory/testing/q003.json"],
+    "Confidence Intervals": ["stat_theory/intervals/q001.json","stat_theory/intervals/q002.json","stat_theory/intervals/q003.json"]
+  }
+}

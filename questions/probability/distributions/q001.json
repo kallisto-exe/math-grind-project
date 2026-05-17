@@ -1,0 +1,1 @@
+{"id":"prob-dist-001","subject":"Probability","topic":"Random Variables & Distributions","subtopic":"Poisson Distribution","difficulty":"intro","question":"If X ~ Poisson(λ), what is P(X=0)?","options":{"A":"1-e^{-λ}","B":"λ·e^{-λ}","C":"e^{-λ}","D":"1/λ"},"answer":"C","explanation":"Poisson PMF: P(X=k) = e^{-λ}·λ^k/k!. At k=0: e^{-λ}·1/1 = e^{-λ}."}

@@ -1,0 +1,1 @@
+{"id":"la-det-003","subject":"Linear Algebra","topic":"Determinants & Inverses","subtopic":"Matrix Inverse","difficulty":"intro","question":"The inverse of [[2,0],[0,5]] is:","options":{"A":"[[0,2],[5,0]]","B":"[[1/2,0],[0,1/5]]","C":"[[5,0],[0,2]]","D":"[[1/5,0],[0,1/2]]"},"answer":"B","explanation":"For a diagonal matrix, the inverse has reciprocals on the diagonal."}

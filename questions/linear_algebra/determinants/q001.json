@@ -1,0 +1,1 @@
+{"id":"la-det-001","subject":"Linear Algebra","topic":"Determinants & Inverses","subtopic":"Invertibility","difficulty":"intro","question":"For A=[[a,b],[c,d]], which guarantees A is invertible?","options":{"A":"a+d ≠ 0","B":"ad-bc ≠ 0","C":"a ≠ 0 and d ≠ 0","D":"a ≠ d"},"answer":"B","explanation":"A is invertible iff det(A) = ad-bc ≠ 0."}

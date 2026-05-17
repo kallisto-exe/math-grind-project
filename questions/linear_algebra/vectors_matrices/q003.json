@@ -1,0 +1,1 @@
+{"id":"la-vec-003","subject":"Linear Algebra","topic":"Vectors & Matrices","subtopic":"Matrix Dimensions","difficulty":"intro","question":"If A is 3x4 and B is 4x2, what are the dimensions of AB?","options":{"A":"4x4","B":"3x2","C":"4x2","D":"3x4"},"answer":"B","explanation":"(m×n)(n×p) = m×p. Here (3×4)(4×2) = 3×2."}

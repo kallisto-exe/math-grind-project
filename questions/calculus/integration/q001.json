@@ -1,0 +1,1 @@
+{"id":"calc-int-001","subject":"Calculus","topic":"Integration","subtopic":"U-Substitution","difficulty":"intermediate","question":"Compute: integral from 0 to 1 of x·e^(x^2) dx","options":{"A":"(e-1)/2","B":"e/2","C":"(e^2-1)/2","D":"e-1"},"answer":"A","explanation":"Let u = x^2, du = 2x dx. Limits: u=0 to 1. Integral = (1/2)∫e^u du from 0 to 1 = (1/2)(e-1)."}

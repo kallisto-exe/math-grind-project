@@ -1,0 +1,1 @@
+{"id":"la-vec-001","subject":"Linear Algebra","topic":"Vectors & Matrices","subtopic":"Matrix Multiplication","difficulty":"intro","question":"What is the (1,2) entry of AB, where A=[[1,2],[3,4]] and B=[[0,1],[2,3]]?","options":{"A":"4","B":"5","C":"7","D":"6"},"answer":"C","explanation":"Row 1 of A dot column 2 of B: (1)(1)+(2)(3) = 1+6 = 7."}

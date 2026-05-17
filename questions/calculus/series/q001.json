@@ -1,0 +1,1 @@
+{"id":"calc-series-001","subject":"Calculus","topic":"Series & Convergence","subtopic":"Radius of Convergence","difficulty":"intermediate","question":"What is the radius of convergence of sum(n=0 to inf) n!·x^n?","options":{"A":"0","B":"1","C":"e","D":"Infinity"},"answer":"A","explanation":"Ratio test: (n+1)|x| → inf for any x ≠ 0. Converges only at x=0, so R=0."}

@@ -1,0 +1,1 @@
+{"id":"prob-axioms-001","subject":"Probability","topic":"Axioms & Counting","subtopic":"Combinations","difficulty":"intro","question":"How many ways can you choose a committee of 3 from 8 people?","options":{"A":"24","B":"56","C":"336","D":"512"},"answer":"B","explanation":"C(8,3) = 8!/(3!5!) = (8·7·6)/(3·2·1) = 56."}
