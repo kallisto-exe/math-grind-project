@@ -8,6 +8,6 @@
   "subtopic": "Worked Example 11.5",
   "question": "Draw two cards from a deck. Let $A$ = \"The first card is a spade,\" and $B$ = \"The second card is a spade.\" Show that $A$ and $B$ are dependent.",
   "answer": "",
-  "explanation": "We have $\\Pr(A) = \\Pr(B) = \\frac{13}{52} = \\frac{1}{4}$ and $\\Pr(A \\cap B) = \\frac{13}{52} \\cdot \\frac{12}{51} < \\left(\\frac{1}{4}\\right)^2 = \\Pr(A)\\Pr(B)$. By Theorem 11.1 the events $A$ and $B$ are dependent The definition of independence for a finite number of events is defined as follows: Events $A_1, A_2, \\ldots, A_n$ are said to be mutually independent or simply independent if for any $1 \\le i_1 < i_2 < \\ldots < i_k \\le n$ we have $\\Pr(A_{i_1} \\cap A_{i_2} \\cap \\ldots \\cap A_{i_k}) = \\Pr(A_{i_1})\\Pr(A_{i_2}) \\ldots \\Pr(A_{i_k})$ In particular, three events $A, B, C$ are independent if and only if $\\Pr(A \\cap B) = \\Pr(A)\\Pr(B)$ $\\Pr(A \\cap C) = \\Pr(A)\\Pr(C)$ $\\Pr(B \\cap C) = \\Pr(B)\\Pr(C)$ $\\Pr(A \\cap B \\cap C) = \\Pr(A)\\Pr(B)\\Pr(C)$",
+  "explanation": "We have $\\Pr(A) = \\Pr(B) = \\frac{13}{52} = \\frac{1}{4}$ and $\\Pr(A \\cap B) = \\frac{13}{52} \\cdot \\frac{12}{51} < \\left(\\frac{1}{4}\\right)^2 = \\Pr(A)\\Pr(B)$. By",
   "source": "Finan §11 — Worked Example 11.5"
 }

@@ -8,6 +8,6 @@
   "subtopic": "Worked Example 50.3",
   "question": "Let $X$ denote the test score of a randomly chosen student, where the highest possible score is 100. Find an upper bound of $\\Pr(X \\le 50)$, given that $E(X) = 75$.",
   "answer": "",
-  "explanation": "By the previous proposition we find $\\Pr(X \\le 50) \\le \\frac{100-75}{100-50} = \\frac{1}{2}$. As a corollary of Proposition 50.1 we have Proposition 50.3 (Chebyshev's Inequality) If $X$ is a random variable with finite mean $\\mu$ and variance $\\sigma^2$, then for any value $\\epsilon > 0$, $\\Pr(|X-\\mu| \\ge \\epsilon) \\le \\frac{\\sigma^2}{\\epsilon^2}$. Proof. Since $(X-\\mu)^2 \\ge 0$, by Markov's inequality we can write $\\Pr((X-\\mu)^2 \\ge \\epsilon^2) \\le \\frac{E[(X-\\mu)^2]}{\\epsilon^2}$. But $(X-\\mu)^2 \\ge \\epsilon^2$ is equivalent to $|X-\\mu| \\ge \\epsilon$ and this in turn is equivalent to $\\Pr(|X-\\mu| \\ge \\epsilon) \\le \\frac{E[(X-\\mu)^2]}{\\epsilon^2} = \\frac{\\sigma^2}{\\epsilon^2}$.",
+  "explanation": "By the previous proposition we find $\\Pr(X \\le 50) \\le \\frac{100-75}{100-50} = \\frac{1}{2}$. As a corollary of",
   "source": "Finan §50 — Worked Example 50.3"
 }

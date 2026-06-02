@@ -810,6 +810,16 @@ function App() {
   const { status, data, error } = useAppData();
   const [progress, setProgress] = useState(loadProgress);
   const [mode, setMode] = useState("adapt");
+  const [, forceRender] = useState(0);
+
+  // KaTeX loads via a deferred CDN script; if it isn't ready at first render, poll and
+  // re-render once it arrives so math isn't left showing raw $...$ source.
+  useEffect(() => {
+    if (window.katex) return;
+    const id = setInterval(() => { if (window.katex) { clearInterval(id); forceRender(n => n + 1); } }, 150);
+    const stop = setTimeout(() => clearInterval(id), 10000);
+    return () => { clearInterval(id); clearTimeout(stop); };
+  }, []);
 
   useEffect(() => { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)); } catch (e) { /* ignore */ } }, [progress]);
 

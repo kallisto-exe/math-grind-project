@@ -8,6 +8,6 @@
   "subtopic": "Worked Example 16.4",
   "question": "Show that $E(X^2) = E(X(X - 1)) + E(X)$.",
   "answer": "",
-  "explanation": "Let $D$ be the range of $X$. We have $E(X^2) = \\sum_{x \\in D} x^2 p(x) = \\sum_{x \\in D} (x(x - 1) + x) p(x) = \\sum_{x \\in D} x(x - 1) p(x) + \\sum_{x \\in D} x p(x) = E(X(X - 1)) + E(X)$ Remark 16.1 In our definition of expectation the set $D$ can be countably infinite. It is possible to have a random variable with undefined expectation as seen in the next example.",
+  "explanation": "Let $D$ be the range of $X$. We have $E(X^2) = \\sum_{x \\in D} x^2 p(x) = \\sum_{x \\in D} (x(x - 1) + x) p(x) = \\sum_{x \\in D} x(x - 1) p(x) + \\sum_{x \\in D} x p(x) = E(X(X - 1)) + E(X)$",
   "source": "Finan §16 — Worked Example 16.4"
 }

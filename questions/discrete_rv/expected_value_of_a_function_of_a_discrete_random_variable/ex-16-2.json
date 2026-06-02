@@ -8,6 +8,6 @@
   "subtopic": "Worked Example 16.2",
   "question": "Let $X$ be the number of points on the side that comes up when rolling a fair die. Find the expected value of $g(X) = 2X^2 + 1$.",
   "answer": "",
-  "explanation": "Since each possible outcome has the probability $\\frac{1}{6}$, we get $E[g(X)] = \\sum_{i=1}^{6} (2i^2 + 1) \\cdot 1 = \\left( 6 + 2 \\sum_{i=1}^{6} i^2 \\right) = \\left( 6 + 2 \\frac{6(6 + 1)(2 \\cdot 6 + 1)}{6} \\right) = 94$ As a consequence of the above theorem we have the following result. Corollary 16.1 If $X$ is a discrete random variable, then for any constants $a$ and $b$ we have $E(aX + b) = aE(X) + b$. Proof. Let $D$ denote the range of $X$. Then $E(aX + b) = \\sum_{x \\in D} (ax + b) p(x) = a \\sum_{x \\in D} x p(x) + b \\sum_{x \\in D} p(x) = aE(X) + b$ A similar argument establishes $E(aX^2 + bX + c) = aE(X^2) + bE(X) + c$.",
+  "explanation": "Since each possible outcome has the probability $\\frac{1}{6}$, we get $E[g(X)] = \\sum_{i=1}^{6} (2i^2 + 1) \\cdot 1 = \\left( 6 + 2 \\sum_{i=1}^{6} i^2 \\right) = \\left( 6 + 2 \\frac{6(6 + 1)(2 \\cdot 6 + 1)}{6} \\right) = 94$ As a consequence of the above theorem we have the following result.",
   "source": "Finan §16 — Worked Example 16.2"
 }
