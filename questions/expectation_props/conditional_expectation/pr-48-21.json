@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-21",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.21",
+  "question": "A driver and a passenger are in a car accident. Each of them independently has probability 0.3 of being hospitalized. When a hospitalization occurs, the loss is uniformly distributed on $[0, 1]$. When two hospitalizations occur, the losses are independent. Calculate the expected number of people in the car who are hospitalized, given that the total loss due to hospitalizations from the accident is less than 1.",
+  "answer": "0.534",
+  "explanation": "Answer: 0.534",
+  "source": "Finan §48 — Practice Problem 48.21"
+}

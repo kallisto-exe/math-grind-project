@@ -1,1 +1,0 @@
-{"id":"prob-cond-002","subject":"Probability","topic":"Conditional Probability & Bayes","subtopic":"Multiplication Rule","difficulty":"intro","question":"If P(A|B)=0.6 and P(B)=0.5, then P(A∩B) equals:","options":{"A":"0.3","B":"0.6","C":"1.2","D":"0.12"},"answer":"A","explanation":"P(A∩B) = P(A|B)·P(B) = 0.6·0.5 = 0.3."}

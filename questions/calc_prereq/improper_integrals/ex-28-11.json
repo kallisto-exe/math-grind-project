@@ -1,0 +1,13 @@
+{
+  "id": "ex-28-11",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 2,
+  "subtopic": "Worked Example 28.11",
+  "question": "Investigate the convergence of $\\int^\\infty \\frac{dx}{\\ln x - 1}$.",
+  "answer": "",
+  "explanation": "For $x \\ge 4$ we know that $\\ln x - 1 < \\ln x < x$. Thus, $\\frac{1}{\\ln x - 1} > \\frac{1}{x}$. Let $g(x) = \\frac{1}{x}$ and $f(x) = \\frac{1}{\\ln x - 1}$. Thus, $0 < g(x) \\le f(x)$. Since $\\int^\\infty \\frac{1}{x}\\,dx = \\int^\\infty \\frac{1}{x}\\,dx - \\int^4 \\frac{1}{x}\\,dx$ and the integral $\\int^\\infty \\frac{1}{x}\\,dx$ is divergent being a $p$-integral with $p = 1$, the integral $\\int^\\infty \\frac{1}{x}\\,dx$ is divergent. By the comparison test $\\int^\\infty \\frac{dx}{\\ln x - 1}$ is divergent",
+  "source": "Finan §28 — Worked Example 28.11"
+}

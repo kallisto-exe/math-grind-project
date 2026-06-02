@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.3",
+  "question": "Let $X$ be a random variable with density function $f(x) = \\begin{cases} 2x & 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$. Find the density function of $Y = 8X^3$.",
+  "answer": "For $0 \\le y \\le 8$ we have $f_Y(y) = \\frac{1}{6} y^{-1/3}$ and 0 otherwise",
+  "explanation": "Answer: For $0 \\le y \\le 8$ we have $f_Y(y) = \\frac{1}{6} y^{-1/3}$ and 0 otherwise.",
+  "source": "Finan §38 — Practice Problem 38.3"
+}

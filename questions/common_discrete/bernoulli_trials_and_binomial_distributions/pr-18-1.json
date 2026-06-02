@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.1",
+  "question": "Mark is a car salesman with a 10% chance of persuading a randomly selected customer to buy a car. Out of 8 customers that were serviced by Mark, what is the probability that exactly one agreed to buy a car?",
+  "answer": "0.3826",
+  "explanation": "Answer: 0.3826",
+  "source": "Finan §18 — Practice Problem 18.1"
+}

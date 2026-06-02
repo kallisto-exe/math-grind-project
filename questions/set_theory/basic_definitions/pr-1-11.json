@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-11",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.11",
+  "question": "A camp of international students has 110 students. Among these students, 75 speak english, 52 speak spanish, 50 speak french, 33 speak english and spanish, 30 speak english and french, 22 speak spanish and french, 13 speak all three languages. How many students speak (a) english and spanish, but not french, (b) neither english, spanish, nor french, (c) french, but neither english nor spanish, (d) english, but not spanish, (e) only one of the three languages, (f) exactly two of the three languages.",
+  "answer": "(a) 20 (b) 5 (c) 11 (d) 42 (e) 46 (f) 46",
+  "explanation": "Answer: (a) 20 (b) 5 (c) 11 (d) 42 (e) 46 (f) 46",
+  "source": "Finan §1 — Practice Problem 1.11"
+}

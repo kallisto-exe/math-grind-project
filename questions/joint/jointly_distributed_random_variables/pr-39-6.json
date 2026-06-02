@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-6",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.6",
+  "question": "Assume the joint pdf of $X$ and $Y$ is $f_{XY}(x, y) = \\begin{cases} xy e^{-\\frac{x^2 + y^2}{2}} & 0 < x, y \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find $F_{XY}(x, y)$. (b) Find $f_X(x)$ and $f_Y(y)$.",
+  "answer": "(a) The cdf of $X$ and $Y$ is $F_{XY}(x, y) = \\int_{-\\infty}^x \\int_{-\\infty}^y f_{XY}(u, v)\\,du\\,dv = \\left(\\int_0^x u e^{-\\frac{u^2}{2}}\\,du\\right)\\left(\\int_0^y v e^{-\\frac{v^2}{2}}\\,dv\\right) = \\left(1 - e^{-\\frac{x^2}{2}}\\right)\\left(1 - e^{-\\frac{y^2}{2}}\\right), x > 0, y > 0$ and 0 otherwise. (b) The marginal pdf for $X$ is $f_X(x) = \\int_{-\\infty}^{\\infty} f_{XY}(x, y)\\,dy = \\int_0^{\\infty} xy e^{-\\frac{x^2 + y^2}{2}}\\,dy = x e^{-\\frac{x^2}{2}}, x > 0$ and 0 otherwise. The marginal pdf for $Y$ is $f_Y(y) = \\int_{-\\infty}^{\\infty} f_{XY}(x, y)\\,dx = \\int_0^{\\infty} xy e^{-\\frac{x^2 + y^2}{2}}\\,dx = y e^{-\\frac{y^2}{2}}$ for $y > 0$ and 0 otherwise",
+  "explanation": "Answer: (a) The cdf of $X$ and $Y$ is $F_{XY}(x, y) = \\int_{-\\infty}^x \\int_{-\\infty}^y f_{XY}(u, v)\\,du\\,dv = \\left(\\int_0^x u e^{-\\frac{u^2}{2}}\\,du\\right)\\left(\\int_0^y v e^{-\\frac{v^2}{2}}\\,dv\\right) = \\left(1 - e^{-\\frac{x^2}{2}}\\right)\\left(1 - e^{-\\frac{y^2}{2}}\\right), x > 0, y > 0$ and 0 otherwise. (b) The marginal pdf for $X$ is $f_X(x) = \\int_{-\\infty}^{\\infty} f_{XY}(x, y)\\,dy = \\int_0^{\\infty} xy e^{-\\frac{x^2 + y^2}{2}}\\,dy = x e^{-\\frac{x^2}{2}}, x > 0$ and 0 otherwise. The marginal pdf for $Y$ is $f_Y(y) = \\int_{-\\infty}^{\\infty} f_{XY}(x, y)\\,dx = \\int_0^{\\infty} xy e^{-\\frac{x^2 + y^2}{2}}\\,dx = y e^{-\\frac{y^2}{2}}$ for $y > 0$ and 0 otherwise",
+  "source": "Finan §39 — Practice Problem 39.6"
+}

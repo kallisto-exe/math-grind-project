@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-11",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.11",
+  "question": "A group insurance policy covers the medical claims of the employees of a small company. The value, $V$, of the claims made in one year is described by $V = 100000Y$ where $Y$ is a random variable with density function $f(x) = \\begin{cases} k(1-y)^4 & 0 < y < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ where $k$ is a constant. What is the conditional probability that $V$ exceeds 40,000, given that $V$ exceeds 10,000?",
+  "answer": "0.132",
+  "explanation": "Answer: 0.132",
+  "source": "Finan §30 — Practice Problem 30.11"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-52-5",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 52.5",
+  "question": "Find the Chernoff bounds for a Poisson random variable $X$ with parameter $\\lambda$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §52 — Practice Problem 52.5"
+}

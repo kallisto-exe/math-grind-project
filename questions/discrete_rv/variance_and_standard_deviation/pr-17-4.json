@@ -1,0 +1,13 @@
+{
+  "id": "pr-17-4",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 17.4",
+  "question": "An urn contains 10 marbles in which 3 are black. Four of the marbles are selected at random and are tested for the black color. Define the random variable $X$ to be the number of the selected marbles that are not black. (a) Find the probability mass function of $X$. (b) Find the variance of $X$.",
+  "answer": "(a) $p(1) = \\frac{{}_3C_3 \\cdot {}_7C_1}{{}_{10}C_4} = 1$ $p(2) = \\frac{{}_3C_2 \\cdot {}_7C_2}{{}_{10}C_4} = 3$ $p(3) = \\frac{{}_3C_1 \\cdot {}_7C_3}{{}_{10}C_4} = 1$ $p(4) = \\frac{{}_3C_0 \\cdot {}_7C_4}{{}_{10}C_4} = 1$ (b) $E(X) = 2.8$, $\\mathrm{Var}(X) = 0.56$",
+  "explanation": "Answer: (a) $p(1) = \\frac{{}_3C_3 \\cdot {}_7C_1}{{}_{10}C_4} = 1$ $p(2) = \\frac{{}_3C_2 \\cdot {}_7C_2}{{}_{10}C_4} = 3$ $p(3) = \\frac{{}_3C_1 \\cdot {}_7C_3}{{}_{10}C_4} = 1$ $p(4) = \\frac{{}_3C_0 \\cdot {}_7C_4}{{}_{10}C_4} = 1$ (b) $E(X) = 2.8$, $\\mathrm{Var}(X) = 0.56$",
+  "source": "Finan §17 — Practice Problem 17.4"
+}

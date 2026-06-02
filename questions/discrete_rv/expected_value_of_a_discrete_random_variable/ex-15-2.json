@@ -1,0 +1,13 @@
+{
+  "id": "ex-15-2",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 3,
+  "subtopic": "Worked Example 15.2",
+  "question": "Let $A$ be a nonempty set. Consider the random variable $I$ with range 0 and 1 and with pmf the indicator function $I_A$ where $I_A(x) = \\begin{cases} 1 & \\text{if } x \\in A \\\\ 0 & \\text{otherwise} \\end{cases}$ Find $E(I)$.",
+  "answer": "",
+  "explanation": "Since $\\Pr(1) = \\Pr(A)$ and $\\Pr(0) = \\Pr(A^c)$, we have $E(I) = 1 \\cdot \\Pr(A) + 0 \\cdot \\Pr(A^c) = \\Pr(A)$ That is, the expected value of $I$ is just the probability of $A$",
+  "source": "Finan §15 — Worked Example 15.2"
+}

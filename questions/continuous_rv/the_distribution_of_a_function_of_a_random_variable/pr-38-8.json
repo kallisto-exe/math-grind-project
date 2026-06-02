@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-8",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.8",
+  "question": "Suppose $X$ has the uniform distribution on $(0, 1)$. Compute the probability density function and expected value of: (a) $X^\\alpha$, $\\alpha > 0$ (b) $\\ln X$ (c) $e^X$ (d) $\\sin \\pi X$",
+  "answer": "(a) For $0 < y < 1$ we have $f_Y(y) = \\frac{1}{\\alpha} y^{\\frac{1-\\alpha}{\\alpha}}$ and 0 otherwise, $E(Y) = \\frac{1}{\\alpha+1}$ (b) For $y < 0$ we have $f_Y(y) = e^y$ and 0 otherwise, $E(Y) = -1$ (c) For $1 < y < e$ we have $f_Y(y) = \\frac{1}{y}$ and 0 otherwise, $E(Y) = \\int_1^e dy = e - 1$. (d) For $0 < y < 1$ we have $f_Y(y) = \\frac{2}{\\pi \\sqrt{1-y^2}}$, $E(Y) = \\frac{2}{\\pi}$ and 0 otherwise.",
+  "explanation": "Answer: (a) For $0 < y < 1$ we have $f_Y(y) = \\frac{1}{\\alpha} y^{\\frac{1-\\alpha}{\\alpha}}$ and 0 otherwise, $E(Y) = \\frac{1}{\\alpha+1}$ (b) For $y < 0$ we have $f_Y(y) = e^y$ and 0 otherwise, $E(Y) = -1$ (c) For $1 < y < e$ we have $f_Y(y) = \\frac{1}{y}$ and 0 otherwise, $E(Y) = \\int_1^e dy = e - 1$. (d) For $0 < y < 1$ we have $f_Y(y) = \\frac{2}{\\pi \\sqrt{1-y^2}}$, $E(Y) = \\frac{2}{\\pi}$ and 0 otherwise.",
+  "source": "Finan §38 — Practice Problem 38.8"
+}

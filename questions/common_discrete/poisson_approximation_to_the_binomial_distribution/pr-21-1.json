@@ -1,0 +1,13 @@
+{
+  "id": "pr-21-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§21 Poisson Approximation to the Binomial Distribution",
+  "section": 21,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 21.1",
+  "question": "Let $X$ be a binomial distribution with parameters $n = 200$ and $p = 0.02$. We want to calculate $\\Pr(X \\ge 2)$. Explain why a Poisson distribution can be expected to give a good approximation of $\\Pr(X \\ge 2)$ and then find the value of this approximation.",
+  "answer": "$n \\ge 20$ and $p \\le 0.05$. $\\Pr(X \\ge 2) \\approx 0.9084$",
+  "explanation": "Answer: $n \\ge 20$ and $p \\le 0.05$. $\\Pr(X \\ge 2) \\approx 0.9084$",
+  "source": "Finan §21 — Practice Problem 21.1"
+}

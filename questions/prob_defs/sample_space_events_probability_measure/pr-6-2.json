@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-2",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.2",
+  "question": "An experiment consists of the following two stages: (1) first a coin is tossed (2) if the face appearing is a head, then a die is rolled; if the face appearing is a tail, then the coin is tossed again. An outcome of this experiment is a pair of the form (outcome from stage 1, outcome from stage 2). Let S be the collection of all outcomes. Find the sample space of this experiment.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §6 — Practice Problem 6.2"
+}

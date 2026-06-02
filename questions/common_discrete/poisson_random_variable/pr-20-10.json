@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-10",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.10",
+  "question": "A baseball team has scheduled its opening game for April 1. If it rains on April 1, the game is postponed and will be played on the next day that it does not rain. The team purchases insurance against rain. The policy will pay 1000 for each day, up to 2 days, that the opening game is postponed. The insurance company determines that the number of consecutive days of rain beginning on April 1 is a Poisson random variable with mean 0.6. What is the standard deviation of the amount the insurance company will have to pay?",
+  "answer": "$699$",
+  "explanation": "Answer: $699$",
+  "source": "Finan §20 — Practice Problem 20.10"
+}

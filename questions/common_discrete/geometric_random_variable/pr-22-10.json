@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-10",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.10",
+  "question": "As part of the underwriting process for insurance, each prospective policyholder is tested for high blood pressure. Let $X$ represent the number of tests completed when the first person with high blood pressure is found. The expected value of $X$ is 12.5. Calculate the probability that the sixth person tested is the first one with high blood pressure.",
+  "answer": "$0.053$",
+  "explanation": "Answer: $0.053$",
+  "source": "Finan §22 — Practice Problem 22.10"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-33-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 33.2",
+  "question": "In a sushi bar, customers are charged for the amount of sushi they consume. Suppose that the amount of sushi consumed is uniformly distributed between 5 ounces and 15 ounces. Let $X$ be the random variable representing a plate filling weight. (a) Find the probability density function of $X$. (b) What is the probability that a customer will take between 12 and 15 ounces of sushi? (c) Find $E(X)$ and $\\mathrm{Var}(X)$.",
+  "answer": "(a) The pdf is given by $f(x) = \\begin{cases} \\frac{1}{10} & 5 \\le x \\le 15 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) 0.3 (c) $E(X) = 10$ and $\\mathrm{Var}(X) = 8.33$",
+  "explanation": "Answer: (a) The pdf is given by $f(x) = \\begin{cases} \\frac{1}{10} & 5 \\le x \\le 15 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) 0.3 (c) $E(X) = 10$ and $\\mathrm{Var}(X) = 8.33$",
+  "source": "Finan §33 — Practice Problem 33.2"
+}

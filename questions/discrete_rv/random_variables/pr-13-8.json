@@ -1,0 +1,13 @@
+{
+  "id": "pr-13-8",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 13.8",
+  "question": "Let $X$ be a discrete random variable with the following probability table — $x$: 1, 5, 10, 50, 100; $\\Pr(X=x)$: 0.02, 0.41, 0.21, 0.08, 0.28. Compute $\\Pr(X > 4 \\mid X \\le 50)$.",
+  "answer": "0.9722",
+  "explanation": "Answer: 0.9722",
+  "source": "Finan §13 — Practice Problem 13.8"
+}

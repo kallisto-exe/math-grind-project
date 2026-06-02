@@ -1,0 +1,13 @@
+{
+  "id": "ex-46-5",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 5,
+  "subtopic": "Worked Example 46.5",
+  "question": "Suppose a box contains 10 green, 10 red and 10 black balls. We draw 10 balls from the box by sampling with replacement. Let $X$ be the number of green balls, and $Y$ be the number of black balls in the sample. (a) Find $E(XY)$. (b) Are $X$ and $Y$ independent? Explain.",
+  "answer": "",
+  "explanation": "First we note that $X$ and $Y$ are binomial with $n = 10$ and $p = \\frac{1}{3}$. (a) Let $X_i$ be 1 if we get a green ball on the $i$th draw and 0 otherwise, and $Y_j$ be the event that in $j$th draw we got a black ball. Trivially, $X_i$ and $Y_j$ are independent if $1 \\le i \\ne j \\le 10$. Moreover, $X_iY_i = 0$ for all $1 \\le i \\le 10$. Since $X = X_1 + X_2 + \\ldots X_{10}$ and $Y = Y_1 + Y_2 + \\ldots Y_{10}$ we have $XY = \\sum\\sum_{1\\le i\\ne j\\le 10} X_iY_j$. Hence, $E(XY) = \\sum\\sum_{1\\le i\\ne j\\le 10} E(X_iY_j) = \\sum\\sum_{1\\le i\\ne j\\le 10} E(X_i)E(Y_j) = 90 \\times \\frac{1}{3} \\times \\frac{1}{3} = 10$. (b) Since $E(X) = E(Y) = \\frac{10}{3}$, we have $E(XY) \\ne E(X)E(Y)$ so $X$ and $Y$ are dependent. The following inequality will be of importance in the next section. Proposition 46.6 (Markov's Inequality) If $X \\ge 0$ and $c > 0$ then $\\Pr(X \\ge c) \\le \\frac{E(X)}{c}$. Proof. Let $c > 0$. Define $$I = \\begin{cases} 1 & \\text{if $X \\ge c$} \\\\ 0 & \\text{otherwise} \\end{cases}$$ Since $X \\ge 0$, we have $I \\le \\frac{X}{c}$. Taking expectations of both side we find $E(I) \\le \\frac{E(X)}{c}$. Now the result follows since $E(I) = \\Pr(X \\ge c)$",
+  "source": "Finan §46 — Worked Example 46.5"
+}

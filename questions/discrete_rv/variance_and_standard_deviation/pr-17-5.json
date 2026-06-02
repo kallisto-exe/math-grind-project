@@ -1,0 +1,13 @@
+{
+  "id": "pr-17-5",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 17.5",
+  "question": "Suppose that $X$ is a discrete random variable with probability mass function $p(x) = cx^2$, $x = 1, 2, 3, 4$. (a) Find the value of $c$. (b) Find $E(X)$ and $E(X(X - 1))$. (c) Find $\\mathrm{Var}(X)$.",
+  "answer": "(a) $c = \\frac{1}{30}$ (b) $E(X) = 3.33$ and $E(X(X-1)) = 8.467$ (c) $E(X^2) = 11.8$ and $\\mathrm{Var}(X) = 0.6889$",
+  "explanation": "Answer: (a) $c = \\frac{1}{30}$ (b) $E(X) = 3.33$ and $E(X(X-1)) = 8.467$ (c) $E(X^2) = 11.8$ and $\\mathrm{Var}(X) = 0.6889$",
+  "source": "Finan §17 — Practice Problem 17.5"
+}

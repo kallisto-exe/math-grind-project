@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-5",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.5",
+  "question": "Find a simpler expression of $[(A \\cup B) \\cap (A \\cup C) \\cap (B^c \\cap C^c)]$ assuming all three sets $A, B, C$ intersect.",
+  "answer": "",
+  "explanation": "Using a Venn diagram one can easily see that $[(A \\cup B) \\cap (A \\cup C) \\cap (B^c \\cap C^c)] =$ If $A \\cap B = \\emptyset$ we say that A and B are disjoint sets.",
+  "source": "Finan §2 — Worked Example 2.5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-8-6",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 3,
+  "subtopic": "Worked Example 8.6",
+  "question": "A regular insurance claimant is trying to hide 3 fraudulent claims among 7 genuine claims. The claimant knows that the insurance company processes claims in batches of 5 or in batches of 10. For batches of 5, the insurance company will investigate one claim at random to check for fraud; for batches of 10, two of the claims are randomly selected for investigation. The claimant has three possible strategies: (a) submit all 10 claims in a single batch, (b) submit two batches of 5, one containing 2 fraudulent claims and the other containing 1, (c) submit two batches of 5, one containing 3 fraudulent claims and the other containing 0. What is the probability that all three fraudulent claims will go undetected in each case? What is the best strategy?",
+  "answer": "",
+  "explanation": "(a) $\\Pr(\\text{fraud not detected}) = \\frac{7}{10} \\cdot \\frac{6}{9} = \\frac{7}{15}$. (b) $\\Pr(\\text{fraud not detected}) = \\frac{3}{5} \\cdot \\frac{4}{5} = \\frac{12}{25}$. (c) $\\Pr(\\text{fraud not detected}) = \\frac{2}{5} \\cdot 1 = \\frac{2}{5}$. Claimant's best strategy is to split fraudulent claims between two batches of 5.",
+  "source": "Finan §8 — Worked Example 8.6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-3",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.3",
+  "question": "Suppose that $X$ is uniformly distributed on $[0, 12]$. Find an upper bound for the probability that a sample from $X$ lands more than 1.5 standard deviation from the mean.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.3"
+}

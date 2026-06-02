@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-9",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.9",
+  "question": "A company buys a policy to insure its revenue in the event of major snowstorms that shut down business. The policy pays nothing for the first such snowstorm of the year and $10,000 for each one thereafter, until the end of the year. The number of major snowstorms per year that shut down business is assumed to have a Poisson distribution with mean 1.5. What is the expected amount paid to the company under this policy during a one-year period?",
+  "answer": "$7231.30",
+  "explanation": "Answer: $7231.30",
+  "source": "Finan §20 — Practice Problem 20.9"
+}

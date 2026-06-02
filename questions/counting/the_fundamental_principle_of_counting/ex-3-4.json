@@ -1,0 +1,13 @@
+{
+  "id": "ex-3-4",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 2,
+  "subtopic": "Worked Example 3.4",
+  "question": "How many numbers in the range 1000 - 9999 have no repeated digits?",
+  "answer": "",
+  "explanation": "A 4-step process: (1) Choose first digit, (2) choose second digit, (3) choose third digit, (4) choose fourth digit. Every step can be done in a number of ways that does not depend on previous choices, and each number can be specified in this manner. So there are $9 \\cdot 9 \\cdot 8 \\cdot 7 = 4{,}536$ ways",
+  "source": "Finan §3 — Worked Example 3.4"
+}

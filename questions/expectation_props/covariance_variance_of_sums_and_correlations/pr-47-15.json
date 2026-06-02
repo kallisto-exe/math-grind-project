@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-15",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.15",
+  "question": "Let $X$ and $Y$ be continuous random variables with joint density function $$f_{XY}(x,y) = \\begin{cases} \\frac{8}{3}xy & 0\\le x\\le 1,\\ x\\le y\\le 2x \\\\ 0 & \\text{otherwise} \\end{cases}$$ Find $\\mathrm{Cov}(X,Y)$.",
+  "answer": "0.04",
+  "explanation": "Answer: 0.04",
+  "source": "Finan §47 — Practice Problem 47.15"
+}

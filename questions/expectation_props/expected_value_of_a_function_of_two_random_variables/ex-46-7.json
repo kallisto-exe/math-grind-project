@@ -1,0 +1,13 @@
+{
+  "id": "ex-46-7",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 5,
+  "subtopic": "Worked Example 46.7",
+  "question": "(expected value of a Binomial Random Variable) Let $X$ be a binomial random variable with parameters $(n, p)$. Find $E(X)$.",
+  "answer": "",
+  "explanation": "We have that $X$ is the number of successes in $n$ trials. For $1 \\le i \\le n$ let $X_i$ denote the number of successes in the $i$th trial. Then $E(X_i) = 0(1-p) + 1p = p$. Since $X = X_1 + X_2 + \\ldots + X_n$, we find $E(X) = \\sum_{i=1}^n E(X_i) = \\sum_{i=1}^n p = np$",
+  "source": "Finan §46 — Worked Example 46.7"
+}

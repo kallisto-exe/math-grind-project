@@ -1,0 +1,13 @@
+{
+  "id": "pr-27-5",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§27 Graphing Systems of Linear Inequalities in Two Variables",
+  "section": 27,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 27.5",
+  "question": "Solve the system of inequalities: $x - y < 1$, $2x + 3y \\le 12$, $x \\ge 0$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §27 — Practice Problem 27.5"
+}

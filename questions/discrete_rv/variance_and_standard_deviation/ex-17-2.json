@@ -1,0 +1,13 @@
+{
+  "id": "ex-17-2",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 3,
+  "subtopic": "Worked Example 17.2",
+  "question": "In a recent study, it was found that tickets cost to the Dallas Cowboys football games averages $80 with a variance of 105 square dollar. What will be the variance of the cost of tickets if 3% tax is charged on all tickets?",
+  "answer": "",
+  "explanation": "Let $X$ be the current ticket price and $Y$ be the new ticket price. Then $Y = 1.03X$. Hence, $\\mathrm{Var}(Y) = \\mathrm{Var}(1.03X) = 1.03^2 \\mathrm{Var}(X) = (1.03)^2(105) = 111.3945$",
+  "source": "Finan §17 — Worked Example 17.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-18",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.18",
+  "question": "If $f(x) = x e^{-\\frac{x^2}{2}}$, for $x > 0$ and $Y = \\ln X$, find the density function for $Y$.",
+  "answer": "$f_Y(y) = e^{2y - \\frac{1}{2} e^{2y}}$",
+  "explanation": "Answer: $f_Y(y) = e^{2y - \\frac{1}{2} e^{2y}}$.",
+  "source": "Finan §38 — Practice Problem 38.18"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-11",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.11",
+  "question": "An actuary determines that the claim size for a certain class of accidents is a random variable, $X$, with moment generating function $M_X(t) = \\frac{1}{(1 - 2500t)^4}$ Determine the standard deviation of the claim size for this class of accidents.",
+  "answer": "5,000",
+  "explanation": "Answer: 5,000",
+  "source": "Finan §49 — Practice Problem 49.11"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-45-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 5,
+  "subtopic": "Worked Example 45.3",
+  "question": "Suppose that $X$ and $Y$ have joint density function given by $f_{XY}(x, y) = \\begin{cases} 4xy & 0 < x < 1, 0 < y < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Let $U = \\frac{X}{Y}$ and $V = XY$. (a) Find the joint density function of $U$ and $V$. (b) Find the marginal density of $U$ and $V$. (c) Are $U$ and $V$ independent?",
+  "answer": "",
+  "explanation": "(a) Now, if $u = g_1(x, y) = \\frac{x}{y}$ and $v = g_2(x, y) = xy$ then solving for $x$ and $y$ we find $x = \\sqrt{uv}$ and $y = \\sqrt{\\frac{v}{u}}$. Moreover, $J(x, y) = \\begin{vmatrix} \\frac{1}{y} & -\\frac{x}{y^2} \\\\ y & x \\end{vmatrix} = \\frac{2x}{y}$. By Theorem 45.1, we find $f_{UV}(u, v) = \\frac{1}{2u} f_{XY}\\left(\\sqrt{uv}, \\sqrt{\\frac{v}{u}}\\right) = \\frac{2v}{u}, 0 < uv < 1, 0 < \\frac{v}{u} < 1$ and 0 otherwise. The region where $f_{UV}$ is defined is shown in Figure 45.2. (b) The marginal density of $U$ is $f_U(u) = \\int_0^u \\frac{2v}{u}\\,dv = u, 0 < u \\le 1$; $f_U(u) = \\int_0^{\\frac{1}{u}} \\frac{2v}{u}\\,dv = \\frac{1}{u^3}, u > 1$ and the marginal density of $V$ is $f_V(v) = \\int_{-\\infty}^{\\infty} f_{UV}(u, v)\\,du = \\int_v^{\\frac{1}{v}} \\frac{2v}{u}\\,du = -4v \\ln v, 0 < v < 1$ (c) Since $f_{UV}(u, v) \\ne f_U(u) f_V(v)$, $U$ and $V$ are dependent. Figure 45.2",
+  "source": "Finan §45 — Worked Example 45.3"
+}

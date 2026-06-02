@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-7",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.7",
+  "question": "Let $X$ be an exponential random variable with paramter $\\lambda$. Find the moment generating function of $Y = 3X - 2$.",
+  "answer": "$M_Y(t) = E(e^{tY}) = e^{-2t} \\frac{\\lambda}{\\lambda - 3t}$, $3t < \\lambda$",
+  "explanation": "Answer: $M_Y(t) = E(e^{tY}) = e^{-2t} \\frac{\\lambda}{\\lambda - 3t}$, $3t < \\lambda$",
+  "source": "Finan §49 — Practice Problem 49.7"
+}

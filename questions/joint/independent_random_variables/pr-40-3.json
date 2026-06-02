@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.3",
+  "question": "Let $X$ and $Y$ be random variables with joint pdf given by $f_{XY}(x, y) = \\begin{cases} 6(1-y) & 0 \\le x \\le y \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find $\\Pr(X \\le \\frac{3}{4}, Y \\ge \\frac{1}{2})$. (b) Find $f_X(x)$ and $f_Y(y)$. (c) Are $X$ and $Y$ independent?",
+  "answer": "(a) 0.484375 (b) We have $f_X(x) = \\int_x^1 6(1-y)\\,dy = 6y - 3y^2 \\big|_x^1 = 3x^2 - 6x + 3, 0 \\le x \\le 1$ and 0 otherwise. Similarly, $f_Y(y) = \\int_0^y 6(1-y)\\,dy = 6[y - y^2]_0^y = 6y(1-y), 0 \\le y \\le 1$ and 0 otherwise. (c) $X$ and $Y$ are dependent",
+  "explanation": "Answer: (a) 0.484375 (b) We have $f_X(x) = \\int_x^1 6(1-y)\\,dy = 6y - 3y^2 \\big|_x^1 = 3x^2 - 6x + 3, 0 \\le x \\le 1$ and 0 otherwise. Similarly, $f_Y(y) = \\int_0^y 6(1-y)\\,dy = 6[y - y^2]_0^y = 6y(1-y), 0 \\le y \\le 1$ and 0 otherwise. (c) $X$ and $Y$ are dependent",
+  "source": "Finan §40 — Practice Problem 40.3"
+}

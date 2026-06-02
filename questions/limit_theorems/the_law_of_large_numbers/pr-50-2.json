@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-2",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.2",
+  "question": "Let $X_1, X_2, \\dots, X_n$ be a Bernoulli trials process with probability 0.3 for success and 0.7 for failure. Let $X_i = 1$ if the $i$th outcome is a success and 0 otherwise. Find $n$ so that $P\\left(\\left|\\frac{S_n}{n} - E\\left(\\frac{S_n}{n}\\right)\\right| \\ge 0.1\\right) \\le 0.21$, where $S_n = X_1 + X_2 + \\dots + X_n$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.2"
+}

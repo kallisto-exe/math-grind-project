@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-5",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.5",
+  "question": "Suppose that $E(X) = 5$ and $E(Y) = -2$. Find $E(3X + 4Y - 7)$.",
+  "answer": "0",
+  "explanation": "Answer: 0",
+  "source": "Finan §46 — Practice Problem 46.5"
+}

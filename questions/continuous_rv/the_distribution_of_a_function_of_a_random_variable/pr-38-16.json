@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-16",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.16",
+  "question": "Let $X$ be a random variable with density function $f(x) = \\begin{cases} \\frac{3}{2} x^2 & -1 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$. (a) Find the pdf of $Y = 3X$. (b) Find the pdf of $Z = 3 - X$.",
+  "answer": "(a) $f_Y(a) = \\begin{cases} \\frac{a^2}{18} & -3 < a < 3 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) $f_Z(a) = \\begin{cases} \\frac{3}{2}(3-a)^2 & 2 < a < 4 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "explanation": "Answer: (a) $f_Y(a) = \\begin{cases} \\frac{a^2}{18} & -3 < a < 3 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) $f_Z(a) = \\begin{cases} \\frac{3}{2}(3-a)^2 & 2 < a < 4 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "source": "Finan §38 — Practice Problem 38.16"
+}

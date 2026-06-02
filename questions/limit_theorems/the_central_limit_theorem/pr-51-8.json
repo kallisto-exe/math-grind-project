@@ -1,0 +1,13 @@
+{
+  "id": "pr-51-8",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 51.8",
+  "question": "A small auto insurance company has 10,000 automobile policyholders. It has found that the expected yearly claim per policyholder is $240 with a standard deviation of $800. Estimate the probability that the total yearly claim exceeds $2.7 million.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §51 — Practice Problem 51.8"
+}

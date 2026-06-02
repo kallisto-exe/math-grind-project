@@ -1,0 +1,13 @@
+{
+  "id": "pr-8-11",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 8.11",
+  "question": "A store has 80 modems in its inventory, 30 coming from Source A and the remainder from Source B. Of the modems from Source A, 20% are defective. Of the modems from Source B, 8% are defective. Calculate the probability that exactly two out of a random sample of five modems from the store's inventory are defective.",
+  "answer": "0.102",
+  "explanation": "Answer: 0.102",
+  "source": "Finan §8 — Practice Problem 8.11"
+}

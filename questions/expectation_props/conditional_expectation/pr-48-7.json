@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-7",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.7",
+  "question": "Suppose that $X$ and $Y$ have joint distribution $$f_{XY}(x,y) = \\begin{cases} \\frac{21}{4}x^2y & x^2<y<1 \\\\ 0 & \\text{otherwise.} \\end{cases}$$ Find $E(Y)$ in two ways.",
+  "answer": "A first way for finding $E(Y)$ is $E(Y) = \\int_0^1 \\frac{7}{2}y\\cdot y^2\\,dy = \\frac{7}{9}$. For the second way, we use the double expectation result $\\int_{-1}^1 E(Y|X)f_X(x)\\,dx = \\int_{-1}^1 \\left(\\frac{1-x^6}{1-x^4}\\right)\\frac{21}{8}x^2(1-x^6) = \\frac{7}{9}$",
+  "explanation": "Answer: A first way for finding $E(Y)$ is $E(Y) = \\int_0^1 \\frac{7}{2}y\\cdot y^2\\,dy = \\frac{7}{9}$. For the second way, we use the double expectation result $\\int_{-1}^1 E(Y|X)f_X(x)\\,dx = \\int_{-1}^1 \\left(\\frac{1-x^6}{1-x^4}\\right)\\frac{21}{8}x^2(1-x^6) = \\frac{7}{9}$",
+  "source": "Finan §48 — Practice Problem 48.7"
+}

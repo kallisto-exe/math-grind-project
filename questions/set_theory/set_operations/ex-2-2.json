@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-2",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.2",
+  "question": "Let $A = \\{1, 2, 3\\}$ and $B = \\{\\{1, 2\\}, 3\\}$. Find $A - B$.",
+  "answer": "",
+  "explanation": "The elements of A that are not in B are 1 and 2. That is, $A - B = \\{1, 2\\}$ Union and Intersection Given two sets A and B. The union of A and B is the set $A \\cup B = \\{x \\mid x \\in A \\text{ or } x \\in B\\}$ where the 'or' is inclusive. (See Figure 2.2(a)) Figure 2.2 The above definition can be extended to more than two sets. More precisely, if $A_1, A_2, \\ldots$, are sets then $\\bigcup_{n=1}^{\\infty} A_n = \\{x \\mid x \\in A_i \\text{ for some } i \\in \\mathbb{N}\\}$. The intersection of A and B is the set (See Figure 2.2(b)) $A \\cap B = \\{x \\mid x \\in A \\text{ and } x \\in B\\}$.",
+  "source": "Finan §2 — Worked Example 2.2"
+}

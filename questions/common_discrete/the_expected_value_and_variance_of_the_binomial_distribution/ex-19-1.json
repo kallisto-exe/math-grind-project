@@ -1,0 +1,13 @@
+{
+  "id": "ex-19-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§19 The Expected Value and Variance of the Binomial Distribution",
+  "section": 19,
+  "difficulty": 4,
+  "subtopic": "Worked Example 19.1",
+  "question": "The probability of a student passing an exam is 0.2. Ten students took the exam. (a) What is the probability that at least two students passed the exam? (b) What is the expected number of students who passed the exam? (c) How many students must take the exam to make the probability at least 0.99 that a student will pass the exam?",
+  "answer": "",
+  "explanation": "Let $X$ be the number of students who passed the exam. Then, $X$ has a binomial distribution with $n = 10$ and $p = 0.2$. (a) The event that at least two students passed the exam is $\\{X \\ge 2\\}$. So, $\\Pr(X \\ge 2) = 1 - \\Pr(X < 2) = 1 - p(0) - p(1) = 1 - \\binom{10}{0}(0.2)^0(0.8)^{10} - \\binom{10}{1}(0.2)^1(0.8)^9 \\approx 0.6242$ (b) $E(X) = np = 10 \\times (0.2) = 2$. (c) Suppose that $n$ students are needed to make the probability at least 0.99 that a student will pass the exam. Let $A$ denote the event that a student passes the exam. Then, $A^c$ means that all the students fail the exam. We have, $\\Pr(A) = 1 - \\Pr(A^c) = 1 - (0.8)^n \\ge 0.99$ Solving the inequality, we find that $n \\ge \\frac{\\ln(0.01)}{\\ln(0.8)} \\approx 20.6$. So, the required number of students is 21",
+  "source": "Finan §19 — Worked Example 19.1"
+}

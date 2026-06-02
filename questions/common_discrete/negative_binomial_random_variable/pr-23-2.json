@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.2",
+  "question": "Recently it is found that the bottom of the mediterranean sea near Cyprus has potential of oil discovery. Suppose that a well oil drilling has 20% chance of striking oil. Find the probability that the third oil strike comes on the 5th well drilled.",
+  "answer": "$0.0307$",
+  "explanation": "Answer: $0.0307$",
+  "source": "Finan §23 — Practice Problem 23.2"
+}

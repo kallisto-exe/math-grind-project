@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-8",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.8",
+  "question": "A machine produces small cans that are used for baked beans. The probability that the can is in perfect shape is 0.9. The probability of the can having an unnoticeable dent is 0.02. The probability that the can is obviously dented is 0.08. Produced cans get passed through an automatic inspection machine, which is able to detect obviously dented cans and discard them. What is the probability that a can that gets shipped for use will be of perfect shape?",
+  "answer": "0.978",
+  "explanation": "Answer: 0.978",
+  "source": "Finan §9 — Practice Problem 9.8"
+}

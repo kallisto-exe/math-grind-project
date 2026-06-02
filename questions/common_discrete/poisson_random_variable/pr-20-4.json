@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.4",
+  "question": "Suppose that the number of people admitted to an emergency room each day is a Poisson random variable with parameter $\\lambda = 3$. (a) Find the probability that 3 or more people admitted to the emergency room today. (b) Find the probability that no people were admitted to the emergency room today.",
+  "answer": "(a) $0.577$ (b) $0.05$",
+  "explanation": "Answer: (a) $0.577$ (b) $0.05$",
+  "source": "Finan §20 — Practice Problem 20.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-22",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.22",
+  "question": "The random variable $X$ has an exponential distribution with parameter $b$. It is found that $M_X(-b^2) = 0.2$. Find $b$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.22"
+}

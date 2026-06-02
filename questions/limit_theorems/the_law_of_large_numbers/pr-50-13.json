@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-13",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.13",
+  "question": "A biased coin comes up heads 30% of the time. The coin is tossed 400 times. Let $X$ be the number of heads in the 400 tossings. Use Chebyshev's inequality to bound the probability that $X$ is between 100 and 140.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.13"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-14",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.14",
+  "question": "A machine consists of two components, whose lifetimes have the joint density function $f(x,y) = \\begin{cases} \\frac{1}{50} & \\text{for } x > 0, y > 0, x + y < 10 \\\\ 0 & \\text{otherwise.} \\end{cases}$ The machine operates until both components fail. Calculate the expected operational time of the machine.",
+  "answer": "5",
+  "explanation": "Answer: 5",
+  "source": "Finan §46 — Practice Problem 46.14"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-10",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.10",
+  "question": "A large classroom has 100 foreign students, 30 of whom speak spanish. 25 of the students speak italian, while 55 do not speak neither spanish nor italian. (a) How many of the those speak both spanish and italian? (b) A student who speak italian is chosen at random. What is the probability that he/she speaks spanish?",
+  "answer": "(a) 10 (b) 40%",
+  "explanation": "Answer: (a) 10 (b) 40%",
+  "source": "Finan §6 — Practice Problem 6.10"
+}

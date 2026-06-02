@@ -1,0 +1,13 @@
+{
+  "id": "pr-43-6",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 43.6",
+  "question": "Let $X$ and $Y$ be discrete random variables with joint probability function $p_{XY}(x,y) = \\begin{cases} \\frac{n! y^x (pe^{-1})^y (1-p)^{n-y}}{y!(n-y)!x!} & y = 0, 1, \\ldots, n;\\ x = 0, 1, \\ldots \\\\ 0 & \\text{otherwise} \\end{cases}$ (a) Find $p_Y(y)$. (b) Find the conditional probability distribution of $X$, given $Y = y$. Are $X$ and $Y$ independent? Justify your answer.",
+  "answer": "(a) $p_Y(y) = \\binom{n}{y} p^y (1-p)^{n-y}$ and 0 otherwise. Thus, $Y$ is a binomial distribution with parameters $n$ and $p$. (b) $p_{X|Y}(x|y) = \\frac{p_{XY}(x,y)}{p_Y(y)} = \\frac{\\frac{n! y^x (pe^{-1})^y (1-p)^{n-y}}{y!(n-y)!x!}}{\\binom{n}{y} p^y (1-p)^{n-y}} = \\frac{y^x e^{-y}}{x!}$, $x = 0, 1, 2, \\ldots$; $= 0$, otherwise. Thus, $X | Y = y$ is a Poisson distribution with parameter $y$. $X$ and $Y$ are not independent.",
+  "explanation": "Answer: (a) $p_Y(y) = \\binom{n}{y} p^y (1-p)^{n-y}$ and 0 otherwise. Thus, $Y$ is a binomial distribution with parameters $n$ and $p$. (b) $p_{X|Y}(x|y) = \\frac{p_{XY}(x,y)}{p_Y(y)} = \\frac{\\frac{n! y^x (pe^{-1})^y (1-p)^{n-y}}{y!(n-y)!x!}}{\\binom{n}{y} p^y (1-p)^{n-y}} = \\frac{y^x e^{-y}}{x!}$, $x = 0, 1, 2, \\ldots$; $= 0$, otherwise. Thus, $X | Y = y$ is a Poisson distribution with parameter $y$. $X$ and $Y$ are not independent.",
+  "source": "Finan §43 — Practice Problem 43.6"
+}

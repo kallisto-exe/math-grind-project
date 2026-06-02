@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-15",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.15",
+  "question": "Prove: If $A, B$, and $C$ are subsets of $U$ then (a) $A\\cap (B\\cup C) = (A\\cap B)\\cup (A\\cap C)$. (b) $A\\cup (B\\cap C) = (A\\cup B)\\cap (A\\cup C)$.",
+  "answer": "(a) Let $x\\in A\\cap (B\\cup C)$. Then $x\\in A$ and $x\\in B\\cup C$. Thus, $x\\in A$ and ($x\\in B$ or $x\\in C$). This implies that ($x\\in A$ and $x\\in B$) or ($x\\in A$ and $x\\in C$). Hence, $x\\in A\\cap B$ or $x\\in A\\cap C$, i.e. $x\\in (A\\cap B)\\cup (A\\cap C)$. The converse is similar. (b) Let $x\\in A\\cup (B\\cap C)$. Then $x\\in A$ or $x\\in B\\cap C$. Thus, $x\\in A$ or ($x\\in B$ and $x\\in C$). This implies that ($x\\in A$ or $x\\in B$) and ($x\\in A$ or $x\\in C$). Hence, $x\\in A\\cup B$ and $x\\in A\\cup C$, i.e. $x\\in (A\\cup B)\\cap (A\\cup C)$. The converse is similar.",
+  "explanation": "Answer: (a) Let $x\\in A\\cap (B\\cup C)$. Then $x\\in A$ and $x\\in B\\cup C$. Thus, $x\\in A$ and ($x\\in B$ or $x\\in C$). This implies that ($x\\in A$ and $x\\in B$) or ($x\\in A$ and $x\\in C$). Hence, $x\\in A\\cap B$ or $x\\in A\\cap C$, i.e. $x\\in (A\\cap B)\\cup (A\\cap C)$. The converse is similar. (b) Let $x\\in A\\cup (B\\cap C)$. Then $x\\in A$ or $x\\in B\\cap C$. Thus, $x\\in A$ or ($x\\in B$ and $x\\in C$). This implies that ($x\\in A$ or $x\\in B$) and ($x\\in A$ or $x\\in C$). Hence, $x\\in A\\cup B$ and $x\\in A\\cup C$, i.e. $x\\in (A\\cup B)\\cap (A\\cup C)$. The converse is similar.",
+  "source": "Finan §2 — Practice Problem 2.15"
+}

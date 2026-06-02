@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-10",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.10",
+  "question": "An auto insurance company insures an automobile worth 15,000 for one year under a policy with a 1,000 deductible. During the policy year there is a 0.04 chance of partial damage to the car and a 0.02 chance of a total loss of the car. If there is partial damage to the car, the amount $X$ of damage (in thousands) follows a distribution with density function $f(x) = \\begin{cases} 0.5003 e^{-0.5x} & 0 < x < 15 \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is the expected claim payment?",
+  "answer": "$328",
+  "explanation": "Answer: $328",
+  "source": "Finan §31 — Practice Problem 31.10"
+}

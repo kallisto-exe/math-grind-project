@@ -1,0 +1,13 @@
+{
+  "id": "pr-43-5",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 43.5",
+  "question": "Two dice are rolled. Let $X$ and $Y$ denote, respectively, the largest and smallest values obtained. Compute the conditional mass function of $Y$ given $X = x$, for $x = 1, 2, \\ldots, 6$. Are $X$ and $Y$ independent?",
+  "answer": "y | 1 | 2 | 3 | 4 | 5 | 6; $p_{Y|X}(1|x)$ | 1 | | | | |; $p_{Y|X}(2|x)$ | | 1 | | | |; $p_{Y|X}(3|x)$ | | | 1 | | |; $p_{Y|X}(4|x)$ | | | | 1 | |; $p_{Y|X}(5|x)$ | | | | | 1 |; $p_{Y|X}(6|x)$ | | | | | | 1; and 0 otherwise. $X$ and $Y$ are dependent since $p_{Y|X}(1|1) = 1 \\ne \\frac{11}{36} = p_Y(1)$.",
+  "explanation": "Answer: y | 1 | 2 | 3 | 4 | 5 | 6; $p_{Y|X}(1|x)$ | 1 | | | | |; $p_{Y|X}(2|x)$ | | 1 | | | |; $p_{Y|X}(3|x)$ | | | 1 | | |; $p_{Y|X}(4|x)$ | | | | 1 | |; $p_{Y|X}(5|x)$ | | | | | 1 |; $p_{Y|X}(6|x)$ | | | | | | 1; and 0 otherwise. $X$ and $Y$ are dependent since $p_{Y|X}(1|1) = 1 \\ne \\frac{11}{36} = p_Y(1)$.",
+  "source": "Finan §43 — Practice Problem 43.5"
+}

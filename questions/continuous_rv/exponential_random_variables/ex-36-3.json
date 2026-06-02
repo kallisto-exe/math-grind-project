@@ -1,0 +1,13 @@
+{
+  "id": "ex-36-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 4,
+  "subtopic": "Worked Example 36.3",
+  "question": "Suppose that the waiting time (in minutes) at a post office is an exponential random variable with mean 10 minutes. If someone arrives immediately ahead of you at the post office, find the probability that you have to wait (a) more than 10 minutes (b) between 10 and 20 minutes.",
+  "answer": "",
+  "explanation": "Let X be the time you must wait in line at the post office. Then X is an exponential random variable with parameter $\\lambda = 0.1$. (a) We have $\\Pr(X > 10) = 1-F(10) = 1-(1-e^{-1}) = e^{-1} \\approx 0.3679$. (b) We have $\\Pr(10\\le X\\le 20) = F(20)-F(10) = e^{-1}-e^{-2} \\approx 0.2325$. The most important property of the exponential distribution is known as the memoryless property: $\\Pr(X > s+t \\mid X > s) = \\Pr(X > t)$, $s,t\\ge 0$. This says that the probability that we have to wait for an additional time t (and therefore a total time of $s+t$) given that we have already waited for time s is the same as the probability at the start that we would have had to wait for time t. So the exponential distribution \"forgets\" that it is larger than s. To see why the memoryless property holds, note that for all $t\\ge 0$, we have $\\Pr(X > t) = \\int_t^\\infty \\lambda e^{-\\lambda x}\\,dx = -e^{-\\lambda x}\\big|_t^\\infty = e^{-\\lambda t}$. It follows that $\\Pr(X > s+t \\mid X > s) = \\frac{\\Pr(X > s+t \\text{ and } X > s)}{\\Pr(X > s)} = \\frac{\\Pr(X > s+t)}{\\Pr(X > s)} = \\frac{e^{-\\lambda(s+t)}}{e^{-\\lambda s}} = e^{-\\lambda t} = \\Pr(X > t)$",
+  "source": "Finan §36 — Worked Example 36.3"
+}

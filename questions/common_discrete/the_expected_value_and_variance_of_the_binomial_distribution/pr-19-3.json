@@ -1,0 +1,13 @@
+{
+  "id": "pr-19-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§19 The Expected Value and Variance of the Binomial Distribution",
+  "section": 19,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 19.3",
+  "question": "Let $Y$ be a binomial random variable with parameters $(n, 0.2)$. Define the random variable $S = 100 + 50Y - 10Y^2$. Give the expected value of $S$ when $n = 1, 2,$ and $3$.",
+  "answer": "$n$ $E(Y)$ $E(Y^2)$ $E(S)$ 1 0.20 0.20 $100+10-2 = 108$ 2 0.40 0.48 $100+20-4.8 = 115.2$ 3 0.60 0.84 $100+30-8.4 = 121.6$",
+  "explanation": "Answer: $n$ $E(Y)$ $E(Y^2)$ $E(S)$ 1 0.20 0.20 $100+10-2 = 108$ 2 0.40 0.48 $100+20-4.8 = 115.2$ 3 0.60 0.84 $100+30-8.4 = 121.6$",
+  "source": "Finan §19 — Practice Problem 19.3"
+}

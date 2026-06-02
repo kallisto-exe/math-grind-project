@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-17",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.17",
+  "question": "A survey of 100 TV watchers revealed that over the last year: i) 34 watched CBS. ii) 15 watched NBC. iii) 10 watched ABC. iv) 7 watched CBS and NBC. v) 6 watched CBS and ABC. vi) 5 watched NBC and ABC. vii) 4 watched CBS, NBC, and ABC. viii) 18 watched HGTV and of these, none watched CBS, NBC, or ABC. Calculate how many of the 100 TV watchers did not watch any of the four channels (CBS, NBC, ABC or HGTV).",
+  "answer": "37",
+  "explanation": "Answer: 37",
+  "source": "Finan §2 — Practice Problem 2.17"
+}

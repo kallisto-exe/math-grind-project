@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-12",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.12",
+  "question": "Let $T_1$ and $T_2$ represent the lifetimes in hours of two linked components in an electronic device. The joint density function for $T_1$ and $T_2$ is uniform over the region defined by $0 \\le t_1 \\le t_2 \\le L$, where $L$ is a positive constant. Determine the expected value of the sum of the squares of $T_1$ and $T_2$.",
+  "answer": "$\\frac{2}{3}L^2$",
+  "explanation": "Answer: $\\frac{2}{3}L^2$",
+  "source": "Finan §46 — Practice Problem 46.12"
+}

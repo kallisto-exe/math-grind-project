@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-6",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.6",
+  "question": "Let $X$ and $Y$ be independent exponential random variables with pairwise distinct respective parameters $\\alpha$ and $\\beta$. Find the probability density function of $X + Y$.",
+  "answer": "$f_{X+Y}(a) = \\frac{\\alpha\\beta}{\\alpha - \\beta}\\left(e^{-\\beta a} - e^{-\\alpha a}\\right)$ for $a > 0$ and 0 otherwise.",
+  "explanation": "Answer: $f_{X+Y}(a) = \\frac{\\alpha\\beta}{\\alpha - \\beta}\\left(e^{-\\beta a} - e^{-\\alpha a}\\right)$ for $a > 0$ and 0 otherwise.",
+  "source": "Finan §42 — Practice Problem 42.6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-31-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 4,
+  "subtopic": "Worked Example 31.1",
+  "question": "Find $E(X)$ when the density function of $X$ is $f(x) = \\begin{cases} 2x & \\text{if } 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$",
+  "answer": "",
+  "explanation": "Using the formula for $E(X)$ we find $E(X) = \\int_{-\\infty}^\\infty x f(x)\\,dx = \\int_0^1 2x^2\\,dx = \\frac{2}{3}$",
+  "source": "Finan §31 — Worked Example 31.1"
+}

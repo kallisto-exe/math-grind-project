@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-8",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.8",
+  "question": "An actuary has discovered that policyholders are three times as likely to file two claims as to file four claims. If the number of claims filed has a Poisson distribution, what is the variance of the number of claims filed?",
+  "answer": "$2$",
+  "explanation": "Answer: $2$",
+  "source": "Finan §20 — Practice Problem 20.8"
+}

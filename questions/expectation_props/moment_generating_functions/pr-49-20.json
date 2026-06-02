@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-20",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.20",
+  "question": "Suppose that $X$ is a random variable with moment generating function $M_X(t) = \\sum_{j=0}^{\\infty} \\frac{e^{(tj-1)}}{j!}$. Find $\\Pr(X = 2)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.20"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-37-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 37.3",
+  "question": "Let X be a gamma random variable with $\\lambda = 1.8$ and $\\alpha = 3$. Compute $\\Pr(X > 3)$.",
+  "answer": "0.0948",
+  "explanation": "Answer: 0.0948",
+  "source": "Finan §37 — Practice Problem 37.3"
+}

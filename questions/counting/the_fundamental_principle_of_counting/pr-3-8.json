@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-8",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.8",
+  "question": "In how many ways can the 24 members of a faculty senate of a college choose a president, a vice-president, a secretary, and a treasurer?",
+  "answer": "255,024",
+  "explanation": "Answer: 255,024",
+  "source": "Finan §3 — Practice Problem 3.8"
+}

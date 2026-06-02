@@ -1,0 +1,13 @@
+{
+  "id": "ex-52-3",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 5,
+  "subtopic": "Worked Example 52.3",
+  "question": "Let $X$ be a random variable. Show that $E(e^X) \\ge e^{E(X)}$.",
+  "answer": "",
+  "explanation": "Since $f(x) = e^x$ is convex, by Jensen's inequality we can write $E(e^X) \\ge e^{E(X)}$",
+  "source": "Finan §52 — Worked Example 52.3"
+}

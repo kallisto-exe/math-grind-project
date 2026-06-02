@@ -1,0 +1,13 @@
+{
+  "id": "ex-35-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§35 The Normal Approximation to the Binomial Distribution",
+  "section": 35,
+  "difficulty": 4,
+  "subtopic": "Worked Example 35.3",
+  "question": "There are 90 students in a statistics class. Suppose each student has a standard deck of 52 cards of his/her own, and each of them selects 13 cards at random without replacement from his/her own deck independent of the others. What is the chance that there are more than 50 students who got at least 2 aces?",
+  "answer": "",
+  "explanation": "Let $X$ be the number of students who got at least 2 aces or more, then clearly $X$ is a binomial random variable with $n = 90$ and $p = \\frac{{}_4C_2 \\cdot {}_{48}C_{11}}{{}_{52}C_{13}} + \\frac{{}_4C_3 \\cdot {}_{48}C_{10}}{{}_{52}C_{13}} + \\frac{{}_4C_4 \\cdot {}_{48}C_9}{{}_{52}C_{13}} \\approx 0.2573$. Since $np \\approx 23.157 > 5$ and $n(1-p) \\approx 66.843 > 5$, $X$ can be approximated by a normal random variable with $\\mu = 23.157$ and $\\sigma = \\sqrt{np(1-p)} \\approx 4.1473$. Thus, $\\Pr(X > 50) = 1 - \\Pr(X \\le 50) = 1 - \\Phi\\left(\\frac{50.5 - 23.157}{4.1473}\\right) \\approx 1 - \\Phi(6.59)$.",
+  "source": "Finan §35 — Worked Example 35.3"
+}

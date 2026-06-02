@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-16",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.16",
+  "question": "A company offers earthquake insurance. Annual premiums are modeled by an exponential random variable with mean 2. Annual claims are modeled by an exponential random variable with mean 1. Premiums and claims are independent. Let $X$ denote the ratio of claims to premiums. What is the density function of $X$?",
+  "answer": "$f(x) = \\frac{2}{(2x+1)^2}, x > 0$, $0$ otherwise",
+  "explanation": "Answer: $f(x) = \\frac{2}{(2x+1)^2}, x > 0$, $0$ otherwise",
+  "source": "Finan §40 — Practice Problem 40.16"
+}

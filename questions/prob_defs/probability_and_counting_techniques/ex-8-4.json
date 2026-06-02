@@ -1,0 +1,13 @@
+{
+  "id": "ex-8-4",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 3,
+  "subtopic": "Worked Example 8.4",
+  "question": "A shipment of 500 DVD players contains 9 defective DVD players. Construct the probability tree of the experiment of sampling two of them without replacement.",
+  "answer": "",
+  "explanation": "The probability tree is shown in Figure 8.2 Figure 8.2",
+  "source": "Finan §8 — Worked Example 8.4"
+}

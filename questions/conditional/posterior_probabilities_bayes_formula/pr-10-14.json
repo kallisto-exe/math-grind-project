@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-14",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.14",
+  "question": "A prerequisite for students to take a probability class is to pass calculus. A study of correlation of grades for students taking calculus and probability was conducted. The study shows that 25% of all calculus students get an A, and that students who had an A in calculus are 50% more likely to get an A in probability as those who had a lower grade in calculus. If a student who received an A in probability is chosen at random, what is the probability that he/she also received an A in calculus?",
+  "answer": "1",
+  "explanation": "Answer: 1",
+  "source": "Finan §10 — Practice Problem 10.14"
+}

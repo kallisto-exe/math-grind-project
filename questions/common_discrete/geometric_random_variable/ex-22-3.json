@@ -1,0 +1,13 @@
+{
+  "id": "ex-22-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 4,
+  "subtopic": "Worked Example 22.3",
+  "question": "From past experience it is noted that 3% of customers at an ATM machine make deposits at the start of a new business day. (a) What is the probability that the first deposit was made with the 5th customer who used the ATM? (b) What is the probability that the first deposit was made when 5 customers used the ATM?",
+  "answer": "",
+  "explanation": "(a) Let $X$ be the number of customers who used the ATM before the first deposit was made. Then $X$ is a geometric random variable with $p = 0.03$. If 5 customers used the ATM before a deposit was made, then the first four customers did not make a deposit and the fifth customer made the deposit. Hence, $\\Pr(X = 5) = 0.03(0.97)^4 = 0.027$. (b) $\\Pr(X\\le 5) = 1-0.97^5 \\approx 0.141$",
+  "source": "Finan §22 — Worked Example 22.3"
+}

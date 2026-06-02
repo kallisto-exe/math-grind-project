@@ -1,0 +1,13 @@
+{
+  "id": "pr-52-3",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 52.3",
+  "question": "Suppose that the average number of sick kids in a pre-k class is three per day. Assume that the variance of the number of sick kids in the class in any one day is 9. Give an estimate of the probability that at least five kids will be sick tomorrow.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §52 — Practice Problem 52.3"
+}

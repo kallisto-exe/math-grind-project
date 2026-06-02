@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-12",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.12",
+  "question": "Let $X$ and $Y$ be two independent exponential random variables each with mean 1. Find the pdf of $Z = X + Y$.",
+  "answer": "$f_Z(z) = \\int_0^z e^{-z}\\,ds = z e^{-z}$ for $z > 0$ and 0 otherwise.",
+  "explanation": "Answer: $f_Z(z) = \\int_0^z e^{-z}\\,ds = z e^{-z}$ for $z > 0$ and 0 otherwise.",
+  "source": "Finan §42 — Practice Problem 42.12"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-7",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.7",
+  "question": "Show that the following function is not a joint probability density function? $f_{XY}(x, y) = \\begin{cases} x^a y^{1-a} & 0 \\le x, y \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ where $0 < a < 1$. What factor should you multiply $f_{XY}(x, y)$ to make it a joint probability density function?",
+  "answer": "We have $\\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} f_{XY}(x, y)\\,dx\\,dy = \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} x^a y^{1-a}\\,dx\\,dy = \\int_0^1 \\int_0^1 x^a y^{1-a}\\,dx\\,dy = (2 + a - a^2)^{-1} \\ne 1$ so $f_{XY}(x, y)$ is not a density function. However one can easily turn it into a density function by multiplying $f(x, y)$ by $(2 + a - a^2)$ to obtain the density function $f_{XY}(x, y) = \\begin{cases} (2 + a - a^2) x^a y^{1-a} & 0 \\le x, y \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "explanation": "Answer: We have $\\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} f_{XY}(x, y)\\,dx\\,dy = \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} x^a y^{1-a}\\,dx\\,dy = \\int_0^1 \\int_0^1 x^a y^{1-a}\\,dx\\,dy = (2 + a - a^2)^{-1} \\ne 1$ so $f_{XY}(x, y)$ is not a density function. However one can easily turn it into a density function by multiplying $f(x, y)$ by $(2 + a - a^2)$ to obtain the density function $f_{XY}(x, y) = \\begin{cases} (2 + a - a^2) x^a y^{1-a} & 0 \\le x, y \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "source": "Finan §39 — Practice Problem 39.7"
+}

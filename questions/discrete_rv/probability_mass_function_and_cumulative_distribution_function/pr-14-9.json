@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-9",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.9",
+  "question": "A game consists of randomly selecting two balls without replacement from an urn containing 3 red balls and 4 blue balls. If the two selected balls are of the same color then you win $2. If they are of different colors then you lose $1. Let $X$ denote your gain/loss. Find the probability mass function of $X$.",
+  "answer": "$\\Pr(X = 2) = \\Pr(RR) + \\Pr(BB) = \\frac{{}_3C_2}{{}_7C_2} + \\frac{{}_4C_2}{{}_7C_2} = \\frac{3}{21} + \\frac{6}{21} = \\frac{9}{21} = \\frac{3}{7}$ and $\\Pr(X = -1) = 1 - \\Pr(X = 2) = 1 - \\frac{3}{7} = \\frac{4}{7}$",
+  "explanation": "Answer: $\\Pr(X = 2) = \\Pr(RR) + \\Pr(BB) = \\frac{{}_3C_2}{{}_7C_2} + \\frac{{}_4C_2}{{}_7C_2} = \\frac{3}{21} + \\frac{6}{21} = \\frac{9}{21} = \\frac{3}{7}$ and $\\Pr(X = -1) = 1 - \\Pr(X = 2) = 1 - \\frac{3}{7} = \\frac{4}{7}$",
+  "source": "Finan §14 — Practice Problem 14.9"
+}

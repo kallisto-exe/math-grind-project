@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-11",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.11",
+  "question": "The average number of trains arriving on any one day at a train station in a certain city is known to be 12. What is the probability that on a given day fewer than nine trains will arrive at this station?",
+  "answer": "$0.1550$",
+  "explanation": "Answer: $0.1550$",
+  "source": "Finan §20 — Practice Problem 20.11"
+}

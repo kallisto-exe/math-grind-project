@@ -1,0 +1,13 @@
+{
+  "id": "ex-28-2",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 2,
+  "subtopic": "Worked Example 28.2",
+  "question": "Does the improper integral $\\int_1^\\infty \\frac{1}{\\sqrt{x}}\\,dx$ converge or diverge?",
+  "answer": "",
+  "explanation": "We have $\\int_1^\\infty \\frac{1}{\\sqrt{x}}\\,dx = \\lim_{b\\to\\infty} \\int_1^b \\frac{1}{\\sqrt{x}}\\,dx = \\lim_{b\\to\\infty} \\left[2\\sqrt{x}\\right]_1^b = \\lim_{b\\to\\infty} (2\\sqrt{b} - 2) = \\infty$. So the improper integral is divergent The following example generalizes the results of the previous two examples.",
+  "source": "Finan §28 — Worked Example 28.2"
+}

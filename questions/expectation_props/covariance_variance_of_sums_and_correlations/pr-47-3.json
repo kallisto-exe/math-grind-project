@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-3",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.3",
+  "question": "Suppose the joint pdf of $X$ and $Y$ is $$f_{XY}(x,y) = \\begin{cases} 1 & 0<x<1,\\ x<y<x+1 \\\\ 0 & \\text{otherwise} \\end{cases}$$ Compute the covariance and correlation of $X$ and $Y$.",
+  "answer": "covariance is $\\frac{1}{12}$ and correlation is √",
+  "explanation": "Answer: covariance is $\\frac{1}{12}$ and correlation is √",
+  "source": "Finan §47 — Practice Problem 47.3"
+}

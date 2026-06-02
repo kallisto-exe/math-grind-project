@@ -1,0 +1,13 @@
+{
+  "id": "ex-49-3",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 5,
+  "subtopic": "Worked Example 49.3",
+  "question": "Let $X$ be a binomial random variable with parameters $n$ and $p$. Find the expected value and the variance of $X$ using moment generating functions.",
+  "answer": "",
+  "explanation": "We can write $M_X(t) = E(e^{tX}) = \\sum_{k=0}^{n} e^{tk} \\, {}_nC_k \\, p^k (1-p)^{n-k} = \\sum_{k=0}^{n} {}_nC_k (pe^t)^k (1-p)^{n-k} = (pe^t + 1 - p)^n$ Differentiating yields $\\frac{d}{dt} M_X(t) = npe^t(pe^t + 1 - p)^{n-1}$ Thus $E(X) = \\frac{d}{dt} M_X(t)|_{t=0} = np$. To find $E(X^2)$, we differentiate a second time to obtain $\\frac{d^2}{dt^2} M_X(t) = n(n-1)p^2 e^{2t}(pe^t + 1 - p)^{n-2} + npe^t(pe^t + 1 - p)^{n-1}$. Evaluating at $t = 0$ we find $E(X^2) = M_X''(0) = n(n-1)p^2 + np$. Observe that this implies the variance of $X$ is $\\mathrm{Var}(X) = E(X^2) - (E(X))^2 = n(n-1)p^2 + np - n^2 p^2 = np(1-p)$",
+  "source": "Finan §49 — Worked Example 49.3"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-14-4",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 3,
+  "subtopic": "Worked Example 14.4",
+  "question": "Given the following pmf $p(x) = \\begin{cases} 1 & \\text{if } x = a \\\\ 0 & \\text{otherwise} \\end{cases}$. Find a formula for $F(x)$ and sketch its graph.",
+  "answer": "",
+  "explanation": "A formula for $F(x)$ is given by $F(x) = \\begin{cases} 0 & \\text{if } x < a \\\\ 1 & \\text{otherwise} \\end{cases}$. Its graph is given in Figure 14.2. For discrete random variables the cumulative distribution function will always be a step function with jumps at each value of $x$ that has probability greater than 0. Note the value of $F(x)$ is assigned to the top of the jump.",
+  "source": "Finan §14 — Worked Example 14.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-10",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.10",
+  "question": "Show that if $A, B$, and $C$ are subsets of a universe $U$ then $n(A\\cup B\\cup C) = n(A) + n(B) + n(C) - n(A\\cap B) - n(A\\cap C) - n(B\\cap C) + n(A\\cap B\\cap C)$.",
+  "answer": "Using Theorem 2.3, we find $n(A\\cup B\\cup C) = n(A\\cup (B\\cup C)) = n(A) + n(B\\cup C) - n(A\\cap (B\\cup C)) = n(A) + (n(B) + n(C) - n(B\\cap C)) - n((A\\cap B)\\cup (A\\cap C)) = n(A) + (n(B) + n(C) - n(B\\cap C)) - (n(A\\cap B) + n(A\\cap C) - n(A\\cap B\\cap C)) = n(A) + n(B) + n(C) - n(A\\cap B) - n(A\\cap C) - n(B\\cap C) + n(A\\cap B\\cap C)$",
+  "explanation": "Answer: Using Theorem 2.3, we find $n(A\\cup B\\cup C) = n(A\\cup (B\\cup C)) = n(A) + n(B\\cup C) - n(A\\cap (B\\cup C)) = n(A) + (n(B) + n(C) - n(B\\cap C)) - n((A\\cap B)\\cup (A\\cap C)) = n(A) + (n(B) + n(C) - n(B\\cap C)) - (n(A\\cap B) + n(A\\cap C) - n(A\\cap B\\cap C)) = n(A) + n(B) + n(C) - n(A\\cap B) - n(A\\cap C) - n(B\\cap C) + n(A\\cap B\\cap C)$",
+  "source": "Finan §2 — Practice Problem 2.10"
+}

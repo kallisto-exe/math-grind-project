@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-8",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.8",
+  "question": "A study of car batteries shows that 3% of car batteries produced by a certain machine are defective. The batteries are put into packages of 20 batteries for distribution to retailers. (a) What is the probability that a randomly selected package of batteries will contain at least 2 defective batteries? (b) Suppose we continue to select packages of batteries randomly from the production site. What is the probability that it will take fewer than five packages to find a package with at least 2 defective batteries?",
+  "answer": "(a) $0.1198$ (b) $0.3999$",
+  "explanation": "Answer: (a) $0.1198$ (b) $0.3999$",
+  "source": "Finan §22 — Practice Problem 22.8"
+}

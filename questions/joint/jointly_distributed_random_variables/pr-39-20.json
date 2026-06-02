@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-20",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.20",
+  "question": "Let $X$ and $Y$ be random variables with common range $\\{1, 2\\}$ and such that $\\Pr(X = 1) = 0.7$, $\\Pr(X = 2) = 0.3$, $\\Pr(Y = 1) = 0.4$, $\\Pr(Y = 2) = 0.6$, and $\\Pr(X = 1, Y = 1) = 0.2$. (a) Find the joint probability mass function $p_{XY}(x, y)$. (b) Find the joint cumulative distribution function $F_{XY}(x, y)$.",
+  "answer": "(a) We have $X \\backslash Y$: row 1: $0.2, 0.5$ with $p_X(x) = 0.7$; row 2: $0.2, 0.1$ with $p_X(x) = 0.3$; $p_Y(y) = 0.4, 0.6$, total 1. (b) We have $F_{XY}(x, y) = \\begin{cases} 0 & x < 1 \\text{ or } y < 1 \\end{cases}$",
+  "explanation": "Answer: (a) We have $X \\backslash Y$: row 1: $0.2, 0.5$ with $p_X(x) = 0.7$; row 2: $0.2, 0.1$ with $p_X(x) = 0.3$; $p_Y(y) = 0.4, 0.6$, total 1. (b) We have $F_{XY}(x, y) = \\begin{cases} 0 & x < 1 \\text{ or } y < 1 \\end{cases}$",
+  "source": "Finan §39 — Practice Problem 39.20"
+}

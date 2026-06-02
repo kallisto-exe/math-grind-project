@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-14",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.14",
+  "question": "Let $X_1, \\dots, X_n$ be independent random variables, each with probability density function: $f(x) = \\begin{cases} 2x & 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Show that $\\overline{X} = \\frac{\\sum_{i=1}^n X_i}{n}$ converges in probability to a constant as $n \\to \\infty$ and find that constant.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.14"
+}

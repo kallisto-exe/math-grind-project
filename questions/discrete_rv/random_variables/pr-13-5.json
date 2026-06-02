@@ -1,0 +1,13 @@
+{
+  "id": "pr-13-5",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 13.5",
+  "question": "You toss a coin repeatedly until you get heads. Let $X$ be the random variable representing the number of times the coin flips until the first head appears. Find $\\Pr(X = n)$ where $n$ is a positive integer.",
+  "answer": "$\\left(\\frac{1}{2}\\right)^n$",
+  "explanation": "Answer: $\\left(\\frac{1}{2}\\right)^n$",
+  "source": "Finan §13 — Practice Problem 13.5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-42-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 5,
+  "subtopic": "Worked Example 42.3",
+  "question": "Let $X$ and $Y$ be two independent exponential random variables with common parameter $\\lambda$. Compute $f_{X+Y}(a)$.",
+  "answer": "",
+  "explanation": "We have $f_X(a) = f_Y(a) = \\begin{cases} \\lambda e^{-\\lambda a} & 0 \\le a \\\\ 0 & \\text{otherwise.} \\end{cases}$ If $a \\ge 0$ then $f_{X+Y}(a) = \\int_{-\\infty}^{\\infty} f_X(a - y) f_Y(y)\\,dy = \\lambda^2 \\int_0^a e^{-\\lambda a}\\,dy = a \\lambda^2 e^{-\\lambda a}$. If $a < 0$ then $f_{X+Y}(a) = 0$. Hence, $f_{X+Y}(a) = \\begin{cases} a \\lambda^2 e^{-\\lambda a} & 0 \\le a \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "source": "Finan §42 — Worked Example 42.3"
+}

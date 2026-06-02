@@ -1,0 +1,13 @@
+{
+  "id": "ex-46-6",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 5,
+  "subtopic": "Worked Example 46.6",
+  "question": "Let $X$ be a non-negative random variable. Let $a$ be a positive constant. Prove that $\\Pr(X \\ge a) \\le \\frac{E(e^{tX})}{e^{ta}}$ for all $t \\ge 0$.",
+  "answer": "",
+  "explanation": "Applying Markov's inequality we find $\\Pr(X \\ge a) = \\Pr(tX \\ge ta) = \\Pr(e^{tX} \\ge e^{ta}) \\le \\frac{E(e^{tX})}{e^{ta}}$. As an important application of the previous result we have Proposition 46.7 If $X \\ge 0$ and $E(X) = 0$ then $\\Pr(X = 0) = 1$. Proof. Since $E(X) = 0$, by the previous result we find $\\Pr(X \\ge c) = 0$ for all $c > 0$. But $\\Pr(X > 0) = \\Pr\\left(\\bigcup_{n=1}^\\infty \\left(X > \\frac{1}{n}\\right)\\right) \\le \\sum_{n=1}^\\infty \\Pr\\left(X > \\frac{1}{n}\\right) = 0$. Hence, $P(X > 0) = 0$. Since $X \\ge 0$, we have $1 = \\Pr(X \\ge 0) = \\Pr(X = 0) + \\Pr(X > 0) = \\Pr(X = 0)$. Corollary 46.1 Let $X$ be a random variable. If $\\mathrm{Var}(X) = 0$, then $\\Pr(X = E(X)) = 1$. Proof. Suppose that $\\mathrm{Var}(X) = 0$. Since $(X - E(X))^2 \\ge 0$ and $\\mathrm{Var}(X) = E((X - E(X))^2)$, by the previous result we have $P(X - E(X) = 0) = 1$. That is, $\\Pr(X = E(X)) = 1$",
+  "source": "Finan §46 — Worked Example 46.6"
+}

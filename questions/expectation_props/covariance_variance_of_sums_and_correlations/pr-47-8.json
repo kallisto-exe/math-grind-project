@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-8",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.8",
+  "question": "Let $X$ be uniformly distributed on $[-1, 1]$ and $Y = X^2$. Show that $X$ and $Y$ are uncorrelated even though $Y$ depends functionally on $X$ (the strongest form of dependence).",
+  "answer": "We have $$E(X) = \\frac{1}{2}\\int_{-1}^1 x\\,dx = 0 \\qquad \\int_{-1}^1 x^3\\,dx = 0$$ Thus, $\\rho(X,Y) = \\mathrm{Cov}(X,Y) = 0$",
+  "explanation": "Answer: We have $$E(X) = \\frac{1}{2}\\int_{-1}^1 x\\,dx = 0 \\qquad \\int_{-1}^1 x^3\\,dx = 0$$ Thus, $\\rho(X,Y) = \\mathrm{Cov}(X,Y) = 0$",
+  "source": "Finan §47 — Practice Problem 47.8"
+}

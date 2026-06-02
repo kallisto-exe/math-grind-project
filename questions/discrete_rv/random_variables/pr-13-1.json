@@ -1,0 +1,13 @@
+{
+  "id": "pr-13-1",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 13.1",
+  "question": "Determine whether the random variable is discrete, continuous or mixed. (a) $X$ is a randomly selected number in the interval $(0, 1)$. (b) $Y$ is the number of heart beats per minute. (c) $Z$ is the number of calls at a switchboard in a day. (d) $U : (0, 1) \\to \\mathbb{R}$ defined by $U(s) = 2s - 1$. (e) $V : (0, 1) \\to \\mathbb{R}$ defined by $V(s) = 2s - 1$ for $0 < s < \\frac{1}{2}$ and $V(s) = 1$ for $\\frac{1}{2} \\le s < 1$.",
+  "answer": "(a) Continuous (b) Discrete (c) Discrete (d) Continuous (e) mixed.",
+  "explanation": "Answer: (a) Continuous (b) Discrete (c) Discrete (d) Continuous (e) mixed.",
+  "source": "Finan §13 — Practice Problem 13.1"
+}

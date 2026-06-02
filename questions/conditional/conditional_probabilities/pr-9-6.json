@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-6",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.6",
+  "question": "An urn contains 22 marbles: 10 red, 5 green, and 7 orange. You pick two at random without replacement. What is the probability that the first is red and the second is orange?",
+  "answer": "0.151",
+  "explanation": "Answer: 0.151",
+  "source": "Finan §9 — Practice Problem 9.6"
+}

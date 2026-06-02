@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-9",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.9",
+  "question": "Let $X$ be an exponential random variable with $\\lambda = 5$ and $Y$ a uniformly distributed random variable on $(-3, X)$. Find $E(Y)$.",
+  "answer": "$-1.4$",
+  "explanation": "Answer: $-1.4$",
+  "source": "Finan §48 — Practice Problem 48.9"
+}

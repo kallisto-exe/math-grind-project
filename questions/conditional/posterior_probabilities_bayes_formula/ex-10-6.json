@@ -1,0 +1,13 @@
+{
+  "id": "ex-10-6",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 3,
+  "subtopic": "Worked Example 10.6",
+  "question": "A toy factory produces its toys with three machines $A$, $B$, and $C$. From the total production, 50% are produced by machine $A$, 30% by machine $B$, and 20% by machine $C$. Past statistics show that 4% of the toys produced by machine $A$ are defective, 2% produced by machine $B$ are defective, and 4% of the toys produced by machine $C$ are defective. (a) What is the probability that a randomly selected toy is defective? (b) If a randomly selected toy was found to be defective, what is the probability that this toy was produced by machine $A$?",
+  "answer": "",
+  "explanation": "Let $D$ be the event that the selected product is defective. Then, $\\Pr(A) = 0.5$, $\\Pr(B) = 0.3$, $\\Pr(C) = 0.2$, $\\Pr(D|A) = 0.04$, $\\Pr(D|B) = 0.02$, $\\Pr(D|C) = 0.04$. We have $\\Pr(D) = \\Pr(D|A)\\Pr(A) + \\Pr(D|B)\\Pr(B) + \\Pr(D|C)\\Pr(C) = (0.04)(0.50) + (0.02)(0.30) + (0.04)(0.20) = 0.034$. (b) By Bayes' theorem, we find $\\Pr(A|D) = \\frac{\\Pr(D|A)\\Pr(A)}{\\Pr(D)} = \\frac{(0.04)(0.50)}{0.034} \\approx 0.5882$",
+  "source": "Finan §10 — Worked Example 10.6"
+}

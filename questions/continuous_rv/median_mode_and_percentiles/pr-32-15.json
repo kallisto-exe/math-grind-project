@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-15",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.15",
+  "question": "Let X be a random variable with cdf $F(x) = \\begin{cases} 0, & x < 0 \\\\ \\frac{x^3}{27}, & 0\\le x\\le 3 \\\\ 1, & x > 3. \\end{cases}$ Find the median of X.",
+  "answer": "2.3811",
+  "explanation": "Answer: 2.3811",
+  "source": "Finan §32 — Practice Problem 32.15"
+}

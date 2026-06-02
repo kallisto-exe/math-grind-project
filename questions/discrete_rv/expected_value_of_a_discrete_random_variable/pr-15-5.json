@@ -1,0 +1,13 @@
+{
+  "id": "pr-15-5",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 15.5",
+  "question": "A storage company provides insurance coverage for items stored on its premises. For items valued at $800, the probability that $400 worth of items of being stolen is 0.01 while the probability the whole items being stolen is 0.0025. Assume that these are the only possible kinds of expected loss. How much should the storage company charge for people with this coverage in order to cover the money they pay out and to make an additional $20 profit per person on the average?",
+  "answer": "$26 15.6E(X) =-$0.125 So the owner will make on average 12.5 cents per spin",
+  "explanation": "Answer: $26$ $E(X) = -\\$0.125$ So the owner will make on average 12.5 cents per spin",
+  "source": "Finan §15 — Practice Problem 15.5"
+}

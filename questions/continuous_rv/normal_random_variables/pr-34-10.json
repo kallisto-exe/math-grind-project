@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-10",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.10",
+  "question": "Let X be a normal random variable with mean 1 and variance 4. Find $\\Pr(X^2-2X\\le 8)$.",
+  "answer": "0.86",
+  "explanation": "Answer: 0.86",
+  "source": "Finan §34 — Practice Problem 34.10"
+}

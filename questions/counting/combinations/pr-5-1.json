@@ -1,0 +1,13 @@
+{
+  "id": "pr-5-1",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 5.1",
+  "question": "Find $m$ and $n$ so that ${}_mC_n = 13$",
+  "answer": "m = 13 and n = 1 or n = 12",
+  "explanation": "Answer: $m = 13$ and $n = 1$ or $n = 12$",
+  "source": "Finan §5 — Practice Problem 5.1"
+}

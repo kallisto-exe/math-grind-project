@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.1",
+  "question": "A security check at an airport has two express lines. Let $X$ and $Y$ denote the number of customers in the first and second line at any given time. The joint probability function of $X$ and $Y$, $p_{XY}(x, y)$, is summarized by the following table $X \\backslash Y$: row 0: $0.1, 0.2, 0, 0$ with $p_X(\\cdot) = 0.3$; row 1: $0.2, 0.25, 0.05, 0$ with $p_X(\\cdot) = 0.5$; row 2: $0, 0.05, 0.05, 0.025$ with $p_X(\\cdot) = 0.125$; row 3: $0, 0, 0.025, 0.05$ with $p_X(\\cdot) = 0.075$; $p_Y(\\cdot) = 0.3, 0.5, 0.125, 0.075$, total 1. (a) Show that $p_{XY}(x, y)$ is a joint probability mass function. (b) Find the probability that more than two customers are in line. (c) Find $\\Pr(|X - Y| = 1)$. (d) Find $p_X(x)$.",
+  "answer": "(a) From the table we see that the sum of all the entries is 1. (b) 0.25 (c) 0.55 (d) $p_X(0) = 0.3, p_X(1) = 0.5, p_X(2) = 0.125, p_X(3) = 0.075$ and 0 otherwise",
+  "explanation": "Answer: (a) From the table we see that the sum of all the entries is 1. (b) 0.25 (c) 0.55 (d) $p_X(0) = 0.3, p_X(1) = 0.5, p_X(2) = 0.125, p_X(3) = 0.075$ and 0 otherwise",
+  "source": "Finan §39 — Practice Problem 39.1"
+}

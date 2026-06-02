@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-12",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.12",
+  "question": "The number of phone calls received by an operator in a 5-minute period follows a Poisson distribution with a mean of $\\lambda$. Find the probability that the total number of phone calls received in 10 randomly selected 5-minute periods is 10.",
+  "answer": "$e^{-10\\lambda}\\frac{(10\\lambda)^{10}}{10!}$",
+  "explanation": "Answer: $e^{-10\\lambda}\\frac{(10\\lambda)^{10}}{10!}$",
+  "source": "Finan §41 — Practice Problem 41.12"
+}

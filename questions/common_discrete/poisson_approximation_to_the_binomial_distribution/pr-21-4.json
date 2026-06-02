@@ -1,0 +1,13 @@
+{
+  "id": "pr-21-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§21 Poisson Approximation to the Binomial Distribution",
+  "section": 21,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 21.4",
+  "question": "1000 cancer patients are receving a clinical trial drug for cancer. Side eﬀects are being studied. The probability that a patient experiences side eﬀects to the drug is found to be 0.001. Find the probability that none of the patients administered the trial drug experienced any side eﬀect.",
+  "answer": "$0.3679$",
+  "explanation": "Answer: $0.3679$",
+  "source": "Finan §21 — Practice Problem 21.4"
+}

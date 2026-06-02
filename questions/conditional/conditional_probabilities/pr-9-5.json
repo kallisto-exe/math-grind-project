@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-5",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.5",
+  "question": "A pollster surveyed 100 people about watching the TV show \"The big bang theory\". The results of the poll are shown in the table. Yes No Total Male 19 41 60 Female 12 28 40 Total 31 69 100 (a) What is the probability of a randomly selected individual is a male and watching the show? (b) What is the probability of a randomly selected individual is a male? (c) What is the probability of a randomly selected individual watches the show? (d) What is the probability of a randomly selected individual watches the show, given that the individual is a male? (e) What is the probability that a randomly selected individual watching the show is a male?",
+  "answer": "(a) 0.19 (b) 0.60 (c) 0.31 (d) 0.317 (e) 0.613",
+  "explanation": "Answer: (a) 0.19 (b) 0.60 (c) 0.31 (d) 0.317 (e) 0.613",
+  "source": "Finan §9 — Practice Problem 9.5"
+}

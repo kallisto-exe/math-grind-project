@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-11",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.11",
+  "question": "The lifetime of a printer costing 200 is exponentially distributed with mean 2 years. The manufacturer agrees to pay a full refund to a buyer if the printer fails during the first year following its purchase, and a one-half refund if it fails during the second year. If the manufacturer sells 100 printers, how much should it expect to pay in refunds?",
+  "answer": "10256",
+  "explanation": "Answer: 10256",
+  "source": "Finan §36 — Practice Problem 36.11"
+}

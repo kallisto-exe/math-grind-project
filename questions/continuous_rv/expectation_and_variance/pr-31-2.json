@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.2",
+  "question": "The density function of $X$ is given by $f(x) = \\begin{cases} a + bx^2 & 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Suppose that $E(X) = \\frac{3}{5}$. (a) Find $a$ and $b$. (b) Determine the cdf, $F(x)$, explicitly.",
+  "answer": "(a) $a = \\frac{3}{5}$ and $b = \\frac{6}{5}$. (b) $F(x) = \\int_{-\\infty}^x f(u)\\,du = \\begin{cases} \\int_{-\\infty}^x 0\\,du = 0 & x < 0 \\\\ \\int_0^x \\frac{1}{5}(3 + 6u^2)\\,du = \\frac{3}{5}x + \\frac{2}{5}x^3 & 0 \\le x \\le 1 \\\\ \\int_0^1 \\frac{1}{5}(3 + 6u^2)\\,du = 1 & x > 1 \\end{cases}$",
+  "explanation": "Answer: (a) $a = \\frac{3}{5}$ and $b = \\frac{6}{5}$. (b) $F(x) = \\int_{-\\infty}^x f(u)\\,du = \\begin{cases} \\int_{-\\infty}^x 0\\,du = 0 & x < 0 \\\\ \\int_0^x \\frac{1}{5}(3 + 6u^2)\\,du = \\frac{3}{5}x + \\frac{2}{5}x^3 & 0 \\le x \\le 1 \\\\ \\int_0^1 \\frac{1}{5}(3 + 6u^2)\\,du = 1 & x > 1 \\end{cases}$",
+  "source": "Finan §31 — Practice Problem 31.2"
+}

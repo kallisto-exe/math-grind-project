@@ -1,0 +1,13 @@
+{
+  "id": "ex-14-6",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 3,
+  "subtopic": "Worked Example 14.6",
+  "question": "If the cumulative distribution function of $X$ is given by $F(x) = \\begin{cases} 0 & x < 0 \\\\ \\frac{1}{16} & 0 \\le x < 1 \\\\ \\frac{5}{16} & 1 \\le x < 2 \\\\ \\frac{11}{16} & 2 \\le x < 3 \\\\ \\frac{15}{16} & 3 \\le x < 4 \\\\ 1 & x \\ge 4 \\end{cases}$ find the pmf of $X$.",
+  "answer": "",
+  "explanation": "Making use of the previous theorem, we get $p(0) = \\frac{1}{16}$, $p(1) = \\frac{1}{4}$, $p(2) = \\frac{3}{8}$, $p(3) = \\frac{1}{4}$, and $p(4) = \\frac{1}{16}$ and 0 otherwise.",
+  "source": "Finan §14 — Worked Example 14.6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-40-6",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 5,
+  "subtopic": "Worked Example 40.6",
+  "question": "The joint pdf of $X$ and $Y$ is given by $f_{XY}(x,y) = \\begin{cases} x+y & 0 \\le x, y < 1 \\\\ 0 & \\text{Otherwise.} \\end{cases}$ Are $X$ and $Y$ independent?",
+  "answer": "",
+  "explanation": "Let $I(x,y) = \\begin{cases} 1 & 0 \\le x < 1,\\ 0 \\le y < 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Then $f_{XY}(x,y) = (x+y)I(x,y)$ which clearly does not factor into a part depending only on $x$ and another depending only on $y$. Thus, by the previous theorem $X$ and $Y$ are dependent",
+  "source": "Finan §40 — Worked Example 40.6"
+}

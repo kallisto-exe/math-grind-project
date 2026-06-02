@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-13",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.13",
+  "question": "In a promotion, a popcorn company inserts a coupon for a free Red Box movie in 10% of boxes produced. Suppose that we buy 10 boxes of popcorn, what is the probability that we get at least 2 coupons?",
+  "answer": "0.2639",
+  "explanation": "Answer: 0.2639",
+  "source": "Finan §18 — Practice Problem 18.13"
+}

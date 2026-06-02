@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-7",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.7",
+  "question": "You roll two fair dice. Find the (conditional) probability that the sum of the two faces is 6 given that the two dice are showing different faces.",
+  "answer": "0.133",
+  "explanation": "Answer: 0.133",
+  "source": "Finan §9 — Practice Problem 9.7"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-27",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.27",
+  "question": "Let $X_1$, $X_2$, and $X_3$ be independent random variables each with mean 0 and variance 1. Let $X = 2X_1 - X_3$ and $Y = 2X_2 + X_3$. Find $\\rho(X,Y)$.",
+  "answer": "$-\\frac{1}{5}$",
+  "explanation": "Answer: $-\\frac{1}{5}$",
+  "source": "Finan §47 — Practice Problem 47.27"
+}

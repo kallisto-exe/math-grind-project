@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-9",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.9",
+  "question": "Suppose each of 100 professors in a large mathematics department picks at random one of 200 courses. What is the probability that at least two professors pick the same course?",
+  "answer": "$1 - 6.6 \\times 10^{-14}$",
+  "explanation": "Answer: $1 - 6.6 \\times 10^{-14}$",
+  "source": "Finan §6 — Practice Problem 6.9"
+}

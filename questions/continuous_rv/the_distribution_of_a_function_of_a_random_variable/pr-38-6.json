@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.6",
+  "question": "Let $X$ be a random variable that is uniformly distributed in $(0,1)$. Find the probability density function of $Y = -\\ln X$.",
+  "answer": "For $y > 0$ we have $f_Y(y) = e^{-y}$ and 0 otherwise",
+  "explanation": "Answer: For $y > 0$ we have $f_Y(y) = e^{-y}$ and 0 otherwise.",
+  "source": "Finan §38 — Practice Problem 38.6"
+}

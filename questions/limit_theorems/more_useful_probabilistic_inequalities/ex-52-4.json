@@ -1,0 +1,13 @@
+{
+  "id": "ex-52-4",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 5,
+  "subtopic": "Worked Example 52.4",
+  "question": "Suppose that $\\{x_1, x_2, \\dots, x_n\\}$ is a set of positive numbers. Show that the arithmetic mean is at least as large as the geometric mean: $(x_1 \\cdot x_2 \\dots x_n)^{\\frac{1}{n}} \\le \\frac{1}{n}(x_1 + x_2 + \\dots + x_n)$.",
+  "answer": "",
+  "explanation": "Let $X$ be a random variable such that $\\Pr(X = x_i) = \\frac{1}{n}$ for $1 \\le i \\le n$. Let $g(x) = \\ln x$. By Jensen's inequality we have $E[-\\ln X] \\ge -\\ln[E(X)]$. That is $E[\\ln X] \\le \\ln[E(X)]$. But $E[\\ln X] = \\frac{1}{n}\\sum_{i=1}^{n} \\ln x_i = \\frac{1}{n}\\ln(x_1 \\cdot x_2 \\dots x_n)$ and $\\ln[E(X)] = \\ln \\frac{1}{n}(x_1 + x_2 + \\dots + x_n)$. It follows that $$\\ln(x_1 \\cdot x_2 \\dots x_n)^{\\frac{1}{n}} \\le \\ln \\frac{1}{n}(x_1 + x_2 + \\dots + x_n)$$ Now the result follows by taking $e^x$ of both sides and recalling that $e^x$ is an increasing function",
+  "source": "Finan §52 — Worked Example 52.4"
+}

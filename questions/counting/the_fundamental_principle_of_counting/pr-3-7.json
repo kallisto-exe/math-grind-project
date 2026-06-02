@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-7",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.7",
+  "question": "If twenty different types of wine are entered in wine-tasting competition, in how many different ways can the judges award a first prize and a second prize?",
+  "answer": "380",
+  "explanation": "Answer: 380",
+  "source": "Finan §3 — Practice Problem 3.7"
+}

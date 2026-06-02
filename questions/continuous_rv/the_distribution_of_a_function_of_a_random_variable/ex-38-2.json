@@ -1,0 +1,13 @@
+{
+  "id": "ex-38-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 4,
+  "subtopic": "Worked Example 38.2",
+  "question": "Let $X$ be a random variable with probability density $f(x)$. Find the probability density function of $Y = |X|$.",
+  "answer": "",
+  "explanation": "Clearly, $F_Y(y) = 0$ for $y \\le 0$. So assume that $y > 0$. Then $F_Y(y) = \\Pr(Y \\le y) = \\Pr(|X| \\le y) = \\Pr(-y \\le X \\le y) = F_X(y) - F_X(-y)$. Thus, $f_Y(y) = F_Y'(y) = f_X(y) + f_X(-y)$ for $y > 0$ and 0 otherwise. The following theorem provides a formula for finding the probability density of $g(X)$ for monotone $g$ without the need for finding the distribution function. Theorem 38.1: Let $X$ be a continuous random variable with pdf $f_X$. Let $g(x)$ be a monotone and differentiable function of $x$. Suppose that $g^{-1}(Y) = X$. Then the random variable $Y = g(X)$ has a pdf given by $f_Y(y) = f_X[g^{-1}(y)] \\left| \\frac{d}{dy} g^{-1}(y) \\right|$. Proof. Suppose first that $g(\\cdot)$ is increasing. Then $F_Y(y) = \\Pr(Y \\le y) = \\Pr(g(X) \\le y) = \\Pr(X \\le g^{-1}(y)) = F_X(g^{-1}(y))$. Differentiating and using the chain rule, we find $f_Y(y) = \\frac{dF_Y(y)}{dy} = f_X[g^{-1}(y)] \\frac{d}{dy} g^{-1}(y)$. Now, suppose that $g(\\cdot)$ is decreasing. Then $F_Y(y) = \\Pr(Y \\le y) = \\Pr(g(X) \\le y) = \\Pr(X \\ge g^{-1}(y)) = 1 - F_X(g^{-1}(y))$. Differentiating we find $f_Y(y) = \\frac{dF_Y(y)}{dy} = -f_X[g^{-1}(y)] \\frac{d}{dy} g^{-1}(y)$.",
+  "source": "Finan §38 — Worked Example 38.2"
+}

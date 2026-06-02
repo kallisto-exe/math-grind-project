@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-28",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.28",
+  "question": "The coefficient of correlation between random variables $X$ and $Y$ is $\\frac{1}{3}$, and $\\sigma_X^2 = a$, $\\sigma_Y^2 = 4a$. The random variable $Z$ is defined to be $Z = 3X - 4Y$, and it is found that $\\sigma_Z^2 = 114$. Find $a$.",
+  "answer": "2",
+  "explanation": "Answer: 2",
+  "source": "Finan §47 — Practice Problem 47.28"
+}

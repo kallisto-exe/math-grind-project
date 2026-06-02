@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-8",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.8",
+  "question": "Ten married couples are to be seated at five different tables, with four people at each table. Assume random seating, what is the expected number of married couples that are seated at the same table?",
+  "answer": "$\\frac{10}{3}$",
+  "explanation": "Answer: $\\frac{10}{3}$",
+  "source": "Finan §46 — Practice Problem 46.8"
+}

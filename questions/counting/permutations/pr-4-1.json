@@ -1,0 +1,13 @@
+{
+  "id": "pr-4-1",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 4.1",
+  "question": "Find $m$ and $n$ so that ${}_mP_n = \\frac{9!}{6!}$",
+  "answer": "m = 9 and n = 3",
+  "explanation": "Answer: $m = 9$ and $n = 3$",
+  "source": "Finan §4 — Practice Problem 4.1"
+}

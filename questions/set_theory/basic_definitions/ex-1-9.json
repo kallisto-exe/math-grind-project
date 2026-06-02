@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-9",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.9",
+  "question": "Order the sets of numbers: $\\mathbb{Z}$, $\\mathbb{R}$, $\\mathbb{Q}$, $\\mathbb{N}$ using $\\subset$",
+  "answer": "",
+  "explanation": "$\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}$",
+  "source": "Finan §1 — Worked Example 1.9"
+}

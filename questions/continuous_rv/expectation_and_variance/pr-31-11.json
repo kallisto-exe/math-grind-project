@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-11",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.11",
+  "question": "An insurance company's monthly claims are modeled by a continuous, positive random variable $X$, whose probability density function is proportional to $(1+x)^{-4}$, where $0 < x < \\infty$ and 0 otherwise. Determine the company's expected monthly claims.",
+  "answer": "0.5",
+  "explanation": "Answer: 0.5",
+  "source": "Finan §31 — Practice Problem 31.11"
+}

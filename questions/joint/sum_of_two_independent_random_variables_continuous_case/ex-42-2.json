@@ -1,0 +1,13 @@
+{
+  "id": "ex-42-2",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 5,
+  "subtopic": "Worked Example 42.2",
+  "question": "Let $X$ and $Y$ be two independent random variables uniformly distributed on $[0, 1]$. Compute the probability density function of $X + Y$.",
+  "answer": "",
+  "explanation": "Since $f_X(a) = f_Y(a) = \\begin{cases} 1 & 0 \\le a \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ by the previous theorem $f_{X+Y}(a) = \\int_0^1 f_X(a - y)\\,dy$. Now the integrand is 0 unless $0 \\le a - y \\le 1$ (i.e. unless $a - 1 \\le y \\le a$) and then it is 1. So if $0 \\le a \\le 1$ then $f_{X+Y}(a) = \\int_0^a dy = a$. If $1 < a < 2$ then $f_{X+Y}(a) = \\int_{a-1}^1 dy = 2 - a$. Hence, $f_{X+Y}(a) = \\begin{cases} a & 0 \\le a \\le 1 \\\\ 2 - a & 1 < a < 2 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "source": "Finan §42 — Worked Example 42.2"
+}

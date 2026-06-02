@@ -1,0 +1,13 @@
+{
+  "id": "pr-28-11",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 28.11",
+  "question": "Determine if the following integral is convergent or divergent. If it is convergent find its value. $\\int^1 \\frac{4\\,dx}{\\sqrt{1-x^2}}$.",
+  "answer": "$2\\pi$",
+  "explanation": "Answer: $2\\pi$",
+  "source": "Finan §28 — Practice Problem 28.11"
+}

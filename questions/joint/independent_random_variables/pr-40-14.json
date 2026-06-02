@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-14",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.14",
+  "question": "In a small metropolitan area, annual losses due to storm, fire, and theft are assumed to be independent, exponentially distributed random variables with respective means 1.0, 1.5, and 2.4. Determine the probability that the maximum of these losses exceeds 3.",
+  "answer": "0.414",
+  "explanation": "Answer: 0.414",
+  "source": "Finan §40 — Practice Problem 40.14"
+}

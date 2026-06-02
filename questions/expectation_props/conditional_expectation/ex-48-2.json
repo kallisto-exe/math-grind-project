@@ -1,0 +1,13 @@
+{
+  "id": "ex-48-2",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 5,
+  "subtopic": "Worked Example 48.2",
+  "question": "Suppose that the joint density of $X$ and $Y$ is given by $f_{XY}(x,y) = \\frac{e^{-x/y}e^{-y}}{y}$, $x,y > 0$. Compute $E(X|Y=y)$.",
+  "answer": "",
+  "explanation": "The conditional density is found as follows $$f_{X|Y}(x|y) = \\frac{f_{XY}(x,y)}{f_Y(y)} = \\frac{f_{XY}(x,y)}{\\int_{-\\infty}^\\infty f_{XY}(x,y)\\,dx} = \\frac{(1/y)e^{-x/y}e^{-y}}{\\int_0^\\infty (1/y)e^{-x/y}e^{-y}\\,dx} = \\frac{(1/y)e^{-x/y}}{\\int_0^\\infty (1/y)e^{-x/y}\\,dx} = \\frac{1}{y}e^{-x/y}$$ Hence, $$E(X|Y=y) = \\int_0^\\infty \\frac{x}{y}e^{-x/y}\\,dx = -\\left[ xe^{-x/y}\\Big|_0^\\infty - \\int_0^\\infty e^{-x/y}\\,dx \\right] = -\\left[ xe^{-x/y} + ye^{-x/y} \\right]_0^\\infty = y$$",
+  "source": "Finan §48 — Worked Example 48.2"
+}

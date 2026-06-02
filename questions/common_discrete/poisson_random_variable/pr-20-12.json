@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-12",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.12",
+  "question": "In the inspection sheet metals produced by a machine, five defects per 10 square feet were spotted, on average. If we assume a Poisson distribution, what is the probability that a 15-square feet sheet of the metal will have at least six defects?",
+  "answer": "$0.7586$",
+  "explanation": "Answer: $0.7586$",
+  "source": "Finan §20 — Practice Problem 20.12"
+}

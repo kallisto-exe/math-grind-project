@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-15",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.15",
+  "question": "Let $X_1, \\dots, X_n$ be independent and identically distributed Uniform$(0,1)$. Let $Y_n$ be the minimum of $X_1, \\dots, X_n$. (a) Find the cumulative distribution of $Y_n$. (b) Show that $Y_n$ converges in probability to 0 by showing that for arbitrary $\\epsilon > 0$ $\\lim_{n\\to\\infty} \\Pr(|Y_n - 0| \\le \\epsilon) = 1$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.15"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-12",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.12",
+  "question": "An experiment consists of the following two stages: (1) a fair coin is tossed (2) if the coin shows a head, then a fair die is rolled; otherwise, the coin is flipped again. An outcome of this experiment is a pair of the form (outcome from stage 1, outcome from stage 2). Let S be the collection of all outcomes. List the elements of S and then find the cardinality of S.",
+  "answer": "Since We have and $n(S) = 8$.",
+  "explanation": "Answer: Since We have and $n(S) = 8$.",
+  "source": "Finan §1 — Practice Problem 1.12"
+}

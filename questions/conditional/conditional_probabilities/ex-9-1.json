@@ -1,0 +1,13 @@
+{
+  "id": "ex-9-1",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 3,
+  "subtopic": "Worked Example 9.1",
+  "question": "Let $M$ denote the event \"student is male\" and let $H$ denote the event \"student is hispanic\". In a class of 100 students suppose 60 are hispanic, and suppose that 10 of the hispanic students are males. Find the probability that a randomly chosen hispanic student is a male, that is, find $\\Pr(M \\mid H)$.",
+  "answer": "",
+  "explanation": "Since 10 out of 100 students are both hispanic and male, $\\Pr(M \\cap H) = \\frac{10}{100} = 0.1$. Also, 60 out of the 100 students are hispanic, so $\\Pr(H) = \\frac{60}{100} = 0.6$. Hence, $\\Pr(M \\mid H) = \\frac{0.1}{0.6} = \\frac{1}{6}$ Using the formula $\\Pr(A \\mid B) = \\frac{\\Pr(A \\cap B)}{\\Pr(B)}$ we can write $\\Pr(A \\cap B) = \\Pr(A \\mid B)\\Pr(B) = \\Pr(B \\mid A)\\Pr(A)$. (9.1)",
+  "source": "Finan §9 — Worked Example 9.1"
+}

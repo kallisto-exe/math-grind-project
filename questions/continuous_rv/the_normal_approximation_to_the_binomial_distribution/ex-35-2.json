@@ -1,0 +1,13 @@
+{
+  "id": "ex-35-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§35 The Normal Approximation to the Binomial Distribution",
+  "section": 35,
+  "difficulty": 4,
+  "subtopic": "Worked Example 35.2",
+  "question": "In a small town, it was found that out of every 6 people 1 is left-handed. Consider a random sample of 612 persons from the town, estimate the probability that the number of lefthanded persons is strictly between 90 and 150.",
+  "answer": "",
+  "explanation": "Let $X$ be the number of left-handed people in the sample. Then $X$ is a binomial random variable with $n = 612$ and $p = \\frac{1}{6}$. Since $np = 102 > 5$ and $n(1-p) = 510 > 5$ we can use the normal approximation to the binomial with $\\mu = np = 102$ and $\\sigma^2 = np(1-p) = 85$. Using continuity correction we find $\\Pr(90 < X < 150) = \\Pr(91 \\le X \\le 149) = \\Pr\\left(\\frac{90.5 - 102}{\\sqrt{85}} \\le \\frac{X - 102}{\\sqrt{85}} \\le \\frac{149.5 - 102}{\\sqrt{85}}\\right) = \\Pr(-1.25 \\le Z \\le 5.15) \\approx 0.8943$.",
+  "source": "Finan §35 — Worked Example 35.2"
+}

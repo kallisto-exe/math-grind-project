@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-10",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.10",
+  "question": "Let $X$ and $Y$ be two independent identically distributed geometric distributions with parameter $p$. Show that $X+Y$ is a negative binomial distribution with parameters $(2,p)$.",
+  "answer": "We have $$p_{X+Y}(a) = \\sum_{n=0}^{a} p(1-p)^n p(1-p)^{a-n} = (a+1)p^2(1-p)^a = \\binom{a+1}{a}p^2(1-p)^a$$ Thus, $X+Y$ is a negative binomial with parameters $(2,p)$.",
+  "explanation": "Answer: We have $$p_{X+Y}(a) = \\sum_{n=0}^{a} p(1-p)^n p(1-p)^{a-n} = (a+1)p^2(1-p)^a = \\binom{a+1}{a}p^2(1-p)^a$$ Thus, $X+Y$ is a negative binomial with parameters $(2,p)$.",
+  "source": "Finan §41 — Practice Problem 41.10"
+}

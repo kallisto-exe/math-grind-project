@@ -1,0 +1,13 @@
+{
+  "id": "pr-45-7",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 45.7",
+  "question": "Let $X_1$ and $X_2$ be two independent normal random variables with parameters $(0, 1)$ and $(0, 4)$ respectively. Let $Y_1 = 2X_1 + X_2$ and $Y_2 = X_1 - 3X_2$. Find $f_{Y_1 Y_2}(y_1, y_2)$.",
+  "answer": "$f_{Y_1 Y_2}(y_1, y_2) = \\frac{1}{\\sqrt{2\\pi}} e^{-\\left(\\frac{3}{7}y_1 + \\frac{1}{7}y_2\\right)^2 / 2} \\cdot \\frac{1}{\\sqrt{8\\pi}} e^{-\\left(\\frac{1}{7}y_1 - \\frac{2}{7}y_2\\right)^2 / 8} \\cdot \\frac{1}{7}$",
+  "explanation": "Answer: $f_{Y_1 Y_2}(y_1, y_2) = \\frac{1}{\\sqrt{2\\pi}} e^{-\\left(\\frac{3}{7}y_1 + \\frac{1}{7}y_2\\right)^2 / 2} \\cdot \\frac{1}{\\sqrt{8\\pi}} e^{-\\left(\\frac{1}{7}y_1 - \\frac{2}{7}y_2\\right)^2 / 8} \\cdot \\frac{1}{7}$",
+  "source": "Finan §45 — Practice Problem 45.7"
+}

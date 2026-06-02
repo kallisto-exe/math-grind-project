@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-25",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.25",
+  "question": "Let $X$ and $Y$ be two independent identically distributed normal random variables with mean 1 and variance 1. Find $c$ so that $E[c|X-Y|] = 1$.",
+  "answer": "$\\sqrt{\\pi}$",
+  "explanation": "Answer: $\\sqrt{\\pi}$",
+  "source": "Finan §47 — Practice Problem 47.25"
+}

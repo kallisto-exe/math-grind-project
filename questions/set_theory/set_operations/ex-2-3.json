@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-3",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.3",
+  "question": "Express each of the following events in terms of the events $A$, $B$, and C as well as the operations of complementation, union and intersection: (a) at least one of the events $A, B, C$ occurs; (b) at most one of the events $A, B, C$ occurs; (c) none of the events $A, B, C$ occurs; (d) all three events $A, B, C$ occur; (e) exactly one of the events $A, B, C$ occurs; (f) events A and B occur, but not C; (g) either event A occurs or, if not, then B also does not occur. In each case draw the corresponding Venn diagram.",
+  "answer": "",
+  "explanation": "(a) $A \\cup B \\cup C$ (b) $(A \\cap B^c \\cap C^c) \\cup (A^c \\cap B \\cap C^c) \\cup (A^c \\cap B^c \\cap C) \\cup (A^c \\cap B^c \\cap C^c)$ (c) $(A \\cup B \\cup C)^c = A^c \\cap B^c \\cap C^c$ (d) $A \\cap B \\cap C$ (e) $(A \\cap B^c \\cap C^c) \\cup (A^c \\cap B \\cap C^c) \\cup (A^c \\cap B^c \\cap C)$ (f) $A \\cap B \\cap C^c$ (g) $A \\cup (A^c \\cap B^c)$",
+  "source": "Finan §2 — Worked Example 2.3"
+}

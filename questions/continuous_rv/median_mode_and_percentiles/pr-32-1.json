@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.1",
+  "question": "Suppose the random variable X has pmf $\\Pr(n) = \\frac{1}{2^n}$, $n = 0, 1, 2,\\ldots$ Find the median and the 70th percentile.",
+  "answer": "The median is 1 and the 70th percentile is 2",
+  "explanation": "Answer: The median is 1 and the 70th percentile is 2",
+  "source": "Finan §32 — Practice Problem 32.1"
+}

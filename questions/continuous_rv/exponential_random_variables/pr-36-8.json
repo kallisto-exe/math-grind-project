@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-8",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.8",
+  "question": "Ten years ago at a certain insurance company, the size of claims under homeowner insurance policies had an exponential distribution. Furthermore, 25% of claims were less than $1000. Today, the size of claims still has an exponential distribution but, owing to inflation, every claim made today is twice the size of a similar claim made 10 years ago. Determine the probability that a claim made today is less than $1000.",
+  "answer": "0.134",
+  "explanation": "Answer: 0.134",
+  "source": "Finan §36 — Practice Problem 36.8"
+}

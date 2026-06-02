@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-8",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.8",
+  "question": "Let X be a discrete random variable with pmf $p(n) = (n-1)(0.4)^2(0.6)^{n-2}$, $n\\ge 2$ and 0 otherwise. Find the mode of X.",
+  "answer": "3",
+  "explanation": "Answer: 3",
+  "source": "Finan §32 — Practice Problem 32.8"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-29-1",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 2,
+  "subtopic": "Worked Example 29.1",
+  "question": "Compute $\\int^{16} \\int^8 \\left(12 - \\frac{x}{4} - \\frac{y}{?}\\right) dx\\,dy$.",
+  "answer": "",
+  "explanation": "We have $\\int^{16} \\int^8 \\left(12 - \\frac{x}{4} - y\\right) dx\\,dy = \\int^{16} \\left(\\int^8 \\left(12 - \\frac{x}{4} - y\\right) dx\\right) dy = \\int^{16} \\left[12x - \\frac{x^2}{8} - xy\\right]^8 dy = \\int^{16} (88 - y)\\,dy = 88y - \\frac{y^2}{2}\\Big| = 1280$ We note, that we can repeat the argument above for establishing the iterated integral, reversing the order of the summation so that we sum over $j$ first and $i$ second (i.e. integrate over $y$ first and $x$ second) so the result has the order of integration reversed. That is we can show that $\\int_R f(x,y)\\,dx\\,dy = \\int_a^b \\int_c^d f(x,y)\\,dy\\,dx$.",
+  "source": "Finan §29 — Worked Example 29.1"
+}

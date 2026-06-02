@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-11",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.11",
+  "question": "An auto insurance policy will pay for damage to both the policyholder's car and the other driver's car in the event that the policyholder is responsible for an accident. The size of the payment for damage to the policyholder's car, $X$, has a marginal density function of 1 for $0 < x < 1$. Given $X = x$, the size of the payment for damage to the other driver's car, $Y$, has conditional density of 1 for $x < y < x + 1$. If the policyholder is responsible for an accident, what is the probability that the payment for damage to the other driver's car will be greater than 0.5?",
+  "answer": "7",
+  "explanation": "Answer: 7",
+  "source": "Finan §44 — Practice Problem 44.11"
+}

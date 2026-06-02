@@ -1,0 +1,13 @@
+{
+  "id": "ex-50-4",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 5,
+  "subtopic": "Worked Example 50.4",
+  "question": "Show that for any random variable the probability of a deviation from the mean of more than $k$ standard deviations is less than or equal to $\\frac{1}{k^2}$.",
+  "answer": "",
+  "explanation": "This follows from Chebyshev's inequality by using $\\epsilon = k\\sigma$.",
+  "source": "Finan §50 — Worked Example 50.4"
+}

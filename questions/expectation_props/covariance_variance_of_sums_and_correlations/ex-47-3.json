@@ -1,0 +1,13 @@
+{
+  "id": "ex-47-3",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 5,
+  "subtopic": "Worked Example 47.3",
+  "question": "The profit for a new product is given by $Z = 3X - Y - 5$, where $X$ and $Y$ are independent random variables with $\\mathrm{Var}(X) = 1$ and $\\mathrm{Var}(Y) = 2$. What is the variance of $Z$?",
+  "answer": "",
+  "explanation": "Using the properties of a variance, and independence, we get $$\\mathrm{Var}(Z) = \\mathrm{Var}(3X - Y - 5) = \\mathrm{Var}(3X - Y) = \\mathrm{Var}(3X) + \\mathrm{Var}(-Y) = 9\\mathrm{Var}(X) + \\mathrm{Var}(Y) = 11$$",
+  "source": "Finan §47 — Worked Example 47.3"
+}

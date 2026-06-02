@@ -1,0 +1,13 @@
+{
+  "id": "pr-43-2",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 43.2",
+  "question": "Let $X$ be a random variable with range the set $\\{1, 2, 3, 4, 5\\}$ and $Y$ be a random variable with range the set $\\{1, 2, \\ldots, X\\}$. (a) Find $p_{XY}(x,y)$. (b) Find $p_{X|Y}(x|y)$. (c) Are $X$ and $Y$ independent?",
+  "answer": "(a) For $1 \\le x \\le 5$ and $y = 1, \\ldots, x$ we have $p_{XY}(x,y) = \\left(\\frac{1}{5}\\right)\\left(\\frac{1}{x}\\right)$ and 0 otherwise. (b) $p_{X|Y}(x|y) = \\frac{\\frac{1}{5x}}{\\sum_{k=y}^{5}\\frac{1}{5k}}$ and 0 otherwise. (c) $X$ and $Y$ are dependent",
+  "explanation": "Answer: (a) For $1 \\le x \\le 5$ and $y = 1, \\ldots, x$ we have $p_{XY}(x,y) = \\left(\\frac{1}{5}\\right)\\left(\\frac{1}{x}\\right)$ and 0 otherwise. (b) $p_{X|Y}(x|y) = \\frac{\\frac{1}{5x}}{\\sum_{k=y}^{5}\\frac{1}{5k}}$ and 0 otherwise. (c) $X$ and $Y$ are dependent",
+  "source": "Finan §43 — Practice Problem 43.2"
+}

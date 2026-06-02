@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-19",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.19",
+  "question": "Let $X$ be a continuous random variable with pdf $f(x) = \\begin{cases} 2(1-x) & 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$. (a) Find the pdf of $Y = 10X - 2$. (b) Find the expected value of $Y$. (c) Find $\\Pr(Y < 0)$.",
+  "answer": "(a) $f_Y(y) = \\frac{8-y}{50}$ for $-2 \\le y \\le 8$ and 0 elsewhere. (b) We have $E(Y) = \\frac{4}{3}$ (c) 9",
+  "explanation": "Answer: (a) $f_Y(y) = \\frac{8-y}{50}$ for $-2 \\le y \\le 8$ and 0 elsewhere. (b) We have $E(Y) = \\frac{4}{3}$ (c) 9",
+  "source": "Finan §38 — Practice Problem 38.19"
+}

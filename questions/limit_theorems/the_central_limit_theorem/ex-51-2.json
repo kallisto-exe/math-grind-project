@@ -1,0 +1,13 @@
+{
+  "id": "ex-51-2",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 5,
+  "subtopic": "Worked Example 51.2",
+  "question": "Let $X_i$, $i = 1, 2, \\dots, 48$ be independent random variables that are uniformly distributed on the interval $[-0.5, 0.5]$. Find the approximate probability $\\Pr(|\\overline{X}| \\le 0.05)$, where $\\overline{X}$ is the arithmetic average of the $X_i$'s.",
+  "answer": "",
+  "explanation": "Since each $X_i$ is uniformly distributed on $[-0.5, 0.5]$, its mean is $\\mu = 0$ and its variance is $\\sigma^2 = \\int_{-0.5}^{0.5} x^2\\,dx = \\frac{x^3}{3}\\Big]_{-0.5}^{0.5} = \\frac{1}{12}$. By the Central Limit Theorem, $\\overline{X}$ has approximate distribution $N\\left(\\mu, \\frac{\\sigma^2}{n}\\right) = N\\left(0, \\frac{1}{24^2}\\right)$. Thus $24\\overline{X}$ is approximately standard normal, so $$\\Pr(|\\overline{X}| \\le 0.05) \\approx \\Pr(24 \\cdot (-0.05) \\le 24\\overline{X} \\le 24 \\cdot (0.05)) = \\Phi(1.2) - \\Phi(-1.2) = 2\\Phi(1.2) - 1 = 0.7698$$",
+  "source": "Finan §51 — Worked Example 51.2"
+}

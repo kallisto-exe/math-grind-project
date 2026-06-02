@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-7",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.7",
+  "question": "Let $X$ be the number of 1's and $Y$ the number of 2's that occur in $n$ rolls of a fair die. Compute $\\mathrm{Cov}(X,Y)$.",
+  "answer": "$-\\frac{n}{36}$",
+  "explanation": "Answer: $-\\frac{n}{36}$",
+  "source": "Finan §47 — Practice Problem 47.7"
+}

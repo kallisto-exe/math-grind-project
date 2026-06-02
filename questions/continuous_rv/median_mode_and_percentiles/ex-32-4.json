@@ -1,0 +1,13 @@
+{
+  "id": "ex-32-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 4,
+  "subtopic": "Worked Example 32.4",
+  "question": "Let X be the continuous random variable with pdf given by $f(x) = 0.75(1-x^2)$ for $-1\\le x\\le 1$ and 0 otherwise. Find the mode of X.",
+  "answer": "",
+  "explanation": "The pdf is maximum for $x = 0$. Thus, the mode of X is 0. Percentiles and Quantiles: In statistics, a percentile is the value of a variable below which a certain percent of observations fall. For example, if a score is in the 85th percentile, it is higher than 85% of the other scores. For a random variable X and $0 < p < 1$, the $100p$th percentile (or the pth quantile) is the number x such $\\Pr(X < x)\\le p\\le \\Pr(X\\le x)$. For a continuous random variable, this is the solution to the equation $F(x) = p$. The 25th percentile is also known as the first quartile, the 50th percentile as the median or second quartile, and the 75th percentile as the third quartile.",
+  "source": "Finan §32 — Worked Example 32.4"
+}

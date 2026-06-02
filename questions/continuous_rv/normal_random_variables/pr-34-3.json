@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.3",
+  "question": "Assume the time required for a cyclist to travel a distance d follows a normal distribution with mean 4 minutes and variance 4 seconds. (a) What is the probability that this cyclist with travel the distance in less than 4 minutes? (b) What is the probability that this cyclist will travel the distance in between 3min55sec and 4min5sec?",
+  "answer": "(a) 0.5 (b) 0.9876",
+  "explanation": "Answer: (a) 0.5 (b) 0.9876",
+  "source": "Finan §34 — Practice Problem 34.3"
+}

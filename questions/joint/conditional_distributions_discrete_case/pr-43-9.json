@@ -1,0 +1,13 @@
+{
+  "id": "pr-43-9",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 43.9",
+  "question": "Let $X$ and $Y$ be identically independent Poisson random variables with parameter $\\lambda$. Find $\\Pr(X = k | X + Y = n)$.",
+  "answer": "$\\Pr(X = k | X + Y = n) = \\binom{n}{k}\\left(\\frac{1}{2}\\right)^n$ for $k = 0, 1, \\ldots, n$ and 0 otherwise.",
+  "explanation": "Answer: $\\Pr(X = k | X + Y = n) = \\binom{n}{k}\\left(\\frac{1}{2}\\right)^n$ for $k = 0, 1, \\ldots, n$ and 0 otherwise.",
+  "source": "Finan §43 — Practice Problem 43.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.4",
+  "question": "Let X be a random variable with density function $f(x) = \\begin{cases} \\lambda e^{-\\lambda x} & x > 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find $\\lambda$ if the median of X is $\\frac{1}{3}$.",
+  "answer": "$3\\ln 2$",
+  "explanation": "Answer: $3\\ln 2$",
+  "source": "Finan §32 — Practice Problem 32.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-1",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.1",
+  "question": "Consider the experiment of rolling a die. List the elements of the set $A = \\{x : x \\text{ shows a face with prime number}\\}$. Recall that a prime number is a number with only two different divisors: 1 and the number itself.",
+  "answer": "$A = \\{2, 3, 5\\}$",
+  "explanation": "Answer: $A = \\{2, 3, 5\\}$",
+  "source": "Finan §1 — Practice Problem 1.1"
+}

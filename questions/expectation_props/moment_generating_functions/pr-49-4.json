@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-4",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.4",
+  "question": "Let $X$ be a gamma random variable with parameters $\\alpha$ and $\\lambda$. Find the expected value and the variance of $X$ using moment generating functions.",
+  "answer": "$E(X) = \\frac{\\alpha}{\\lambda}$ and $\\mathrm{Var}(X) = \\frac{\\alpha}{\\lambda^2}$",
+  "explanation": "Answer: $E(X) = \\frac{\\alpha}{\\lambda}$ and $\\mathrm{Var}(X) = \\frac{\\alpha}{\\lambda^2}$",
+  "source": "Finan §49 — Practice Problem 49.4"
+}

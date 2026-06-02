@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-9",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.9",
+  "question": "A study of automobile accidents produced the following data: Model year / Proportion of all vehicles / Probability of involvement in an accident: 1997, 0.16, 0.05; 1998, 0.18, 0.02; 1999, 0.20, 0.03; Other, 0.46, 0.04. An automobile from one of the model years 1997, 1998, and 1999 was involved in an accident. Determine the probability that the model year of this automobile is 1997.",
+  "answer": "0.45",
+  "explanation": "Answer: 0.45",
+  "source": "Finan §10 — Practice Problem 10.9"
+}

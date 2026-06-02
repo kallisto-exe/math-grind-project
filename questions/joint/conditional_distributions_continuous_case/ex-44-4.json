@@ -1,0 +1,13 @@
+{
+  "id": "ex-44-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 5,
+  "subtopic": "Worked Example 44.4",
+  "question": "The joint density function of $X$ and $Y$ is given by $f_{XY}(x,y) = \\begin{cases} \\frac{e^{-x/y}e^{-y}}{y} & x \\ge 0, y \\ge 0 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Compute $\\Pr(X > 1 | Y = y)$.",
+  "answer": "",
+  "explanation": "The marginal density function of $Y$ is $f_Y(y) = \\frac{e^{-y}}{y} \\int_{0}^{\\infty} e^{-x/y}\\,dx = \\frac{e^{-y}}{y}\\left[ -y e^{-x/y} \\right]_0^{\\infty} = e^{-y}$. Thus, $f_{X|Y}(x|y) = \\frac{f_{XY}(x,y)}{f_Y(y)} = \\frac{\\frac{e^{-x/y}e^{-y}}{y}}{e^{-y}} = \\frac{1}{y}e^{-x/y}$. Hence, $\\Pr(X > 1 | Y = y) = \\frac{1}{y}\\int_{1}^{\\infty} e^{-x/y}\\,dx = -e^{-x/y}\\big|_1^{\\infty} = e^{-1/y}$. We end this section with the following theorem. Theorem 44.1 Continuous random variables $X$ and $Y$ with $f_Y(y) > 0$ are independent if and only if $f_{X|Y}(x|y) = f_X(x)$. Proof. Suppose first that $X$ and $Y$ are independent. Then $f_{XY}(x,y) = f_X(x)f_Y(y)$. Thus, $f_{X|Y}(x|y) = \\frac{f_{XY}(x,y)}{f_Y(y)} = \\frac{f_X(x)f_Y(y)}{f_Y(y)} = f_X(x)$. Conversely, suppose that $f_{X|Y}(x|y) = f_X(x)$. Then $f_{XY}(x,y) = f_{X|Y}(x|y)f_Y(y) = f_X(x)f_Y(y)$. This shows that $X$ and $Y$ are independent",
+  "source": "Finan §44 — Worked Example 44.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.1",
+  "question": "Suppose $f_X(x) = \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2}}$ and let $Y = aX + b$. Find $f_Y(y)$.",
+  "answer": "$f_Y(y) = \\frac{1}{|a|\\sqrt{2\\pi}} e^{-\\frac{\\left(\\frac{y-b}{a} - \\mu\\right)^2}{2}}$, $a \\ne 0$",
+  "explanation": "Answer: $f_Y(y) = \\frac{1}{|a|\\sqrt{2\\pi}} e^{-\\frac{\\left(\\frac{y-b}{a} - \\mu\\right)^2}{2}}$, $a \\ne 0$.",
+  "source": "Finan §38 — Practice Problem 38.1"
+}

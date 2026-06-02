@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-16",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.16",
+  "question": "Let X be an exponential random variable such that $\\Pr(X\\le 2) = 2\\Pr(X > 4)$. Find the variance of X.",
+  "answer": "$\\frac{4}{(\\ln 2)^2}$",
+  "explanation": "Answer: $\\frac{4}{(\\ln 2)^2}$",
+  "source": "Finan §36 — Practice Problem 36.16"
+}

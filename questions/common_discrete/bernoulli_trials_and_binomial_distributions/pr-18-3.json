@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.3",
+  "question": "A skyscraper has three elevators. Each elevator has a 50% chance of being down, independently of the others. Let $X$ be the number of elevators which are down at a particular time. Find the probability mass function (pmf) of $X$.",
+  "answer": "$p(x) = \\begin{cases} \\frac{1}{8}, & \\text{if } x = 0, 3 \\\\ \\frac{3}{8}, & \\text{if } x = 1, 2 \\\\ 0, & \\text{otherwise} \\end{cases}$",
+  "explanation": "Answer: $p(x) = \\begin{cases} \\frac{1}{8}, & \\text{if } x = 0, 3 \\\\ \\frac{3}{8}, & \\text{if } x = 1, 2 \\\\ 0, & \\text{otherwise} \\end{cases}$",
+  "source": "Finan §18 — Practice Problem 18.3"
+}

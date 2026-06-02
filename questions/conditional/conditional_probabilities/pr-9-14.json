@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-14",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.14",
+  "question": "In a certain town in the United States, 40% of the population are liberals and 60% are conservatives. The city council has proposed selling alcohol illegal in the town. It is known that 75% of conservatives and 30% of liberals support this measure. (a) What is the probability that a randomly selected resident from the town will support the measure? (b) If a randomly selected person does support the measure, what is the probability the person is a liberal? (c) If a randomly selected person does not support the measure, what is the probability that he or she is a liberal?",
+  "answer": "(a) 0.57 (b) 0.211 (c) 0.651",
+  "explanation": "Answer: (a) 0.57 (b) 0.211 (c) 0.651",
+  "source": "Finan §9 — Practice Problem 9.14"
+}

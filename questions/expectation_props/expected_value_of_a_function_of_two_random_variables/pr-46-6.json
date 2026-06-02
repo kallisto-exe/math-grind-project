@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-6",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.6",
+  "question": "Suppose that $X$ and $Y$ are independent, and that $E(X) = 5$, $E(Y) = -2$. Find $E[(3X - 4)(2Y + 7)]$.",
+  "answer": "33",
+  "explanation": "Answer: 33",
+  "source": "Finan §46 — Practice Problem 46.6"
+}

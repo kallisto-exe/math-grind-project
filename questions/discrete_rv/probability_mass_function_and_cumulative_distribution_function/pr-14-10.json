@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-10",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.10",
+  "question": "An unfair coin is tossed three times. The probability of tails on any particular toss is known to be $\\frac{2}{3}$. Let $X$ denote the number of heads. (a) Find the probability mass function. (b) Graph the cumulative distribution function for $X$.",
+  "answer": "(a) $p(0) = \\left(\\frac{2}{3}\\right)^3$, $p(1) = 3 \\left(\\frac{1}{3}\\right) \\left(\\frac{2}{3}\\right)^2$, $p(2) = 3 \\left(\\frac{1}{3}\\right)^2 \\left(\\frac{2}{3}\\right)$, $p(3) = \\left(\\frac{1}{3}\\right)^3$ (b)",
+  "explanation": "Answer: (a) $p(0) = \\left(\\frac{2}{3}\\right)^3$, $p(1) = 3 \\left(\\frac{1}{3}\\right) \\left(\\frac{2}{3}\\right)^2$, $p(2) = 3 \\left(\\frac{1}{3}\\right)^2 \\left(\\frac{2}{3}\\right)$, $p(3) = \\left(\\frac{1}{3}\\right)^3$ (b)",
+  "source": "Finan §14 — Practice Problem 14.10"
+}

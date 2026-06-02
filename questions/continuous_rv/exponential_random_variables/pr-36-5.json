@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.5",
+  "question": "The life length X (in years) of a dvd player is exponentially distributed with mean 5 years. What is the probability that a more than 5-year old dvd would still work for more than 3 years?",
+  "answer": "0.549",
+  "explanation": "Answer: 0.549",
+  "source": "Finan §36 — Practice Problem 36.5"
+}

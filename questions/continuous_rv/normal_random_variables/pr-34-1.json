@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.1",
+  "question": "The scores on a statistics test are Normally distributed with parameters $\\mu = 80$ and $\\sigma^2 = 196$. Find the probability that a randomly chosen score is (a) no greater than 70 (b) at least 95 (c) between 70 and 95. (d) Approximately, what is the raw score corresponding to a percentile score of 72%?",
+  "answer": "(a) 0.2389 (b) 0.1423 (c) 0.6188 (d) 88",
+  "explanation": "Answer: (a) 0.2389 (b) 0.1423 (c) 0.6188 (d) 88",
+  "source": "Finan §34 — Practice Problem 34.1"
+}

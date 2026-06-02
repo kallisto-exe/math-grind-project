@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-6",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.6",
+  "question": "A company prices its hurricane insurance using the following assumptions: (i) In any calendar year, there can be at most one hurricane. (ii) In any calendar year, the probability of a hurricane is 0.05. (iii) The number of hurricanes in any calendar year is independent of the number of hurricanes in any other calendar year. Using the company's assumptions, calculate the probability that there are fewer than 3 hurricanes in a 20-year period.",
+  "answer": "0.925",
+  "explanation": "Answer: 0.925",
+  "source": "Finan §18 — Practice Problem 18.6"
+}

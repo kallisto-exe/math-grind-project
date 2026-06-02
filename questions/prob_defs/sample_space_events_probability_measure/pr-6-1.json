@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-1",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.1",
+  "question": "Consider the random experiment of rolling a die. (a) Find the sample space of this experiment. (b) Find the event of rolling the die an even number.",
+  "answer": "(a) $S = \\{1, 2, 3, 4, 5, 6\\}$ (b) $\\{2, 4, 6\\}$",
+  "explanation": "Answer: (a) $S = \\{1, 2, 3, 4, 5, 6\\}$ (b) $\\{2, 4, 6\\}$",
+  "source": "Finan §6 — Practice Problem 6.1"
+}

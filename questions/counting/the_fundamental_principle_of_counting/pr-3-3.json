@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-3",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.3",
+  "question": "You are taking 2 shirts(white and red) and 3 pairs of pants (black, blue, and gray) on a trip. How many different choices of outfits do you have?",
+  "answer": "6",
+  "explanation": "Answer: 6",
+  "source": "Finan §3 — Practice Problem 3.3"
+}

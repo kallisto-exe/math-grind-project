@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-7",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.7",
+  "question": "35% of visits to a primary care physicians (PCP) office results in neither lab work nor referral to a specialist. Of those coming to a PCPs office, 30% are referred to specialists and 40% require lab work. What percentage of visit to a PCPs office results in both lab work and referral to a specialist?",
+  "answer": "5%",
+  "explanation": "Answer: 5%",
+  "source": "Finan §2 — Practice Problem 2.7"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-47-4",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 5,
+  "subtopic": "Worked Example 47.4",
+  "question": "A salesperson salary consists of two parts a commission, $X$, and a fixed income $Y$, so that the total salary is $X+Y$. Suppose that $\\mathrm{Var}(X) = 5{,}000$, $\\mathrm{Var}(Y) = 10{,}000$, and $\\mathrm{Var}(X+Y) = 17{,}000$. If $X$ is increased by a flat amount of 100, and $Y$ is increased by 10%, what is the variance of the total salary after these increases?",
+  "answer": "",
+  "explanation": "We need to compute $\\mathrm{Var}(X + 100 + 1.1Y)$. Since adding constants does not change the variance, this is the same as $\\mathrm{Var}(X + 1.1Y)$, which expands as follows: $$\\mathrm{Var}(X + 1.1Y) = \\mathrm{Var}(X) + \\mathrm{Var}(1.1Y) + 2\\mathrm{Cov}(X, 1.1Y) = \\mathrm{Var}(X) + 1.21\\mathrm{Var}(Y) + 2(1.1)\\mathrm{Cov}(X,Y)$$ We are given that $\\mathrm{Var}(X) = 5{,}000$, $\\mathrm{Var}(Y) = 10{,}000$, so the only remaining unknown quantity is $\\mathrm{Cov}(X,Y)$, which can be computed via the general formula for $\\mathrm{Var}(X+Y)$: $$\\mathrm{Cov}(X,Y) = \\frac{1}{2}(\\mathrm{Var}(X+Y) - \\mathrm{Var}(X) - \\mathrm{Var}(Y)) = \\frac{1}{2}(17{,}000 - 5{,}000 - 10{,}000) = 1{,}000$$ Substituting this into the above formula, we get the answer: $$\\mathrm{Var}(X + 1.1Y) = 5{,}000 + 1.21(10{,}000) + 2(1.1)(1{,}000) = 19{,}300$$",
+  "source": "Finan §47 — Worked Example 47.4"
+}

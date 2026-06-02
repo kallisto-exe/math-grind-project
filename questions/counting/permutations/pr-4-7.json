@@ -1,0 +1,13 @@
+{
+  "id": "pr-4-7",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 4.7",
+  "question": "There are five members of the Math Club. In how many ways can the positions of a president, a secretary, and a treasurer, be chosen?",
+  "answer": "60",
+  "explanation": "Answer: 60",
+  "source": "Finan §4 — Practice Problem 4.7"
+}

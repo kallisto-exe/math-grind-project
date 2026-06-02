@@ -1,0 +1,13 @@
+{
+  "id": "pr-29-9",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 29.9",
+  "question": "Evaluate $\\int\\int_R (x^2+y^2)\\,dx\\,dy$, where $R$ is the region $0\\le x\\le y\\le L$.",
+  "answer": "$L^4$",
+  "explanation": "Answer: $L^4$",
+  "source": "Finan §29 — Practice Problem 29.9"
+}

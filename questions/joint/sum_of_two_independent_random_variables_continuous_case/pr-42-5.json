@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-5",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.5",
+  "question": "Let $X$ and $Y$ be two independent and identically distributed random variables with common density function $f(x) = \\begin{cases} 2x & 0 < x < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the probability density function of $X + Y$.",
+  "answer": "If $0 \\le a \\le 1$ then $f_{X+Y}(a) = \\frac{2}{3}a^3$. If $1 < a < 2$ then $f_{X+Y}(a) = -\\frac{2}{3}a^3 + 4a - \\frac{8}{3}$. If $a \\ge 2$ then $f_{X+Y}(a) = 0$ and 0 otherwise.",
+  "explanation": "Answer: If $0 \\le a \\le 1$ then $f_{X+Y}(a) = \\frac{2}{3}a^3$. If $1 < a < 2$ then $f_{X+Y}(a) = -\\frac{2}{3}a^3 + 4a - \\frac{8}{3}$. If $a \\ge 2$ then $f_{X+Y}(a) = 0$ and 0 otherwise.",
+  "source": "Finan §42 — Practice Problem 42.5"
+}

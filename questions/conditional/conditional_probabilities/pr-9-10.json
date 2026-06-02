@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-10",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.10",
+  "question": "Find the probabilities of randomly drawing two kings in succession from an ordinary deck of 52 playing cards if we sample (a) without replacement (b) with replacement",
+  "answer": "(a) $\\frac{1}{221}$ (b) $\\frac{1}{169}$",
+  "explanation": "Answer: (a) $\\frac{1}{221}$ (b) $\\frac{1}{169}$",
+  "source": "Finan §9 — Practice Problem 9.10"
+}

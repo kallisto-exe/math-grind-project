@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.6",
+  "question": "The amount of time $X$ (in minutes) it takes a person standing in line at a post office to reach the counter is described by the continuous probability function: $f(x) = \\begin{cases} kxe^{-x} & x > 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ where $k$ is a constant. (a) Determine the value of $k$. (b) What is the probability that a person takes more than 1 minute to reach the counter?",
+  "answer": "(a) 1 (b) 0.736",
+  "explanation": "Answer: (a) 1 (b) 0.736",
+  "source": "Finan §30 — Practice Problem 30.6"
+}

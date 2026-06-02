@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-17",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.17",
+  "question": "Let $X$ and $Y$ be random losses with joint density function $f_{XY}(x, y) = e^{-(x+y)}, x > 0, y > 0$ and 0 otherwise. An insurance policy is written to reimburse $X + Y$. Calculate the probability that the reimbursement is less than 1.",
+  "answer": "$1 - 2e^{-1}$",
+  "explanation": "Answer: $1 - 2e^{-1}$",
+  "source": "Finan §39 — Practice Problem 39.17"
+}

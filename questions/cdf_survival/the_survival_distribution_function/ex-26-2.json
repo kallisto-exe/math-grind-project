@@ -1,0 +1,13 @@
+{
+  "id": "ex-26-2",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§26 The Survival Distribution Function",
+  "section": 26,
+  "difficulty": 4,
+  "subtopic": "Worked Example 26.2",
+  "question": "Let $X$ be the random variable representing the age of death of an individual. The survival distribution function for an individual is determined to be $S(x) = \\begin{cases} 1, & x < 0 \\\\ \\frac{75-x}{75}, & 0\\le x\\le 75 \\\\ 0, & x > 75 \\end{cases}$ (a) Find the probability that the person dies before reaching the age of 18. (b) Find the probability that the person lives more than 55 years. (c) Find the probability that the person dies between the ages of 25 and 70.",
+  "answer": "",
+  "explanation": "(a) We have $\\Pr(X < 18) = \\Pr(X\\le 18) = F(18) = 1-S(18) = 0.24$. (b) We have $\\Pr(X > 55) = S(55) = 0.267$. (c) We have $\\Pr(25 < X < 70) = F(70)-F(25) = S(25)-S(70) = 0.60$",
+  "source": "Finan §26 — Worked Example 26.2"
+}

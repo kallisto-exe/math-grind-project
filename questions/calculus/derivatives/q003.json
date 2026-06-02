@@ -1,1 +1,0 @@
-{"id":"calc-deriv-003","subject":"Calculus","topic":"Derivatives","subtopic":"Chain Rule","difficulty":"intermediate","question":"If f(x) = sin(x^3), then f'(x) is:","options":{"A":"cos(x^3)","B":"3x^2·cos(x^3)","C":"3x^2·sin(x^3)","D":"-3x^2·cos(x^3)"},"answer":"B","explanation":"Chain rule: d/dx sin(u) = cos(u)·u'. Here u = x^3, u' = 3x^2. So f'(x) = 3x^2·cos(x^3)."}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-12",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.12",
+  "question": "Let $A, B$, and $C$ be three subsets of a universe $U$ with the following properties: $n(A) = 63, n(B) = 91, n(C) = 44, n(A\\cap B) = 25, n(A\\cap C) = 23, n(C\\cap B) = 21, n(A\\cup B\\cup C) = 139$. Find $n(A\\cap B\\cap C)$.",
+  "answer": "10",
+  "explanation": "Answer: 10",
+  "source": "Finan §2 — Practice Problem 2.12"
+}

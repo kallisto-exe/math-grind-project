@@ -1,0 +1,13 @@
+{
+  "id": "ex-8-2",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 3,
+  "subtopic": "Worked Example 8.2",
+  "question": "Consider the experiment of rolling two dice. How many events $A$ are there with $\\Pr(A) = \\frac{1}{3}$?",
+  "answer": "",
+  "explanation": "We must have $\\Pr(\\{i,j\\}) = \\frac{1}{3}$ with $i \\ne j$. There are $\\binom{6}{2} = 15$ such events. Probability Trees Probability trees can be used to compute the probabilities of combined outcomes in a sequence of experiments.",
+  "source": "Finan §8 — Worked Example 8.2"
+}

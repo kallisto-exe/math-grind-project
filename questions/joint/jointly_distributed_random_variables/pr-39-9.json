@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-9",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.9",
+  "question": "An insurance company insures a large number of drivers. Let $X$ be the random variable representing the company's losses under collision insurance, and let $Y$ represent the company's losses under liability insurance. $X$ and $Y$ have joint density function $f_{XY}(x, y) = \\begin{cases} \\frac{2x + 2 - y}{4} & 0 < x < 1, 0 < y < 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ What is the probability that the total loss is at least 1?",
+  "answer": "0.708",
+  "explanation": "Answer: 0.708",
+  "source": "Finan §39 — Practice Problem 39.9"
+}

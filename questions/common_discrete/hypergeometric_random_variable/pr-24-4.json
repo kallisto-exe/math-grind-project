@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.4",
+  "question": "A package of 20 computer chips contains 4 defective chips. Randomly select 10 chips without replacement. Compute the probability of obtaining exactly 3 defective chips.",
+  "answer": "$0.247678$",
+  "explanation": "Answer: $0.247678$",
+  "source": "Finan §24 — Practice Problem 24.4"
+}

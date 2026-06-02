@@ -1,0 +1,13 @@
+{
+  "id": "pr-43-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 43.1",
+  "question": "Given the following table. X\\Y | Y=0 | Y=1 | $p_X(x)$; X=0 | .4 | .1 | .5; X=1 | .2 | .3 | .5; $p_Y(y)$ | .6 | .4 | 1. Find $p_{X|Y}(x|y)$ where $Y = 1$.",
+  "answer": "$p_{X|Y}(0|1) = 0.25$ and $p_{X|Y}(1|1) = 0.75$ and 0 otherwise.",
+  "explanation": "Answer: $p_{X|Y}(0|1) = 0.25$ and $p_{X|Y}(1|1) = 0.75$ and 0 otherwise.",
+  "source": "Finan §43 — Practice Problem 43.1"
+}

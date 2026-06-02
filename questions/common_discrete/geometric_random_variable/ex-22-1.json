@@ -1,0 +1,13 @@
+{
+  "id": "ex-22-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 4,
+  "subtopic": "Worked Example 22.1",
+  "question": "Consider the experiment of rolling a pair of fair dice. (a) What is the probability of getting a sum of 11? (b) If you roll the dice repeatedly, what is the probability that the first 11 occurs on the 8th roll?",
+  "answer": "",
+  "explanation": "(a) A sum of 11 occurs when the pair of dice show either $(5, 6)$ or $(6, 5)$ so that the required probability is $\\frac{2}{36} = \\frac{1}{18}$. (b) Let $X$ be the number of rolls on which the first 11 occurs. Then $X$ is a geometric random variable with parameter $p = \\frac{1}{18}$. Thus, $\\Pr(X = 8) = \\left(\\frac{1}{18}\\right)\\left(1-\\frac{1}{18}\\right)^7 = 0.0372$. To find the expected value and variance of a geometric random variable we proceed as follows. First we recall from calculus the geometric series $f(x) = \\sum_{n=0}^\\infty x^n = \\frac{1}{1-x}$, $|x| < 1$. Differentiating $f(x)$ twice we find $f'(x) = \\sum_{n=1}^\\infty n x^{n-1} = (1-x)^{-2}$ and $f''(x) = \\sum_{n=1}^\\infty n(n-1) x^{n-2} = 2(1-x)^{-3}$. Evaluating $f'(x)$ and $f''(x)$ at $x = 1-p$, we find $f'(1-p) = \\sum_{n=1}^\\infty n(1-p)^{n-1} = p^{-2}$ and $f''(1-p) = \\sum_{n=1}^\\infty n(n-1)(1-p)^{n-2} = 2p^{-3}$. We next apply these equalities in finding $E(X)$ and $E(X^2)$. Indeed, we have $E(X) = \\sum_{n=1}^\\infty n(1-p)^{n-1} p = p\\sum_{n=1}^\\infty n(1-p)^{n-1} = p\\cdot p^{-2} = p^{-1}$ and $E(X(X-1)) = \\sum_{n=1}^\\infty n(n-1)(1-p)^{n-1} p = p(1-p)\\sum_{n=1}^\\infty n(n-1)(1-p)^{n-2} = p(1-p)\\cdot (2p^{-3}) = 2p^{-2}(1-p)$. Thus, $E(X^2) = E[X(X-1)] + E(X) = 2p^{-2}(1-p) + p^{-1} = (2-p)p^{-2}$. The variance is then given by $\\mathrm{Var}(X) = E(X^2) - (E(X))^2 = (2-p)p^{-2} - p^{-2} = \\frac{1-p}{p^2}$. Next, observe that for $k = 1, 2, \\ldots$ we have $\\Pr(X\\ge k) = \\sum_{n=k}^\\infty p(1-p)^{n-1} = p(1-p)^{k-1}\\sum_{n=0}^\\infty (1-p)^n = \\frac{p(1-p)^{k-1}}{1-(1-p)} = (1-p)^{k-1}$ and $\\Pr(X\\le k) = 1-\\Pr(X\\ge k+1) = 1-(1-p)^k$. From this, one can find the cdf $X$ given by $F(x) = \\Pr(X\\le x) = \\begin{cases} 0 & x < 1 \\\\ 1-(1-p)^{\\lfloor x\\rfloor} & x\\ge 1 \\end{cases}$",
+  "source": "Finan §22 — Worked Example 22.1"
+}

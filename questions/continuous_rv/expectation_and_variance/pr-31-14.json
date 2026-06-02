@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-14",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.14",
+  "question": "An insurance policy on an electrical device pays a benefit of 4000 if the device fails during the first year. The amount of the benefit decreases by 1000 each successive year until it reaches 0. If the device has not failed by the beginning of any given year, the probability of failure during that year is 0.4. What is the expected benefit under this policy?",
+  "answer": "2694",
+  "explanation": "Answer: 2694",
+  "source": "Finan §31 — Practice Problem 31.14"
+}

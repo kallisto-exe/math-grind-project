@@ -1,0 +1,13 @@
+{
+  "id": "pr-33-9",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 33.9",
+  "question": "The owner of an automobile insures it against damage by purchasing an insurance policy with a deductible of 250. In the event that the automobile is damaged, repair costs can be modeled by a uniform random variable on the interval $(0, 1500)$. Determine the standard deviation of the insurance payment in the event that the automobile is damaged.",
+  "answer": "403.44",
+  "explanation": "Answer: 403.44",
+  "source": "Finan §33 — Practice Problem 33.9"
+}

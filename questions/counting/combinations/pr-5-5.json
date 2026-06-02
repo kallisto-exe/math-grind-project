@@ -1,0 +1,13 @@
+{
+  "id": "pr-5-5",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 5.5",
+  "question": "A medical research group plans to select 2 volunteers out of 8 for a drug experiment. In how many ways can they choose the 2 volunteers?",
+  "answer": "28",
+  "explanation": "Answer: 28",
+  "source": "Finan §5 — Practice Problem 5.5"
+}

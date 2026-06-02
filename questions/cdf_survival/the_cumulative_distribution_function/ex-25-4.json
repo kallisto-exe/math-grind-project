@@ -1,0 +1,13 @@
+{
+  "id": "ex-25-4",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 4,
+  "subtopic": "Worked Example 25.4",
+  "question": "Show that $\\Pr(X = a) = F(a)-F(a^-)$.",
+  "answer": "",
+  "explanation": "Applying the previous result we can write $\\Pr(X = a) = \\Pr(a\\le x\\le a) = F(a)-F(a^-)$. Proposition 25.10 If $a < b$ then $\\Pr(a < X < b) = F(b^-)-F(a)$. Proof. Let $A = \\{s : X(s) > a\\}$ and $B = \\{s : X(s) < b\\}$. Note that $\\Pr(A\\cup B) = 1$. Then $\\Pr(a < X < b) = \\Pr(A\\cap B) = \\Pr(A) + \\Pr(B) - \\Pr(A\\cup B) = (1-F(a)) + \\lim_{n\\to\\infty} F\\left(b-\\frac{1}{n}\\right) - 1 = \\lim_{n\\to\\infty} F\\left(b-\\frac{1}{n}\\right) - F(a) = F(b^-)-F(a)$. Figure 25.2 illustrates a typical $F$ for a discrete random variable $X$. Note that for a discrete random variable the cumulative distribution function will always be a step function with jumps at each value of $x$ that has probability greater than 0 and the size of the step at any of the values $x_1, x_2, x_3, \\ldots$ is equal to the probability that $X$ assumes that particular value. Figure 25.2",
+  "source": "Finan §25 — Worked Example 25.4"
+}

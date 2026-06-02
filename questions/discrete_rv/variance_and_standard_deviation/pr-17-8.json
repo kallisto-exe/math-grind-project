@@ -1,0 +1,13 @@
+{
+  "id": "pr-17-8",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 17.8",
+  "question": "Let $X$ be a discrete random variable with probability mass function is given by — $x$: $-4$, 1, 4; $p(x)$: 0.3, 0.4, 0.3. Find the variance and the standard deviation of $X$.",
+  "answer": "$E(X) = \\frac{4}{10}$; $\\mathrm{Var}(X) = 9.84$; $\\sigma_X = 3.137$",
+  "explanation": "Answer: $E(X) = \\frac{4}{10}$; $\\mathrm{Var}(X) = 9.84$; $\\sigma_X = 3.137$",
+  "source": "Finan §17 — Practice Problem 17.8"
+}

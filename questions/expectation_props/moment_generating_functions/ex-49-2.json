@@ -1,0 +1,13 @@
+{
+  "id": "ex-49-2",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 5,
+  "subtopic": "Worked Example 49.2",
+  "question": "Let $X$ be the uniform random variable on the interval $[a, b]$. Find $M_X(t)$.",
+  "answer": "",
+  "explanation": "We have $M_X(t) = \\int_a^b \\frac{e^{tx}}{b-a}\\,dx = \\frac{1}{t(b-a)}[e^{tb} - e^{ta}]$ As the name suggests, the moment generating function can be used to generate moments $E(X^n)$ for $n = 1, 2, \\ldots$. Our first result shows how to use the moment generating function to calculate moments. Proposition 49.1 $E(X^n) = M_X^n(0)$ where $M_X^n(0) = \\left. \\frac{d^n}{dt^n} M_X(t) \\right|_{t=0}$. Proof. We prove the result for a continuous random variable $X$ with pdf $f$. The discrete case is shown similarly. In what follows we always assume that we can differentiate under the integral sign. This interchangeability of differentiation and expectation is not very limiting, since all of the distributions we will consider enjoy this property. We have $\\frac{d}{dt} M_X(t) = \\frac{d}{dt} \\int_{-\\infty}^{\\infty} e^{tx} f(x)\\,dx = \\int_{-\\infty}^{\\infty} \\left(\\frac{d}{dt} e^{tx}\\right) f(x)\\,dx = \\int_{-\\infty}^{\\infty} x e^{tx} f(x)\\,dx = E[X e^{tX}]$ Hence, $\\left. \\frac{d}{dt} M_X(t) \\right|_{t=0} = E[X e^{tX}]|_{t=0} = E(X)$. By induction on $n$ we find $\\left. \\frac{d^n}{dt^n} M_X(t) \\right|_{t=0} = E[X^n e^{tX}]|_{t=0} = E(X^n)$ We next compute $M_X(t)$ for some common distributions.",
+  "source": "Finan §49 — Worked Example 49.2"
+}

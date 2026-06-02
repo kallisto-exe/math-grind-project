@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-10",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.10",
+  "question": "The probability that a visit to a primary care physician's (PCP) office results in neither lab work nor referral to a specialist is 35%. Of those coming to a PCP's office, 30% are referred to specialists and 40% require lab work. Determine the probability that a visit to a PCP's office results in both lab work and referral to a specialist.",
+  "answer": "0.05",
+  "explanation": "Answer: 0.05",
+  "source": "Finan §7 — Practice Problem 7.10"
+}

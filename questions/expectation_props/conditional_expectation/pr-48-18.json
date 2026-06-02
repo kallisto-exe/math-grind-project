@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-18",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.18",
+  "question": "The joint probability density for $X$ and $Y$ is $$f(x,y) = \\begin{cases} 2e^{-(x+2y)}, & \\text{for } x>0,\\ y>0 \\\\ 0 & \\text{otherwise.} \\end{cases}$$ Calculate the variance of $Y$ given that $X>3$ and $Y>3$.",
+  "answer": "0.25",
+  "explanation": "Answer: 0.25",
+  "source": "Finan §48 — Practice Problem 48.18"
+}

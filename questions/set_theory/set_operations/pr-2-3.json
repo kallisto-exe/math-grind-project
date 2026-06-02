@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-3",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.3",
+  "question": "A survey of a group's viewing habits over the last year revealed the following information (i) 28% watched gymnastics (ii) 29% watched baseball (iii) 19% watched soccer (iv) 14% watched gymnastics and baseball (v) 12% watched baseball and soccer (vi) 10% watched gymnastics and soccer (vii) 8% watched all three sports. Represent the statement \"the group that watched none of the three sports during the last year\" using operations on sets.",
+  "answer": "Let G = event that a viewer watched gymnastics B = event that a viewer watched baseball S = event that a viewer watched soccer Then the event \"the group that watched none of the three sports during the last year\" is the set $(G\\cup B\\cup S)^c$",
+  "explanation": "Answer: Let G = event that a viewer watched gymnastics B = event that a viewer watched baseball S = event that a viewer watched soccer Then the event \"the group that watched none of the three sports during the last year\" is the set $(G\\cup B\\cup S)^c$",
+  "source": "Finan §2 — Practice Problem 2.3"
+}

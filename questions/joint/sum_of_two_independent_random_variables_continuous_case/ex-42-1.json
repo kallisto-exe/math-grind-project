@@ -1,0 +1,13 @@
+{
+  "id": "ex-42-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 5,
+  "subtopic": "Worked Example 42.1",
+  "question": "Let $X$ and $Y$ be two random variables with joint probability density $f_{XY}(x, y) = \\begin{cases} 6e^{-3x - 2y} & x > 0, y > 0 \\\\ 0 & \\text{elsewhere} \\end{cases}$ Find the probability density of $Z = X + Y$.",
+  "answer": "",
+  "explanation": "Integrating the joint probability density over the shaded region of Figure 42.1, we get $F_Z(a) = \\Pr(Z \\le a) = \\int_0^a \\int_0^{a-y} 6e^{-3x - 2y}\\,dx\\,dy = 1 + 2e^{-3a} - 3e^{-2a}$ and differentiating with respect to $a$ we find $f_Z(a) = 6(e^{-2a} - e^{-3a})$ for $a > 0$ and 0 elsewhere. Figure 42.1. The above process can be generalized with the use of convolutions which we define next. Let $X$ and $Y$ be two continuous random variables with probability density functions $f_X(x)$ and $f_Y(y)$, respectively. Assume that both $f_X(x)$ and $f_Y(y)$ are defined for all real numbers. Then the convolution $f_X * f_Y$ of $f_X$ and $f_Y$ is the function given by $(f_X * f_Y)(a) = \\int_{-\\infty}^{\\infty} f_X(a - y) f_Y(y)\\,dy = \\int_{-\\infty}^{\\infty} f_Y(a - x) f_X(x)\\,dx$. This definition is analogous to the definition, given for the discrete case, of the convolution of two probability mass functions. Thus it should not be surprising that if $X$ and $Y$ are independent, then the probability density function of their sum is the convolution of their densities. Theorem 42.1 Let $X$ and $Y$ be two independent random variables with density functions $f_X(x)$ and $f_Y(y)$ defined for all $x$ and $y$. Then the sum $X + Y$ is a random variable with density function $f_{X+Y}(a)$, where $f_{X+Y}$ is the convolution of $f_X$ and $f_Y$. Proof. The cumulative distribution function is obtained as follows: $F_{X+Y}(a) = \\Pr(X + Y \\le a) = \\int\\int_{x+y \\le a} f_X(x) f_Y(y)\\,dx\\,dy = \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{a-y} f_X(x) f_Y(y)\\,dx\\,dy = \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{a-y} f_X(x)\\,dx\\, f_Y(y)\\,dy = \\int_{-\\infty}^{\\infty} F_X(a - y) f_Y(y)\\,dy$. Differentiating the previous equation with respect to $a$ we find $f_{X+Y}(a) = \\frac{d}{da} \\int_{-\\infty}^{\\infty} F_X(a - y) f_Y(y)\\,dy = \\int_{-\\infty}^{\\infty} \\frac{d}{da} F_X(a - y) f_Y(y)\\,dy = \\int_{-\\infty}^{\\infty} f_X(a - y) f_Y(y)\\,dy = (f_X * f_Y)(a)$",
+  "source": "Finan §42 — Worked Example 42.1"
+}

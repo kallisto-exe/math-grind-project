@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-7",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.7",
+  "question": "Let $X$ be a uniformly distributed function over $[-\\pi, \\pi]$. That is $f(x) = \\begin{cases} \\frac{1}{2\\pi} & -\\pi \\le x \\le \\pi \\\\ 0 & \\text{otherwise} \\end{cases}$. Find the probability density function of $Y = \\cos X$.",
+  "answer": "For $-1 < y < 1$ we have $f_Y(y) = \\frac{1}{\\pi} \\frac{1}{\\sqrt{1-y^2}}$ and 0 otherwise",
+  "explanation": "Answer: For $-1 < y < 1$ we have $f_Y(y) = \\frac{1}{\\pi} \\frac{1}{\\sqrt{1-y^2}}$ and 0 otherwise.",
+  "source": "Finan §38 — Practice Problem 38.7"
+}

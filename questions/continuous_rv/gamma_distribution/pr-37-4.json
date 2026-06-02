@@ -1,0 +1,13 @@
+{
+  "id": "pr-37-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 37.4",
+  "question": "Suppose the time (in hours) taken by a technician to fix a computer is a random variable X having a gamma distribution with parameters $\\alpha = 3$ and $\\lambda = 0.5$. What is the probability that it takes at most 1 hour to fix a computer?",
+  "answer": "0.014",
+  "explanation": "Answer: 0.014",
+  "source": "Finan §37 — Practice Problem 37.4"
+}

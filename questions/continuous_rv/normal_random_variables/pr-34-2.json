@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.2",
+  "question": "Let X be a normal random variable with parameters $\\mu = 0.381$ and $\\sigma^2 = 0.0312$. Compute the following: (a) $\\Pr(X > 0.36)$. (b) $\\Pr(0.331 < X < 0.431)$. (c) $\\Pr(|X-0.381| > 0.07)$.",
+  "answer": "(a) 0.7517 (b) 0.8926 (c) 0.0238",
+  "explanation": "Answer: (a) 0.7517 (b) 0.8926 (c) 0.0238",
+  "source": "Finan §34 — Practice Problem 34.2"
+}

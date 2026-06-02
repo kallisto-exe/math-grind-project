@@ -1,0 +1,13 @@
+{
+  "id": "pr-45-2",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 45.2",
+  "question": "Let $X_1$ and $X_2$ be two independent exponential random variables each having parameter $\\lambda$. Find the joint density function of $Y_1 = X_1 + X_2$ and $Y_2 = e^{X_2}$.",
+  "answer": "$f_{Y_1 Y_2}(y_1, y_2) = \\frac{\\lambda^2}{y_2} e^{-\\lambda y_1}, y_2 > 1, y_1 \\ge \\ln y_2$",
+  "explanation": "Answer: $f_{Y_1 Y_2}(y_1, y_2) = \\frac{\\lambda^2}{y_2} e^{-\\lambda y_1}, y_2 > 1, y_1 \\ge \\ln y_2$",
+  "source": "Finan §45 — Practice Problem 45.2"
+}

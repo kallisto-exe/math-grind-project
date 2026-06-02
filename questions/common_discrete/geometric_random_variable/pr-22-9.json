@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-9",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.9",
+  "question": "Show that the Geometric distribution with parameter $p$ satisfies the equation $\\Pr(X > i+j \\mid X > i) = \\Pr(X > j)$. This says that the Geometric distribution satisfies the memoryless property",
+  "answer": "We have $\\Pr(X > i+j \\mid X > i) = \\frac{\\Pr(X > i+j, X > i)}{\\Pr(X > i)} = \\frac{\\Pr(X > i+j)}{\\Pr(X > i)} = \\frac{(1-p)^{i+j}}{(1-p)^i} = (1-p)^j = \\Pr(X > j)$",
+  "explanation": "Answer: We have $\\Pr(X > i+j \\mid X > i) = \\frac{\\Pr(X > i+j, X > i)}{\\Pr(X > i)} = \\frac{\\Pr(X > i+j)}{\\Pr(X > i)} = \\frac{(1-p)^{i+j}}{(1-p)^i} = (1-p)^j = \\Pr(X > j)$",
+  "source": "Finan §22 — Practice Problem 22.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-17",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.17",
+  "question": "The probability that a member of a certain class of homeowners with liability and property coverage will file a liability claim is 0.04, and the probability that a member of this class will file a property claim is 0.10. The probability that a member of this class will file a liability claim but not a property claim is 0.01. Calculate the probability that a randomly selected member of this class of homeowners will not file a claim of either type.",
+  "answer": "0.89",
+  "explanation": "Answer: 0.89",
+  "source": "Finan §7 — Practice Problem 7.17"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-4",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.4",
+  "question": "Let $X$ be uniformly distributed on $[0, 1]$. Find $E(X|X>0.5)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §48 — Practice Problem 48.4"
+}

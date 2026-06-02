@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-11",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.11",
+  "question": "You are given $\\Pr(A \\cup B) = 0.7$ and $\\Pr(A \\cup B^c) = 0.9$. Determine $\\Pr(A)$.",
+  "answer": "0.6",
+  "explanation": "Answer: 0.6",
+  "source": "Finan §7 — Practice Problem 7.11"
+}

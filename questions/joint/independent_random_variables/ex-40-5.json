@@ -1,0 +1,13 @@
+{
+  "id": "ex-40-5",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 5,
+  "subtopic": "Worked Example 40.5",
+  "question": "The joint pdf of $X$ and $Y$ is given by $f_{XY}(x,y) = \\begin{cases} xye^{-\\frac{x^2+y^2}{2}} & 0 \\le x, y < \\infty \\\\ 0 & \\text{Otherwise.} \\end{cases}$ Are $X$ and $Y$ independent?",
+  "answer": "",
+  "explanation": "We have $f_{XY}(x,y) = xye^{-\\frac{x^2+y^2}{2}} = xe^{-\\frac{x^2}{2}} \\cdot ye^{-\\frac{y^2}{2}}$. By the previous theorem, $X$ and $Y$ are independent",
+  "source": "Finan §40 — Worked Example 40.5"
+}

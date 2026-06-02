@@ -1,0 +1,13 @@
+{
+  "id": "ex-35-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§35 The Normal Approximation to the Binomial Distribution",
+  "section": 35,
+  "difficulty": 4,
+  "subtopic": "Worked Example 35.1",
+  "question": "In a box of 100 light bulbs, 10 are found to be defective. What is the probability that the number of defectives exceeds 13?",
+  "answer": "",
+  "explanation": "Let $X$ be the number of defective items. Then $X$ is binomial with $n = 100$ and $p = 0.1$. Since $np = 10 > 5$ and $nq = 90 > 5$ we can use the normal approximation to the binomial with $\\mu = np = 10$ and $\\sigma^2 = np(1-p) = 9$. We want $\\Pr(X > 13)$. Using continuity correction we find $\\Pr(X > 13) = \\Pr(X \\ge 14) = \\Pr\\left(\\frac{X - 10}{\\sqrt{9}} \\ge \\frac{13.5 - 10}{\\sqrt{9}}\\right) \\approx 1 - \\Phi(1.17) = 1 - 0.8790 = 0.121$.",
+  "source": "Finan §35 — Worked Example 35.1"
+}

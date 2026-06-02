@@ -1,0 +1,13 @@
+{
+  "id": "ex-33-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 4,
+  "subtopic": "Worked Example 33.2",
+  "question": "Let $X$ be a continuous uniform random variable on $[0, 25]$. Find the pdf and cdf of $X$.",
+  "answer": "",
+  "explanation": "The pdf is $f(x) = \\begin{cases} \\frac{1}{25} & 0 \\le x \\le 25 \\\\ 0 & \\text{otherwise} \\end{cases}$ and the cdf is $F(x) = \\begin{cases} 0 & \\text{if } x < 0 \\\\ \\frac{x}{25} & \\text{if } 0 \\le x \\le 25 \\\\ 1 & \\text{if } x > 25 \\end{cases}$.",
+  "source": "Finan §33 — Worked Example 33.2"
+}

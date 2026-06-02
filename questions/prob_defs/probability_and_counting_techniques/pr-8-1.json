@@ -1,0 +1,13 @@
+{
+  "id": "pr-8-1",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 8.1",
+  "question": "A box contains three red balls and two blue balls. Two balls are to be drawn without replacement. Use a tree diagram to represent the various outcomes that can occur. What is the probability of each outcome?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §8 — Practice Problem 8.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-15",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.15",
+  "question": "Let $X$ have the density function $f(x) = \\begin{cases} \\frac{\\lambda^2 x}{k^2} & 0 \\le x \\le k \\\\ 0 & \\text{otherwise.} \\end{cases}$ For what value of $k$ is the variance of $X$ equal to 2?",
+  "answer": "6",
+  "explanation": "Answer: 6",
+  "source": "Finan §31 — Practice Problem 31.15"
+}

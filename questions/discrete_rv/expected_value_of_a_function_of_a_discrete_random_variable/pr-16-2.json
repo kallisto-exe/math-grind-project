@@ -1,0 +1,13 @@
+{
+  "id": "pr-16-2",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§16 Expected Value of a Function of a Discrete Random Variable",
+  "section": 16,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 16.2",
+  "question": "A random variable $X$ has the following probability mass function defined in tabular form x -1 1 2 p(x) 2c 3c 4c (a) Find the value of $c$. (b) Compute $p(-1), p(1)$, and $p(2)$. (c) Find $E(X)$ and $E(X^2)$.",
+  "answer": "(a) c = 1 9 (b) p(-1) = 2 9,p (1) = 3 9,p (2) = 4 9 (c) E(X) = 1 and E(X2) = 7",
+  "explanation": "Answer: (a) $c = \\frac{1}{9}$ (b) $p(-1) = \\frac{2}{9}, p(1) = \\frac{3}{9}, p(2) = \\frac{4}{9}$ (c) $E(X) = 1$ and $E(X^2) = 7$",
+  "source": "Finan §16 — Practice Problem 16.2"
+}

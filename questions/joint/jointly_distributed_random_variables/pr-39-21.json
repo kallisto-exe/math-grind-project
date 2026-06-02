@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-21",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.21",
+  "question": "A device contains two components. The device fails if either component fails. The joint density function of the lifetimes of the components, measured in hours, is $f(s, t)$, where $0 < s < 1$ and $0 < t < 1$. What is the probability that the device fails during the first half hour of operation?",
+  "answer": "$\\int_0^{\\frac{1}{2}} \\int_0^1 f(s, t)\\,ds\\,dt + \\int_{\\frac{1}{2}}^1 \\int_0^{\\frac{1}{2}} f(s, t)\\,ds\\,dt$",
+  "explanation": "Answer: $\\int_0^{\\frac{1}{2}} \\int_0^1 f(s, t)\\,ds\\,dt + \\int_{\\frac{1}{2}}^1 \\int_0^{\\frac{1}{2}} f(s, t)\\,ds\\,dt$",
+  "source": "Finan §39 — Practice Problem 39.21"
+}

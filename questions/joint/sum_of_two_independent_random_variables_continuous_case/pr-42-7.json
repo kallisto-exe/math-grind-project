@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-7",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.7",
+  "question": "Let $X$ and $Y$ be two random variables with common pdf $f_X(t) = f_Y(t) = \\begin{cases} e^{-t} & t > 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the density function of $W = 2X + Y$.",
+  "answer": "$f_W(a) = e^{-\\frac{a}{2}} - e^{-a}, a > 0$ and 0 otherwise.",
+  "explanation": "Answer: $f_W(a) = e^{-\\frac{a}{2}} - e^{-a}, a > 0$ and 0 otherwise.",
+  "source": "Finan §42 — Practice Problem 42.7"
+}

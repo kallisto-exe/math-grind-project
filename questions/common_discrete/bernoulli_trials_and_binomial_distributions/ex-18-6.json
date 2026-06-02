@@ -1,0 +1,13 @@
+{
+  "id": "ex-18-6",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 4,
+  "subtopic": "Worked Example 18.6",
+  "question": "A study shows that 30 percent people aged 50-60 in a certain town have high blood pressure. What is the probability that in a sample of fourteen individuals aged between 50 and 60 tested for high blood pressure, more than six will have high blood pressure?",
+  "answer": "",
+  "explanation": "Let $X$ be the number of people in the town aged 50-60 with high blood pressure. Then $X$ is a binomial random variable with $n = 14$ and $p = 0.3$. Thus, $\\Pr(X > 6) = 1-\\Pr(X\\le 6) = 1-\\sum_{i=0}^{6} {}_{14}C_i (0.3)^i (0.7)^{14-i} \\approx 0.0933$",
+  "source": "Finan §18 — Worked Example 18.6"
+}

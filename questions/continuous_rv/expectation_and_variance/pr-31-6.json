@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.6",
+  "question": "Let X be a continuous random variable with pdf $f(x) = \\begin{cases} \\frac{1}{x} & 1<x<e \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find $E(\\ln X)$.",
+  "answer": "0.5",
+  "explanation": "Answer: 0.5",
+  "source": "Finan §31 — Practice Problem 31.6"
+}

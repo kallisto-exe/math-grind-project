@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-23",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.23",
+  "question": "Let $X_1, X_2, X_3$ be uniform random variables on the interval $(0, 1)$ with $\\mathrm{Cov}(X_i, X_j) = \\frac{1}{24}$ for $i,j \\in \\{1, 2, 3\\}$, $i \\ne j$. Calculate the variance of $X_1 + 2X_2 - X_3$.",
+  "answer": "$\\frac{5}{6}$",
+  "explanation": "Answer: $\\frac{5}{6}$",
+  "source": "Finan §47 — Practice Problem 47.23"
+}

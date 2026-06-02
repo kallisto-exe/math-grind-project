@@ -1,0 +1,13 @@
+{
+  "id": "pr-28-17",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 28.17",
+  "question": "Investigate the convergence of $\\int_1^\\infty e^{-\\frac{1}{2}x^2}\\,dx$.",
+  "answer": "convergent",
+  "explanation": "Answer: convergent",
+  "source": "Finan §28 — Practice Problem 28.17"
+}

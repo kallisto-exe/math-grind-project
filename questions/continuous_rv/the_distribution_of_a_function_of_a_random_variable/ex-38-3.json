@@ -1,0 +1,13 @@
+{
+  "id": "ex-38-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 4,
+  "subtopic": "Worked Example 38.3",
+  "question": "Let $X$ be a continuous random variable with pdf $f_X$. Find the pdf of $Y = -X$.",
+  "answer": "",
+  "explanation": "By the previous theorem we have $f_Y(y) = f_X(-y)$.",
+  "source": "Finan §38 — Worked Example 38.3"
+}

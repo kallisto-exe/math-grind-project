@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.4",
+  "question": "A hospital receives $\\frac{1}{5}$ of its flu vaccine shipments from Company $X$ and the remainder of its shipments from other companies. Each shipment contains a very large number of vaccine vials. For Company $X$'s shipments, 10% of the vials are ineffective. For every other company, 2% of the vials are ineffective. The hospital tests 30 randomly selected vials from a shipment and finds that one vial is ineffective. What is the probability that this shipment came from Company $X$?",
+  "answer": "0.096",
+  "explanation": "Answer: 0.096",
+  "source": "Finan §18 — Practice Problem 18.4"
+}

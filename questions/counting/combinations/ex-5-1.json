@@ -1,0 +1,13 @@
+{
+  "id": "ex-5-1",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 2,
+  "subtopic": "Worked Example 5.1",
+  "question": "A jury consisting of 2 women and 3 men is to be selected from a group of 5 women and 7 men. In how many different ways can this be done? Suppose that either Steve or Harry must be selected but not both, then in how many ways this jury can be formed?",
+  "answer": "",
+  "explanation": "There are ${}_5C_2 \\cdot {}_7C_3 = 350$ possible jury combinations consisting of 2 women and 3 men. Now, if we suppose that Steve and Harry can not serve together then the number of jury groups that do not include the two men at the same time is ${}_5C_2 \\cdot {}_5C_2 \\cdot {}_2C_1 = 200$ The next theorem discusses some of the properties of combinations. Theorem 5.2 Suppose that $n$ and $k$ are whole numbers with $0 \\le k \\le n$. Then (a) ${}_nC_0 = {}_nC_n = 1$ and ${}_nC_1 = {}_nC_{n-1} = n$. (b) Symmetry property: ${}_nC_k = {}_nC_{n-k}$. (c) Pascal's identity: ${}_{n+1}C_k = {}_nC_{k-1} + {}_nC_k$. Proof. (a) From the formula of ${}_nC_k$ we have ${}_nC_0 = \\frac{n!}{0!(n-0)!} = 1$ and ${}_nC_n = \\frac{n!}{n!(n-n)!} = 1$. Similarly, ${}_nC_1 = \\frac{n!}{1!(n-1)!} = n$ and ${}_nC_{n-1} = \\frac{n!}{(n-1)!} = n$. (b) Indeed, we have ${}_nC_{n-k} = \\frac{n!}{(n-k)!(n-n+k)!} = \\frac{n!}{k!(n-k)!} = {}_nC_k$. (c) We have ${}_nC_{k-1} + {}_nC_k = \\frac{n!}{(k-1)!(n-k+1)!} + \\frac{n!}{k!(n-k)!} = \\frac{n!k}{k!(n-k+1)!} + \\frac{n!(n-k+1)}{k!(n-k+1)!} = \\frac{n!}{k!(n-k+1)!}(k + n - k + 1) = \\frac{(n+1)!}{k!(n+1-k)!} = {}_{n+1}C_k$",
+  "source": "Finan §5 — Worked Example 5.1"
+}

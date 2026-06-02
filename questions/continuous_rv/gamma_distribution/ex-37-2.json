@@ -1,0 +1,13 @@
+{
+  "id": "ex-37-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 4,
+  "subtopic": "Worked Example 37.2",
+  "question": "Let X be a gamma random variable with $\\alpha = 4$ and $\\lambda = \\frac{1}{2}$. Compute $\\Pr(2 < X < 4)$.",
+  "answer": "",
+  "explanation": "We have $\\Pr(2 < X < 4) = \\int_2^4 \\frac{(1/2)^4}{\\Gamma(4)}x^3 e^{-x/2}\\,dx = \\frac{1}{2^4 \\Gamma(4)}\\int_2^4 x^3 e^{-x/2}\\,dx \\approx 0.124$ where we used the reduction formula (37.1). The next result provides formulas for the expected value and the variance of a gamma distribution. Theorem 37.1: If X is a Gamma random variable with parameters $(\\lambda,\\alpha)$ then (a) $E(X) = \\frac{\\alpha}{\\lambda}$ (b) $\\mathrm{Var}(X) = \\frac{\\alpha}{\\lambda^2}$. Solution. (a) $E(X) = \\frac{1}{\\Gamma(\\alpha)}\\int_0^\\infty \\lambda x e^{-\\lambda x}(\\lambda x)^{\\alpha-1}\\,dx = \\frac{1}{\\lambda\\Gamma(\\alpha)}\\int_0^\\infty \\lambda e^{-\\lambda x}(\\lambda x)^\\alpha\\,dx = \\frac{\\Gamma(\\alpha+1)}{\\lambda\\Gamma(\\alpha)} = \\frac{\\alpha}{\\lambda}$. (b) $E(X^2) = \\frac{1}{\\Gamma(\\alpha)}\\int_0^\\infty x^2 e^{-\\lambda x}\\lambda^\\alpha x^{\\alpha-1}\\,dx = \\frac{1}{\\Gamma(\\alpha)}\\int_0^\\infty x^{\\alpha+1}\\lambda^\\alpha e^{-\\lambda x}\\,dx = \\frac{\\Gamma(\\alpha+2)}{\\lambda^2\\Gamma(\\alpha)}\\int_0^\\infty \\frac{x^{\\alpha+1}\\lambda^{\\alpha+2}e^{-\\lambda x}}{\\Gamma(\\alpha+2)}\\,dx = \\frac{\\Gamma(\\alpha+2)}{\\lambda^2\\Gamma(\\alpha)}$ where the last integral is the integral of the pdf of a Gamma random variable with parameters $(\\alpha+2,\\lambda)$. Thus, $E(X^2) = \\frac{\\Gamma(\\alpha+2)}{\\lambda^2\\Gamma(\\alpha)} = \\frac{(\\alpha+1)\\Gamma(\\alpha+1)}{\\lambda^2\\Gamma(\\alpha)} = \\frac{\\alpha(\\alpha+1)}{\\lambda^2}$. Finally, $\\mathrm{Var}(X) = E(X^2)-(E(X))^2 = \\frac{\\alpha(\\alpha+1)}{\\lambda^2} - \\frac{\\alpha^2}{\\lambda^2} = \\frac{\\alpha}{\\lambda^2}$",
+  "source": "Finan §37 — Worked Example 37.2"
+}

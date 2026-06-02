@@ -1,0 +1,13 @@
+{
+  "id": "ex-49-11",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 5,
+  "subtopic": "Worked Example 49.11",
+  "question": "Let $X$ and $Y$ be two independent normal random variables with parameters $(\\mu_1, \\sigma_1^2)$ and $(\\mu_2, \\sigma_2^2)$ respectively. Find the joint moment generating function of $X + Y$ and $X - Y$.",
+  "answer": "",
+  "explanation": "The joint moment generating function is $M(t_1, t_2) = E(e^{t_1(X+Y) + t_2(X-Y)}) = E(e^{(t_1+t_2)X + (t_1-t_2)Y}) = E(e^{(t_1+t_2)X})E(e^{(t_1-t_2)Y}) = M_X(t_1 + t_2)M_Y(t_1 - t_2) = e^{(t_1+t_2)\\mu_1 + \\frac{1}{2}(t_1+t_2)^2 \\sigma_1^2} e^{(t_1-t_2)\\mu_2 + \\frac{1}{2}(t_1-t_2)^2 \\sigma_2^2} = e^{(t_1+t_2)\\mu_1 + (t_1-t_2)\\mu_2 + \\frac{1}{2}(t_1^2 + t_2^2)\\sigma_1^2 + \\frac{1}{2}(t_1^2 + t_2^2)\\sigma_2^2 + t_1 t_2(\\sigma_1^2 - \\sigma_2^2)}$",
+  "source": "Finan §49 — Worked Example 49.11"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-45-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 5,
+  "subtopic": "Worked Example 45.1",
+  "question": "Let $X$ and $Y$ be jointly continuous random variables with density function $f_{XY}(x, y)$. Let $U = X + Y$ and $V = X - Y$. Find the joint density function of $U$ and $V$.",
+  "answer": "",
+  "explanation": "Let $u = g_1(x, y) = x + y$ and $v = g_2(x, y) = x - y$. Then $x = \\frac{u+v}{2}$ and $y = \\frac{u-v}{2}$. Moreover $J(x, y) = \\begin{vmatrix} 1 & 1 \\\\ 1 & -1 \\end{vmatrix} = -2$. Thus, $f_{UV}(u, v) = \\frac{1}{2} f_{XY}\\left(\\frac{u+v}{2}, \\frac{u-v}{2}\\right)$",
+  "source": "Finan §45 — Worked Example 45.1"
+}

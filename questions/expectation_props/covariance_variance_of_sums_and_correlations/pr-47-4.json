@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-4",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.4",
+  "question": "Let $X$ and $Z$ be independent random variables with $X$ uniformly distributed on $(-1, 1)$ and $Z$ uniformly distributed on $(0, 0.1)$. Let $Y = X^2 + Z$. Then $X$ and $Y$ are dependent. (a) Find the joint pdf of $X$ and $Y$. (b) Find the covariance and the correlation of $X$ and $Y$.",
+  "answer": "(a) $f_{XY}(x,y) = 5$, $-1<x<1$, $x^2<y<x^2+0.1$ and 0 otherwise. (b) covariance is 0 and correlation is 0",
+  "explanation": "Answer: (a) $f_{XY}(x,y) = 5$, $-1<x<1$, $x^2<y<x^2+0.1$ and 0 otherwise. (b) covariance is 0 and correlation is 0",
+  "source": "Finan §47 — Practice Problem 47.4"
+}

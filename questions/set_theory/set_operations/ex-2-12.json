@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-12",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.12",
+  "question": "Throw a pair of fair dice. Let A be the event the total is 5, B the event the total is even, and C the event the total is divisible by 9. Show that $A$, $B$, and C are pairwise disjoint.",
+  "answer": "",
+  "explanation": "We have $A = \\{(1, 4), (2, 3), (3, 2), (4, 1)\\}$ $B = \\{(1, 1), (1, 3), (1, 5), (2, 2), (2, 4), (2, 6), (3, 1), (3, 3), (3, 5), (4, 2), (4, 4), (4, 6), (5, 1), (5, 3), (5, 5), (6, 2), (6, 4), (6, 6)\\}$ $C = \\{(3, 6), (4, 5), (5, 4), (6, 3)\\}$. Clearly, $A \\cap B = A \\cap C = B \\cap C = \\emptyset$ Next, we establish the following rule of counting. Theorem 2.3 (Inclusion-Exclusion Principle) Suppose A and B are finite sets. Then (a) $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$. (b) If $A \\cap B = \\emptyset$, then $n(A \\cup B) = n(A) + n(B)$. (c) If $A \\subseteq B$, then $n(A) \\le n(B)$. Proof. (a) Indeed, $n(A)$ gives the number of elements in A including those that are common to A and B. The same holds for $n(B)$. Hence, $n(A) + n(B)$ includes twice the number of common elements. Therefore, to get an accurate count of the elements of $A \\cup B$, it is necessary to subtract $n(A \\cap B)$ from $n(A) + n(B)$. This establishes the result. (b) If A and B are disjoint then $n(A \\cap B) = 0$ and by (a) we have $n(A \\cup B) = n(A) + n(B)$. (c) If A is a subset of B then the number of elements of A cannot exceed the number of elements of B. That is, $n(A) \\le n(B)$",
+  "source": "Finan §2 — Worked Example 2.12"
+}

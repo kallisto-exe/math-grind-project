@@ -1,0 +1,13 @@
+{
+  "id": "ex-31-8",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 4,
+  "subtopic": "Worked Example 31.8",
+  "question": "Let $X$ be a continuous random variable with pdf $f(x) = \\begin{cases} 4xe^{-2x}, & x > 0 \\\\ 0 & \\text{otherwise.} \\end{cases}$ For this example, you might find the identity $\\int_0^\\infty t^n e^{-t}\\,dt = n!$ useful. (a) Find $E(X)$. (b) Find the variance of $X$. (c) Find the probability that $X < 1$.",
+  "answer": "",
+  "explanation": "(a) Using the substitution $t = 2x$ we find $E(X) = \\int_0^\\infty 4x^2 e^{-2x}\\,dx = \\frac{1}{2}\\int_0^\\infty t^2 e^{-t}\\,dt = \\frac{2!}{2} = 1$. (b) First, we find $E(X^2)$. Again, letting $t = 2x$ we find $E(X^2) = \\int_0^\\infty 4x^3 e^{-2x}\\,dx = \\frac{1}{4}\\int_0^\\infty t^3 e^{-t}\\,dt = \\frac{3!}{4} = \\frac{3}{2}$. Hence, $\\mathrm{Var}(X) = E(X^2) - (E(X))^2 = \\frac{3}{2} - 1 = \\frac{1}{2}$. (c) We have $\\Pr(X < 1) = \\Pr(X \\le 1) = \\int_0^1 4xe^{-2x}\\,dx = \\int_0^2 te^{-t}\\,dt = -(t + 1)e^{-t}\\big|_0^2 = 1 - 3e^{-2}$. As in the case of discrete random variable, it is easy to establish the formula $\\mathrm{Var}(aX) = a^2 \\mathrm{Var}(X)$",
+  "source": "Finan §31 — Worked Example 31.8"
+}

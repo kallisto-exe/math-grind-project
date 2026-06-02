@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-1",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.1",
+  "question": "Let A and B be any two sets. Use Venn diagrams to show that $B = (A\\cap B)\\cup (A^c\\cap B)$ and $A\\cup B = A\\cup (A^c\\cap B)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §2 — Practice Problem 2.1"
+}

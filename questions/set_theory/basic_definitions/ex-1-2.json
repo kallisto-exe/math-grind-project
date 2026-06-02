@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-2",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.2",
+  "question": "List the elements of the following sets. (a) $\\{x \\mid x \\text{ is a real number such that } x^2 = 1\\}$. (b) $\\{x \\mid x \\text{ is an integer such that } x^2 - 3 = 0\\}$.",
+  "answer": "",
+  "explanation": "(a) $\\{-1, 1\\}$. (b) Since the only solutions to the given equation are $-\\sqrt{3}$ and $\\sqrt{3}$ and both are not integers, the set in question is the empty set",
+  "source": "Finan §1 — Worked Example 1.2"
+}

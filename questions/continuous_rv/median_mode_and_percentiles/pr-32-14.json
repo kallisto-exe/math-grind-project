@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-14",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.14",
+  "question": "Let X be a random variable with pdf $f(x) = \\left(\\frac{3}{5000}\\right)\\left(\\frac{5000}{x}\\right)^4$ for $x > 5000$ and 0 otherwise. Determine the median of X.",
+  "answer": "6299.61",
+  "explanation": "Answer: 6299.61",
+  "source": "Finan §32 — Practice Problem 32.14"
+}

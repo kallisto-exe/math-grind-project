@@ -1,0 +1,13 @@
+{
+  "id": "ex-44-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 5,
+  "subtopic": "Worked Example 44.1",
+  "question": "Suppose $X$ and $Y$ have the following joint density $f_{XY}(x,y) = \\begin{cases} \\frac{1}{2} & |X| + |Y| < 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find the marginal distribution of $X$. (b) Find the conditional distribution of $Y$ given $X = \\frac{1}{2}$.",
+  "answer": "",
+  "explanation": "(a) Clearly, $X$ only takes values in $(-1, 1)$. So $f_X(x) = 0$ if $|x| \\ge 1$. Let $-1 < x < 1$, $f_X(x) = \\int_{-\\infty}^{\\infty} \\frac{1}{2}\\,dy = \\int_{-1+|x|}^{1-|x|} \\frac{1}{2}\\,dy = 1 - |x|$. (b) The conditional density of $Y$ given $X = \\frac{1}{2}$ is then given by $f_{Y|X}(y|x) = \\frac{f(\\frac{1}{2}, y)}{f_X(\\frac{1}{2})} = \\begin{cases} 1 & -\\frac{1}{2} < y < \\frac{1}{2} \\\\ 0 & \\text{otherwise.} \\end{cases}$ Thus, $f_{Y|X}$ follows a uniform distribution on the interval $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$",
+  "source": "Finan §44 — Worked Example 44.1"
+}

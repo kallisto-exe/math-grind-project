@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.4",
+  "question": "Given: $X \\backslash Y$: row 129: $0.12, 0.08$ with $p_X(\\cdot) = 0.2$; row 130: $0.4, 0.30$ with $p_X(\\cdot) = 0.7$; row 131: $0.06, 0.04$ with $p_X(\\cdot) = 0.1$; $p_Y(\\cdot) = 0.58, 0.42$, total 1, where the $Y$ columns are 15 and 16. (a) Find $\\Pr(X = 130, Y = 15)$. (b) Find $\\Pr(X \\ge 130, Y \\ge 15)$.",
+  "answer": "(a) 0.4 (b) 0.8",
+  "explanation": "Answer: (a) 0.4 (b) 0.8",
+  "source": "Finan §39 — Practice Problem 39.4"
+}

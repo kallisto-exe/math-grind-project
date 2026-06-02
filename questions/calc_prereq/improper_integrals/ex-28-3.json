@@ -1,0 +1,13 @@
+{
+  "id": "ex-28-3",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 2,
+  "subtopic": "Worked Example 28.3",
+  "question": "Determine for which values of $p$ the improper integral $\\int^\\infty x^p\\,dx$ diverges.",
+  "answer": "",
+  "explanation": "Suppose first that $p = 1$. Then $\\int^\\infty \\frac{1}{x}\\,dx = \\lim_{b\\to\\infty} \\int_1^b \\frac{1}{x}\\,dx = \\lim_{b\\to\\infty} \\left[\\ln|x|\\right]_1^b = \\lim_{b\\to\\infty} \\ln b = \\infty$ so the improper integral is divergent. Now, suppose that $p \\ne 1$. Then $\\int^\\infty x^p\\,dx = \\lim_{b\\to\\infty} \\int^b x^{-p}\\,dx = \\lim_{b\\to\\infty} \\left[\\frac{x^{-p+1}}{-p + 1}\\right]^b = \\lim_{b\\to\\infty} \\left(\\frac{b^{-p+1}}{-p + 1} - \\frac{1}{-p + 1}\\right)$. If $p < 1$ then $-p + 1 > 0$ so that $\\lim_{b\\to\\infty} b^{-p+1} = \\infty$ and therefore the improper integral is divergent. If $p > 1$ then $-p+1 < 0$ so that $\\lim_{b\\to\\infty} b^{-p+1} = 0$ and hence the improper integral converges: $\\int^\\infty x^p\\,dx = \\frac{-1}{-p + 1}$",
+  "source": "Finan §28 — Worked Example 28.3"
+}

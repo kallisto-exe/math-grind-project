@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-7",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.7",
+  "question": "Suppose that the test score of a randomly chosen student has mean 75 and variance 25. What can be said about the probability that a student will score between 65 and 85?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.7"
+}

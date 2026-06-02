@@ -1,0 +1,13 @@
+{
+  "id": "pr-35-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§35 The Normal Approximation to the Binomial Distribution",
+  "section": 35,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 35.1",
+  "question": "Suppose that 25% of all the students who took a given test fail. Let $X$ be the number of students who failed the test in a random sample of 50. (a) What is the probability that the number of students who failed the test is at most 10? (b) What is the probability that the number of students who failed the test is between 5 and 15 inclusive?",
+  "answer": "(a) 0.2578 (b) 0.832",
+  "explanation": "Answer: (a) 0.2578 (b) 0.832",
+  "source": "Finan §35 — Practice Problem 35.1"
+}

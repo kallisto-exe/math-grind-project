@@ -1,0 +1,13 @@
+{
+  "id": "ex-21-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§21 Poisson Approximation to the Binomial Distribution",
+  "section": 21,
+  "difficulty": 4,
+  "subtopic": "Worked Example 21.1",
+  "question": "In a group of 100 individuals, let $X$ be the random variable representing the total number of people in the group with a birthday on Thanksgiving day. Then $X$ is a binomial random variable with parameters $n = 100$ and $p = \\frac{1}{365}$. What is the probability at least one person in the group has a birthday on Thanksgiving day?",
+  "answer": "",
+  "explanation": "We have $\\Pr(X \\ge 1) = 1 - \\Pr(X = 0) = 1 - \\binom{100}{0}\\left(\\frac{1}{365}\\right)^0\\left(\\frac{364}{365}\\right)^{100} \\approx 0.2399$. Using the Poisson approximation, with $\\lambda = 100 \\times \\frac{1}{365} = \\frac{100}{365} = \\frac{20}{73}$ we find $\\Pr(X \\ge 1) = 1 - \\Pr(X = 0) = 1 - \\frac{(20/73)^0}{0!}e^{-20/73} \\approx 0.2396$",
+  "source": "Finan §21 — Worked Example 21.1"
+}

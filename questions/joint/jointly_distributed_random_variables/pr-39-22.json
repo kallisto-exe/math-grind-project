@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-22",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.22",
+  "question": "A client spends $X$ minutes in an insurance agent's waiting room and $Y$ minutes meeting with the agent. The joint density function of $X$ and $Y$ can be modeled by $f(x, y) = \\begin{cases} \\frac{1}{800} e^{-\\frac{x}{40} - \\frac{y}{20}} & \\text{for } x > 0, y > 0 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find the probability that a client spends less than 60 minutes at the agent's office. You do NOT have to evaluate the integrals.",
+  "answer": "$\\frac{1}{800} \\int_0^{60} \\int_0^{60-x} e^{-\\frac{x}{40} - \\frac{y}{20}}\\,dy\\,dx$",
+  "explanation": "Answer: $\\frac{1}{800} \\int_0^{60} \\int_0^{60-x} e^{-\\frac{x}{40} - \\frac{y}{20}}\\,dy\\,dx$",
+  "source": "Finan §39 — Practice Problem 39.22"
+}

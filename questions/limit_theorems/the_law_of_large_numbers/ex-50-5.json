@@ -1,0 +1,13 @@
+{
+  "id": "ex-50-5",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 5,
+  "subtopic": "Worked Example 50.5",
+  "question": "Suppose $X$ is the test score of a randomly selected student. We assume $0 \\le X \\le 100$, $E(X) = 70$, and $\\sigma = 7$. Find an upper bound of $\\Pr(X \\ge 84)$ using first Markov's inequality and then Chebyshev's inequality.",
+  "answer": "",
+  "explanation": "By using Markov's inequality we find $\\Pr(X \\ge 84) \\le \\frac{70}{84} = \\frac{5}{6}$. Now, using Chebyshev's inequality we find $\\Pr(X \\ge 84) = \\Pr(X-70 \\ge 14) = \\Pr(X-E(X) \\ge 2\\sigma) \\le \\Pr(|X-E(X)| \\ge 2\\sigma) \\le \\frac{1}{4}$.",
+  "source": "Finan §50 — Worked Example 50.5"
+}

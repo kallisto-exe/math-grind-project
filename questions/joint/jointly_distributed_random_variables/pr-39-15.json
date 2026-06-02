@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-15",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.15",
+  "question": "The future lifetimes (in months) of two components of a machine have the following joint density function: $f_{XY}(x, y) = \\begin{cases} \\frac{6}{125000}(50 - x - y) & 0 < x < 50 - y < 50 \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is the probability that both components are still functioning 20 months from now?",
+  "answer": "0.008",
+  "explanation": "Answer: 0.008",
+  "source": "Finan §39 — Practice Problem 39.15"
+}

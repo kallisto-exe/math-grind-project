@@ -1,0 +1,13 @@
+{
+  "id": "ex-8-3",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 3,
+  "subtopic": "Worked Example 8.3",
+  "question": "Construct the probability tree of the experiment of flipping a fair coin twice.",
+  "answer": "",
+  "explanation": "The probability tree is shown in Figure 8.1 Figure 8.1 The probabilities shown in Figure 8.1 are obtained by following the paths leading to each of the four outcomes and multiplying the probabilities along the paths. This procedure is an instance of the following general property. Multiplication Rule for Probabilities for Tree Diagrams For all multistage experiments, the probability of the outcome along any path of a tree diagram is equal to the product of all the probabilities along the path.",
+  "source": "Finan §8 — Worked Example 8.3"
+}

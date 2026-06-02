@@ -1,0 +1,13 @@
+{
+  "id": "ex-33-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 4,
+  "subtopic": "Worked Example 33.3",
+  "question": "Suppose that $X$ has a uniform distribution on the interval $(0, a)$, where $a > 0$. Find $\\Pr(X > X^2)$.",
+  "answer": "",
+  "explanation": "If $a \\le 1$ then $\\Pr(X > X^2) = \\int_0^a \\frac{1}{a}\\,dx = 1$. If $a > 1$ then $\\Pr(X > X^2) = \\int_0^1 \\frac{1}{a}\\,dx = \\frac{1}{a}$. Thus, $\\Pr(X > X^2) = \\min\\left\\{1, \\frac{1}{a}\\right\\}$. The expected value of $X$ is $E(X) = \\int_a^b x f(x)\\,dx = \\int_a^b \\frac{x}{b-a}\\,dx = \\left. \\frac{x^2}{2(b-a)} \\right|_a^b = \\frac{b^2 - a^2}{2(b-a)} = \\frac{a + b}{2}$ and so the expected value of a uniform random variable is halfway between $a$ and $b$. The second moment about the origin is $E(X^2) = \\int_a^b \\frac{x^2}{b-a}\\,dx = \\left. \\frac{x^3}{3(b-a)} \\right|_a^b = \\frac{b^3 - a^3}{3(b-a)} = \\frac{a^2 + b^2 + ab}{3}$. The variance of $X$ is $\\mathrm{Var}(X) = E(X^2) - (E(X))^2 = \\frac{a^2 + b^2 + ab}{3} - \\frac{(a + b)^2}{4} = \\frac{(b-a)^2}{12}$.",
+  "source": "Finan §33 — Worked Example 33.3"
+}

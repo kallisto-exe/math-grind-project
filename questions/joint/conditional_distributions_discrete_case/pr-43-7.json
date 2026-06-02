@@ -1,0 +1,13 @@
+{
+  "id": "pr-43-7",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 43.7",
+  "question": "Let $X$ and $Y$ have the joint probability function $p_{XY}(x,y)$ described as follows: X\\Y | 0 | 1 | $p_X(x)$; 0 | 1/18 | 3/18 | 4/18; 1 | 4/18 | 3/18 | 7/18; 2 | 6/18 | 1/18 | 7/18; $p_Y(y)$ | 11/18 | 7/18 | 1. Find $p_{X|Y}(x|y)$ and $p_{Y|X}(y|x)$.",
+  "answer": "$p_{X|Y}(x|0) = \\frac{p_{XY}(x, 0)}{p_Y(0)} = \\begin{cases} 1/11 & x = 0 \\\\ 4/11 & x = 1 \\\\ 6/11 & x = 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ $p_{X|Y}(x|1) = \\frac{p_{XY}(x, 1)}{p_Y(1)} = \\begin{cases} 3/7 & x = 0 \\\\ 3/7 & x = 1 \\\\ 1/7 & x = 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ The conditional probability distribution for $Y$ given $X = x$ is $p_{Y|X}(y|0) = \\frac{p_{XY}(0, y)}{p_X(0)} = \\begin{cases} 1/4 & y = 0 \\\\ 3/4 & y = 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ $p_{Y|X}(y|1) = \\frac{p_{XY}(1, y)}{p_X(1)} = \\begin{cases} 4/7 & y = 0 \\\\ 3/7 & y = 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ $p_{Y|X}(y|2) = \\frac{p_{XY}(2, y)}{p_X(2)} = \\begin{cases} 6/7 & y = 0 \\\\ 1/7 & y = 1 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "explanation": "Answer: $p_{X|Y}(x|0) = \\frac{p_{XY}(x, 0)}{p_Y(0)} = \\begin{cases} 1/11 & x = 0 \\\\ 4/11 & x = 1 \\\\ 6/11 & x = 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ $p_{X|Y}(x|1) = \\frac{p_{XY}(x, 1)}{p_Y(1)} = \\begin{cases} 3/7 & x = 0 \\\\ 3/7 & x = 1 \\\\ 1/7 & x = 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ The conditional probability distribution for $Y$ given $X = x$ is $p_{Y|X}(y|0) = \\frac{p_{XY}(0, y)}{p_X(0)} = \\begin{cases} 1/4 & y = 0 \\\\ 3/4 & y = 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ $p_{Y|X}(y|1) = \\frac{p_{XY}(1, y)}{p_X(1)} = \\begin{cases} 4/7 & y = 0 \\\\ 3/7 & y = 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ $p_{Y|X}(y|2) = \\frac{p_{XY}(2, y)}{p_X(2)} = \\begin{cases} 6/7 & y = 0 \\\\ 1/7 & y = 1 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "source": "Finan §43 — Practice Problem 43.7"
+}

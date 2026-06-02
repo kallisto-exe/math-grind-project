@@ -1,0 +1,13 @@
+{
+  "id": "ex-47-1",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 5,
+  "subtopic": "Worked Example 47.1",
+  "question": "Given that $E(X) = 5$, $E(X^2) = 27.4$, $E(Y) = 7$, $E(Y^2) = 51.4$ and $\\mathrm{Var}(X + Y) = 8$, find $\\mathrm{Cov}(X+Y, X+1.2Y)$.",
+  "answer": "",
+  "explanation": "By definition, $$\\mathrm{Cov}(X+Y, X+1.2Y) = E((X+Y)(X+1.2Y)) - E(X+Y)E(X+1.2Y)$$ Using the properties of expectation and the given data, we get $E(X+Y)E(X+1.2Y) = (5+7)(5+(1.2)\\cdot 7) = 160.8$ and $E((X+Y)(X+1.2Y)) = 27.4 + 2.2E(XY) + (1.2)(51.4) = 2.2E(XY) + 89.08$. Thus, $$\\mathrm{Cov}(X+Y, X+1.2Y) = 2.2E(XY) + 89.08 - 160.8 = 2.2E(XY) - 71.72$$ To complete the calculation, it remains to find $E(XY)$. To this end we make use of the still unused relation $\\mathrm{Var}(X+Y) = 8$: $$8 = \\mathrm{Var}(X+Y) = E((X+Y)^2) - (E(X+Y))^2$$ so $E(XY) = 36.6$. Substituting this above gives $\\mathrm{Cov}(X+Y, X+1.2Y) = (2.2)(36.6) - 71.72 = 8.8$",
+  "source": "Finan §47 — Worked Example 47.1"
+}

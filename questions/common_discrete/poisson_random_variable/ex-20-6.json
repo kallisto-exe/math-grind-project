@@ -1,0 +1,13 @@
+{
+  "id": "ex-20-6",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 4,
+  "subtopic": "Worked Example 20.6",
+  "question": "Let $X$ represent the number of customers arriving during the morning hours and let $Y$ represent the number of customers arriving during the afternoon hours at a diner. You are given: (i) $X$ and $Y$ are Poisson distributed. (ii) The first moment of $X$ is less than the first moment of $Y$ by 8. (iii) The second moment of $X$ is 60% of the second moment of $Y$. Calculate the variance of $Y$.",
+  "answer": "",
+  "explanation": "We have $E(X^2) = \\mathrm{Var}(X) + E(X)^2 = E(X) + E(X)^2 = 0.6E(Y^2) = 0.6(E(Y) + E(Y)^2)$. Hence, this yields the quadratic equation $0.4E(Y)^2 - 15.5E(Y) + 56 = 0$ whose roots are $E(Y) = 4$ and $E(Y) = 35$. The value $E(Y) = 4$ yields $E(X) = 4 - 8 = -4$ which is impossible since the expected value of a Poisson random variable is always positive. Hence, $E(Y) = 35$",
+  "source": "Finan §20 — Worked Example 20.6"
+}

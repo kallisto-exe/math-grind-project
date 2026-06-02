@@ -1,0 +1,13 @@
+{
+  "id": "ex-41-2",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 5,
+  "subtopic": "Worked Example 41.2",
+  "question": "Let $X$ and $Y$ be two independent Poisson random variables with respective parameters $\\lambda_1$ and $\\lambda_2$. Compute the pmf of $X+Y$.",
+  "answer": "",
+  "explanation": "For every positive integer we have $\\{X+Y=n\\} = \\bigcup_{k=0}^{n} A_k$ where $A_k = \\{X=k, Y=n-k\\}$ for $0 \\le k \\le n$. Moreover, $A_i \\cap A_j = \\emptyset$ for $i \\ne j$. Thus, $$p_{X+Y}(n) = \\Pr(X+Y=n) = \\sum_{k=0}^{n} \\Pr(X=k, Y=n-k) = \\sum_{k=0}^{n} \\Pr(X=k)\\Pr(Y=n-k) = \\sum_{k=0}^{n} e^{-\\lambda_1}\\frac{\\lambda_1^k}{k!} e^{-\\lambda_2} \\frac{\\lambda_2^{n-k}}{(n-k)!} = e^{-(\\lambda_1+\\lambda_2)} \\sum_{k=0}^{n} \\frac{\\lambda_1^k \\lambda_2^{n-k}}{k!(n-k)!} = \\frac{e^{-(\\lambda_1+\\lambda_2)}}{n!} \\sum_{k=0}^{n} \\frac{n!}{k!(n-k)!}\\lambda_1^k \\lambda_2^{n-k} = \\frac{e^{-(\\lambda_1+\\lambda_2)}}{n!} (\\lambda_1+\\lambda_2)^n$$ Thus, $X+Y$ is a Poisson random variable with parameter $\\lambda_1+\\lambda_2$.",
+  "source": "Finan §41 — Worked Example 41.2"
+}

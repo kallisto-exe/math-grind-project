@@ -1,0 +1,13 @@
+{
+  "id": "ex-6-2",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 3,
+  "subtopic": "Worked Example 6.2",
+  "question": "Consider the sample space $S = \\{1, 2, 3\\}$. Suppose that $\\Pr(\\{1, 2\\}) = 0.5$ and $\\Pr(\\{2, 3\\}) = 0.7$. Is $\\Pr$ a valid probability measure? Justify your answer.",
+  "answer": "",
+  "explanation": "We have $\\Pr(\\{1\\}) + \\Pr(\\{2\\}) + \\Pr(\\{3\\}) = 1$. But $\\Pr(\\{1, 2\\}) = \\Pr(\\{1\\}) + \\Pr(\\{2\\}) = 0.5$. This implies that $0.5 + \\Pr(\\{3\\}) = 1$ or $\\Pr(\\{3\\}) = 0.5$. Similarly, $1 = \\Pr(\\{2, 3\\}) + \\Pr(\\{1\\}) = 0.7 + \\Pr(\\{1\\})$ and so $\\Pr(\\{1\\}) = 0.3$. It follows that $\\Pr(\\{2\\}) = 1 - \\Pr(\\{1\\}) - \\Pr(\\{3\\}) = 1 - 0.3 - 0.5 = 0.2$. Since $\\Pr(\\{1\\}) + \\Pr(\\{2\\}) + \\Pr(\\{3\\}) = 1$, $\\Pr$ is a valid probability measure.",
+  "source": "Finan §6 — Worked Example 6.2"
+}

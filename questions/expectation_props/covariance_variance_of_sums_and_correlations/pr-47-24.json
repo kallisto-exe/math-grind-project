@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-24",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.24",
+  "question": "Let $X$ and $Y$ be discrete random variables with joint probability function $p_{XY}(x,y)$ given by the following table: X\\Y 0 1 $p_X(x)$ 0 0 0.20 0.20 1 0.40 0.20 0.60 2 0.20 0 0.20 $p_Y(y)$ 0.60 0.40 1 Find the variance of $Y-X$.",
+  "answer": "1.04",
+  "explanation": "Answer: 1.04",
+  "source": "Finan §47 — Practice Problem 47.24"
+}

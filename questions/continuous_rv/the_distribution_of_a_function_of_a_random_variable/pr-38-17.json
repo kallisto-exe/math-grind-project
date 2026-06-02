@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-17",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.17",
+  "question": "Let $X$ be a continuous random variable with density function $f(x) = \\begin{cases} 1 - |x| & -1 < x < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$. Find the density function of $Y = X^2$.",
+  "answer": "$f_Y(y) = \\frac{1}{\\sqrt{y}} - 1$, $0 < y \\le 1$",
+  "explanation": "Answer: $f_Y(y) = \\frac{1}{\\sqrt{y}} - 1$, $0 < y \\le 1$.",
+  "source": "Finan §38 — Practice Problem 38.17"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.3",
+  "question": "Let $X$ and $Y$ be independent random variables each geometrically distributed with parameter $p$, i.e. $p_X(n) = p_Y(n) = \\begin{cases} p(1-p)^{n-1} & n = 1, 2, \\dots \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find the probability mass function of $X+Y$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §41 — Practice Problem 41.3"
+}

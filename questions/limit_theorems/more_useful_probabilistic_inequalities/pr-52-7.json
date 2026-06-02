@@ -1,0 +1,13 @@
+{
+  "id": "pr-52-7",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 52.7",
+  "question": "Let $X$ be a random variable. Show the following (a) $E(X^2) \\ge [E(X)]^2$. (b) If $X \\ge 0$ then $E\\left(\\frac{1}{X}\\right) \\ge \\frac{1}{E(X)}$. (c) If $X > 0$ then $-E[\\ln X] \\ge -\\ln[E(X)]$",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §52 — Practice Problem 52.7"
+}

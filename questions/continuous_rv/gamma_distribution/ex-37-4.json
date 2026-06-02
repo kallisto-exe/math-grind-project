@@ -1,0 +1,13 @@
+{
+  "id": "ex-37-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 4,
+  "subtopic": "Worked Example 37.4",
+  "question": "On average, it takes you 35 minutes to hunt a duck. Suppose that you want to bring home exactly 3 ducks. What is the probability you will need between 1 and 2 hours to hunt them?",
+  "answer": "",
+  "explanation": "Let X be the time in minutes to hunt the 3 ducks. Then X is a gamma random variable with $\\lambda = \\frac{1}{35}$ duck per minute and $\\alpha = 3$ ducks. Thus, $\\Pr(60 < X < 120) = \\int_{60}^{120} \\frac{1}{85750}e^{-x/35}x^2\\,dx \\approx 0.419$ where we used (37.1)",
+  "source": "Finan §37 — Worked Example 37.4"
+}

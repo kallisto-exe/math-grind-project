@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-8",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.8",
+  "question": "The probability that a randomly chosen male has a circulation problem is 0.25. Males who have a circulation problem are twice as likely to be smokers as those who do not have a circulation problem. What is the conditional probability that a male has a circulation problem, given that he is a smoker?",
+  "answer": "0.4",
+  "explanation": "Answer: 0.4",
+  "source": "Finan §10 — Practice Problem 10.8"
+}

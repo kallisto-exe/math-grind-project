@@ -1,1 +1,0 @@
-{"id":"prob-dist-003","subject":"Probability","topic":"Random Variables & Distributions","subtopic":"Normal Distribution","difficulty":"intermediate","question":"If X ~ N(μ, σ^2), what is E[X^2]?","options":{"A":"μ^2","B":"σ^2","C":"μ^2 + σ^2","D":"μ^2 - σ^2"},"answer":"C","explanation":"Var(X) = E[X^2]-(E[X])^2, so E[X^2] = σ^2+μ^2."}

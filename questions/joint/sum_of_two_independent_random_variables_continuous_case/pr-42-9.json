@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-9",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.9",
+  "question": "Let $X$ and $Y$ be independent random variables with density functions $f_X(x) = \\begin{cases} \\frac{1}{2} & 0 < x < 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ $f_Y(y) = \\begin{cases} \\frac{y}{2} & 0 < y < 2 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find the probability density function of $X + Y$.",
+  "answer": "If $0 < a \\le 2$ then $f_{X+Y}(a) = \\frac{a^2}{8}$. If $2 < a < 4$ then $f_{X+Y}(a) = -\\frac{a^2}{8} + a$ and 0 otherwise.",
+  "explanation": "Answer: If $0 < a \\le 2$ then $f_{X+Y}(a) = \\frac{a^2}{8}$. If $2 < a < 4$ then $f_{X+Y}(a) = -\\frac{a^2}{8} + a$ and 0 otherwise.",
+  "source": "Finan §42 — Practice Problem 42.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-2",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.2",
+  "question": "Let $X$ and $Y$ be random variables with joint pdf $f_{XY}(x,y) = \\begin{cases} 1 & 0 < x < 1, x < y < x + 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find $E(XY)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §46 — Practice Problem 46.2"
+}

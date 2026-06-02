@@ -1,0 +1,13 @@
+{
+  "id": "ex-9-2",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 3,
+  "subtopic": "Worked Example 9.2",
+  "question": "The probability of a applicant to be admitted to a certain college is 0.8. The probability for a student in the college to live on campus is 0.6. What is the probability that an applicant will be admitted to the college and will be assigned a dormitory housing?",
+  "answer": "",
+  "explanation": "The probability of the applicant being admitted and receiving dormitory housing is defined by $\\Pr(\\text{Accepted and Housing}) = \\Pr(\\text{Housing} \\mid \\text{Accepted})\\Pr(\\text{Accepted}) = (0.6)(0.8) = 0.48$ Equation (9.1) can be generalized to any finite number of events. Theorem 9.1 Consider $n$ events $A_1, A_2, \\ldots, A_n$. Then $\\Pr(A_1 \\cap A_2 \\cap \\ldots \\cap A_n) = \\Pr(A_1)\\Pr(A_2 \\mid A_1)\\Pr(A_3 \\mid A_1 \\cap A_2) \\ldots \\Pr(A_n \\mid A_1 \\cap A_2 \\cap \\ldots \\cap A_{n-1})$ Proof. The proof is by induction on $n \\ge 2$. By Equation (9.1), the relation holds for $n = 2$. Suppose that the relation is true for $2, 3, \\ldots, n$. We wish to establish $\\Pr(A_1 \\cap A_2 \\cap \\ldots \\cap A_{n+1}) = \\Pr(A_1)\\Pr(A_2 \\mid A_1)\\Pr(A_3 \\mid A_1 \\cap A_2) \\ldots \\Pr(A_{n+1} \\mid A_1 \\cap A_2 \\cap \\ldots \\cap A_n)$ We have $\\Pr(A_1 \\cap A_2 \\cap \\ldots \\cap A_{n+1}) = \\Pr((A_1 \\cap A_2 \\cap \\ldots \\cap A_n) \\cap A_{n+1}) = \\Pr(A_{n+1} \\mid A_1 \\cap A_2 \\cap \\ldots \\cap A_n)\\Pr(A_1 \\cap A_2 \\cap \\ldots \\cap A_n) = \\Pr(A_{n+1} \\mid A_1 \\cap A_2 \\cap \\ldots \\cap A_n)\\Pr(A_1)\\Pr(A_2 \\mid A_1)\\Pr(A_3 \\mid A_1 \\cap A_2) \\ldots \\Pr(A_n \\mid A_1 \\cap A_2 \\cap \\ldots \\cap A_{n-1}) = \\Pr(A_1)\\Pr(A_2 \\mid A_1)\\Pr(A_3 \\mid A_1 \\cap A_2) \\ldots \\Pr(A_n \\mid A_1 \\cap A_2 \\cap \\ldots \\cap A_{n-1}) \\times \\Pr(A_{n+1} \\mid A_1 \\cap A_2 \\cap \\ldots \\cap A_n)$",
+  "source": "Finan §9 — Worked Example 9.2"
+}

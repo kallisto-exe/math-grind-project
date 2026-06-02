@@ -1,0 +1,13 @@
+{
+  "id": "pr-51-9",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 51.9",
+  "question": "Let $X_1, X_2, \\dots, X_n$ be $n$ independent random variables each with mean 100 and standard deviation 30. Let $X$ be the sum of these random variables. Find $n$ such that $\\Pr(X > 2000) \\ge 0.95$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §51 — Practice Problem 51.9"
+}

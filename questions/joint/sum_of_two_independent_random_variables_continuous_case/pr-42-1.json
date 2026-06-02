@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.1",
+  "question": "Let $X$ be an exponential random variable with parameter $\\lambda$ and $Y$ be an exponential random variable with parameter $2\\lambda$ independent of $X$. Find the probability density function of $X + Y$.",
+  "answer": "$f_{X+Y}(a) = \\begin{cases} 2\\lambda e^{-\\lambda a}(1 - e^{-\\lambda a}) & 0 \\le a \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "explanation": "Answer: $f_{X+Y}(a) = \\begin{cases} 2\\lambda e^{-\\lambda a}(1 - e^{-\\lambda a}) & 0 \\le a \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "source": "Finan §42 — Practice Problem 42.1"
+}

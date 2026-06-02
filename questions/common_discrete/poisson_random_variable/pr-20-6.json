@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-6",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.6",
+  "question": "Suppose that the number of car accidents on a certain section of a highway can be modeled by a random variable having Poisson distribution with standard deviation $\\sigma = 2$. What is the probability that there are at least three accidents?",
+  "answer": "$0.761897$",
+  "explanation": "Answer: $0.761897$",
+  "source": "Finan §20 — Practice Problem 20.6"
+}

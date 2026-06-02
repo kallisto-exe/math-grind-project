@@ -1,0 +1,13 @@
+{
+  "id": "ex-31-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 4,
+  "subtopic": "Worked Example 31.6",
+  "question": "A manufacturer's annual losses follow a distribution with density function $f(x) = \\begin{cases} \\frac{2.5(0.6)^{2.5}}{x^{3.5}} & x > 0.6 \\\\ 0 & \\text{otherwise.} \\end{cases}$ To cover its losses, the manufacturer purchases an insurance policy with an annual deductible of 2. What is the mean of the manufacturer's annual losses not paid by the insurance policy?",
+  "answer": "",
+  "explanation": "Let $Y$ denote the manufacturer's retained annual losses. Then $Y = \\begin{cases} X & 0.6 < X \\le 2 \\\\ 2 & X > 2 \\end{cases}$ Therefore, $E(Y) = \\int_{0.6}^2 x\\left[\\frac{2.5(0.6)^{2.5}}{x^{3.5}}\\right] dx + \\int_2^\\infty 2\\left[\\frac{2.5(0.6)^{2.5}}{x^{3.5}}\\right] dx = \\int_{0.6}^2 \\left[\\frac{2.5(0.6)^{2.5}}{x^{2.5}}\\right] dx - \\frac{2(0.6)^{2.5}}{x^{2.5}}\\Big|_2^\\infty = -\\frac{2.5(0.6)^{2.5}}{1.5 x^{1.5}}\\Big|_{0.6}^2 + \\frac{2(0.6)^{2.5}}{2^{2.5}} = -\\frac{2.5(0.6)^{2.5}}{1.5(2)^{1.5}} + \\frac{2.5(0.6)^{2.5}}{1.5(0.6)^{1.5}} + \\frac{2(0.6)^{2.5}}{2^{2.5}} \\approx 0.9343$. The variance of a random variable is a measure of the \"spread\" of the random variable about its expected value. In essence, it tells us how much variation there is in the values of the random variable from its mean value. The variance of the random variable $X$, is determined by calculating the expectation of the function $g(X) = (X - E(X))^2$. That is, $\\mathrm{Var}(X) = E\\left[(X - E(X))^2\\right]$. Theorem 31.3 (a) An alternative formula for the variance is given by $\\mathrm{Var}(X) = E(X^2) - [E(X)]^2$. (b) For any constants $a$ and $b$, $\\mathrm{Var}(aX + b) = a^2 \\mathrm{Var}(X)$. Proof. (a) By Theorem 31.2 we have $\\mathrm{Var}(X) = \\int_{-\\infty}^\\infty (x - E(X))^2 f(x)\\,dx = \\int_{-\\infty}^\\infty (x^2 - 2xE(X) + (E(X))^2) f(x)\\,dx = \\int_{-\\infty}^\\infty x^2 f(x)\\,dx - 2E(X)\\int_{-\\infty}^\\infty x f(x)\\,dx + (E(X))^2 \\int_{-\\infty}^\\infty f(x)\\,dx = E(X^2) - (E(X))^2$. (b) We have $\\mathrm{Var}(aX + b) = E[(aX + b - E(aX + b))^2] = E[a^2(X - E(X))^2] = a^2 \\mathrm{Var}(X)$",
+  "source": "Finan §31 — Worked Example 31.6"
+}

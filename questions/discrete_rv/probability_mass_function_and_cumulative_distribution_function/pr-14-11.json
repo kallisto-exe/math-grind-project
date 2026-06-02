@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-11",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.11",
+  "question": "A lottery game consists of matching three numbers drawn (without replacement) from a set of 15 numbers. Let $X$ denote the random variable representing the numbers on your tickets that match the winning numbers. Find the cumulative distribution of $X$.",
+  "answer": "$p(0) = \\frac{220}{455}$, $p(1) = \\frac{198}{455}$, $p(2) = \\frac{36}{455}$, $p(3) = \\frac{1}{455}$",
+  "explanation": "Answer: $p(0) = \\frac{220}{455}$, $p(1) = \\frac{198}{455}$, $p(2) = \\frac{36}{455}$, $p(3) = \\frac{1}{455}$",
+  "source": "Finan §14 — Practice Problem 14.11"
+}

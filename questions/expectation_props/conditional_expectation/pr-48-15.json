@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-15",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.15",
+  "question": "Let $X$ be a random variable with mean 3 and variance 2, and let $Y$ be a random variable such that for every $x$, the conditional distribution of $Y$ given $X = x$ has a mean of $x$ and a variance of $x^2$. What is the variance of the marginal distribution of $Y$?",
+  "answer": "13",
+  "explanation": "Answer: 13",
+  "source": "Finan §48 — Practice Problem 48.15"
+}

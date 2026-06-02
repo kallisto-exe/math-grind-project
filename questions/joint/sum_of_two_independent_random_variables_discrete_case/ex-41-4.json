@@ -1,0 +1,13 @@
+{
+  "id": "ex-41-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 5,
+  "subtopic": "Worked Example 41.4",
+  "question": "Two biased coins are being flipped repeatedly. The probability that coin 1 comes up heads is $\\frac{1}{4}$, while that of coin 2 is $\\frac{3}{4}$. Each coin is being flipped until a head comes up. What is the pmf of the total number of flips until both coins come up heads?",
+  "answer": "",
+  "explanation": "Let $X$ and $Y$ be the number of flips of coins 1 and 2 to come up heads for the first time. Then, $X+Y$ is the total number of flips until both coins come up heads for the first time. The random variables $X$ and $Y$ are independent geometric random variables with parameters $1/4$ and $3/4$, respectively. By convolution, we have $$p_{X+Y}(n) = \\sum_{k=1}^{n-1} \\left(\\frac{3}{4}\\right)^{k-1}\\frac{3}{4}\\left(\\frac{1}{4}\\right)^{n-k-1}\\frac{1}{4} = \\frac{1}{4^n} \\sum_{k=1}^{n-1} 3^k = \\frac{3(3^{n-1}-1)}{4^n}$$",
+  "source": "Finan §41 — Worked Example 41.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-11",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.11",
+  "question": "Ashley finds that she beats Carla in tennis 70% of the time. The two play 3 times in a particular month. Assuming independence of outcomes, what is the probability Ashley wins at least 2 of the 3 matches?",
+  "answer": "0.784",
+  "explanation": "Answer: 0.784",
+  "source": "Finan §18 — Practice Problem 18.11"
+}

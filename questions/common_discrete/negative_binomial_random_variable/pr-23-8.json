@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-8",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.8",
+  "question": "Somehow waiters at a cafe are extremely distracted today and are mixing orders giving customers decaf coﬀee when they ordered regular coﬀee. Suppose that there is 60% chance of making such a mistake in the order. What is the probability of getting the second decaf on the seventh order of regular coﬀee?",
+  "answer": "$0.022$",
+  "explanation": "Answer: $0.022$",
+  "source": "Finan §23 — Practice Problem 23.8"
+}

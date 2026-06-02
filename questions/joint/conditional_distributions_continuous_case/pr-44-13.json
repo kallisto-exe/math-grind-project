@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-13",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.13",
+  "question": "Let $Y$ have a uniform distribution on the interval $(0, 1)$, and let the conditional distribution of $X$ given $Y = y$ be uniform on the interval $(0, \\sqrt{y})$. What is the marginal density function of $X$ for $0 < x < 1$?",
+  "answer": "$f_X(x) = \\int_{x^2}^{1} \\frac{1}{\\sqrt{y}}\\,dy = 2(1-x)$, $0 < x < 1$ and 0 otherwise",
+  "explanation": "Answer: $f_X(x) = \\int_{x^2}^{1} \\frac{1}{\\sqrt{y}}\\,dy = 2(1-x)$, $0 < x < 1$ and 0 otherwise",
+  "source": "Finan §44 — Practice Problem 44.13"
+}

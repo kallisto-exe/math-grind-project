@@ -1,0 +1,13 @@
+{
+  "id": "ex-3-5",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 2,
+  "subtopic": "Worked Example 3.5",
+  "question": "How many license-plates with 3 letters followed by 3 digits exist if exactly one of the digits is 1?",
+  "answer": "",
+  "explanation": "In this case, we must pick a place for the 1 digit, and then the remaining digit places must be populated from the digits $\\{0, 2, \\dots 9\\}$. A 6-step process: (1) Choose the first letter, (2) choose the second letter, (3) choose the third letter, (4) choose which of three positions the 1 goes, (5) choose the first of the other digits, and (6) choose the second of the other digits. Every step can be done in a number of ways that does not depend on previous choices, and each license plate can be specified in this manner. So there are $26 \\cdot 26 \\cdot 26 \\cdot 3 \\cdot 9 \\cdot 9 = 4{,}270{,}968$ ways",
+  "source": "Finan §3 — Worked Example 3.5"
+}

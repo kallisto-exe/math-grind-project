@@ -1,0 +1,13 @@
+{
+  "id": "pr-19-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§19 The Expected Value and Variance of the Binomial Distribution",
+  "section": 19,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 19.2",
+  "question": "A tour operator has a bus that can accommodate 20 tourists. The operator knows that tourists may not show up, so he sells 21 tickets. The probability that an individual tourist will not show up is 0.02, independent of all other tourists. Each ticket costs 50, and is non-refundable if a tourist fails to show up. If a tourist shows up and a seat is not available, the tour operator has to pay 100 (ticket cost + 50 penalty) to the tourist. What is the expected revenue of the tour operator?",
+  "answer": "$985",
+  "explanation": "Answer: $985",
+  "source": "Finan §19 — Practice Problem 19.2"
+}

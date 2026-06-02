@@ -1,0 +1,13 @@
+{
+  "id": "ex-45-2",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 5,
+  "subtopic": "Worked Example 45.2",
+  "question": "Let $X$ and $Y$ be jointly continuous random variables with density function $f_{XY}(x, y) = \\frac{1}{2\\pi} e^{-\\frac{x^2 + y^2}{2}}$. Let $U = X + Y$ and $V = X - Y$. Find the joint density function of $U$ and $V$.",
+  "answer": "",
+  "explanation": "Since $J(x, y) = -2$ we have $f_{UV}(u, v) = \\frac{1}{4\\pi} e^{-\\frac{\\left(\\frac{u+v}{2}\\right)^2 + \\left(\\frac{u-v}{2}\\right)^2}{2}} = \\frac{1}{4\\pi} e^{-\\frac{u^2 + v^2}{4}}$",
+  "source": "Finan §45 — Worked Example 45.2"
+}

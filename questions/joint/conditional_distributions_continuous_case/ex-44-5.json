@@ -1,0 +1,13 @@
+{
+  "id": "ex-44-5",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 5,
+  "subtopic": "Worked Example 44.5",
+  "question": "Let $X$ and $Y$ be two continuous random variables with joint density function $f_{XY}(x,y) = \\begin{cases} \\frac{1}{2} & 0 \\le y < x \\le 2 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find $f_X(x)$, $f_Y(y)$ and $f_{X|Y}(x|1)$. (b) Are $X$ and $Y$ independent?",
+  "answer": "",
+  "explanation": "(a) We have $f_X(x) = \\int_0^x \\frac{1}{2}\\,dy = \\frac{x}{2}$, $0 \\le x \\le 2$; $f_Y(y) = \\int_y^2 \\frac{1}{2}\\,dx = \\frac{1}{2}(2-y)$, $0 \\le y \\le 2$; and $f_{X|Y}(x|1) = \\frac{f_{XY}(x, 1)}{f_Y(1)} = 1$, $1 \\le x \\le 2$. (b) Since $f_{X|Y}(x|1) \\ne f_X(x)$, $X$ and $Y$ are dependent",
+  "source": "Finan §44 — Worked Example 44.5"
+}

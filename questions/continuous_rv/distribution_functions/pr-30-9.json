@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-9",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.9",
+  "question": "The loss due to a fire in a commercial building is modeled by a random variable $X$ with density function $f(x) = \\begin{cases} 0.005(20-x) & 0 < x < 20 \\\\ 0 & \\text{otherwise} \\end{cases}$ Given that a fire loss exceeds 8, what is the probability that it exceeds 16?",
+  "answer": "$\\frac{1}{9}$",
+  "explanation": "Answer: $\\frac{1}{9}$",
+  "source": "Finan §30 — Practice Problem 30.9"
+}

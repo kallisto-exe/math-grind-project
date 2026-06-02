@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.1",
+  "question": "Consider a biased coin with the probability of getting heads is 0.1. Let $X$ be the number of flips needed to get the 8th heads. (a) What is the probability of getting the 8th heads on the 50th toss? (b) Find the expected value and the standard deviation of $X$.",
+  "answer": "(a) $0.0103$ (b) $E(X) = 80$; $\\sigma_X = 26.833$",
+  "explanation": "Answer: (a) $0.0103$ (b) $E(X) = 80$; $\\sigma_X = 26.833$",
+  "source": "Finan §23 — Practice Problem 23.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.5",
+  "question": "Let $X$ be a normal random variable with mean 100 and standard deviation 15. Find $\\Pr(X > 130)$ given that $\\Phi(2) = 0.9772$.",
+  "answer": "0.0228",
+  "explanation": "Answer: 0.0228",
+  "source": "Finan §34 — Practice Problem 34.5"
+}

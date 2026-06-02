@@ -1,0 +1,13 @@
+{
+  "id": "pr-25-1",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 25.1",
+  "question": "In your pocket, you have 1 dime, 2 nickels, and 2 pennies. You select 2 coins at random (without replacement). Let $X$ represent the amount (in cents) that you select from your pocket. (a) Give (explicitly) the probability mass function for $X$. (b) Give (explicitly) the cdf, $F(x)$, for $X$. (c) How much money do you expect to draw from your pocket?",
+  "answer": "(a) $\\Pr(2) = \\frac{C(2,2)}{C(5,2)} = 0.1$, $\\Pr(6) = \\frac{C(2,1)C(2,1)}{C(5,2)} = 0.4$, $\\Pr(10) = \\frac{C(2,2)}{C(5,2)} = 0.1$, $\\Pr(11) = \\frac{C(1,1)C(2,1)}{C(5,2)} = 0.2$, $\\Pr(15) = \\frac{C(1,1)C(2,1)}{C(5,2)} = 0.2$ (b) $F(x) = \\begin{cases} 0 & x < 2 \\end{cases}$",
+  "explanation": "Answer: (a) $\\Pr(2) = \\frac{C(2,2)}{C(5,2)} = 0.1$, $\\Pr(6) = \\frac{C(2,1)C(2,1)}{C(5,2)} = 0.4$, $\\Pr(10) = \\frac{C(2,2)}{C(5,2)} = 0.1$, $\\Pr(11) = \\frac{C(1,1)C(2,1)}{C(5,2)} = 0.2$, $\\Pr(15) = \\frac{C(1,1)C(2,1)}{C(5,2)} = 0.2$ (b) $F(x) = \\begin{cases} 0 & x < 2 \\end{cases}$",
+  "source": "Finan §25 — Practice Problem 25.1"
+}

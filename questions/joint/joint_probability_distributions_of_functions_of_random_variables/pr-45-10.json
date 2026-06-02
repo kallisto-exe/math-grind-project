@@ -1,0 +1,13 @@
+{
+  "id": "pr-45-10",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 45.10",
+  "question": "Let $X$ and $Y$ be two random variables with joint density function $f_{XY}$. Compute the pdf of $U = Y - X$.",
+  "answer": "$f_{Y-X}(a) = \\int_{-\\infty}^{\\infty} f_{XY}(y - a, y)\\,dy$. If $X$ and $Y$ are independent then $f_{Y-X}(a) = \\int_{-\\infty}^{\\infty} f_X(y - a) f_Y(y)\\,dy = \\int_{-\\infty}^{\\infty} f_X(y) f_Y(a + y)\\,dy$. 45.11 $f_U(u) = \\int_{-\\infty}^{\\infty} |v| f_{XY}\\left(v, \\frac{u}{v}\\right)\\,dv$. If $X$ and $Y$ are independent then $f_U(u) = \\int_{-\\infty}^{\\infty} |v| f_X(v) f_Y\\left(\\frac{u}{v}\\right)\\,dv$",
+  "explanation": "Answer: $f_{Y-X}(a) = \\int_{-\\infty}^{\\infty} f_{XY}(y - a, y)\\,dy$. If $X$ and $Y$ are independent then $f_{Y-X}(a) = \\int_{-\\infty}^{\\infty} f_X(y - a) f_Y(y)\\,dy = \\int_{-\\infty}^{\\infty} f_X(y) f_Y(a + y)\\,dy$. 45.11 $f_U(u) = \\int_{-\\infty}^{\\infty} |v| f_{XY}\\left(v, \\frac{u}{v}\\right)\\,dv$. If $X$ and $Y$ are independent then $f_U(u) = \\int_{-\\infty}^{\\infty} |v| f_X(v) f_Y\\left(\\frac{u}{v}\\right)\\,dv$",
+  "source": "Finan §45 — Practice Problem 45.10"
+}

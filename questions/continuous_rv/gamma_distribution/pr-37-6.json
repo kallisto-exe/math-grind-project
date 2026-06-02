@@ -1,0 +1,13 @@
+{
+  "id": "pr-37-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 37.6",
+  "question": "Let X be the standard normal distribution. Show that $X^2$ is a gamma distribution with $\\alpha = \\lambda = \\frac{1}{2}$.",
+  "answer": "For $t\\ge 0$ we have $F_{X^2}(t) = \\Pr(X^2\\le t) = \\Pr(-\\sqrt{t} < X < \\sqrt{t}) = \\Phi(\\sqrt{t})-\\Phi(-\\sqrt{t})$. Now, taking the derivative (and using the chain rule) we find $f_{X^2}(t) = \\frac{1}{2\\sqrt{t}}\\Phi'(\\sqrt{t}) + \\frac{1}{2\\sqrt{t}}\\Phi'(-\\sqrt{t}) = \\frac{1}{\\sqrt{t}}\\Phi'(\\sqrt{t}) = \\frac{1}{\\sqrt{2\\pi t}}e^{-t/2}$ which is the density function of a gamma distribution with $\\alpha = \\lambda = \\frac{1}{2}$",
+  "explanation": "Answer: For $t\\ge 0$ we have $F_{X^2}(t) = \\Pr(X^2\\le t) = \\Pr(-\\sqrt{t} < X < \\sqrt{t}) = \\Phi(\\sqrt{t})-\\Phi(-\\sqrt{t})$. Now, taking the derivative (and using the chain rule) we find $f_{X^2}(t) = \\frac{1}{2\\sqrt{t}}\\Phi'(\\sqrt{t}) + \\frac{1}{2\\sqrt{t}}\\Phi'(-\\sqrt{t}) = \\frac{1}{\\sqrt{t}}\\Phi'(\\sqrt{t}) = \\frac{1}{\\sqrt{2\\pi t}}e^{-t/2}$ which is the density function of a gamma distribution with $\\alpha = \\lambda = \\frac{1}{2}$",
+  "source": "Finan §37 — Practice Problem 37.6"
+}

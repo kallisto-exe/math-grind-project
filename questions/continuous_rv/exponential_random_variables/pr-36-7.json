@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-7",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.7",
+  "question": "The waiting time X (in minutes) of a train arrival to a station has an exponential distribution with mean 3 minutes. (a) What is the probability of having to wait 6 or more minutes for a train? (b) What is the probability of waiting between 4 and 7 minutes for a train? (c) What is the probability of having to wait at least 9 more minutes for the train given that you have already waited 3 minutes?",
+  "answer": "(a) 0.1353 (b) 0.167 (c) 0.05",
+  "explanation": "Answer: (a) 0.1353 (b) 0.167 (c) 0.05",
+  "source": "Finan §36 — Practice Problem 36.7"
+}

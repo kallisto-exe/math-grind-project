@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-2",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.2",
+  "question": "Suppose $X$ and $Y$ are two independent binomial random variables with respective parameters $(20, 0.2)$ and $(10, 0.2)$. Find the pmf of $X+Y$.",
+  "answer": "$p_{X+Y}(k) = \\binom{30}{k} 0.2^k 0.8^{30-k}$ for $0 \\le k \\le 30$ and 0 otherwise. 41.3 $p_{X+Y}(n) = (n-1)p^2(1-p)^{n-2}$, $n = 2, \\dots$ and $p_{X+Y}(a) = 0$ otherwise.",
+  "explanation": "Answer: $p_{X+Y}(k) = \\binom{30}{k} 0.2^k 0.8^{30-k}$ for $0 \\le k \\le 30$ and 0 otherwise. 41.3 $p_{X+Y}(n) = (n-1)p^2(1-p)^{n-2}$, $n = 2, \\dots$ and $p_{X+Y}(a) = 0$ otherwise.",
+  "source": "Finan §41 — Practice Problem 41.2"
+}

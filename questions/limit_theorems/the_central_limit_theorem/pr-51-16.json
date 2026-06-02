@@ -1,0 +1,13 @@
+{
+  "id": "pr-51-16",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 51.16",
+  "question": "(a) Give the approximate sampling distribution for the following quantity based on random samples of independent observations: $\\overline{X} = \\frac{\\sum_{i=1}^{100} X_i}{100}$, $E(X_i) = 100$, $\\operatorname{Var}(X_i) = 400$. (b) What is the approximate probability the sample mean will be between 96 and 104?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §51 — Practice Problem 51.16"
+}

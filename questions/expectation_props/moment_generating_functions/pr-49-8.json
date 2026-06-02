@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-8",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.8",
+  "question": "Identify the random variable whose moment generating function is given by $M_X(t) = \\left(\\frac{3}{4}e^t + \\frac{1}{4}\\right)^{15}$.",
+  "answer": "This is a binomial random variable with $p = \\frac{3}{4}$ and $n = 15$. 49.9 $Y$ has the same distribution as $3X - 2$ where $X$ is a binomial distribution with $n = 15$ and $p = \\frac{3}{4}$.",
+  "explanation": "Answer: This is a binomial random variable with $p = \\frac{3}{4}$ and $n = 15$. 49.9 $Y$ has the same distribution as $3X - 2$ where $X$ is a binomial distribution with $n = 15$ and $p = \\frac{3}{4}$.",
+  "source": "Finan §49 — Practice Problem 49.8"
+}

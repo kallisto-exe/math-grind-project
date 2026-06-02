@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-9",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.9",
+  "question": "The expected weekly sale of computers by a store is 50. Suppose that on Monday the store has 75 computers. What can be said about the probability of not having enough computers left by the end of the week?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.9"
+}

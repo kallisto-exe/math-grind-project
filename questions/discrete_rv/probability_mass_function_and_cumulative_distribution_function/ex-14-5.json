@@ -1,0 +1,13 @@
+{
+  "id": "ex-14-5",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 3,
+  "subtopic": "Worked Example 14.5",
+  "question": "Consider the following probability mass distribution $x$: 1, 2, 3, 4; $p(x)$: 0.25, 0.5, 0.125, 0.125. Find a formula for $F(x)$ and sketch its graph.",
+  "answer": "",
+  "explanation": "The cdf is given by $F(x) = \\begin{cases} 0 & x < 1 \\\\ 0.25 & 1 \\le x < 2 \\\\ 0.75 & 2 \\le x < 3 \\\\ 0.875 & 3 \\le x < 4 \\\\ 1 & 4 \\le x \\end{cases}$. Its graph is given in Figure 14.3. Note that the size of the step at any of the values 1, 2, 3, 4 is equal to the probability that $X$ assumes that particular value. That is, we have Theorem 14.1: If the range of a discrete random variable $X$ consists of the values $x_1 < x_2 < \\ldots < x_n$ then $p(x_1) = F(x_1)$ and $p(x_i) = F(x_i) - F(x_{i-1})$, $i = 2, 3, \\ldots, n$. Proof. Because $F(x) = 0$ for $x < x_1$ then $F(x_1) = \\Pr(X \\le x_1) = \\Pr(X < x_1) + \\Pr(X = x_1) = \\Pr(X = x_1) = p(x_1)$. Now, for $i = 2, 3, \\ldots, n$, let $A = \\{s \\in S : X(s) > x_{i-1}\\}$ and $B = \\{s \\in S : X(s) \\le x_i\\}$. Thus, $A \\cup B = S$. We have $\\Pr(x_{i-1} < X \\le x_i) = \\Pr(A \\cap B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cup B) = 1 - F(x_{i-1}) + F(x_i) - 1 = F(x_i) - F(x_{i-1})$.",
+  "source": "Finan §14 — Worked Example 14.5"
+}

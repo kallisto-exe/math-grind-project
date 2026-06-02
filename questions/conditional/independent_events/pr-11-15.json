@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-15",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.15",
+  "question": "Among undergraduate students living on a college campus, 20% have an automobile. Among undergraduate students living off campus, 60% have an automobile. Among undergraduate students, 30% live on campus. Give the probabilities of the following events when a student is selected at random: (a) Student lives off campus (b) Student lives on campus and has an automobile (c) Student lives on campus and does not have an automobile (d) Student lives on campus or has an automobile (e) Student lives on campus given that he/she does not have an automobile.",
+  "answer": "(a) 0.70 (b) 0.06 (c) 0.24 (d) 0.72 (e) 0.4615",
+  "explanation": "Answer: (a) 0.70 (b) 0.06 (c) 0.24 (d) 0.72 (e) 0.4615",
+  "source": "Finan §11 — Practice Problem 11.15"
+}

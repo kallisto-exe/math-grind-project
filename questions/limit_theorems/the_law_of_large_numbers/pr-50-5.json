@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-5",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.5",
+  "question": "Suppose that $X$ is a random variable with mean and variance both equal to 20. What can be said about $\\Pr(0 < X < 40)$?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.5"
+}

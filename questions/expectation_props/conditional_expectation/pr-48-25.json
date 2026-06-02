@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-25",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.25",
+  "question": "Let $X$ and $Y$ be random variables with joint pdf $$f_{XY} = \\begin{cases} \\alpha xy & 0<x<y<1 \\\\ 0 & \\text{otherwise} \\end{cases}$$ where $\\alpha > 0$. Determine the best estimator $g(x)$ of $Y$ given $X$.",
+  "answer": "$\\frac{2}{3}\\cdot\\frac{1+x+x^2}{1+x}$",
+  "explanation": "Answer: $\\frac{2}{3}\\cdot\\frac{1+x+x^2}{1+x}$",
+  "source": "Finan §48 — Practice Problem 48.25"
+}

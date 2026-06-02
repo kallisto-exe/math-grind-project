@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-13",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.13",
+  "question": "In modeling the number of claims filed by an individual under an automobile policy during a three-year period, an actuary makes the simplifying assumption that for all integers $n \\ge 0$, $p_{n+1} = \\frac{1}{5}p_n$, where $p_n$ represents the probability that the policyholder files $n$ claims during the period. Under this assumption, what is the probability that a policyholder files more than one claim during the period?",
+  "answer": "0.04",
+  "explanation": "Answer: 0.04",
+  "source": "Finan §7 — Practice Problem 7.13"
+}

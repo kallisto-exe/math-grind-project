@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-5",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.5",
+  "question": "A wallet contains 10 $50 bills and 190 $1 bills. You randomly choose 10 bills without replacement. What is the probability that you will choose exactly 2 $50 bills?",
+  "answer": "$0.073$",
+  "explanation": "Answer: $0.073$",
+  "source": "Finan §24 — Practice Problem 24.5"
+}

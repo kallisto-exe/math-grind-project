@@ -1,0 +1,13 @@
+{
+  "id": "pr-15-3",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 15.3",
+  "question": "A game consists of rolling two dice. The game costs $2 to play. If a sum of 7 appears you win $10 otherwise you lose your $2. Would you be making money, losing money, or coming out about even if you keep playing this game? Explain.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §15 — Practice Problem 15.3"
+}

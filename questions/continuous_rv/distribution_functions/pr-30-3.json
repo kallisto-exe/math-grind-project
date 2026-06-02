@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.3",
+  "question": "A probability student is always late to class and arrives within ten minutes after the start of the class. Let $X$ be the time that elapses between the start of the class and the time the student arrives to class with a probability density function $f(x) = \\begin{cases} kx^2 & 0 \\le x \\le 10 \\\\ 0 & \\text{otherwise} \\end{cases}$ where $k > 0$ is a constant. Compute the value of $k$ and then find the probability that the student arrives less than 3 minutes after the start of the class.",
+  "answer": "$k = 0.003$, 0.027",
+  "explanation": "Answer: $k = 0.003$, 0.027",
+  "source": "Finan §30 — Practice Problem 30.3"
+}

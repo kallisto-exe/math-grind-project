@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.1",
+  "question": "Let $X$ have the density function given by $f(x) = \\begin{cases} 0.2 & -1 < x \\le 0 \\\\ 0.2 + cx & 0 < x \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find the value of $c$. (b) Find $F(x)$. (c) Find $\\Pr(0 \\le x \\le 0.5)$. (d) Find $E(X)$.",
+  "answer": "(a) 1.2 (b) The cdf is given by $F(x) = \\begin{cases} 0 & x \\le -1 \\end{cases}$",
+  "explanation": "Answer: (a) 1.2 (b) The cdf is given by $F(x) = \\begin{cases} 0 & x \\le -1 \\end{cases}$",
+  "source": "Finan §31 — Practice Problem 31.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-25-9",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 25.9",
+  "question": "A random variable $X$ has cumulative distribution function $F(x) = \\begin{cases} 0 & x\\le 0 \\\\ \\frac{x^2}{4} & 0\\le x < 1 \\\\ \\frac{1+x}{4} & 1\\le x < 2 \\\\ 1 & x\\ge 2 \\end{cases}$ (a) What is the probability that $X = 0$? What is the probability that $X = 1$? What is the probability that $X = 2$? (b) What is the probability that $\\frac{1}{2} < X\\le 1$? (c) What is the probability that $\\frac{1}{2}\\le X < 1$? (d) What is the probability that $X > 1.5$? Hint: You may find it helpful to sketch this function.",
+  "answer": "(a) We have $\\Pr(X = 0) = (\\text{jump in } F(x) \\text{ at } x = 0) = 0$, $\\Pr(X = 1) = (\\text{jump in } F(x) \\text{ at } x = 1) = \\frac{1}{2} - \\frac{1}{4} = \\frac{1}{4}$, $\\Pr(X = 2) = (\\text{jump in } F(x) \\text{ at } x = 2) = 1 - \\frac{3}{4} = \\frac{1}{4}$ (b) $\\frac{7}{16}$ (c) $\\frac{3}{16}$ (d) $\\frac{1}{4}$",
+  "explanation": "Answer: (a) We have $\\Pr(X = 0) = (\\text{jump in } F(x) \\text{ at } x = 0) = 0$, $\\Pr(X = 1) = (\\text{jump in } F(x) \\text{ at } x = 1) = \\frac{1}{2} - \\frac{1}{4} = \\frac{1}{4}$, $\\Pr(X = 2) = (\\text{jump in } F(x) \\text{ at } x = 2) = 1 - \\frac{3}{4} = \\frac{1}{4}$ (b) $\\frac{7}{16}$ (c) $\\frac{3}{16}$ (d) $\\frac{1}{4}$",
+  "source": "Finan §25 — Practice Problem 25.9"
+}

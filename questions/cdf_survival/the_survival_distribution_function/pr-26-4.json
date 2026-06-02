@@ -1,0 +1,13 @@
+{
+  "id": "pr-26-4",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§26 The Survival Distribution Function",
+  "section": 26,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 26.4",
+  "question": "Let $X$ be a continuous random variable with cumulative distribution function $F(x) = \\begin{cases} 0, & x\\le 0 \\\\ 1-e^{-\\lambda x}, & x\\ge 0 \\end{cases}$ where $\\lambda > 0$. Find the probability density function $f(x)$.",
+  "answer": "$f(x) = \\begin{cases} 0, & x\\le 0 \\\\ \\lambda e^{-\\lambda x}, & x > 0 \\end{cases}$",
+  "explanation": "Answer: $f(x) = \\begin{cases} 0, & x\\le 0 \\\\ \\lambda e^{-\\lambda x}, & x > 0 \\end{cases}$",
+  "source": "Finan §26 — Practice Problem 26.4"
+}

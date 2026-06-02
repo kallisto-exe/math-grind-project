@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.6",
+  "question": "Suppose that the spending time X (in minutes) of a customer at a bank has an exponential distribution with mean 3 minutes. (a) What is the probability that a customer spends more than 5 minutes in the bank? (b) Under the same conditions, what is the probability of spending between 2 and 4 minutes?",
+  "answer": "(a) 0.189 (b) 0.250",
+  "explanation": "Answer: (a) 0.189 (b) 0.250",
+  "source": "Finan §36 — Practice Problem 36.6"
+}

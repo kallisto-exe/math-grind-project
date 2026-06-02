@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-6",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.6",
+  "question": "Suppose $X$ and $Y$ are independent, each having Poisson distribution with means 2 and 3, respectively. Let $Z = X+Y$. Find $\\Pr(X+Y=1)$.",
+  "answer": "0.03368",
+  "explanation": "Answer: 0.03368",
+  "source": "Finan §41 — Practice Problem 41.6"
+}

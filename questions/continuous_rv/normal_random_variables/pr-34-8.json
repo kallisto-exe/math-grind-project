@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-8",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.8",
+  "question": "Let $X$ be a normal random variable with $\\Pr(X < 500) = 0.5$ and $\\Pr(X > 650) = 0.0227$. Find the standard deviation of $X$.",
+  "answer": "75",
+  "explanation": "Answer: 75",
+  "source": "Finan §34 — Practice Problem 34.8"
+}

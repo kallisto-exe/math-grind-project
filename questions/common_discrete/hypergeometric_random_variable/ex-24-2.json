@@ -1,0 +1,13 @@
+{
+  "id": "ex-24-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 4,
+  "subtopic": "Worked Example 24.2",
+  "question": "A barn consists of 13 cows, 12 pigs and 8 horses. A group of 8 will be selected to participate in the city fair. What is the probability that exactly 5 of the group will be cows?",
+  "answer": "",
+  "explanation": "Let $X$ be the number of cows in the group. Then $X$ is hypergeometric random variable with parameters $N = 33$, $r = 8$, $n = 13$. Thus, $\\Pr(X = 5) = \\frac{\\binom{13}{5}\\binom{20}{3}}{\\binom{33}{8}} \\approx 0.10567$ Next, we find the expected value of a hypergeometric random variable with parameters $N, n, r$. Let $k$ be a positive integer. Then $E(X^k) = \\sum_{i=0}^{r} i^k \\Pr(X = i) = \\sum_{i=0}^{r} i^k \\frac{\\binom{n}{i}\\binom{N-n}{r-i}}{\\binom{N}{r}}$ Using the identities $i\\binom{n}{i} = n\\binom{n-1}{i-1}$ and $r\\binom{N}{r} = N\\binom{N-1}{r-1}$ we obtain that $E(X^k) = \\frac{nr}{N} \\sum_{i=1}^{r} i^{k-1} \\frac{\\binom{n-1}{i-1}\\binom{N-n}{r-i}}{\\binom{N-1}{r-1}} = \\frac{nr}{N} \\sum_{j=0}^{r-1} (j+1)^{k-1} \\frac{\\binom{n-1}{j}\\binom{(N-1)-(n-1)}{(r-1)-j}}{\\binom{N-1}{r-1}} = \\frac{nr}{N} E[(Y+1)^{k-1}]$ where $Y$ is a hypergeometric random variable with parameters $N-1, n-1$, and $r-1$. By taking $k = 1$ we find $E(X) = \\frac{nr}{N}$. Now, by setting $k = 2$ we find $E(X^2) = \\frac{nr}{N} E(Y+1) = \\frac{nr}{N}\\left(\\frac{(n-1)(r-1)}{N-1} + 1\\right)$. Hence, $\\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \\frac{nr}{N}\\left[\\frac{(n-1)(r-1)}{N-1} + 1 - \\frac{nr}{N}\\right] = \\frac{nr}{N} \\cdot \\frac{N-r}{N} \\cdot \\frac{N-n}{N-1}$.",
+  "source": "Finan §24 — Worked Example 24.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-12",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.12",
+  "question": "A written driving test is graded either pass or fail. A randomly chosen person from a driving class has a 40% chance of knowing the material well. If the person knows the material well, the probability for this person to pass the written test is 0.8. For a person not knowing the material well, the probability is 0.4 for passing the test. (a) What is the probability of a randomly chosen person from the class for passing the test? (b) Given that a person in the class passes the test, what is the probability that this person knows the material well?",
+  "answer": "(a) 0.56 (b) 4",
+  "explanation": "Answer: (a) 0.56 (b) 4",
+  "source": "Finan §10 — Practice Problem 10.12"
+}

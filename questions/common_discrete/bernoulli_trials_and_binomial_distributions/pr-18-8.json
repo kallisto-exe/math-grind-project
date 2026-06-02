@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-8",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.8",
+  "question": "Suppose a local bus service accepted 12 reservations for a commuter bus with 10 seats. Seven of the ten reservations went to regular commuters who will show up for sure. The other 5 passengers will show up with a 50% chance, independently of each other. (a) Find the probability that the bus will be overbooked. (b) Find the probability that there will be empty seats.",
+  "answer": "(a) 0.1875 (b) 0.5",
+  "explanation": "Answer: (a) 0.1875 (b) 0.5",
+  "source": "Finan §18 — Practice Problem 18.8"
+}

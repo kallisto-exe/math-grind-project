@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.1",
+  "question": "The number of accidents on a certain section of a highway averages 4 per day. Assuming that this number follows a Poisson distribution, what is the probability of no car accident in one day? What is the probability of 1 car accident in two days?",
+  "answer": "$0.0183$ and $0.0027$",
+  "explanation": "Answer: $0.0183$ and $0.0027$",
+  "source": "Finan §20 — Practice Problem 20.1"
+}

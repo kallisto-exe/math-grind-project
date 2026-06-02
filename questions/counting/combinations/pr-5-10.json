@@ -1,0 +1,13 @@
+{
+  "id": "pr-5-10",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 5.10",
+  "question": "Find the 5th term in the expansion of $(2a - 3b)^7$.",
+  "answer": "22, 680a3b4",
+  "explanation": "Answer: $22{,}680 a^3 b^4$",
+  "source": "Finan §5 — Practice Problem 5.10"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-28-9",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 28.9",
+  "question": "Determine if the following integral is convergent or divergent. If it is convergent find its value. $\\int^2 \\frac{dx}{(x-1)^2}$.",
+  "answer": "Divergent",
+  "explanation": "Answer: Divergent",
+  "source": "Finan §28 — Practice Problem 28.9"
+}

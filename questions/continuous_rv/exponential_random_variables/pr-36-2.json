@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.2",
+  "question": "Let X be an exponential function with mean equals to 5. Graph $f(x)$ and $F(x)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §36 — Practice Problem 36.2"
+}

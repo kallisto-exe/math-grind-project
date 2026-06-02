@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-2",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.2",
+  "question": "The random vector $(X, Y)$ is said to be uniformly distributed over a region $R$ in the plane if, for some constant $c$, its joint pdf is $f_{XY}(x, y) = \\begin{cases} c & (x, y) \\in R \\\\ 0 & \\text{otherwise} \\end{cases}$ (a) Show that $c = \\frac{1}{A(R)}$ where $A(R)$ is the area of the region $R$. (b) Suppose that $R = \\{(x, y) : -1 \\le x \\le 1, -1 \\le y \\le 1\\}$. Show that $X$ and $Y$ are independent, with each being distributed uniformly over $(-1, 1)$. (c) Find $\\Pr(X^2 + Y^2 \\le 1)$.",
+  "answer": "$X$ and $Y$ are independent with each distributed uniformly over $(-1, 1)$. (c) $\\Pr(X^2 + Y^2 \\le 1) = \\int\\int_{x^2+y^2\\le 1} \\frac{1}{4}\\,dx\\,dy = \\frac{\\pi}{4}$",
+  "explanation": "Answer: $X$ and $Y$ are independent with each distributed uniformly over $(-1, 1)$. (c) $\\Pr(X^2 + Y^2 \\le 1) = \\int\\int_{x^2+y^2\\le 1} \\frac{1}{4}\\,dx\\,dy = \\frac{\\pi}{4}$",
+  "source": "Finan §40 — Practice Problem 40.2"
+}

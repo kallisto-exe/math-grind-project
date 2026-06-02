@@ -1,0 +1,13 @@
+{
+  "id": "ex-49-8",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 5,
+  "subtopic": "Worked Example 49.8",
+  "question": "If $X$ and $Y$ are independent Poisson random variables with parameters $\\lambda_1$ and $\\lambda_2$, respectively, what is the pmf of $X + Y$?",
+  "answer": "",
+  "explanation": "We have $M_{X+Y}(t) = M_X(t)M_Y(t) = e^{\\lambda_1(e^t - 1)} e^{\\lambda_2(e^t - 1)} = e^{(\\lambda_1 + \\lambda_2)(e^t - 1)}$. Since $e^{(\\lambda_1 + \\lambda_2)(e^t - 1)}$ is the moment generating function of a Poisson random variable having parameter $\\lambda_1 + \\lambda_2$, $X + Y$ is a Poisson random variable with this same pmf",
+  "source": "Finan §49 — Worked Example 49.8"
+}

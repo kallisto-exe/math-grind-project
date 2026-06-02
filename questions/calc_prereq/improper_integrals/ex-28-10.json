@@ -1,0 +1,13 @@
+{
+  "id": "ex-28-10",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 2,
+  "subtopic": "Worked Example 28.10",
+  "question": "Determine whether $\\int_1^\\infty \\frac{1}{\\sqrt{x^3+5}}\\,dx$ converges.",
+  "answer": "",
+  "explanation": "For $x \\ge 1$ we have that $x^3 + 5 \\ge x^3$ so that $\\sqrt{x^3 + 5} \\ge \\sqrt{x^3}$. Thus, $\\frac{1}{\\sqrt{x^3+5}} \\le \\frac{1}{\\sqrt{x^3}}$. Letting $f(x) = \\frac{1}{\\sqrt{x^3}}$ and $g(x) = \\frac{1}{\\sqrt{x^3+5}}$ then we have that $0 \\le g(x) \\le f(x)$. From the previous section we know that $\\int_1^\\infty \\frac{1}{\\sqrt{x^3}}\\,dx$ is convergent, a $p$-integral with $p = \\frac{3}{2} > 1$. By the comparison test, $\\int_1^\\infty \\frac{1}{\\sqrt{x^3+5}}\\,dx$ is convergent",
+  "source": "Finan §28 — Worked Example 28.10"
+}

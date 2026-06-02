@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-10",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.10",
+  "question": "A study was conducted about the excessive amounts of pollutants emitted by cars in a certain town. The study found that 25% of all cars emit excessive amounts of pollutants. The probability for a car emiting excessive amounts of pollutants to fail the town's vehicular emission test is found to be 0.99. Cars who do not emit excessive amounts of pollutants have a probability of 0.17 to fail to emission test. A car is selected at random. What is the probability that the car emits excessive amounts of pollutants given that it failed the emission test?",
+  "answer": "0.66",
+  "explanation": "Answer: 0.66",
+  "source": "Finan §10 — Practice Problem 10.10"
+}

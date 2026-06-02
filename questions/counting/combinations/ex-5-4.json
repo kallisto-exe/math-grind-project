@@ -1,0 +1,13 @@
+{
+  "id": "ex-5-4",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 2,
+  "subtopic": "Worked Example 5.4",
+  "question": "How many subsets are there of a set with $n$ elements?",
+  "answer": "",
+  "explanation": "Since there are ${}_nC_k$ subsets of $k$ elements with $0 \\le k \\le n$, the total number of subsets of a set of $n$ elements is $\\sum_{k=0}^{n} {}_nC_k = (1 + 1)^n = 2^n$",
+  "source": "Finan §5 — Worked Example 5.4"
+}

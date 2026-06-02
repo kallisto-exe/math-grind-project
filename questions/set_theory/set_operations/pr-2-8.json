@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-8",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.8",
+  "question": "In a universe $U$ of 100, let A and B be subsets of U such that $n(A\\cup B) = 70$ and $n(A\\cup B^c) = 90$. Determine $n(A)$.",
+  "answer": "60",
+  "explanation": "Answer: 60",
+  "source": "Finan §2 — Practice Problem 2.8"
+}

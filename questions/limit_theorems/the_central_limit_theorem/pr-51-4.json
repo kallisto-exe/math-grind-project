@@ -1,0 +1,13 @@
+{
+  "id": "pr-51-4",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 51.4",
+  "question": "If 10 fair dice are rolled, find the approximate probability that the sum obtained is between 30 and 40, inclusive.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §51 — Practice Problem 51.4"
+}

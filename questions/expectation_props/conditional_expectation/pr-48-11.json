@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-11",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.11",
+  "question": "Let $X$ and $Y$ be discrete random variables with joint probability mass function defined by the following table X\\Y 1 2 3 $p_X(x)$ 1 1/9 1/9 0 2/9 2 1/3 0 1/6 1/2 3 1/9 1/18 1/9 5/18 $p_Y(y)$ 5/9 1/6 5/18 1 Compute $E(X|Y=i)$ for $i = 1, 2, 3$. Are $X$ and $Y$ independent?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §48 — Practice Problem 48.11"
+}

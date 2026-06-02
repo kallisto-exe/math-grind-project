@@ -1,0 +1,13 @@
+{
+  "id": "pr-15-14",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 15.14",
+  "question": "An auto insurance company is implementing a new bonus system. In each month, if a policyholder does not have an accident, he or she will receive a 5.00 cash-back bonus from the insurer. Among the 1,000 policyholders of the auto insurance company, 400 are classified as low-risk drivers and 600 are classified as high-risk drivers. In each month, the probability of zero accidents for high-risk drivers is 0.80 and the probability of zero accidents for low-risk drivers is 0.90. Calculate the expected bonus payment from the insurer to the 1000 policyholders in one year.",
+  "answer": "$50,400",
+  "explanation": "Answer: $50,400",
+  "source": "Finan §15 — Practice Problem 15.14"
+}

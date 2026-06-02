@@ -1,0 +1,13 @@
+{
+  "id": "ex-49-4",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 5,
+  "subtopic": "Worked Example 49.4",
+  "question": "Let $X$ be a Poisson random variable with parameter $\\lambda$. Find the expected value and the variance of $X$ using moment generating functions.",
+  "answer": "",
+  "explanation": "We can write $M_X(t) = E(e^{tX}) = \\sum_{n=0}^{\\infty} e^{tn} \\frac{e^{-\\lambda} \\lambda^n}{n!} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{e^{tn} \\lambda^n}{n!} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(\\lambda e^t)^n}{n!} = e^{-\\lambda} e^{\\lambda e^t} = e^{\\lambda(e^t - 1)}$ Differentiating for the first time we find $M_X'(t) = \\lambda e^t e^{\\lambda(e^t - 1)}$. Thus, $E(X) = M_X'(0) = \\lambda$. Differentiating a second time we find $M_X''(t) = (\\lambda e^t)^2 e^{\\lambda(e^t - 1)} + \\lambda e^t e^{\\lambda(e^t - 1)}$. Hence, $E(X^2) = M_X''(0) = \\lambda^2 + \\lambda$. The variance is then $\\mathrm{Var}(X) = E(X^2) - (E(X))^2 = \\lambda$",
+  "source": "Finan §49 — Worked Example 49.4"
+}

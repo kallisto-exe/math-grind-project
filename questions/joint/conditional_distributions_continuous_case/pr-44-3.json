@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.3",
+  "question": "Suppose that $X$ and $Y$ have joint density function $f_{XY}(x,y) = \\begin{cases} \\frac{3y^2}{x^3} & 0 \\le y < x \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find $f_{Y|X}(y|x)$, the conditional probability density function of $Y$ given $X = x$.",
+  "answer": "$f_{Y|X}(y|x) = \\frac{3y^2}{x^3}$, $0 \\le y < x \\le 1$",
+  "explanation": "Answer: $f_{Y|X}(y|x) = \\frac{3y^2}{x^3}$, $0 \\le y < x \\le 1$",
+  "source": "Finan §44 — Practice Problem 44.3"
+}

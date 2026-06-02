@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-12",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.12",
+  "question": "In rolling a fair die repeatedly (and independently on successive rolls), find the probability of getting the third \"3\" on the $n$th roll.",
+  "answer": "$\\binom{n-1}{2}\\left(\\frac{1}{6}\\right)^3\\left(\\frac{5}{6}\\right)^{n-3}$",
+  "explanation": "Answer: $\\binom{n-1}{2}\\left(\\frac{1}{6}\\right)^3\\left(\\frac{5}{6}\\right)^{n-3}$",
+  "source": "Finan §23 — Practice Problem 23.12"
+}

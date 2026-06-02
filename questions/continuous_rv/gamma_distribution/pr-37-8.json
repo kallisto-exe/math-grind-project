@@ -1,0 +1,13 @@
+{
+  "id": "pr-37-8",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 37.8",
+  "question": "Show that the gamma density function with parameters $\\alpha > 1$ and $\\lambda > 0$ has a relative maximum at $x = \\frac{1}{\\lambda}(\\alpha-1)$.",
+  "answer": "We have $f'(x) = -\\frac{\\lambda^2 e^{-\\lambda x}(\\lambda x)^{\\alpha-2}}{\\Gamma(\\alpha)}(\\lambda x-\\alpha+1)$. Thus, the only critical point of $f(x)$ is $x = \\frac{1}{\\lambda}(\\alpha-1)$. One can easily show that $f''\\left(\\frac{1}{\\lambda}(\\alpha-1)\\right) < 0$",
+  "explanation": "Answer: We have $f'(x) = -\\frac{\\lambda^2 e^{-\\lambda x}(\\lambda x)^{\\alpha-2}}{\\Gamma(\\alpha)}(\\lambda x-\\alpha+1)$. Thus, the only critical point of $f(x)$ is $x = \\frac{1}{\\lambda}(\\alpha-1)$. One can easily show that $f''\\left(\\frac{1}{\\lambda}(\\alpha-1)\\right) < 0$",
+  "source": "Finan §37 — Practice Problem 37.8"
+}

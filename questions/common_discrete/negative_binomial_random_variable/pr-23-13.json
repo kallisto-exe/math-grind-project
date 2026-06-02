@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-13",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.13",
+  "question": "Each time a hurricane arrives, a new home has a 0.4 probability of experiencing damage. The occurrences of damage in diﬀerent hurricanes are independent. Calculate the mode of the number of hurricanes it takes for the home to experience damage from two hurricanes. Hint: The mode of $X$ is the number that maximizes the probability mass function of $X$.",
+  "answer": "$3$",
+  "explanation": "Answer: $3$",
+  "source": "Finan §23 — Practice Problem 23.13"
+}

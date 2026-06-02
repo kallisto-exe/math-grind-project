@@ -1,0 +1,13 @@
+{
+  "id": "ex-51-1",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 5,
+  "subtopic": "Worked Example 51.1",
+  "question": "In an analysis of healthcare data, ages have been rounded to the nearest multiple of 5 years. The difference between the true age and the rounded age is assumed to be uniformly distributed on the interval from $-2.5$ years to $2.5$ years. The healthcare data are based on a random sample of 48 people. What is the approximate probability that the mean of the rounded ages is within 0.25 years of the mean of the true ages?",
+  "answer": "",
+  "explanation": "Let $X$ denote the difference between true and reported age. We are given $X$ is uniformly distributed on $(-2.5, 2.5)$. That is, $X$ has pdf $f(x) = 1/5$, $-2.5 < x < 2.5$. It follows that $E(X) = 0$ and $\\sigma_X^2 = E(X^2) = \\int_{-2.5}^{2.5} \\frac{x^2}{5}\\,dx \\approx 2.083$ so that $SD(X) = \\sqrt{2.083} \\approx 1.443$. Now $\\overline{X}_{48}$ the difference between the means of the true and rounded ages, has a distribution that is approximately normal with mean 0 and standard deviation $\\frac{1.443}{\\sqrt{48}} \\approx 0.2083$. Therefore, $$P\\left(-\\frac{1}{4} \\le \\overline{X}_{48} \\le \\frac{1}{4}\\right) = P\\left(\\frac{-0.25}{0.2083} \\le \\frac{\\overline{X}_{48}}{0.2083} \\le \\frac{0.25}{0.2083}\\right) = \\Pr(-1.2 \\le Z \\le 1.2) = 2\\Phi(1.2) - 1 \\approx 2(0.8849) - 1 = 0.77$$",
+  "source": "Finan §51 — Worked Example 51.1"
+}

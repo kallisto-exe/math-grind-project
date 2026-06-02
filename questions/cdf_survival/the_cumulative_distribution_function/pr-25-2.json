@@ -1,0 +1,13 @@
+{
+  "id": "pr-25-2",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 25.2",
+  "question": "We are inspecting a lot of 25 batteries which contains 5 defective batteries. We randomly choose 3 batteries. Let $X$ = the number of defective batteries found in a sample of 3. Give the cumulative distribution function as a table.",
+  "answer": "$x$: $(-\\infty, 0)$, $[0, 1)$, $[1, 2)$, $[2, 3)$, $[3, \\infty)$; $\\Pr(X\\le x)$: 0, 0.495, 0.909, 0.996, 1",
+  "explanation": "Answer: $x$: $(-\\infty, 0)$, $[0, 1)$, $[1, 2)$, $[2, 3)$, $[3, \\infty)$; $\\Pr(X\\le x)$: 0, 0.495, 0.909, 0.996, 1",
+  "source": "Finan §25 — Practice Problem 25.2"
+}

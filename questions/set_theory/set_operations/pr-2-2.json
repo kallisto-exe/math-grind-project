@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-2",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.2",
+  "question": "Show that if $A\\subseteq B$ then $B = A\\cup (A^c\\cap B)$. Thus, B can be written as the union of two disjoint sets.",
+  "answer": "Since $A\\subseteq B$, we have $A\\cup B = B$. Now the result follows from the previous problem.",
+  "explanation": "Answer: Since $A\\subseteq B$, we have $A\\cup B = B$. Now the result follows from the previous problem.",
+  "source": "Finan §2 — Practice Problem 2.2"
+}

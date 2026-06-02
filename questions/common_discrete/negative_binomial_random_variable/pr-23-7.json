@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-7",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.7",
+  "question": "A company takes out an insurance policy to cover accidents that occur at its manufacturing plant. The probability that one or more accidents will occur during any given month is $\\frac{3}{5}$. The number of accidents that occur in any given month is independent of the number of accidents that occur in all other months. Calculate the probability that there will be at least four months in which no accidents occur before the fourth month in which at least one accident occurs.",
+  "answer": "$0.2898$",
+  "explanation": "Answer: $0.2898$",
+  "source": "Finan §23 — Practice Problem 23.7"
+}

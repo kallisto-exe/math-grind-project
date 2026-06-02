@@ -1,0 +1,13 @@
+{
+  "id": "ex-18-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 4,
+  "subtopic": "Worked Example 18.1",
+  "question": "Consider the experiment of rolling a fair die where a success is the face that comes up shows a number divisible by 2. Find $p$ and $q$.",
+  "answer": "",
+  "explanation": "The numbers on the die that are divisible by 2 are 2, 4, and 6. Thus, $p = \\frac{3}{6} = \\frac{1}{2}$ and $q = 1-\\frac{1}{2} = \\frac{1}{2}$. A Bernoulli experiment is a sequence of independent Bernoulli trials. Let $X$ represent the number of successes that occur in $n$ independent Bernoulli trials. Then $X$ is said to be a binomial random variable with parameters $(n, p)$. If $n = 1$ then $X$ is said to be a Bernoulli random variable. The central question of a binomial experiment is to find the probability of $r$ successes out of $n$ trials. In the next paragraph we'll see how to compute such a probability. Now, anytime we make selections from a population without replacement, we do not have independent trials. For example, selecting a ball from a box that contain balls of two different colors.",
+  "source": "Finan §18 — Worked Example 18.1"
+}

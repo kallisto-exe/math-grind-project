@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-11",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.11",
+  "question": "A continuous random variable has the pdf $f(x) = \\frac{1}{2}e^{-|x|}$ for $x\\in\\mathbb{R}$. Find the pth quantile of X.",
+  "answer": "$-\\ln[2(1-p)]$",
+  "explanation": "Answer: $-\\ln[2(1-p)]$",
+  "source": "Finan §32 — Practice Problem 32.11"
+}

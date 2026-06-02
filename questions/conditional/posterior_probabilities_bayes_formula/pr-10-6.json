@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-6",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.6",
+  "question": "An actuary studied the likelihood that different types of drivers would be involved in at least one collision during any one-year period. The results of the study are presented below. Type of driver / Percentage of all drivers / Probability of at least one collision: Teen, 8%, 0.15; Young adult, 16%, 0.08; Midlife, 45%, 0.04; Senior, 31%, 0.05; Total, 100%. Given that a driver has been involved in at least one collision in the past year, what is the probability that the driver is a young adult driver?",
+  "answer": "0.22",
+  "explanation": "Answer: 0.22",
+  "source": "Finan §10 — Practice Problem 10.6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-21-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§21 Poisson Approximation to the Binomial Distribution",
+  "section": 21,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 21.3",
+  "question": "Suppose that 1 out of 400 tires are defective. Let $X$ denote the number of defective tires in a group of 200 tires. What is the probability that at least three of them are defective?",
+  "answer": "$0.0144$",
+  "explanation": "Answer: $0.0144$",
+  "source": "Finan §21 — Practice Problem 21.3"
+}

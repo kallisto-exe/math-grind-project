@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-6",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.6",
+  "question": "Let $X$ be a random variable with pdf given by $f(x) = \\frac{1}{\\pi(1 + x^2)}$, $-\\infty < x < \\infty$. Find $M_X(t)$.",
+  "answer": "$M_X(t) = \\begin{cases} 1 & t = 0 \\\\ \\infty & \\text{otherwise} \\end{cases}$ $\\{t \\in \\mathbb{R} : M_X(t) < \\infty\\} = \\{0\\}$",
+  "explanation": "Answer: $M_X(t) = \\begin{cases} 1 & t = 0 \\\\ \\infty & \\text{otherwise} \\end{cases}$ $\\{t \\in \\mathbb{R} : M_X(t) < \\infty\\} = \\{0\\}$",
+  "source": "Finan §49 — Practice Problem 49.6"
+}

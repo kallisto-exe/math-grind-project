@@ -1,0 +1,13 @@
+{
+  "id": "ex-46-2",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 5,
+  "subtopic": "Worked Example 46.2",
+  "question": "A group of $N$ business executives throw their business cards into a jar. The cards are mixed, and each person randomly selects one. Find the expected number of people that select their own card.",
+  "answer": "",
+  "explanation": "Let $X$ = the number of people who select their own card. For $1 \\le i \\le N$ let $$X_i = \\begin{cases} 1 & \\text{if the $i$th person chooses his own card} \\\\ 0 & \\text{otherwise} \\end{cases}$$ Then $E(X_i) = \\Pr(X_i = 1) = \\frac{1}{N}$ and hence $E(X) = \\left(\\frac{1}{N}\\right)N = 1$",
+  "source": "Finan §46 — Worked Example 46.2"
+}

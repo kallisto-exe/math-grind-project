@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-15",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.15",
+  "question": "The time to failure of a component in an electronic device has an exponential distribution with a median of four hours. Calculate the probability that the component will work without failing for at least five hours.",
+  "answer": "0.420",
+  "explanation": "Answer: 0.420",
+  "source": "Finan §36 — Practice Problem 36.15"
+}

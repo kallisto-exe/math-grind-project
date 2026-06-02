@@ -1,0 +1,13 @@
+{
+  "id": "pr-13-10",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 13.10",
+  "question": "Let $X$ be a discrete random variable with range $\\{0, 1, 2, 3, \\ldots\\}$. Suppose that $\\Pr(X = 0) = \\Pr(X = 1)$, $\\Pr(X = k + 1) = \\frac{1}{k}\\Pr(X = k)$, $k = 1, 2, 3, \\ldots$ Find $\\Pr(0)$.",
+  "answer": "$\\frac{1}{1+e}$",
+  "explanation": "Answer: $\\frac{1}{1+e}$",
+  "source": "Finan §13 — Practice Problem 13.10"
+}

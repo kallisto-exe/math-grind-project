@@ -1,0 +1,13 @@
+{
+  "id": "pr-4-8",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 4.8",
+  "question": "Find the number of ways of choosing three initials from the alphabet if none of the letters can be repeated. Name initials such as MBF and BMF are considered different.",
+  "answer": "15,600",
+  "explanation": "Answer: 15,600",
+  "source": "Finan §4 — Practice Problem 4.8"
+}

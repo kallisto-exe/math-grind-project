@@ -1,0 +1,13 @@
+{
+  "id": "ex-20-5",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 4,
+  "subtopic": "Worked Example 20.5",
+  "question": "Misprints in a book averages one misprint per 10 pages. Suppose that the number of misprints is a random variable having Poisson distribution. Let $X$ denote the number of misprints in a stack of 50 pages. Find the mean and the standard deviation of $X$.",
+  "answer": "",
+  "explanation": "Since the book has 1 misprint per 10 pages, the number of misprints in a stack of 50 pages is 5. Thus, $X$ is a Poisson random variable with parameter $\\lambda = 5$. Hence, $E(X) = \\lambda = 5$ and $\\sigma_X = \\sqrt{5}$",
+  "source": "Finan §20 — Worked Example 20.5"
+}

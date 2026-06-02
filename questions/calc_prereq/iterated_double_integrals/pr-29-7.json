@@ -1,0 +1,13 @@
+{
+  "id": "pr-29-7",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 29.7",
+  "question": "Evaluate $\\int\\int_R e^{-x-y}\\,dx\\,dy$, where $R$ is the region in the first quadrant in which $x+y\\le 1$.",
+  "answer": "$1-2e^{-1}$",
+  "explanation": "Answer: $1-2e^{-1}$",
+  "source": "Finan §29 — Practice Problem 29.7"
+}

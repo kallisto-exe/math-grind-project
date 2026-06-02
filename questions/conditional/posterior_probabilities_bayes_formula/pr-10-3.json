@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-3",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.3",
+  "question": "An insurance company issues life insurance policies in three separate categories: standard, preferred, and ultra-preferred. Of the company's policyholders, 50% are standard, 40% are preferred, and 10% are ultra-preferred. Each standard policyholder has probability 0.010 of dying in the next year, each preferred policyholder has probability 0.005 of dying in the next year, and each ultra-preferred policyholder has probability 0.001 of dying in the next year. A policyholder dies in the next year. What is the probability that the deceased policyholder was ultra-preferred?",
+  "answer": "0.0141",
+  "explanation": "Answer: 0.0141",
+  "source": "Finan §10 — Practice Problem 10.3"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-7-1",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 3,
+  "subtopic": "Worked Example 7.1",
+  "question": "The probability that a senior citizen in a nursing home without a pneumonia shot will get pneumonia is 0.45. What is the probability that a senior citizen without pneumonia shot will not get pneumonia?",
+  "answer": "",
+  "explanation": "Our sample space consists of those senior citizens in the nursing home who did not get the pneumonia shot. Let $E$ be the set of those individuals without the shot who did get the illness. Then $\\Pr(E) = 0.45$. The probability that an individual without the shot will not get the illness is then $\\Pr(E^c) = 1 - \\Pr(E) = 1 - 0.45 = 0.55$. The union of two events $A$ and $B$ is the event $A \\cup B$ whose outcomes are either in $A$ or in $B$. The intersection of two events $A$ and $B$ is the event $A \\cap B$ whose outcomes are outcomes of both events $A$ and $B$. Two events $A$ and $B$ are said to be mutually exclusive if they have no outcomes in common. In this case $A \\cap B = \\emptyset$ and $\\Pr(A \\cap B) = \\Pr(\\emptyset) = 0$.",
+  "source": "Finan §7 — Worked Example 7.1"
+}

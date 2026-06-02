@@ -1,0 +1,13 @@
+{
+  "id": "pr-51-7",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 51.7",
+  "question": "A baseball team plays 100 independent games. It is found that the probability of winning a game is 0.8. Estimate the probability that team wins at least 90 games.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §51 — Practice Problem 51.7"
+}

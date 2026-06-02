@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-2",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.2",
+  "question": "Amin and Nadia are allowed to have one topping on their ice cream. The choices of toppings are Butterfingers, M and M, chocolate chips, Gummy Bears, Kit Kat, Peanut Butter, and chocolate syrup. If they choose at random, what is the probability that they both choose Kit Kat as a topping?",
+  "answer": "0.02",
+  "explanation": "Answer: 0.02",
+  "source": "Finan §11 — Practice Problem 11.2"
+}

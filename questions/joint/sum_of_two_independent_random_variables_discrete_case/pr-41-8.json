@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-8",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.8",
+  "question": "Let $X$ and $Y$ be two independent random variables with common pmf given by $$\\begin{array}{c|ccc} x & 0 & 1 & 2 \\\\ \\hline p_X(x) & 0.5 & 0.25 & 0.25 \\end{array}$$ Find the probability mass function of $X+Y$.",
+  "answer": "$p_{X+Y}(0) = p_X(0)p_Y(0) = \\frac{1}{2} \\cdot \\frac{1}{2} = 1$. $p_{X+Y}(1) = p_X(0)p_Y(1) + p_X(1)p_Y(0) = \\frac{1}{2} \\cdot \\frac{1}{4} + \\frac{1}{4} \\cdot \\frac{1}{2} = 1$. $p_{X+Y}(2) = p_X(0)p_Y(2) + p_X(2)p_Y(0) + p_X(1)p_Y(1) = 5$. $p_{X+Y}(3) = p_X(1)p_Y(2) + p_X(2)p_Y(1) = 1$. $p_{X+Y}(4) = p_X(2)p_Y(2) = 1$ and 0 otherwise.",
+  "explanation": "Answer: $p_{X+Y}(0) = p_X(0)p_Y(0) = \\frac{1}{2} \\cdot \\frac{1}{2} = 1$. $p_{X+Y}(1) = p_X(0)p_Y(1) + p_X(1)p_Y(0) = \\frac{1}{2} \\cdot \\frac{1}{4} + \\frac{1}{4} \\cdot \\frac{1}{2} = 1$. $p_{X+Y}(2) = p_X(0)p_Y(2) + p_X(2)p_Y(0) + p_X(1)p_Y(1) = 5$. $p_{X+Y}(3) = p_X(1)p_Y(2) + p_X(2)p_Y(1) = 1$. $p_{X+Y}(4) = p_X(2)p_Y(2) = 1$ and 0 otherwise.",
+  "source": "Finan §41 — Practice Problem 41.8"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-16",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.16",
+  "question": "A mattress store sells only king, queen and twin-size mattresses. Sales records at the store indicate that one-fourth as many queen-size mattresses are sold as king and twin-size mattresses combined. Records also indicate that three times as many king-size mattresses are sold as twin-size mattresses. Calculate the probability that the next mattress sold is either king or queen-size.",
+  "answer": "80%",
+  "explanation": "Answer: 80%",
+  "source": "Finan §7 — Practice Problem 7.16"
+}

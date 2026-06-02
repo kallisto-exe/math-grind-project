@@ -1,0 +1,13 @@
+{
+  "id": "ex-51-3",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 5,
+  "subtopic": "Worked Example 51.3",
+  "question": "Let $X_1, X_2, X_3, X_4$ be a random sample of size 4 from a normal distribution with mean 2 and variance 10, and let $\\overline{X}$ be the sample mean. Determine $a$ such that $\\Pr(\\overline{X} \\le a) = 0.90$.",
+  "answer": "",
+  "explanation": "The sample mean $\\overline{X}$ is normal with mean $\\mu = 2$ and variance $\\frac{\\sigma^2}{n} = \\frac{10}{4} = 2.5$, and standard deviation $\\sqrt{2.5} \\approx 1.58$, so $$0.90 = \\Pr(\\overline{X} \\le a) = P\\left(\\frac{\\overline{X}-2}{1.58} < \\frac{a-2}{1.58}\\right) = \\Phi\\left(\\frac{a-2}{1.58}\\right).$$ From the normal table, we get $\\frac{a-2}{1.58} = 1.28$, so $a = 4.02$",
+  "source": "Finan §51 — Worked Example 51.3"
+}

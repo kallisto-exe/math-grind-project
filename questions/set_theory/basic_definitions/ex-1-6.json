@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-6",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.6",
+  "question": "(a) Show that the set $A = \\{a_1, a_2, \\ldots, a_n, \\ldots\\}$ is countable. (b) Let A be the set of all infinite sequences of the digits 0 and 1. Show that A is uncountable.",
+  "answer": "",
+  "explanation": "(a) One can easily verify that the map $f : \\mathbb{N} \\mapsto A$ defined by $f(n) = a_n$ is a bijection. (b) We will argue by contradiction. So suppose that A is countable with elements $a_1, a_2, \\ldots$ where each $a_i$ is an infinite sequence of the digits 0 and 1. Let $a$ be the infinite sequence with the first digit of 0 or 1 different from the first digit of $a_1$, the second digit of 0 or 1 different from the second digit of $a_2, \\ldots$, the $n$th digit is different from the $n$th digit of $a_n$, etc. Thus, $a$ is an infinite sequence of the digits 0 and 1 which is not in A, a contradiction. Hence, A is uncountable Now, one compares numbers using inequalities. The corresponding notion for sets is the concept of a subset: Let A and B be two sets. We say that A is a subset of B, denoted by $A \\subseteq B$, if and only if every element of A is also an element of B. If there exists an element of A which is not in B then we write $A \\not\\subseteq B$. For any set A we have $\\emptyset \\subseteq A \\subseteq A$. That is, every set has at least two subsets. Also, keep in mind that the empty set is a subset of any set.",
+  "source": "Finan §1 — Worked Example 1.6"
+}

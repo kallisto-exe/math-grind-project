@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.5",
+  "question": "People are dispersed on a linear beach with a density function $f(y) = 4y^3$, $0 < y < 1$, and 0 elsewhere. An ice cream vendor wishes to locate her cart at the median of the locations (where half of the people will be on each side of her). Where will she locate her cart?",
+  "answer": "0.8409",
+  "explanation": "Answer: 0.8409",
+  "source": "Finan §32 — Practice Problem 32.5"
+}

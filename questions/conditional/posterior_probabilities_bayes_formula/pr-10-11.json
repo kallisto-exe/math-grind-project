@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-11",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.11",
+  "question": "A medical agency is conducting a study about injuries resulted from activities for a group of people. For this group, 50% were skiing, 30% were hiking, and 20% were playing soccer. The (conditional) probability of a person getting injured from skiing is 30%, it is 10% from hiking, and 20% from playing soccer. (a) What is the probability for a randomly selected person in the group for getting injured? (b) Given that a person is injured, what is the probability that his injuries are due to skiing?",
+  "answer": "(a) 0.22 (b) 15",
+  "explanation": "Answer: (a) 0.22 (b) 15",
+  "source": "Finan §10 — Practice Problem 10.11"
+}

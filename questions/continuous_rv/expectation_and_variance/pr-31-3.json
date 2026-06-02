@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.3",
+  "question": "Compute $E(X)$ if $X$ has the density function given by (a) $f(x) = \\begin{cases} \\frac{1}{4}xe^{-x/2} & x > 0 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (b) $f(x) = \\begin{cases} c(1 - x^2) & -1 < x < 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (c) $f(x) = \\begin{cases} \\frac{5}{x^2} & x > 5 \\\\ 0 & \\text{otherwise.} \\end{cases}$",
+  "answer": "(a) 4 (b) 0 (c) $\\infty$",
+  "explanation": "Answer: (a) 4 (b) 0 (c) $\\infty$",
+  "source": "Finan §31 — Practice Problem 31.3"
+}

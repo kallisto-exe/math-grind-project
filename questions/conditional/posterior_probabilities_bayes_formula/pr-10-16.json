@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-16",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.16",
+  "question": "Calculate $\\Pr(U_1|A)$.",
+  "answer": "$\\frac{15}{74}$.",
+  "explanation": "Answer: $\\frac{15}{74}$.",
+  "source": "Finan §10 — Practice Problem 10.16"
+}

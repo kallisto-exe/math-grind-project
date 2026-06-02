@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-4",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.4",
+  "question": "An urn contains 10 balls: 4 red and 6 blue. A second urn contains 16 red balls and an unknown number of blue balls. A single ball is drawn from each urn. For i = 1, 2, let $R_i$ denote the event that a red ball is drawn from urn i and $B_i$ the event that a blue ball is drawn from urn i. Show that the sets $R_1\\cap R_2$ and $B_1\\cap B_2$ are disjoint.",
+  "answer": "The events $R_1\\cap R_2$ and $B_1\\cap B_2$ represent the events that both ball are the same color and therefore as sets they are disjoint",
+  "explanation": "Answer: The events $R_1\\cap R_2$ and $B_1\\cap B_2$ represent the events that both ball are the same color and therefore as sets they are disjoint",
+  "source": "Finan §2 — Practice Problem 2.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-51-13",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 51.13",
+  "question": "Let $X$ and $Y$ be the number of hours that a randomly selected person watches movies and sporting events, respectively, during a three-month period. The following information is known about $X$ and $Y$: $E(X) = 50$, $E(Y) = 20$, $\\operatorname{Var}(X) = 50$, $\\operatorname{Var}(Y) = 30$, $\\operatorname{Cov}(X,Y) = 10$. One hundred people are randomly selected and observed for these three months. Let $T$ be the total number of hours that these one hundred people watch movies or sporting events during this three-month period. Approximate the value of $\\Pr(T < 7100)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §51 — Practice Problem 51.13"
+}

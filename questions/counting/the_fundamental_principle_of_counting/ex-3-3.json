@@ -1,0 +1,13 @@
+{
+  "id": "ex-3-3",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 2,
+  "subtopic": "Worked Example 3.3",
+  "question": "How many license-plates with 3 letters followed by 3 digits exist?",
+  "answer": "",
+  "explanation": "A 6-step process: (1) Choose the first letter, (2) choose the second letter, (3) choose the third letter, (4) choose the first digit, (5) choose the second digit, and (6) choose the third digit. Every step can be done in a number of ways that does not depend on previous choices, and each license plate can be specified in this manner. So there are $26 \\cdot 26 \\cdot 26 \\cdot 10 \\cdot 10 \\cdot 10 = 17{,}576{,}000$ ways",
+  "source": "Finan §3 — Worked Example 3.3"
+}

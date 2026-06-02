@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-16",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.16",
+  "question": "Let $X$ and $Y$ denote the values of two stocks at the end of a five-year period. $X$ is uniformly distributed on the interval $(0, 12)$. Given $X = x$, $Y$ is uniformly distributed on the interval $(0, x)$. Determine $\\mathrm{Cov}(X,Y)$ according to this model.",
+  "answer": "6",
+  "explanation": "Answer: 6",
+  "source": "Finan §47 — Practice Problem 47.16"
+}

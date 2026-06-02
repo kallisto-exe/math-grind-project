@@ -1,0 +1,13 @@
+{
+  "id": "ex-4-4",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 2,
+  "subtopic": "Worked Example 4.4",
+  "question": "How many license plates are there that start with three letters followed by 4 digits (no repetitions)?",
+  "answer": "",
+  "explanation": "The decision consists of two steps. The first is to select the letters and this can be done in ${}_{26}P_3$ ways. The second step is to select the digits and this can be done in ${}_{10}P_4$ ways. Thus, by the Fundamental Principle of Counting there are ${}_{26}P_3 \\cdot {}_{10}P_4 = 78{,}624{,}000$ license plates",
+  "source": "Finan §4 — Worked Example 4.4"
+}

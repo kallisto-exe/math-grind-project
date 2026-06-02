@@ -1,0 +1,13 @@
+{
+  "id": "ex-6-6",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 3,
+  "subtopic": "Worked Example 6.6",
+  "question": "What is the probability of rolling a 3 or a 4 with a fair die?",
+  "answer": "",
+  "explanation": "The event of having a 3 or a 4 has two outcomes $\\{3, 4\\}$. The probability of rolling a 3 or a 4 is $\\frac{2}{6} = \\frac{1}{3}$.",
+  "source": "Finan §6 — Worked Example 6.6"
+}

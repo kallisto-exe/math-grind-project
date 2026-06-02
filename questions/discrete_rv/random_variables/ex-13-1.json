@@ -1,0 +1,13 @@
+{
+  "id": "ex-13-1",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 3,
+  "subtopic": "Worked Example 13.1",
+  "question": "State whether the random variables are discrete, continuous or mixed. (a) A coin is tossed ten times. The random variable $X$ is the number of tails that are noted. (b) A light bulb is burned until it burns out. The random variable $Y$ is its lifetime in hours. (c) $Z : (0, 1) \\to \\mathbb{R}$ where $Z(s) = \\begin{cases} 1 - s, & 0 < s < \\frac{1}{2} \\\\ 2, & \\frac{1}{2} \\le s < 1 \\end{cases}$.",
+  "answer": "",
+  "explanation": "(a) $X$ can only take the values 0, 1, ..., 10, so $X$ is a discrete random variable. (b) $Y$ can take any positive real value, so $Y$ is a continuous random variable. (c) $Z$ is a mixed random variable since $Z$ is continuous in the interval $\\left(0, \\frac{1}{2}\\right)$ and discrete on the interval $\\left[\\frac{1}{2}, 1\\right)$.",
+  "source": "Finan §13 — Worked Example 13.1"
+}

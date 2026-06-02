@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-15",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.15",
+  "question": "A device containing two key components fails when, and only when, both components fail. The lifetimes, $X$ and $Y$, of these components are independent with common density function $f(t) = e^{-t}, t > 0$. The cost, $Z$, of operating the device until failure is $2X + Y$. Find the probability density function of $Z$.",
+  "answer": "$f(z) = e^{-\\frac{1}{2}z} - e^{-z}, z > 0$, $0$ otherwise",
+  "explanation": "Answer: $f(z) = e^{-\\frac{1}{2}z} - e^{-z}, z > 0$, $0$ otherwise",
+  "source": "Finan §40 — Practice Problem 40.15"
+}

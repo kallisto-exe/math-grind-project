@@ -1,0 +1,13 @@
+{
+  "id": "pr-29-4",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 29.4",
+  "question": "Set up a double integral of $f(x,y)$ over the part of the unit square on which at least one of $x$ and $y$ is greater than 0.5.",
+  "answer": "$\\int^1 \\int^1 f(x,y)\\,dy\\,dx + \\int^1 \\int_0^1 f(x,y)\\,dy\\,dx$",
+  "explanation": "Answer: $\\int^1 \\int^1 f(x,y)\\,dy\\,dx + \\int^1 \\int_0^1 f(x,y)\\,dy\\,dx$",
+  "source": "Finan §29 — Practice Problem 29.4"
+}

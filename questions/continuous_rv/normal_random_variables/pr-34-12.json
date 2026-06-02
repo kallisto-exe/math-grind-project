@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-12",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.12",
+  "question": "The length of time X (in minutes) it takes to go from your home to downtown is normally distributed with $\\mu = 30$ minutes and $\\sigma_X = 5$ minutes. What is the latest time that you should leave home if you want to be over 99% sure of arriving in time for a job interview taking place in downtown at 2pm?",
+  "answer": "1:18pm",
+  "explanation": "Answer: 1:18pm",
+  "source": "Finan §34 — Practice Problem 34.12"
+}

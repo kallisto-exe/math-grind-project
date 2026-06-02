@@ -1,0 +1,13 @@
+{
+  "id": "ex-10-2",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 3,
+  "subtopic": "Worked Example 10.2",
+  "question": "A small manufacturing company uses two machines $A$ and $B$ to make shirts. Observation shows that machine $A$ produces 10% of the total production of shirts while machine $B$ produces 90% of the total production of shirts. Assuming that 1% of all the shirts produced by $A$ are defective while 5% of all the shirts produced by $B$ are defective, find the probability that a shirt taken at random from a day's production was made by machine $A$, given that it is defective.",
+  "answer": "",
+  "explanation": "We are given $\\Pr(A) = 0.1$, $\\Pr(B) = 0.9$, $\\Pr(D|A) = 0.01$, and $\\Pr(D|B) = 0.05$. We want to find $\\Pr(A|D)$. Using Bayes' formula we find $\\Pr(A|D) = \\frac{\\Pr(A \\cap D)}{\\Pr(D)} = \\frac{\\Pr(D|A)\\Pr(A)}{\\Pr(D|A)\\Pr(A) + \\Pr(D|B)\\Pr(B)} = \\frac{(0.01)(0.1)}{(0.01)(0.1) + (0.05)(0.9)} \\approx 0.0217$",
+  "source": "Finan §10 — Worked Example 10.2"
+}

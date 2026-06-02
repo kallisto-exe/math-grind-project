@@ -1,0 +1,13 @@
+{
+  "id": "ex-8-5",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 3,
+  "subtopic": "Worked Example 8.5",
+  "question": "The faculty of a college consists of 35 female faculty and 65 male faculty. 70% of the female faculty favor raising tuition, while only 40% of the male faculty favor the increase. If a faculty member is selected at random from this group, what is the probability that he or she favors raising tuition?",
+  "answer": "",
+  "explanation": "Figure 8.3 shows a tree diagram for this problem where F stands for female, M for male. Figure 8.3 The first and third branches correspond to favoring the tuition raise. We add their probabilities. $\\Pr(\\text{tuition raise}) = 0.245 + 0.26 = 0.505$.",
+  "source": "Finan §8 — Worked Example 8.5"
+}

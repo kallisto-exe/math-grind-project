@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-12",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.12",
+  "question": "(a) Use induction to show that if $n(A) = n$ then $n(\\mathcal{P}(A)) = 2^n$, where $n \\ge 0$ and $n \\in \\mathbb{N}$. (b) If $\\mathcal{P}(A)$ has 256 elements, how many elements are there in A?",
+  "answer": "",
+  "explanation": "(a) We apply induction to prove the claim. If $n = 0$ then $A = \\emptyset$ and in this case $\\mathcal{P}(A) = \\{\\emptyset\\}$. Thus, $n(\\mathcal{P}(A)) = 1 = 2^0$. As induction hypothesis, suppose that if $n(A) = n$ then $n(\\mathcal{P}(A)) = 2^n$. Let $B = \\{a_1, a_2, \\ldots, a_n, a_{n+1}\\}$. Then $\\mathcal{P}(B)$ consists of all subsets of $\\{a_1, a_2, \\ldots, a_n\\}$ together with all subsets of $\\{a_1, a_2, \\ldots, a_n\\}$ with the element $a_{n+1}$ added to them. Hence, $n(\\mathcal{P}(B)) = 2^n + 2^n = 2 \\cdot 2^n = 2^{n+1}$. (b) Since $n(\\mathcal{P}(A)) = 256 = 2^8$, by (a) we have $n(A) = 8$",
+  "source": "Finan §1 — Worked Example 1.12"
+}

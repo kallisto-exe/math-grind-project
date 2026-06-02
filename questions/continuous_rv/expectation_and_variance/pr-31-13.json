@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-13",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.13",
+  "question": "A company agrees to accept the highest of four sealed bids on a property. The four bids are regarded as four independent random variables with common cumulative distribution function $F(x) = \\frac{1}{2}(1 + \\sin \\pi x)$, $\\frac{3}{2} \\le x \\le \\frac{5}{2}$ and 0 otherwise. What is the expected value of the accepted bid?",
+  "answer": "2.227",
+  "explanation": "Answer: 2.227",
+  "source": "Finan §31 — Practice Problem 31.13"
+}

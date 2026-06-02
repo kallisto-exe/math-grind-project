@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-2",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.2",
+  "question": "Suppose that $X$ and $Y$ have joint distribution $$f_{XY}(x,y) = \\begin{cases} \\frac{3y^2}{x^3} & 0<y<x<1 \\\\ 0 & \\text{otherwise.} \\end{cases}$$ Find $E(X)$, $E(X^2)$, $\\mathrm{Var}(X)$, $E(Y|X)$, $\\mathrm{Var}(Y|X)$, $E[\\mathrm{Var}(Y|X)]$, $\\mathrm{Var}[E(Y|X)]$, and $\\mathrm{Var}(Y)$.",
+  "answer": "$E(X) = \\frac{1}{2}$, $E(X^2) = \\frac{1}{3}$, $\\mathrm{Var}(X) = \\frac{1}{12}$, $E(Y|X) = \\frac{3}{4}X$, $\\mathrm{Var}(Y|X) = \\frac{3}{80}X^2$, $E[\\mathrm{Var}(Y|X)] = \\frac{1}{80}$, $\\mathrm{Var}[E(Y|X)] = \\frac{3}{64}$, $\\mathrm{Var}(Y) = \\frac{19}{320}$",
+  "explanation": "Answer: $E(X) = \\frac{1}{2}$, $E(X^2) = \\frac{1}{3}$, $\\mathrm{Var}(X) = \\frac{1}{12}$, $E(Y|X) = \\frac{3}{4}X$, $\\mathrm{Var}(Y|X) = \\frac{3}{80}X^2$, $E[\\mathrm{Var}(Y|X)] = \\frac{1}{80}$, $\\mathrm{Var}[E(Y|X)] = \\frac{3}{64}$, $\\mathrm{Var}(Y) = \\frac{19}{320}$",
+  "source": "Finan §48 — Practice Problem 48.2"
+}

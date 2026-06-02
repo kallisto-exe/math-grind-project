@@ -1,0 +1,13 @@
+{
+  "id": "pr-43-11",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 43.11",
+  "question": "Let $N_1$ and $N_2$ represent the numbers of claims submitted to a life insurance company in April and May, respectively. The joint probability function of $N_1$ and $N_2$ is $\\Pr(n_1, n_2) = \\begin{cases} 3\\left(\\frac{1}{4}\\right)^{n_1-1} e^{-n_1}(1-e^{-n_1})^{n_2-1} & \\text{for } n_1 = 1, 2, 3, \\ldots \\text{ and } n_2 = 1, 2, 3, \\ldots \\\\ 0 & \\text{otherwise.} \\end{cases}$ Calculate the expected number of claims that will be submitted to the company in May if exactly 2 claims were submitted in April.",
+  "answer": "$e^2$",
+  "explanation": "Answer: $e^2$",
+  "source": "Finan §43 — Practice Problem 43.11"
+}

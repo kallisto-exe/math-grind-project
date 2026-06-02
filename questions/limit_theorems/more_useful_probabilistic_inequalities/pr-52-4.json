@@ -1,0 +1,13 @@
+{
+  "id": "pr-52-4",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 52.4",
+  "question": "Suppose that you record only the integer amount of dollars of the checks you write in your checkbook. If 20 checks are written, find the upper bound provided by the one-sided Chebyshev inequality on the probability that the record in your checkbook shows at least $15 less than the actual amount in your account.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §52 — Practice Problem 52.4"
+}

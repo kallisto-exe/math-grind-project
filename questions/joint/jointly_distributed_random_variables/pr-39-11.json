@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-11",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.11",
+  "question": "A company is reviewing tornado damage claims under a farm insurance policy. Let $X$ be the portion of a claim representing damage to the house and let $Y$ be the portion of the same claim representing damage to the rest of the property. The joint density function of $X$ and $Y$ is $f_{XY}(x, y) = \\begin{cases} 6[1 - (x + y)] & x > 0, y > 0, x + y < 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Determine the probability that the portion of a claim representing damage to the house is less than 0.2.",
+  "answer": "0.488",
+  "explanation": "Answer: 0.488",
+  "source": "Finan §39 — Practice Problem 39.11"
+}

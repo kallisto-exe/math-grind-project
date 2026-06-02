@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-9",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.9",
+  "question": "John and Katie randomly, and independently, choose 3 out of 10 objects. Find the expected number of objects (a) chosen by both individuals. (b) not chosen by either individual. (c) chosen exactly by one of the two.",
+  "answer": "(a) 0.9 (b) 4.9 (c) 4.2",
+  "explanation": "Answer: (a) 0.9 (b) 4.9 (c) 4.2",
+  "source": "Finan §46 — Practice Problem 46.9"
+}

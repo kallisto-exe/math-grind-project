@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-5",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.5",
+  "question": "Let $X$ and $Y$ be continuous random variables with conditional and marginal p.d.f.'s given by $f_X(x) = \\frac{x^3 e^{-x}}{6} I_{(0,\\infty)}(x)$ and $f_{Y|x}(y|x) = \\frac{3y^2}{x^3} I_{(0,x)}(y)$ where $I_A(x)$ is the indicator function of $A$. (a) Find the joint p.d.f. of $X$ and $Y$. (b) Find the conditional p.d.f. of $X$ given $Y = y$.",
+  "answer": "(a) For $0 < y < x$ we have $f_{XY}(x,y) = \\frac{y^2}{2}e^{-x}$ (b) $f_{X|Y}(x|y) = e^{-(x-y)}$, $0 < y < x$",
+  "explanation": "Answer: (a) For $0 < y < x$ we have $f_{XY}(x,y) = \\frac{y^2}{2}e^{-x}$ (b) $f_{X|Y}(x|y) = e^{-(x-y)}$, $0 < y < x$",
+  "source": "Finan §44 — Practice Problem 44.5"
+}

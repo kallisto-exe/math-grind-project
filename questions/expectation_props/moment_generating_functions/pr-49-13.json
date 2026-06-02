@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-13",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.13",
+  "question": "Let $X_1, X_2, X_3$ be independent discrete random variables with common probability mass function $\\Pr(x) = \\begin{cases} \\frac{1}{3} & x = 0 \\\\ \\frac{2}{3} & x = 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Determine the moment generating function $M(t)$, of $Y = X_1 X_2 X_3$.",
+  "answer": "$M(t) = E(e^{ty}) = \\frac{19}{27} + \\frac{8}{27}e^t$",
+  "explanation": "Answer: $M(t) = E(e^{ty}) = \\frac{19}{27} + \\frac{8}{27}e^t$",
+  "source": "Finan §49 — Practice Problem 49.13"
+}

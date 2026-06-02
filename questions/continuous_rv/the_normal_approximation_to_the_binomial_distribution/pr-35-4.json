@@ -1,0 +1,13 @@
+{
+  "id": "pr-35-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§35 The Normal Approximation to the Binomial Distribution",
+  "section": 35,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 35.4",
+  "question": "Suppose that the probability of a family with two children is 0.25 that the children are boys. Consider a random sample of 1,000 families with two children. Find the probability that at most 220 families have two boys.",
+  "answer": "0.0158",
+  "explanation": "Answer: 0.0158",
+  "source": "Finan §35 — Practice Problem 35.4"
+}

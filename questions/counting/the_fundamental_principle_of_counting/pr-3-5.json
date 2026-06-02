@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-5",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.5",
+  "question": "In a medical study, patients are classified according to whether they have regular (RHB) or irregular heartbeat (IHB) and also according to whether their blood pressure is low (L), normal (N), or high (H). Use a tree diagram to represent the various outcomes that can occur.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §3 — Practice Problem 3.5"
+}

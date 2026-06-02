@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-3",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.3",
+  "question": "The following problem exhibits a random variable with no moment generating function. Let $X$ be a random variable with pmf given by $p_X(n) = \\frac{6}{\\pi^2 n^2}$, $n = 1, 2, 3, \\ldots$. Show that $M_X(t)$ does not exist in any neighborhood of 0.",
+  "answer": "The moment generating function is $M_X(t) = \\sum_{n=1}^{\\infty} e^{tn} \\frac{6}{\\pi^2 n^2}$. By the ratio test we have $\\lim_{n\\to\\infty} \\frac{e^{t(n+1)} \\frac{6}{\\pi^2(n+1)^2}}{e^{tn} \\frac{6}{\\pi^2 n^2}} = \\lim_{n\\to\\infty} e^t \\frac{n^2}{(n + 1)^2} = e^t > 1$ and so the summation diverges whenever $t > 0$. Hence there does not exist a neighborhood about 0 in which the mgf is finite.",
+  "explanation": "Answer: The moment generating function is $M_X(t) = \\sum_{n=1}^{\\infty} e^{tn} \\frac{6}{\\pi^2 n^2}$. By the ratio test we have $\\lim_{n\\to\\infty} \\frac{e^{t(n+1)} \\frac{6}{\\pi^2(n+1)^2}}{e^{tn} \\frac{6}{\\pi^2 n^2}} = \\lim_{n\\to\\infty} e^t \\frac{n^2}{(n + 1)^2} = e^t > 1$ and so the summation diverges whenever $t > 0$. Hence there does not exist a neighborhood about 0 in which the mgf is finite.",
+  "source": "Finan §49 — Practice Problem 49.3"
+}

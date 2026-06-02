@@ -1,0 +1,13 @@
+{
+  "id": "pr-12-6",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§12 Odds and Conditional Probability",
+  "section": 12,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 12.6",
+  "question": "If a die is tossed, what are the odds in favor of the following events? (a) Getting a 4 (b) Getting a prime (c) Getting a number greater than 0 (d) Getting a number greater than 6.",
+  "answer": "(a) $1:5$ (b) $1:1$ (c) $1:0$ (d) $0:1$",
+  "explanation": "Answer: (a) $1:5$ (b) $1:1$ (c) $1:0$ (d) $0:1$",
+  "source": "Finan §12 — Practice Problem 12.6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-9",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.9",
+  "question": "An insurance company estimates that 40% of policyholders who have only an auto policy will renew next year and 60% of policyholders who have only a homeowners policy will renew next year. The company estimates that 80% of policyholders who have both an auto and a homeowners policy will renew at least one of those policies next year. Company records show that 65% of policyholders have an auto policy, 50% of policyholders have a homeowners policy, and 15% of policyholders have both an auto and a homeowners policy. Using the company's estimates, calculate the percentage of policyholders that will renew at least one policy next year.",
+  "answer": "53%",
+  "explanation": "Answer: 53%",
+  "source": "Finan §2 — Practice Problem 2.9"
+}

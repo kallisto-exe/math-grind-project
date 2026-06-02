@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-2",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.2",
+  "question": "An entrance exam consists of two subjects: Math and english. The probability that a student fails the math test is 0.20. The probability of failing english is 0.15, and the probability of failing both subjects is 0.03. What is the probability that the student will fail at least one of these subjects?",
+  "answer": "0.32",
+  "explanation": "Answer: 0.32",
+  "source": "Finan §7 — Practice Problem 7.2"
+}

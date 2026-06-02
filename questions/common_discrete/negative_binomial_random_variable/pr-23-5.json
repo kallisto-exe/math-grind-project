@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-5",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.5",
+  "question": "Find the probability of getting the fourth head on the ninth flip of a fair coin.",
+  "answer": "$0.109375$",
+  "explanation": "Answer: $0.109375$",
+  "source": "Finan §23 — Practice Problem 23.5"
+}

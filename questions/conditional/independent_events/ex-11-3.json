@@ -1,0 +1,13 @@
+{
+  "id": "ex-11-3",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 3,
+  "subtopic": "Worked Example 11.3",
+  "question": "Let $A$ and $B$ be two independent events such that $\\Pr(B \\mid A \\cup B) = \\frac{2}{3}$ and $\\Pr(A \\mid B) = \\frac{1}{2}$. What is $\\Pr(B)$?",
+  "answer": "",
+  "explanation": "First, note that by independence we have $\\frac{1}{2} = \\Pr(A \\mid B) = \\Pr(A)$. Next, $\\Pr(B \\mid A \\cup B) = \\frac{\\Pr(B)}{\\Pr(A \\cup B)} = \\frac{\\Pr(B)}{\\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)} = \\frac{\\Pr(B)}{\\Pr(A) + \\Pr(B) - \\Pr(A)\\Pr(B)}$. Thus, $\\frac{2}{3} = \\frac{\\Pr(B)}{\\frac{1}{2} + \\frac{1}{2}\\Pr(B)}$ Solving this equation for $\\Pr(B)$ we find $\\Pr(B) = \\frac{1}{2}$ Theorem 11.2 If $A$ and $B$ are independent then so are $A$ and $B^c$. Proof. First note that $A$ can be written as the union of two mutually exclusive events: $A = A \\cap (B \\cup B^c) = (A \\cap B) \\cup (A \\cap B^c)$. Thus, $\\Pr(A) = \\Pr(A \\cap B) + \\Pr(A \\cap B^c)$. It follows that $\\Pr(A \\cap B^c) = \\Pr(A) - \\Pr(A \\cap B) = \\Pr(A) - \\Pr(A)\\Pr(B) = \\Pr(A)(1 - \\Pr(B)) = \\Pr(A)\\Pr(B^c)$",
+  "source": "Finan §11 — Worked Example 11.3"
+}

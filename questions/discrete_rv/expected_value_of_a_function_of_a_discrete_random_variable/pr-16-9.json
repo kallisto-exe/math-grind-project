@@ -1,0 +1,13 @@
+{
+  "id": "pr-16-9",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§16 Expected Value of a Function of a Discrete Random Variable",
+  "section": 16,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 16.9",
+  "question": "A box contains 7 marbles of which 3 are red and 4 are blue. Randomly select two marbles without replacement. If the marbles are of the same color then you win $2, otherwise you lose $1. Let $X$ be the random variable representing your net winnings. (a) Find the probability mass function of $X$. (b) Compute $E(2X)$.",
+  "answer": "(a) $\\Pr(X = 2) = \\Pr(RR) + \\Pr(BB) = \\frac{{}_3C_2}{{}_7C_2} + \\frac{{}_4C_2}{{}_7C_2} = \\frac{3}{21} + \\frac{6}{21} = \\frac{9}{21} = \\frac{3}{7}$ and $\\Pr(X = -1) = 1 - \\Pr(X = 2) = 1 - \\frac{3}{7} = \\frac{4}{7}$ (b) $E(2X) = 2$",
+  "explanation": "Answer: (a) $\\Pr(X = 2) = \\Pr(RR) + \\Pr(BB) = \\frac{{}_3C_2}{{}_7C_2} + \\frac{{}_4C_2}{{}_7C_2} = \\frac{3}{21} + \\frac{6}{21} = \\frac{9}{21} = \\frac{3}{7}$ and $\\Pr(X = -1) = 1 - \\Pr(X = 2) = 1 - \\frac{3}{7} = \\frac{4}{7}$ (b) $E(2X) = 2$",
+  "source": "Finan §16 — Practice Problem 16.9"
+}

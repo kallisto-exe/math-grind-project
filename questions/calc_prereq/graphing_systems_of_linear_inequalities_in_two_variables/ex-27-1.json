@@ -1,0 +1,13 @@
+{
+  "id": "ex-27-1",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§27 Graphing Systems of Linear Inequalities in Two Variables",
+  "section": 27,
+  "difficulty": 2,
+  "subtopic": "Worked Example 27.1",
+  "question": "Solve graphically each of the following inequalities: (a) $y \\le x-2$ (b) $y < x-2$ (c) $y \\ge x-2$ (d) $y > x-2$.",
+  "answer": "",
+  "explanation": "(a) First, we graph the line $y = x-2$ as a solid line. The test point $(0, 0)$ does not satisfy the inequality so that the lower-half plane including the boundary line is the solution set. See Figure 27.1(a). (b) The boundary line is a dashed-line. As in (a), the solution set is the lower-half plane. See Figure 27.1(b). (c) The solution set is the upper-half plane together with the boundary line. See Figure 27.1(c). (d) The solution set is the upper-half plane. See Figure 27.1(d) Figure 27.1 We next consider systems of linear inequalities. The solution set is the region in the Cartesian coordinate system consisting of all pairs that simultaneously satisfy all the inequalities in the system. The solution region is known as the feasible region. To find the feasible region, we solve graphically each linear inequality in the system. The feasible region is the region where all the solution sets overlap. The intersection of two boundary lines is called a corner point.",
+  "source": "Finan §27 — Worked Example 27.1"
+}

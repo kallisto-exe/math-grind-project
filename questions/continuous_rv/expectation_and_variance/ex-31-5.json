@@ -1,0 +1,13 @@
+{
+  "id": "ex-31-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 4,
+  "subtopic": "Worked Example 31.5",
+  "question": "Claim amounts for wind damage to insured homes are independent random variables with common density function $f(x) = \\begin{cases} \\frac{3}{x^4} & x > 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ where $x$ is the amount of a claim in thousands. Suppose 3 such claims will be made, what is the expected value of the largest of the three claims?",
+  "answer": "",
+  "explanation": "Note for any of the random variables the cdf is given by $F(x) = \\int_1^x \\frac{3}{t^4}\\,dt = 1 - \\frac{1}{x^3}$, $x > 1$. Next, let $X_1, X_2$, and $X_3$ denote the three claims made that have this distribution. Then if $Y$ denotes the largest of these three claims, it follows that the cdf of $Y$ is given by $F_Y(y) = P[(X_1 \\le y) \\cap (X_2 \\le y) \\cap (X_3 \\le y)] = \\Pr(X_1 \\le y)\\Pr(X_2 \\le y)\\Pr(X_3 \\le y) = \\left(1 - \\frac{1}{y^3}\\right)^3$, $y > 1$. The pdf of $Y$ is obtained by differentiating $F_Y(y)$: $f_Y(y) = 3\\left(1 - \\frac{1}{y^3}\\right)^2 \\left(\\frac{3}{y^4}\\right) = \\left(\\frac{9}{y^4}\\right)\\left(1 - \\frac{1}{y^3}\\right)^2$. Finally, $E(Y) = \\int_1^\\infty \\left(\\frac{9}{y^3}\\right)\\left(1 - \\frac{1}{y^3}\\right)^2 dy = \\int_1^\\infty \\left(\\frac{9}{y^3}\\right)\\left(1 - \\frac{2}{y^3} + \\frac{1}{y^6}\\right) dy = \\int_1^\\infty \\left(\\frac{9}{y^3} - \\frac{18}{y^6} + \\frac{9}{y^9}\\right) dy = \\left[-\\frac{9}{2y^2} + \\frac{18}{5y^5} - \\frac{9}{8y^8}\\right]_1^\\infty = 9\\left[\\frac{1}{2} - \\frac{2}{5} + \\frac{1}{8}\\right] \\approx 2.025$ (in thousands)",
+  "source": "Finan §31 — Worked Example 31.5"
+}

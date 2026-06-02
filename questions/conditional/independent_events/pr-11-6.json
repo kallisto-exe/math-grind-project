@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-6",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.6",
+  "question": "An actuary studying the insurance preferences of automobile owners makes the following conclusions: (i) An automobile owner is twice as likely to purchase a collision coverage as opposed to a disability coverage. (ii) The event that an automobile owner purchases a collision coverage is independent of the event that he or she purchases a disability coverage. (iii) The probability that an automobile owner purchases both collision and disability coverages is 0.15. What is the probability that an automobile owner purchases neither collision nor disability coverage?",
+  "answer": "0.328",
+  "explanation": "Answer: 0.328",
+  "source": "Finan §11 — Practice Problem 11.6"
+}

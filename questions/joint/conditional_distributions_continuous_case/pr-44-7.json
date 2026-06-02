@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-7",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.7",
+  "question": "The joint probability density function of the random variables $X$ and $Y$ is given by $f_{XY}(x,y) = \\begin{cases} \\frac{1}{3}x - y + 1 & 1 \\le x \\le 2,\\ 0 \\le y \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find the conditional probability density function of $X$ given $Y = y$. (b) Find $\\Pr(X < \\frac{3}{2} | Y = \\frac{1}{2})$.",
+  "answer": "$f_{X|Y}(x|y) = \\frac{3x - y + 1}{2 - y}$ (b) 11",
+  "explanation": "Answer: $f_{X|Y}(x|y) = \\frac{3x - y + 1}{2 - y}$ (b) 11",
+  "source": "Finan §44 — Practice Problem 44.7"
+}

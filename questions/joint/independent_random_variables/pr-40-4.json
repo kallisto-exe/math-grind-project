@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.4",
+  "question": "Let $X$ and $Y$ have the joint pdf given by $f_{XY}(x, y) = \\begin{cases} kxy & 0 \\le x, y \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find $k$. (b) Find $f_X(x)$ and $f_Y(y)$. (c) Are $X$ and $Y$ independent?",
+  "answer": "(a) $k = 4$ (b) We have $f_X(x) = \\int_0^1 4xy\\,dy = 2x, 0 \\le x \\le 1$ and 0 otherwise. Similarly, $f_Y(y) = \\int_0^1 4xy\\,dx = 2y, 0 \\le y \\le 1$ and 0 otherwise. (c) Since $f_{XY}(x, y) = f_X(x)f_Y(y)$, $X$ and $Y$ are independent.",
+  "explanation": "Answer: (a) $k = 4$ (b) We have $f_X(x) = \\int_0^1 4xy\\,dy = 2x, 0 \\le x \\le 1$ and 0 otherwise. Similarly, $f_Y(y) = \\int_0^1 4xy\\,dx = 2y, 0 \\le y \\le 1$ and 0 otherwise. (c) Since $f_{XY}(x, y) = f_X(x)f_Y(y)$, $X$ and $Y$ are independent.",
+  "source": "Finan §40 — Practice Problem 40.4"
+}

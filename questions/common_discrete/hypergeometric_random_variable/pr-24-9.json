@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-9",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.9",
+  "question": "Consider a suitcase with 7 shirts and 3 pants. Suppose we draw 4 items without replacement from the suitcase. Let $X$ be the total number of shirts we get. Compute $\\Pr(X \\le 1)$.",
+  "answer": "$0.033$",
+  "explanation": "Answer: $0.033$",
+  "source": "Finan §24 — Practice Problem 24.9"
+}

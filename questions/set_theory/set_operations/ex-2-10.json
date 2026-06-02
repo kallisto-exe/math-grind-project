@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-10",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.10",
+  "question": "Find three sets $A$, $B$, and $C$ that are not pairwise disjoint but $A \\cap B \\cap C = \\emptyset$.",
+  "answer": "",
+  "explanation": "One example is $A = B = \\{1\\}$ and $C = \\emptyset$",
+  "source": "Finan §2 — Worked Example 2.10"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-25-2",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 4,
+  "subtopic": "Worked Example 25.2",
+  "question": "Determine whether the given values can serve as the values of a distribution function of a random variable with the range $x = 1, 2, 3, 4$. $F(1) = 0.3$, $F(2) = 0.5$, $F(3) = 0.8$, and $F(4) = 1.2$",
+  "answer": "",
+  "explanation": "No because $F(4)$ exceeds 1. All probability questions can be answered in terms of the c.d.f. Proposition 25.5 For any random variable $X$ and any real number $a$, we have $\\Pr(X > a) = 1-F(a)$. Proof. Let $A = \\{x\\in S : X(s)\\le a\\}$. Then $A^c = \\{s\\in S : X(s) > a\\}$. We have $\\Pr(X > a) = \\Pr(A^c) = 1-\\Pr(A) = 1-\\Pr(X\\le a) = 1-F(a)$",
+  "source": "Finan §25 — Worked Example 25.2"
+}

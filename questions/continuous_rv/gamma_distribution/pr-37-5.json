@@ -1,0 +1,13 @@
+{
+  "id": "pr-37-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 37.5",
+  "question": "Suppose the continuous random variable X has the following pdf: $f(x) = \\begin{cases} \\frac{1}{16}x^2 e^{-x/2} & \\text{if } x > 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find $E(X^3)$.",
+  "answer": "480",
+  "explanation": "Answer: 480",
+  "source": "Finan §37 — Practice Problem 37.5"
+}

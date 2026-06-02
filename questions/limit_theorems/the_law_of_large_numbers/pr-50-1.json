@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-1",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.1",
+  "question": "Let $\\epsilon > 0$. Let $X$ be a discrete random variable with range $\\{-\\epsilon, \\epsilon\\}$ and pmf given by $\\Pr(-\\epsilon) = \\frac{1}{2}$ and $\\Pr(\\epsilon) = \\frac{1}{2}$ and 0 otherwise. Show that the inequality in Chebyshev's inequality is in fact an equality.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.1"
+}

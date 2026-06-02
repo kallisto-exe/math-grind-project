@@ -1,0 +1,13 @@
+{
+  "id": "ex-7-2",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 3,
+  "subtopic": "Worked Example 7.2",
+  "question": "Consider the sample space of rolling a die. Let $A$ be the event of rolling a prime number, $B$ the event of rolling a composite number, and $C$ the event of rolling a 4. Find (a) $A \\cup B$, $A \\cup C$, and $B \\cup C$. (b) $A \\cap B$, $A \\cap C$, and $B \\cap C$. (c) Which events are mutually exclusive?",
+  "answer": "",
+  "explanation": "(a) We have $A \\cup B = \\{2, 3, 4, 5, 6\\}$, $A \\cup C = \\{2, 3, 4, 5\\}$, $B \\cup C = \\{4, 6\\}$. (b) $A \\cap B = \\emptyset$, $A \\cap C = \\emptyset$, $B \\cap C = \\{4\\}$. (c) $A$ and $B$ are mutually exclusive as well as $A$ and $C$.",
+  "source": "Finan §7 — Worked Example 7.2"
+}

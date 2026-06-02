@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-10",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.10",
+  "question": "Let $X$ and $Y$ be independent random variables with density functions $f_X(x) = \\frac{1}{\\sqrt{2\\pi} \\sigma_1} e^{-\\frac{(x - \\mu_1)^2}{2\\sigma_1^2}}$ and $f_Y(y) = \\frac{1}{\\sqrt{2\\pi} \\sigma_2} e^{-\\frac{(y - \\mu_2)^2}{2\\sigma_2^2}}$. Find the probability density function of $X + Y$.",
+  "answer": "$f_{X+Y}(a) = \\frac{1}{\\sqrt{2\\pi(\\sigma_1^2 + \\sigma_2^2)}} e^{-(a - (\\mu_1 + \\mu_2))^2 / [2(\\sigma_1^2 + \\sigma_2^2)]}$.",
+  "explanation": "Answer: $f_{X+Y}(a) = \\frac{1}{\\sqrt{2\\pi(\\sigma_1^2 + \\sigma_2^2)}} e^{-(a - (\\mu_1 + \\mu_2))^2 / [2(\\sigma_1^2 + \\sigma_2^2)]}$.",
+  "source": "Finan §42 — Practice Problem 42.10"
+}

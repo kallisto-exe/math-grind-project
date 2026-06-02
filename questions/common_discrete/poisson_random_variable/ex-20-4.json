@@ -1,0 +1,13 @@
+{
+  "id": "ex-20-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 4,
+  "subtopic": "Worked Example 20.4",
+  "question": "The number $X$ of people in a certain town who get the influenza follows a Poisson distribution. The proportion of people who did not get the flu is 0.01. Find the probability mass function of $X$.",
+  "answer": "",
+  "explanation": "The pmf of $X$ is $\\Pr(X = k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$, $k = 0, 1, 2, \\ldots$ Since $P(X = 0) = 0.01$ we can write $e^{-\\lambda} = 0.01$. Thus, $\\lambda = 4.605$ and the exact Poisson distribution is $\\Pr(X = k) = \\frac{(4.605)^k e^{-4.605}}{k!}$, $k = 0, 1, 2, \\ldots$ If $X$ has a Poisson distribution, its expected value is found as follows. $E(X) = \\sum_{k=1}^{\\infty} k\\frac{e^{-\\lambda}\\lambda^k}{k!} = \\lambda\\sum_{k=1}^{\\infty}\\frac{e^{-\\lambda}\\lambda^{k-1}}{(k-1)!} = \\lambda\\sum_{k=0}^{\\infty}\\frac{e^{-\\lambda}\\lambda^k}{k!} = \\lambda e^{-\\lambda}e^{\\lambda} = \\lambda$ To find the variance, we first compute $E(X^2)$. From $E(X(X-1)) = \\sum_{k=2}^{\\infty} k(k-1)\\frac{e^{-\\lambda}\\lambda^k}{k!} = \\lambda^2\\sum_{k=2}^{\\infty}\\frac{e^{-\\lambda}\\lambda^{k-2}}{(k-2)!} = \\lambda^2\\sum_{k=0}^{\\infty}\\frac{e^{-\\lambda}\\lambda^k}{k!} = \\lambda^2 e^{-\\lambda}e^{\\lambda} = \\lambda^2$ we find $E(X^2) = E(X(X-1)) + E(X) = \\lambda^2 + \\lambda$. Thus, $\\mathrm{Var}(X) = E(X^2) - (E(X))^2 = \\lambda$.",
+  "source": "Finan §20 — Worked Example 20.4"
+}

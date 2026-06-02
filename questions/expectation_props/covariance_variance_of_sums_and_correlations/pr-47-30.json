@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-30",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.30",
+  "question": "The following table gives the joint probability distribution of two random variables $X$ and $Y$. X\\Y 0 1 2 0 0.25 0.08 0.05 1 0.12 0.20 0.10 2 0.03 0.07 0.10 (a) Give the marginal distributions of $X$ and $Y$. (b) Find $E(X)$ and $E(Y)$. (c) Find $\\mathrm{Cov}(X,Y)$. (d) Find $E(100X + 75Y)$.",
+  "answer": "(a) We have X\\Y 0 1 2 $p_X(x)$ 0 0.25 0.08 0.05 0.38 1 0.12 0.20 0.10 0.42 2 0.03 0.07 0.10 0.2 $p_Y(y)$ 0.4 0.35 0.25 1 (b) $E(X) = 0.82$ and $E(Y) = 0.85$. (c) 0.243 (d) 145.75",
+  "explanation": "Answer: (a) We have X\\Y 0 1 2 $p_X(x)$ 0 0.25 0.08 0.05 0.38 1 0.12 0.20 0.10 0.42 2 0.03 0.07 0.10 0.2 $p_Y(y)$ 0.4 0.35 0.25 1 (b) $E(X) = 0.82$ and $E(Y) = 0.85$. (c) 0.243 (d) 145.75",
+  "source": "Finan §47 — Practice Problem 47.30"
+}

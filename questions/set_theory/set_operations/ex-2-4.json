@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-4",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.4",
+  "question": "Translate the following set-theoretic notation into event language. For example, \"$A \\cup B$\" means \"A or B occurs\". (a) $A \\cap B$ (b) $A - B$ (c) $A \\cup B - A \\cap B$ (d) $A - (B \\cup C)$ (e) $A \\subset B$ (f) $A \\cap B = \\emptyset$",
+  "answer": "",
+  "explanation": "(a) A and B occur (b) A occurs and B does not occur (c) A or B, but not both, occur (d) A occurs, and B and C do not occur (e) if A occurs, then B occurs but if B occurs then A need not occur. (f) if A occurs, then B does not occur or if B occurs then A does not occur",
+  "source": "Finan §2 — Worked Example 2.4"
+}

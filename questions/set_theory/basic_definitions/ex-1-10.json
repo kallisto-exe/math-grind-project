@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-10",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.10",
+  "question": "Determine whether each of the following statements is true or false. (a) $x \\in \\{x\\}$ (b) $\\{x\\} \\subseteq \\{x\\}$ (c) $\\{x\\} \\in \\{x\\}$ (d) $\\{x\\} \\in \\{\\{x\\}\\}$ (e) $\\emptyset \\subseteq \\{x\\}$ (f) $\\emptyset \\in \\{x\\}$",
+  "answer": "",
+  "explanation": "(a) True (b) True (c) False since $\\{x\\}$ is a set consisting of a single element $x$ and so $\\{x\\}$ is not a member of this set (d) True (e) True (f) False since $\\{x\\}$ does not have $\\emptyset$ as a listed member Now, the collection of all subsets of a set A is of importance. We denote this set by $\\mathcal{P}(A)$ and we call it the power set of A.",
+  "source": "Finan §1 — Worked Example 1.10"
+}

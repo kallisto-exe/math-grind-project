@@ -1,0 +1,13 @@
+{
+  "id": "pr-15-12",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 15.12",
+  "question": "A computer store specializes in selling used laptops. The laptops can be classified as either in good condition or in fair condition. Assume that the store salesperson is able to tell whether a laptop is in good or fair condition. However, a buyer in the store can not tell the difference. Suppose that buyers are aware that the probability of a laptop of being in good condition is 0.4. A laptop in good condition costs the store $400 and a buyer is willing to pay $525 for it whereas a laptop in fair conidition costs the store $200 and a buyer is willing to pay for $300 for it. (a) Find the expected value of a used laptop to a buyer who has no extra information. (b) Assuming that buyers will not pay more than their expected value for a used laptop, will sellers ever sell laptops in good condition?",
+  "answer": "(a) 390 (b) Since E(V )< 400 the answer is no.",
+  "explanation": "Answer: (a) 390 (b) Since $E(V) < 400$ the answer is no.",
+  "source": "Finan §15 — Practice Problem 15.12"
+}

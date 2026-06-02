@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-21",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.21",
+  "question": "If $X$ has a standard normal distribution and $Y = e^X$, what is the $k$-th moment of $Y$?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.21"
+}

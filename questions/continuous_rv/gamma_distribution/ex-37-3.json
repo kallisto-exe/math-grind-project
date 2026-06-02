@@ -1,0 +1,13 @@
+{
+  "id": "ex-37-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 4,
+  "subtopic": "Worked Example 37.3",
+  "question": "In a certain city, the daily consumption of water (in millions of liters) can be treated as a random variable having a gamma distribution with $\\alpha = 3$ and $\\lambda = 0.5$. (a) What is the random variable? What is the expected daily consumption? (b) If the daily capacity of the city is 12 million liters, what is the probability that this water supply will be inadequate on a given day? Set up the appropriate integral but do not evaluate. (c) What is the variance of the daily consumption of water?",
+  "answer": "",
+  "explanation": "(a) The random variable is the daily consumption of water in millions of liters. The expected daily consumption is the expected value of a gamma distributed variable with parameters $\\alpha = 3$ and $\\lambda = \\frac{1}{2}$ which is $E(X) = \\frac{\\alpha}{\\lambda} = 6$. (b) The probability is $\\frac{1}{2^3\\Gamma(3)}\\int_{12}^\\infty x^2 e^{-x/2}\\,dx = \\frac{1}{16}\\int_{12}^\\infty x^2 e^{-x/2}\\,dx$. (c) The variance is $\\mathrm{Var}(X) = \\frac{3}{0.5^2} = 12$. It is easy to see that when the parameter set is restricted to $(\\alpha,\\lambda) = (1,\\lambda)$ the gamma distribution becomes the exponential distribution. Another interesting special case is when the parameter set is $(\\alpha,\\lambda) = \\left(\\frac{n}{2}, \\frac{1}{2}\\right)$ where n is a positive integer. This distribution is called the chi-squared distribution with degrees of freedom n. The chi-squared random variable is usually denoted by $\\chi^2_n$. The gamma random variable can be used to model the waiting time required for $\\alpha$ events to occur, given that the events occur randomly in a Poisson process with mean time between events equals to $\\lambda^{-1}$.",
+  "source": "Finan §37 — Worked Example 37.3"
+}

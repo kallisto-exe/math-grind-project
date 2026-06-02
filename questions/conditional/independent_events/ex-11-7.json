@@ -1,0 +1,13 @@
+{
+  "id": "ex-11-7",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 3,
+  "subtopic": "Worked Example 11.7",
+  "question": "In a clinic laboratory, the probability that a blood sample shows cancerous cells is 0.05. Four blood samples are tested, and the samples are independent. (a) What is the probability that none shows cancerous cells? (b) What is the probability that exactly one sample shows cancerous cells? (c) What is the probability that at least one sample shows cancerous cells?",
+  "answer": "",
+  "explanation": "Let $H_i$ denote the event that the $i$th sample contains cancerous cells for $i = 1, 2, 3, 4$. The event that none contains cancerous cells is equivalent to $H_1^c \\cap H_2^c \\cap H_3^c \\cap H_4^c$. So, by independence, the desired probability is $\\Pr(H_1^c \\cap H_2^c \\cap H_3^c \\cap H_4^c) = \\Pr(H_1^c)\\Pr(H_2^c)\\Pr(H_3^c)\\Pr(H_4^c) = (1 - 0.05)^4 = 0.8145$ (b) Let $A_1 = H_1 \\cap H_2^c \\cap H_3^c \\cap H_4^c$ $A_2 = H_1^c \\cap H_2 \\cap H_3^c \\cap H_4^c$ $A_3 = H_1^c \\cap H_2^c \\cap H_3 \\cap H_4^c$ $A_4 = H_1^c \\cap H_2^c \\cap H_3^c \\cap H_4$ Then, the requested probability is the probability of the union $A_1 \\cup A_2 \\cup A_3 \\cup A_4$ and these events are mutually exclusive. Also, by independence, $\\Pr(A_i) = (0.95)^3(0.05) = 0.0429$, $i = 1, 2, 3, 4$. Therefore, the answer is $4(0.0429) = 0.1716$. (c) Let $B$ be the event that no sample contains cancerous cells. The event that at least one sample contains cancerous cells is the complement of $B$, i.e. $B^c$. By part (a), it is known that $\\Pr(B) = 0.8145$. So, the requested probability is $\\Pr(B^c) = 1 - \\Pr(B) = 1 - 0.8145 = 0.1855$",
+  "source": "Finan §11 — Worked Example 11.7"
+}

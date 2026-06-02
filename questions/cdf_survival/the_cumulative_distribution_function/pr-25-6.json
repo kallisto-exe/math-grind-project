@@ -1,0 +1,13 @@
+{
+  "id": "pr-25-6",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 25.6",
+  "question": "Consider a random variable $X$ whose probability mass function is given by $\\Pr(x) = \\begin{cases} p & x = -1.9 \\\\ 0.1 & x = -0.1 \\\\ 0.3 & x = 2 \\\\ 0p & x = 3 \\\\ 4p & x = 4 \\\\ 0 & \\text{otherwise} \\end{cases}$ (a) What is $p$? (b) Find $F(x)$ and sketch its graph. (c) What is $F(0)$? What is $F(2)$? What is $F(F(3.1))$? (d) What is $\\Pr(2X-3\\le 4 \\mid X\\ge 2.0)$? (e) Compute $E(F(X))$.",
+  "answer": "(a) 0.1 (b) $F(x) = \\begin{cases} 0 & x < -1.9 \\end{cases}$",
+  "explanation": "Answer: (a) 0.1 (b) $F(x) = \\begin{cases} 0 & x < -1.9 \\end{cases}$",
+  "source": "Finan §25 — Practice Problem 25.6"
+}

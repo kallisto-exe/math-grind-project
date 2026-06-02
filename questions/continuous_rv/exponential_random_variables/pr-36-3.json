@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.3",
+  "question": "A continuous random variable X has the following pdf: $f(x) = \\begin{cases} \\frac{1}{100}e^{-x/100} & x\\ge 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ Compute $\\Pr(0\\le X\\le 50)$.",
+  "answer": "0.393",
+  "explanation": "Answer: 0.393",
+  "source": "Finan §36 — Practice Problem 36.3"
+}

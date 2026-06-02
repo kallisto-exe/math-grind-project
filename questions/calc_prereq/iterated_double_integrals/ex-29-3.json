@@ -1,0 +1,13 @@
+{
+  "id": "ex-29-3",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 2,
+  "subtopic": "Worked Example 29.3",
+  "question": "Let $f(x,y) = xy$. Integrate $f(x,y)$ for the triangular region bounded by the $x$-axis, the $y$-axis, and the line $y = 2 - 2x$.",
+  "answer": "",
+  "explanation": "Figure 29.2 shows the region of integration for this example. Figure 29.2 Graphically integrating over $y$ first is equivalent to moving along the $x$ axis from 0 to 1 and integrating from $y = 0$ to $y = 2 - 2x$. That is, summing up the vertical strips as shown in Figure 29.3(I). $\\int_R xy\\,dx\\,dy = \\int^1 \\int^{2-2x} xy\\,dy\\,dx = \\int^1 \\frac{xy^2}{2}\\Big|^{2-2x} dx = \\frac{1}{2}\\int^1 x(2 - 2x)^2\\,dx = 2\\int^1 (x - 2x^2 + x^3)\\,dx = 2\\left[\\frac{x^2}{2} - \\frac{2}{3}x^3 + \\frac{x^4}{4}\\right]^1 = \\frac{1}{6}$ If we choose to do the integral in the opposite order, then we need to invert the $y = 2 - 2x$ i.e. express $x$ as function of $y$. In this case we get $x = 1 - \\frac{1}{2}y$. Integrating in this order corresponds to integrating from $y = 0$ to $y = 2$ along horizontal strips ranging from $x = 0$ to $x = 1 - \\frac{1}{2}y$, as shown in Figure 29.3(II) $\\int_R xy\\,dx\\,dy = \\int^2 \\int^{1-\\frac{1}{2}y} xy\\,dx\\,dy = \\int^2 \\frac{x^2 y}{2}\\Big|^{1-\\frac{1}{2}y} dy = \\frac{1}{2}\\int^2 y\\left(1 - \\frac{1}{2}y\\right)^2 dy = \\frac{1}{2}\\int^2 \\left(y - y^2 + \\frac{y^3}{4}\\right) dy = \\frac{y^2}{4} - \\frac{y^3}{6} + \\frac{y^4}{?}\\Big| = \\frac{1}{6}$ Figure 29.3",
+  "source": "Finan §29 — Worked Example 29.3"
+}

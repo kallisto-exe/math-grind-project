@@ -1,0 +1,13 @@
+{
+  "id": "ex-37-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 4,
+  "subtopic": "Worked Example 37.1",
+  "question": "Show that $\\Gamma\\left(\\frac{1}{2}\\right) = \\sqrt{\\pi}$.",
+  "answer": "",
+  "explanation": "Using the substitution $y = \\frac{z^2}{2}$, we find $\\Gamma\\left(\\frac{1}{2}\\right) = \\int_0^\\infty y^{-1/2}e^{-y}\\,dy = \\sqrt{2}\\int_0^\\infty e^{-z^2/2}\\,dz = \\sqrt{2}\\cdot\\sqrt{2\\pi}\\left[\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^\\infty e^{-z^2/2}\\,dz\\right] = \\sqrt{\\pi}$ where we used the fact that Z is the standard normal distribution with $\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^\\infty e^{-z^2/2}\\,dz = 1$. A Gamma random variable with parameters $\\alpha > 0$ and $\\lambda > 0$ has a pdf $f(x) = \\begin{cases} \\frac{\\lambda e^{-\\lambda x}(\\lambda x)^{\\alpha-1}}{\\Gamma(\\alpha)} & \\text{if } x\\ge 0 \\\\ 0 & \\text{if } x < 0. \\end{cases}$ We call $\\alpha$ the shape parameter because changing $\\alpha$ changes the shape of the density function. We call $\\lambda$ the scale parameter because if X is a gamma distribution with parameters $(\\alpha,\\lambda)$ then cX is also a gamma distribution with parameters $\\left(\\alpha, \\frac{\\lambda}{c}\\right)$ where $c > 0$ is a constant. See Problem 37.1. The parameter $\\lambda$ rescales the density function without changing its shape. To see that $f(t)$ is indeed a probability density function we have $\\Gamma(\\alpha) = \\int_0^\\infty e^{-x}x^{\\alpha-1}\\,dx$, so $1 = \\int_0^\\infty \\frac{e^{-x}x^{\\alpha-1}}{\\Gamma(\\alpha)}\\,dx = \\int_0^\\infty \\frac{\\lambda e^{-\\lambda y}(\\lambda y)^{\\alpha-1}}{\\Gamma(\\alpha)}\\,dy$ where we used the substitution $x = \\lambda y$. The gamma distribution is skewed right as shown in Figure 37.1. Note that the above computation involves a $\\Gamma(\\alpha)$ integral. Thus, the origin of the name of the random variable. The cdf of the gamma distribution is $F(x) = \\frac{\\lambda^\\alpha}{\\Gamma(\\alpha)}\\int_0^x y^{\\alpha-1}e^{-\\lambda y}\\,dy$. The following reduction formula is useful when computing $F(x)$: $\\int x^n e^{-\\lambda x}\\,dx = -\\frac{1}{\\lambda}x^n e^{-\\lambda x} + \\frac{n}{\\lambda}\\int x^{n-1}e^{-\\lambda x}\\,dx$. (37.1)",
+  "source": "Finan §37 — Worked Example 37.1"
+}

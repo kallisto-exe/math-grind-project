@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-12",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.12",
+  "question": "A device that continuously measures and records seismic activity is placed in a remote region. The time, T, to failure of this device is exponentially distributed with mean 3 years. Since the device will not be monitored during its first two years of service, the time to discovery of its failure is $X = \\max(T, 2)$. Determine $E[X]$.",
+  "answer": "3.540",
+  "explanation": "Answer: 3.540",
+  "source": "Finan §36 — Practice Problem 36.12"
+}

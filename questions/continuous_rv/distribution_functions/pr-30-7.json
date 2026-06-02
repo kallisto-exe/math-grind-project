@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-7",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.7",
+  "question": "A random variable $X$ has the cumulative distribution function $F(x) = \\frac{e^x}{e^x + 1}$. (a) Find the probability density function. (b) Find $\\Pr(0 \\le X \\le 1)$.",
+  "answer": "(a) $f(x) = F'(x) = \\frac{e^x}{(1+e^x)^2}$ (b) 0.231",
+  "explanation": "Answer: (a) $f(x) = F'(x) = \\frac{e^x}{(1+e^x)^2}$ (b) 0.231",
+  "source": "Finan §30 — Practice Problem 30.7"
+}

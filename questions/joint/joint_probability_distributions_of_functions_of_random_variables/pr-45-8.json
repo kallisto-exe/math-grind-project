@@ -1,0 +1,13 @@
+{
+  "id": "pr-45-8",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 45.8",
+  "question": "Let $X$ be a uniform random variable on $(0, 2\\pi)$ and $Y$ an exponential random variable with $\\lambda = 1$ and independent of $X$. Show that $U = \\sqrt{2Y} \\cos X$ and $V = \\sqrt{2Y} \\sin X$ are independent standard normal random variables.",
+  "answer": "We have $u = g_1(x, y) = \\sqrt{2y} \\cos x$ and $v = g_2(x, y) = \\sqrt{2y} \\sin x$. The Jacobian of the transformation is $J = \\begin{vmatrix} -\\sqrt{2y} \\sin x & \\frac{\\cos x}{\\sqrt{2y}} \\\\ \\sqrt{2y} \\cos x & \\frac{\\sin x}{\\sqrt{2y}} \\end{vmatrix} = -1$. Also, $y = \\frac{u^2 + v^2}{2}$. Thus, $f_{UV}(u, v) = f_{XY}(x(u, v), y(u, v)) |J|^{-1} = \\frac{1}{2\\pi} e^{-\\frac{u^2 + v^2}{2}}$. This is the joint density of two independent standard normal random variables.",
+  "explanation": "Answer: We have $u = g_1(x, y) = \\sqrt{2y} \\cos x$ and $v = g_2(x, y) = \\sqrt{2y} \\sin x$. The Jacobian of the transformation is $J = \\begin{vmatrix} -\\sqrt{2y} \\sin x & \\frac{\\cos x}{\\sqrt{2y}} \\\\ \\sqrt{2y} \\cos x & \\frac{\\sin x}{\\sqrt{2y}} \\end{vmatrix} = -1$. Also, $y = \\frac{u^2 + v^2}{2}$. Thus, $f_{UV}(u, v) = f_{XY}(x(u, v), y(u, v)) |J|^{-1} = \\frac{1}{2\\pi} e^{-\\frac{u^2 + v^2}{2}}$. This is the joint density of two independent standard normal random variables.",
+  "source": "Finan §45 — Practice Problem 45.8"
+}

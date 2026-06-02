@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-10",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.10",
+  "question": "How many ways are there to seat 8 people, consisting of 4 couples, in a row of seats (8 seats wide) if all couples are to get adjacent seats?",
+  "answer": "384",
+  "explanation": "Answer: 384",
+  "source": "Finan §3 — Practice Problem 3.10"
+}

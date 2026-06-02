@@ -1,0 +1,13 @@
+{
+  "id": "pr-26-5",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§26 The Survival Distribution Function",
+  "section": 26,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 26.5",
+  "question": "Given the cumulative distribution function $F(x) = \\begin{cases} 0, & x\\le 0 \\\\ x, & 0 < x < 1 \\\\ 1, & x\\ge 1 \\end{cases}$ Find $S(x)$.",
+  "answer": "$S(x) = \\begin{cases} 1, & x\\le 0 \\\\ 1-x, & 0 < x < 1 \\\\ 0, & x\\ge 1 \\end{cases}$",
+  "explanation": "Answer: $S(x) = \\begin{cases} 1, & x\\le 0 \\\\ 1-x, & 0 < x < 1 \\\\ 0, & x\\ge 1 \\end{cases}$",
+  "source": "Finan §26 — Practice Problem 26.5"
+}

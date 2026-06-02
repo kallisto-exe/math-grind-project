@@ -1,0 +1,13 @@
+{
+  "id": "ex-38-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 4,
+  "subtopic": "Worked Example 38.6",
+  "question": "Let $X$ be a continuous random variable with pdf $f_X$. Find the pdf of $Y = X^2$.",
+  "answer": "",
+  "explanation": "Let $g(x) = x^2$. Then $g^{-1}(y) = \\pm\\sqrt{y}$. Thus, $F_Y(y) = \\Pr(Y \\le y) = \\Pr(X^2 \\le y) = \\Pr(-\\sqrt{y} \\le X \\le \\sqrt{y}) = F_X(\\sqrt{y}) - F_X(-\\sqrt{y})$. Differentiate both sides to obtain $f_Y(y) = \\frac{f_X(\\sqrt{y})}{2\\sqrt{y}} + \\frac{f_X(-\\sqrt{y})}{2\\sqrt{y}}$.",
+  "source": "Finan §38 — Worked Example 38.6"
+}

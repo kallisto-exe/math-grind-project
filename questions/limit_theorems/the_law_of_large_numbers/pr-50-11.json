@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-11",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.11",
+  "question": "Let $X \\ge 0$ be a random variable with mean $\\mu$. Show that $\\Pr(X \\ge 2\\mu) \\le \\frac{1}{2}$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.11"
+}

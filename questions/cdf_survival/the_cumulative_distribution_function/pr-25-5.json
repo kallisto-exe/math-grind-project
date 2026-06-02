@@ -1,0 +1,13 @@
+{
+  "id": "pr-25-5",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 25.5",
+  "question": "Consider a random variable $X$ whose distribution function (cdf) is given by $F(x) = \\begin{cases} 0 & x < -2 \\\\ 0.1 & -2\\le x < 1.1 \\\\ 0.3 & 1.1\\le x < 2 \\\\ 0.6 & 2\\le x < 3 \\\\ 1 & x\\ge 3 \\end{cases}$ (a) Give the probability mass function, $\\Pr(x)$, of $X$, explicitly. (b) Compute $\\Pr(2 < X < 3)$. (c) Compute $\\Pr(X\\ge 3)$. (d) Compute $\\Pr(X\\ge 3 \\mid X\\ge 0)$.",
+  "answer": "(a) Pr(x) =",
+  "explanation": "Answer: (a) Pr(x) =",
+  "source": "Finan §25 — Practice Problem 25.5"
+}

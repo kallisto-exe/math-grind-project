@@ -1,0 +1,13 @@
+{
+  "id": "pr-26-2",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§26 The Survival Distribution Function",
+  "section": 26,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 26.2",
+  "question": "Let $X$ denote the age at death of an individual. The survival distribution is given by $S(x) = \\begin{cases} 1, & x < 0 \\\\ 1-\\frac{x}{100}, & 0\\le x\\le 100 \\\\ 0, & x > 100 \\end{cases}$ (a) Find the probability that a person dies before reaching the age of 30. (b) Find the probability that a person lives more than 70 years.",
+  "answer": "(a) 0.3 (b) 0.3",
+  "explanation": "Answer: (a) 0.3 (b) 0.3",
+  "source": "Finan §26 — Practice Problem 26.2"
+}

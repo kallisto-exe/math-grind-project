@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-7",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.7",
+  "question": "A Geiger counter is monitoring the leakage of alpha particles from a container of radioactive material. Over a long period of time, an average of 50 particles per minute is measured. Assume the arrival of particles at the counter is modeled by a Poisson distribution. (a) Compute the probability that at least one particle arrives in a particular one second period. (b) Compute the probability that at least two particles arrive in a particular two second period.",
+  "answer": "(a) $0.5654$ (b) $0.4963$",
+  "explanation": "Answer: (a) $0.5654$ (b) $0.4963$",
+  "source": "Finan §20 — Practice Problem 20.7"
+}

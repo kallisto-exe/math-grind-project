@@ -1,1 +1,0 @@
-{"id":"calc-multi-002","subject":"Calculus","topic":"Multivariable Calculus","subtopic":"Mixed Partials","difficulty":"intermediate","question":"For f(x,y) = x^2 + xy + y^3, the mixed partial d^2f/dxdy equals:","options":{"A":"0","B":"1","C":"3y^2","D":"2x + y"},"answer":"B","explanation":"df/dy = x + 3y^2. Then d/dx(x + 3y^2) = 1."}

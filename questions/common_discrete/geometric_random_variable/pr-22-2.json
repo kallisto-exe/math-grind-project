@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.2",
+  "question": "The probability that a computer chip is defective is 0.10. Each computer is checked for inspection as it is produced. Find the probability that at least 10 computer chips must be checked to find one that is defective.",
+  "answer": "$0.387$",
+  "explanation": "Answer: $0.387$",
+  "source": "Finan §22 — Practice Problem 22.2"
+}

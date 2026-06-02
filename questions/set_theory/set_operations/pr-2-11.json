@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-11",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.11",
+  "question": "In a survey on popsicle flavor preferences of kids aged 3-5, it was found that • 22 like strawberry. • 25 like blueberry. • 39 like grape. • 9 like blueberry and strawberry. • 17 like strawberry and grape. • 20 like blueberry and grape. • 6 like all flavors. • 4 like none. How many kids were surveyed?",
+  "answer": "50",
+  "explanation": "Answer: 50",
+  "source": "Finan §2 — Practice Problem 2.11"
+}

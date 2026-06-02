@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-3",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.3",
+  "question": "Let $X$ and $Y$ be independent exponentially distributed random variables with parameters $\\mu$ and $\\lambda$ respectively. Using conditioning, find $\\Pr(X>Y)$.",
+  "answer": "$\\frac{\\lambda}{\\lambda+\\mu}$",
+  "explanation": "Answer: $\\frac{\\lambda}{\\lambda+\\mu}$",
+  "source": "Finan §48 — Practice Problem 48.3"
+}

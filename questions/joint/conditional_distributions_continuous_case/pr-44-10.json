@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-10",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.10",
+  "question": "A company offers a basic life insurance policy to its employees, as well as a supplemental life insurance policy. To purchase the supplemental policy, an employee must first purchase the basic policy. Let $X$ denote the proportion of employees who purchase the basic policy, and $Y$ the proportion of employees who purchase the supplemental policy. Let $X$ and $Y$ have the joint density function $f_{XY}(x,y) = 2(x+y)$ on the region where the density is positive. Given that 10% of the employees buy the basic policy, what is the probability that fewer than 5% buy the supplemental policy?",
+  "answer": "0.4167",
+  "explanation": "Answer: 0.4167",
+  "source": "Finan §44 — Practice Problem 44.10"
+}

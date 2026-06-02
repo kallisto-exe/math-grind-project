@@ -1,0 +1,13 @@
+{
+  "id": "pr-5-7",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 5.7",
+  "question": "Which is usually greater the number of combinations of a set of objects or the number of permutations?",
+  "answer": "Recall that mPn = m! (m-n)! =n!mCn. Since n!≥ 1, we can multiply both sides by mCn to obtain mPn =n!mCn≥m Cn.",
+  "explanation": "Answer: Recall that ${}_mP_n = \\frac{m!}{(m-n)!} = n! \\, {}_mC_n$. Since $n! \\ge 1$, we can multiply both sides by ${}_mC_n$ to obtain ${}_mP_n = n! \\, {}_mC_n \\ge {}_mC_n$.",
+  "source": "Finan §5 — Practice Problem 5.7"
+}

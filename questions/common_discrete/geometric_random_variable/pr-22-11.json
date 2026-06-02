@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-11",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.11",
+  "question": "Suppose that the probability for an applicant to get a job oﬀer after an interview is 0.1. An applicant plans to keep trying out for more interviews until she gets oﬀered. Assume outcomes of interviews are independent. (a) How many interviews does she expect to have to take in order to get a job oﬀer? (b) What is the probability she will need to attend more than 2 interviews?",
+  "answer": "(a) $10$ (b) $0.81$",
+  "explanation": "Answer: (a) $10$ (b) $0.81$",
+  "source": "Finan §22 — Practice Problem 22.11"
+}

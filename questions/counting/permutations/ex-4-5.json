@@ -1,0 +1,13 @@
+{
+  "id": "ex-4-5",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 2,
+  "subtopic": "Worked Example 4.5",
+  "question": "How many five-digit zip codes can be made where all digits are different? The possible digits are the numbers 0 through 9.",
+  "answer": "",
+  "explanation": "The answer is ${}_{10}P_5 = \\frac{10!}{(10-5)!} = 30{,}240$ zip codes",
+  "source": "Finan §4 — Worked Example 4.5"
+}

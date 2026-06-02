@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-9",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.9",
+  "question": "Let $X$ and $Y$ be continuous random variables with joint pdf $$f_{XY}(x,y) = \\begin{cases} 3x & 0\\le y\\le x\\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$$ Find $\\mathrm{Cov}(X,Y)$ and $\\rho(X,Y)$.",
+  "answer": "$\\mathrm{Cov}(X,Y) = \\frac{3}{160}$ and $\\rho(X,Y) = 0.397$",
+  "explanation": "Answer: $\\mathrm{Cov}(X,Y) = \\frac{3}{160}$ and $\\rho(X,Y) = 0.397$",
+  "source": "Finan §47 — Practice Problem 47.9"
+}

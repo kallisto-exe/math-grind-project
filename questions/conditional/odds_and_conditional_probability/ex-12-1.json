@@ -1,0 +1,13 @@
+{
+  "id": "ex-12-1",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§12 Odds and Conditional Probability",
+  "section": 12,
+  "difficulty": 3,
+  "subtopic": "Worked Example 12.1",
+  "question": "If the odds in favor of an event $E$ is $5:4$, compute $\\Pr(E)$ and $\\Pr(E^c)$.",
+  "answer": "",
+  "explanation": "We have $\\Pr(E) = \\frac{5}{5+4} = \\frac{5}{9}$ and $\\Pr(E^c) = \\frac{4}{5+4} = \\frac{4}{9}$. Converting Probability to Odds: Given $\\Pr(E)$, we want to find the odds in favor of $E$ and the odds against $E$. The odds in favor of $E$ are $\\frac{n(E)}{n(E^c)} = \\frac{n(E)}{n(S)} \\cdot \\frac{n(S)}{n(E^c)} = \\frac{\\Pr(E)}{\\Pr(E^c)} = \\frac{\\Pr(E)}{1 - \\Pr(E)}$ and the odds against $E$ are $\\frac{n(E^c)}{n(E)} = \\frac{1 - \\Pr(E)}{\\Pr(E)}$.",
+  "source": "Finan §12 — Worked Example 12.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-20-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 4,
+  "subtopic": "Worked Example 20.2",
+  "question": "The number of people entering a movie theater averages one every two minutes. Assuming that a Poisson distribution is appropriate. (a) What is the probability that no people enter between 12:00 and 12:05? (b) Find the probability that at least 4 people enter during [12:00,12:05].",
+  "answer": "",
+  "explanation": "(a) Let $X$ be the number of people that enter between 12:00 and 12:05. We model $X$ as a Poisson random variable with parameter $\\lambda$, the average number of people that arrive in the 5-minute interval. But, if 1 person arrives every 2 minutes, on average (so $1/2$ a person per minute), then in 5 minutes an average of 2.5 people will arrive. Thus, $\\lambda = 2.5$. Now, $\\Pr(X = 0) = e^{-2.5}\\frac{2.5^0}{0!} = e^{-2.5}$. (b) $\\Pr(X \\ge 4) = 1 - \\Pr(X \\le 3) = 1 - \\Pr(X = 0) - \\Pr(X = 1) - \\Pr(X = 2) - \\Pr(X = 3) = 1 - e^{-2.5}\\frac{2.5^0}{0!} - e^{-2.5}\\frac{2.5^1}{1!} - e^{-2.5}\\frac{2.5^2}{2!} - e^{-2.5}\\frac{2.5^3}{3!}$",
+  "source": "Finan §20 — Worked Example 20.2"
+}

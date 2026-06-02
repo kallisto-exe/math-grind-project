@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.1",
+  "question": "Five cards are drawn randomly and without replacement from a deck of 52 playing cards. Find the probability of getting exactly two black cards.",
+  "answer": "$0.32513$",
+  "explanation": "Answer: $0.32513$",
+  "source": "Finan §24 — Practice Problem 24.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-16-3",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§16 Expected Value of a Function of a Discrete Random Variable",
+  "section": 16,
+  "difficulty": 3,
+  "subtopic": "Worked Example 16.3",
+  "question": "Let $X$ be a random variable with $E(X) = 6$ and $E(X^2) = 45$, and let $Y = 20 - 2X$. Find $E(Y)$ and $E(Y^2) - [E(Y)]^2$.",
+  "answer": "",
+  "explanation": "By the properties of expectation, $E(Y^2) - (E(Y))^2 = 100 - 64 = 36$ We conclude this section with the following definition. If $g(x) = x^n$ then we call $E(X^n) = \\sum_x x^n p(x)$ the $n$th moment about the origin of $X$ or the $n$th raw moment. Thus, $E(X)$ is the first moment of $X$.",
+  "source": "Finan §16 — Worked Example 16.3"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-5-3",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 5.3",
+  "question": "In a UN ceremony, 25 diplomats were introduced to each other. Suppose that the diplomats shook hands with each other exactly once. How many handshakes took place?",
+  "answer": "300",
+  "explanation": "Answer: 300",
+  "source": "Finan §5 — Practice Problem 5.3"
+}

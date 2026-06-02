@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-10",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.10",
+  "question": "In a mall, a survey found that the number of people who pass by JCPenney between 4:00 and 5:00 pm is a Poisson random variable with parameter $\\lambda = 100$. Assume that each person may enter the store, independently of the other person, with a given probability $p = 0.15$. What is the expected number of people who enter the store during the given period?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §48 — Practice Problem 48.10"
+}

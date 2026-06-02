@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-7",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.7",
+  "question": "Let $X$ and $Y$ be continuous random variables, with the joint probability density function $f_{XY}(x, y) = \\begin{cases} \\frac{3x^2 + 2y}{24} & 0 \\le x, y \\le 2 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find $f_X(x)$ and $f_Y(y)$. (b) Are $X$ and $Y$ independent? (c) Find $\\Pr(X + 2Y < 3)$.",
+  "answer": "(a) We have $f_X(x) = \\int_0^2 \\frac{3x^2 + 2y}{24}\\,dy = \\frac{6x^2 + 4}{24}, 0 \\le x \\le 2$, 0 otherwise and $f_Y(y) = \\int_0^2 \\frac{3x^2 + 2y}{24}\\,dx = \\frac{8 + 4y}{24}, 0 \\le y \\le 2$, 0 otherwise (b) $X$ and $Y$ are dependent. (c) 0.340",
+  "explanation": "Answer: (a) We have $f_X(x) = \\int_0^2 \\frac{3x^2 + 2y}{24}\\,dy = \\frac{6x^2 + 4}{24}, 0 \\le x \\le 2$, 0 otherwise and $f_Y(y) = \\int_0^2 \\frac{3x^2 + 2y}{24}\\,dx = \\frac{8 + 4y}{24}, 0 \\le y \\le 2$, 0 otherwise (b) $X$ and $Y$ are dependent. (c) 0.340",
+  "source": "Finan §40 — Practice Problem 40.7"
+}

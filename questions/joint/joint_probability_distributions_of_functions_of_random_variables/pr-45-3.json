@@ -1,0 +1,13 @@
+{
+  "id": "pr-45-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 45.3",
+  "question": "Let $X$ and $Y$ be random variables with joint pdf $f_{XY}(x, y)$. Let $R = \\sqrt{X^2 + Y^2}$ and $\\Phi = \\tan^{-1}\\left(\\frac{Y}{X}\\right)$ with $-\\pi < \\Phi \\le \\pi$. Find $f_{R\\Phi}(r, \\varphi)$.",
+  "answer": "$f_{R\\Phi}(r, \\varphi) = r f_{XY}(r \\cos\\varphi, r \\sin\\varphi), r > 0, -\\pi < \\varphi \\le \\pi$",
+  "explanation": "Answer: $f_{R\\Phi}(r, \\varphi) = r f_{XY}(r \\cos\\varphi, r \\sin\\varphi), r > 0, -\\pi < \\varphi \\le \\pi$",
+  "source": "Finan §45 — Practice Problem 45.3"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-30",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.30",
+  "question": "Let $X$ and $Y$ be identically distributed independent random variables such that the moment generating function of $X + Y$ is $M(t) = 0.09e^{-2t} + 0.24e^{-t} + 0.34 + 0.24e^t + 0.09e^{2t}$, $-\\infty < t < \\infty$. Calculate $\\Pr(X \\le 0)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.30"
+}

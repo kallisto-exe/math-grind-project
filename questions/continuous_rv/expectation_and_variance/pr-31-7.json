@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-7",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.7",
+  "question": "Let X have a cdf $F(x) = \\begin{cases} 1-\\frac{1}{x^6} & x\\ge 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find $\\mathrm{Var}(X)$.",
+  "answer": ".06",
+  "explanation": "Answer: .06",
+  "source": "Finan §31 — Practice Problem 31.7"
+}

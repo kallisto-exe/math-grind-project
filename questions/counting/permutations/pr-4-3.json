@@ -1,0 +1,13 @@
+{
+  "id": "pr-4-3",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 4.3",
+  "question": "Certain automobile license plates consist of a sequence of three letters followed by three digits. (a) If letters can not be repeated but digits can, how many possible license plates are there? (b) If no letters and no digits are repeated, how many license plates are possible?",
+  "answer": "(a) 15,600,000 (b) 11,232,000",
+  "explanation": "Answer: (a) 15,600,000 (b) 11,232,000",
+  "source": "Finan §4 — Practice Problem 4.3"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-17",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.17",
+  "question": "The cumulative distribution function for health care costs experienced by a policyholder is modeled by the function $F(x) = \\begin{cases} 1-e^{-x/100} & \\text{for } x > 0 \\\\ 0 & \\text{otherwise.} \\end{cases}$ The policy has a deductible of 20. An insurer reimburses the policyholder for 100% of health care costs between 20 and 120 less the deductible. Health care costs above 120 are reimbursed at 50%. Let G be the cumulative distribution function of reimbursements given that the reimbursement is positive. Calculate $G(115)$.",
+  "answer": "0.727",
+  "explanation": "Answer: 0.727",
+  "source": "Finan §36 — Practice Problem 36.17"
+}

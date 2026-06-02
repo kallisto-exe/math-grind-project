@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-5",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.5",
+  "question": "A health study tracked a group of persons for five years. At the beginning of the study, 20% were classified as heavy smokers, 30% as light smokers, and 50% as nonsmokers. Results of the study showed that light smokers were twice as likely as nonsmokers to die during the five-year study, but only half as likely as heavy smokers. A randomly selected participant from the study died over the five-year period. Calculate the probability that the participant was a heavy smoker.",
+  "answer": "0.42",
+  "explanation": "Answer: 0.42",
+  "source": "Finan §10 — Practice Problem 10.5"
+}

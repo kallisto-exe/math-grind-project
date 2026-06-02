@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.3",
+  "question": "Let Y be a continuous random variable with cumulative distribution function $F(y) = \\begin{cases} 0 & y\\le a \\\\ 1-e^{-\\frac{1}{2}(y-a)^2} & \\text{otherwise} \\end{cases}$ where a is a constant. Find the 75th percentile of Y.",
+  "answer": "$a + 2\\sqrt{\\ln 2}$",
+  "explanation": "Answer: $a + 2\\sqrt{\\ln 2}$",
+  "source": "Finan §32 — Practice Problem 32.3"
+}

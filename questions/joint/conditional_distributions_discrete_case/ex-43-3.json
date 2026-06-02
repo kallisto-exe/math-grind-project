@@ -1,0 +1,13 @@
+{
+  "id": "ex-43-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 5,
+  "subtopic": "Worked Example 43.3",
+  "question": "If $X$ and $Y$ are independent Poisson random variables with respective parameters $\\lambda_1$ and $\\lambda_2$, calculate the conditional distribution of $X$, given that $X + Y = n$.",
+  "answer": "",
+  "explanation": "We have $\\Pr(X = k | X + Y = n) = \\frac{\\Pr(X = k, X + Y = n)}{\\Pr(X + Y = n)} = \\frac{\\Pr(X = k, Y = n-k)}{\\Pr(X + Y = n)} = \\frac{\\Pr(X = k)\\Pr(Y = n-k)}{\\Pr(X + Y = n)} = \\frac{e^{-\\lambda_1}\\frac{\\lambda_1^k}{k!} e^{-\\lambda_2}\\frac{\\lambda_2^{n-k}}{(n-k)!}}{e^{-(\\lambda_1+\\lambda_2)}\\frac{(\\lambda_1 + \\lambda_2)^n}{n!}} = \\frac{n!}{k!(n-k)!} \\frac{\\lambda_1^k \\lambda_2^{n-k}}{(\\lambda_1 + \\lambda_2)^n} = \\binom{n}{k} \\left(\\frac{\\lambda_1}{\\lambda_1 + \\lambda_2}\\right)^k \\left(\\frac{\\lambda_2}{\\lambda_1 + \\lambda_2}\\right)^{n-k}$. In other words, the conditional mass distribution function of $X$ given that $X + Y = n$, is the binomial distribution with parameters $n$ and $\\frac{\\lambda_1}{\\lambda_1 + \\lambda_2}$",
+  "source": "Finan §43 — Worked Example 43.3"
+}

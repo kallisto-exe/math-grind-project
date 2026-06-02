@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-4",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.4",
+  "question": "Marlon, John, and Steve are given the choice for only one topping on their personal size pizza. There are 10 toppings to choose from. What is the probability that each of them orders a different topping?",
+  "answer": "0.72",
+  "explanation": "Answer: 0.72",
+  "source": "Finan §11 — Practice Problem 11.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-13",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.13",
+  "question": "Ten percent of a company's life insurance policyholders are smokers. The rest are nonsmokers. For each nonsmoker, the probability of dying during the year is 0.01. For each smoker, the probability of dying during the year is 0.05. Given that a policyholder has died, what is the probability that the policyholder was a smoker?",
+  "answer": "0.36",
+  "explanation": "Answer: 0.36",
+  "source": "Finan §10 — Practice Problem 10.13"
+}

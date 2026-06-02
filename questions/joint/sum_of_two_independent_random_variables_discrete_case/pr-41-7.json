@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-7",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.7",
+  "question": "Suppose that $X$ has Poisson distribution with parameter $\\lambda$ and that $Y$ has geometric distribution with parameter $p$ and is independent of $X$. Find simple formulas in terms of $\\lambda$ and $p$ for the following probabilities. (The formulas should not involve an infinite sum.) (a) $\\Pr(X+Y=2)$ (b) $\\Pr(Y>X)$",
+  "answer": "$\\Pr(X+Y=2) = e^{-\\lambda}p(1-p) + e^{-\\lambda}\\lambda p$ (b) $\\Pr(Y>X) = e^{-\\lambda}p$",
+  "explanation": "Answer: $\\Pr(X+Y=2) = e^{-\\lambda}p(1-p) + e^{-\\lambda}\\lambda p$ (b) $\\Pr(Y>X) = e^{-\\lambda}p$",
+  "source": "Finan §41 — Practice Problem 41.7"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-13-6",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 13.6",
+  "question": "A couple is expecting the arrival of a new boy. They are deciding on a name from the list $S = \\{$ Steve, Stanley, Joseph, Elija $\\}$. Let $X(\\omega) = $ first letter in name. Find $\\Pr(X = S)$.",
+  "answer": "1",
+  "explanation": "Answer: 1",
+  "source": "Finan §13 — Practice Problem 13.6"
+}

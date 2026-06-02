@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-7",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.7",
+  "question": "A box contains 100 computer mice of which 95 are defective. (a) One mouse is taken from the box at a time (without replacement) until a nondefective mouse is found. Let $X$ be the number of mice you have to take out in order to find one that is not defective. Find the probability distribution of $X$. (b) Exactly 10 mice were taken from the box and then each of the 10 mice is tested. Let $Y$ denote the number of nondefective mice among the 10 that were taken out. Find the probability distribution of $Y$.",
+  "answer": "(a) For $n = 2, 3, \\ldots, 96$ we have $\\Pr(X = n) = \\frac{95}{100} \\cdot \\frac{94}{99} \\cdots \\frac{95 - n + 2}{100 - n + 2} \\cdot \\frac{5}{100 - n + 1}$ and $\\Pr(X = 1) = \\frac{5}{100}$ (b) $\\Pr(Y = n) = \\frac{\\binom{5}{n} \\binom{95}{10-n}}{\\binom{100}{10}}$, $n = 0, 1, 2, 3, 4, 5$",
+  "explanation": "Answer: (a) For $n = 2, 3, \\ldots, 96$ we have $\\Pr(X = n) = \\frac{95}{100} \\cdot \\frac{94}{99} \\cdots \\frac{95 - n + 2}{100 - n + 2} \\cdot \\frac{5}{100 - n + 1}$ and $\\Pr(X = 1) = \\frac{5}{100}$ (b) $\\Pr(Y = n) = \\frac{\\binom{5}{n} \\binom{95}{10-n}}{\\binom{100}{10}}$, $n = 0, 1, 2, 3, 4, 5$",
+  "source": "Finan §14 — Practice Problem 14.7"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-12",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.12",
+  "question": "A study of texting and driving has found that 40% of all fatal auto accidents are attributed to texting drivers, 1% of all auto accidents are fatal, and drivers who text while driving are responsible for 20% of all accidents. Find the percentage of non-fatal accidents caused by drivers who do not text.",
+  "answer": "80.2%",
+  "explanation": "Answer: 80.2%",
+  "source": "Finan §9 — Practice Problem 9.12"
+}

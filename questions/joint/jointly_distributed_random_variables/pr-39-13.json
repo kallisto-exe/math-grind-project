@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-13",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.13",
+  "question": "Let $X$ represent the age of an insured automobile involved in an accident. Let $Y$ represent the length of time the owner has insured the automobile at the time of the accident. $X$ and $Y$ have joint probability density function $f_{XY}(x, y) = \\begin{cases} \\frac{1}{64}(10 - xy^2) & 2 \\le x \\le 10, 0 \\le y \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Calculate the expected age of an insured automobile involved in an accident.",
+  "answer": "5.778",
+  "explanation": "Answer: 5.778",
+  "source": "Finan §39 — Practice Problem 39.13"
+}

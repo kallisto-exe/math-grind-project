@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-11",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.11",
+  "question": "Find the power set of $A = \\{a, b, c\\}$.",
+  "answer": "",
+  "explanation": "$\\mathcal{P}(A) = \\{\\emptyset, \\{a\\}, \\{b\\}, \\{c\\}, \\{a,b\\}, \\{a,c\\}, \\{b,c\\}, \\{a,b,c\\}\\}$ We conclude this section, by introducing the concept of mathematical induction: We want to prove that some statement $P(n)$ is true for any non-negative integer $n \\ge n_0$. The steps of mathematical induction are as follows: (i) (Basis of induction) Show that $P(n_0)$ is true. (ii) (Induction hypothesis) Assume $P(n_0), P(n_0 + 1), \\ldots, P(n)$ are true. (iii) (Induction step) Show that $P(n + 1)$ is true.",
+  "source": "Finan §1 — Worked Example 1.11"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-17-2",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 17.2",
+  "question": "The annual cost of maintaining and repairing a car averages 200 with a variance of 260. what will be the variance of the annual cost of maintaining and repairing a car if 20% tax is introduced on all items associated with the maintenance and repair of cars?",
+  "answer": "374",
+  "explanation": "Answer: 374",
+  "source": "Finan §17 — Practice Problem 17.2"
+}

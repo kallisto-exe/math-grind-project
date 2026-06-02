@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-13",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.13",
+  "question": "A piece of equipment is being insured against early failure. The time from purchase until failure of the equipment is exponentially distributed with mean 10 years. The insurance will pay an amount x if the equipment fails during the first year, and it will pay 0.5x if failure occurs during the second or third year. If failure occurs after the first three years, no payment will be made. At what level must x be set if the expected payment made under this insurance is to be 1000?",
+  "answer": "5644.23",
+  "explanation": "Answer: 5644.23",
+  "source": "Finan §36 — Practice Problem 36.13"
+}

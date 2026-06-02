@@ -1,0 +1,1872 @@
+{
+  "exams": [
+    {
+      "id": "sample-exam-1",
+      "name": "Sample Exam 1",
+      "count": 39,
+      "minutes": 180,
+      "questions": [
+        {
+          "n": 1,
+          "question": "A survey of a group's viewing habits over the last year revealed the following information (i) 28% watched gymnastics (ii) 29% watched baseball (iii) 19% watched soccer (iv) 14% watched gymnastics and baseball (v) 12% watched baseball and soccer (vi) 10% watched gymnastics and soccer (vii) 8% watched all three sports. Calculate the percentage of the group that watched none of the three sports during the last year.",
+          "options": {
+            "A": "24",
+            "B": "36",
+            "C": "41",
+            "D": "52",
+            "E": "60"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 2,
+          "question": "An insurance company estimates that 40% of policyholders who have only an auto policy will renew next year and 60% of policyholders who have only a homeowners policy will renew next year. The company estimates that 80% of policyholders who have both an auto and a homeowners policy will renew at least one of those policies next year. Company records show that 65% of policyholders have an auto policy, 50% of policyholders have a homeowners policy, and 15% of policyholders have both an auto and a homeowners policy. Using the company's estimates, calculate the percentage of policyholders that will renew at least one policy next year.",
+          "options": {
+            "A": "20",
+            "B": "29",
+            "C": "41",
+            "D": "53",
+            "E": "70"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 3,
+          "question": "An insurer offers a health plan to the employees of a large company. As part of this plan, the individual employees may choose exactly two of the supplementary coverages $A, B$, and $C$, or they may choose no supplementary coverage. The proportions of the company's employees that choose coverages $A, B$, and $C$ are $\\frac{1}{4}$, $\\frac{1}{3}$, and $\\frac{5}{12}$ respectively. Determine the probability that a randomly chosen employee will choose no supplementary coverage.",
+          "options": {
+            "A": "0",
+            "B": "47",
+            "C": "1/2",
+            "D": "97",
+            "E": "7/9"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 4,
+          "question": "An insurance agent offers his clients auto insurance, homeowners insurance and renters insurance. The purchase of homeowners insurance and the pur- chase of renters insurance are mutually exclusive. The profile of the agent's clients is as follows: i) 17% of the clients have none of these three products. ii) 64% of the clients have auto insurance. iii) Twice as many of the clients have homeowners insurance as have renters insurance. iv) 35% of the clients have two of these three products. v) 11% of the clients have homeowners insurance, but not auto insurance. Calculate the percentage of the agent's clients that have both auto and renters insurance.",
+          "options": {
+            "A": "7%",
+            "B": "10%",
+            "C": "16%",
+            "D": "25%",
+            "E": "28"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 5,
+          "question": "From 27 pieces of luggage, an airline luggage handler damages a random sample of four. The probability that exactly one of the damaged pieces of luggage is insured is twice the probability that none of the damaged pieces are insured. Calculate the probability that exactly two of the four damaged pieces are insured.",
+          "options": {
+            "A": "0.06",
+            "B": "0.13",
+            "C": "0.27",
+            "D": "0.30",
+            "E": "0.31"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 6,
+          "question": "An auto insurance company insures drivers of all ages. An actuary compiled the following statistics on the company's insured drivers: Age of Probability Portion of Company's Driver of Accident Insured Drivers 16 - 20 0.06 0.08 21 - 30 0.03 0.15 31 - 65 0.02 0.49 66 - 99 0.04 0.28 A randomly selected driver that the company insures has an accident. Cal- culate the probability that the driver was age 16-20.",
+          "options": {
+            "A": "0.13",
+            "B": "0.16",
+            "C": "0.19",
+            "D": "0.23",
+            "E": "0.40"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 7,
+          "question": "An actuary studied the likelihood that different types of drivers would be involved in at least one collision during any one-year period. The results of the study are presented below. Probability Type of Percentage of of at least one driver all drivers collision Teen 8% 0.15 Young adult 16% 0.08 Midlife 45% 0.04 Senior 31% 0.05 Total 100% Given that a driver has been involved in at least one collision in the past year, what is the probability that the driver is a young adult driver?",
+          "options": {
+            "A": "0.06",
+            "B": "0.16",
+            "C": "0.19",
+            "D": "0.22",
+            "E": "0.25"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 8,
+          "question": "Ten percent of a company's life insurance policyholders are smokers. The rest are nonsmokers. For each nonsmoker, the probability of dying during the year is 0.01. For each smoker, the probability of dying during the year is 0.05. Given that a policyholder has died, what is the probability that the policy- holder was a smoker?",
+          "options": {
+            "A": "0.05",
+            "B": "0.20",
+            "C": "0.36",
+            "D": "0.56",
+            "E": "0.90"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 9,
+          "question": "Workplace accidents are categorized into three groups: minor, moderate and severe. The probability that a given accident is minor is 0.5, that it is mod- erate is 0.4, and that it is severe is 0.1. Two accidents occur independently in one month. Calculate the probability that neither accident is severe and at most one is moderate.",
+          "options": {
+            "A": "0.25",
+            "B": "0.40",
+            "C": "0.45",
+            "D": "0.56",
+            "E": "0.65"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 10,
+          "question": "Two life insurance policies, each with a death benefit of 10,000 and a one- time premium of 500, are sold to a couple, one for each person. The policies will expire at the end of the tenth year. The probability that only the wife will survive at least ten years is 0.025, the probability that only the husband will survive at least ten years is 0.01, and the probability that both of them will survive at least ten years is 0.96 . What is the expected excess of premiums over claims, given that the husband survives at least ten years?",
+          "options": {
+            "A": "350",
+            "B": "385",
+            "C": "397",
+            "D": "870",
+            "E": "897"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 11,
+          "question": "A probability distribution of the claim sizes for an auto insurance policy is given in the table below: Claim size Probability 20 0.15 30 0.10 40 0.05 50 0.20 60 0.10 70 0.10 80 0.30 What percentage of the claims are within one standard deviation of the mean claim size?",
+          "options": {
+            "A": "45%",
+            "B": "55%",
+            "C": "68%",
+            "D": "85%",
+            "E": "100%"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 12,
+          "question": "A company prices its hurricane insurance using the following assumptions: (i) In any calendar year, there can be at most one hurricane. (ii) In any calendar year, the probability of a hurricane is 0.05 . (iii) The number of hurricanes in any calendar year is independent of the number of hurricanes in any other calendar year. Using the company's assumptions, calculate the probability that there are fewer than 3 hurricanes in a 20-year period.",
+          "options": {
+            "A": "0.06",
+            "B": "0.19",
+            "C": "0.38",
+            "D": "0.62",
+            "E": "0.92"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 13,
+          "question": "A company buys a policy to insure its revenue in the event of major snow- storms that shut down business. The policy pays nothing for the first such snowstorm of the year and $10,000 for each one thereafter, until the end of the year. The number of major snowstorms per year that shut down business is assumed to have a Poisson distribution with mean 1.5 . What is the expected amount paid to the company under this policy during a one-year period?",
+          "options": {
+            "A": "2,769",
+            "B": "5,000",
+            "C": "7,231",
+            "D": "8,347",
+            "E": "10,578"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 14,
+          "question": "Each time a hurricane arrives, a new home has a 0.4 probability of experi- encing damage. The occurrences of damage in different hurricanes are inde- pendent. Calculate the mode of the number of hurricanes it takes for the home to experience damage from two hurricanes. Hint: The mode of X is the number that maximizes the probability mass function of X.",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 15,
+          "question": "An insurance company insures a large number of homes. The insured value, X, of a randomly selected home is assumed to follow a distribution with density function $f(x) = \\begin{cases} 3x^{-4} & x > 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Given that a randomly selected home is insured for at least 1.5, what is the probability that it is insured for less than 2 ?",
+          "options": {
+            "A": "0.578",
+            "B": "0.684",
+            "C": "0.704",
+            "D": "0.829",
+            "E": "0.875"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 16,
+          "question": "A manufacturer's annual losses follow a distribution with density function $f(x) = \\begin{cases} \\frac{2.5(0.6)^{2.5}}{x^{3.5}} & x > 0.6 \\\\ 0 & \\text{otherwise.} \\end{cases}$ To cover its losses, the manufacturer purchases an insurance policy with an annual deductible of 2. What is the mean of the manufacturer's annual losses not paid by the insur- ance policy?",
+          "options": {
+            "A": "0.84",
+            "B": "0.88",
+            "C": "0.93",
+            "D": "0.95",
+            "E": "1.00"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 17,
+          "question": "A random variable X has the cumulative distribution function $F(x) = \\begin{cases} 0 & x < 1 \\\\ \\frac{x^2 - 2x + 2}{2} & 1 \\le x < 2 \\\\ 1 & x \\ge 2. \\end{cases}$ Calculate the variance of X.",
+          "options": {
+            "A": "7",
+            "B": "1/8",
+            "C": "5",
+            "D": "4/3",
+            "E": "23"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 18,
+          "question": "An insurance company sells an auto insurance policy that covers losses in- curred by a policyholder, subject to a deductible of 100 . Losses incurred follow an exponential distribution with mean 300. What is the 95th percentile of actual losses that exceed the deductible?",
+          "options": {
+            "A": "600",
+            "B": "700",
+            "C": "800",
+            "D": "900",
+            "E": "1000"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 19,
+          "question": "The owner of an automobile insures it against damage by purchasing an in- surance policy with a deductible of 250 . In the event that the automobile is damaged, repair costs can be modeled by a uniform random variable on the interval (0, 1500). Determine the standard deviation of the insurance payment in the event that the automobile is damaged.",
+          "options": {
+            "A": "361",
+            "B": "403",
+            "C": "433",
+            "D": "464",
+            "E": "521"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 20,
+          "question": "The lifetime of a printer costing 200 is exponentially distributed with mean 2 years. The manufacturer agrees to pay a full refund to a buyer if the printer fails during the first year following its purchase, and a one-half refund if it fails during the second year. If the manufacturer sells 100 printers, how much should it expect to pay in refunds?",
+          "options": {
+            "A": "6,321",
+            "B": "7,358",
+            "C": "7,869",
+            "D": "10,256",
+            "E": "12,642"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 21,
+          "question": "The time to failure of a component in an electronic device has an exponential distribution with a median of four hours. Calculate the probability that the component will work without failing for at least five hours.",
+          "options": {
+            "A": "0.07",
+            "B": "0.29",
+            "C": "0.38",
+            "D": "0.42",
+            "E": "0.57"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 22,
+          "question": "An actuary models the lifetime of a device using the random variable $Y = 10X^{0.8}$, where X is an exponential random variable with mean 1 year. Determine the probability density function $f_Y(y)$, for $y > 0$, of the random variable Y.",
+          "options": {
+            "A": "$10y^{0.8}e^{-8y^{-0.2}}$",
+            "B": "$8y^{-0.2}e^{-10y^{0.8}}$",
+            "C": "$8y^{-0.2}e^{-(0.1y)^{1.25}}$",
+            "D": "$(0.1y)^{1.25}e^{-0.125(0.1y)^{0.25}}$",
+            "E": "$0.125(0.1y)^{0.25}e^{-(0.1y)^{1.25}}$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 23,
+          "question": "A device runs until either of two components fails, at which point the de- vice stops running. The joint density function of the lifetimes of the two components, both measured in hours, is $f_{XY}(x,y) = \\begin{cases} \\frac{x+y}{8} & 0 < x, y < 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ What is the probability that the device fails during its first hour of operation?",
+          "options": {
+            "A": "0.125",
+            "B": "0.141",
+            "C": "0.391",
+            "D": "0.625",
+            "E": "0.875"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 24,
+          "question": "Let X represent the age of an insured automobile involved in an accident. Let Y represent the length of time the owner has insured the automobile at the time of the accident. X and Y have joint probability density function $f_{XY}(x,y) = \\begin{cases} \\frac{1}{64}(10 - xy^2) & 2 \\le x \\le 10,\\ 0 \\le y \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Calculate the expected age of an insured automobile involved in an accident.",
+          "options": {
+            "A": "4.9",
+            "B": "5.2",
+            "C": "5.8",
+            "D": "6.0",
+            "E": "6.4"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 25,
+          "question": "A device contains two components. The device fails if either component fails. The joint density function of the lifetimes of the components, measured in hours, is $f(s,t)$, where $0 < s < 1$ and $0 < t < 1$. What is the probability that the device fails during the first half hour of operation?",
+          "options": {
+            "A": "$\\int_0^{0.5} \\int_0^{0.5} f(s,t)\\,ds\\,dt$",
+            "B": "$\\int_0^1 \\int_0^{0.5} f(s,t)\\,ds\\,dt$",
+            "C": "$\\int_{0.5}^1 \\int_{0.5}^1 f(s,t)\\,ds\\,dt$",
+            "D": "$\\int_0^{0.5} \\int_0^1 f(s,t)\\,ds\\,dt + \\int_0^1 \\int_0^{0.5} f(s,t)\\,ds\\,dt$",
+            "E": "$\\int_0^{0.5} \\int_{0.5}^1 f(s,t)\\,ds\\,dt + \\int_0^1 \\int_0^{0.5} f(s,t)\\,ds\\,dt$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 26,
+          "question": "The waiting time for the first claim from a good driver and the waiting time for the first claim from a bad driver are independent and follow exponential distributions with means 6 years and 3 years, respectively. What is the probability that the first claim from a good driver will be filed within 3 years and the first claim from a bad driver will be filed within 2 years?",
+          "options": {
+            "A": "$\\frac{1}{18}\\left(1 - e^{-2/3} - e^{-1/2} + e^{-7/6}\\right)$",
+            "B": "$\\frac{1}{18}e^{-7/6}$",
+            "C": "$1 - e^{-2/3} - e^{-1/2} + e^{-7/6}$",
+            "D": "$1 - e^{-2/3} - e^{-1/2} + e^{-1/3}$",
+            "E": "$1 - \\frac{1}{3}e^{-2/3} - \\frac{1}{6}e^{-1/2} + \\frac{1}{18}e^{-7/6}$"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 27,
+          "question": "In a small metropolitan area, annual losses due to storm, fire, and theft are assumed to be independent, exponentially distributed random variables with respective means 1.0, 1.5, and 2.4 . Determine the probability that the maximum of these losses exceeds 3.",
+          "options": {
+            "A": "0.002",
+            "B": "0.050",
+            "C": "0.159",
+            "D": "0.287",
+            "E": "0.414"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 28,
+          "question": "Let $N_1$ and $N_2$ represent the numbers of claims submitted to a life insurance company in April and May, respectively. The joint probability function of $N_1$ and $N_2$ is $\\Pr(n_1, n_2) = \\begin{cases} \\frac{3}{4}\\left(\\frac{1}{4}\\right)^{n_1 - 1} e^{-n_1}(1 - e^{-n_1})^{n_2 - 1}, & \\text{for } n_1 = 1, 2, 3, \\ldots \\text{ and } n_2 = 1, 2, 3, \\ldots \\\\ 0 & \\text{otherwise.} \\end{cases}$ Calculate the expected number of claims that will be submitted to the com- pany in May if exactly 2 claims were submitted in April.",
+          "options": {
+            "A": "$\\frac{3}{16}(e^2 - 1)$",
+            "B": "$\\frac{3}{16}e^2$",
+            "C": "$\\frac{3e}{4 - e}$",
+            "D": "$e^2 - 1$",
+            "E": "$e^2$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 29,
+          "question": "An auto insurance policy will pay for damage to both the policyholder's car and the other driver's car in the event that the policyholder is responsible for an accident. The size of the payment for damage to the policyholder's car, X, has a marginal density function of 1 for $0 < x < 1$. Given $X = x$, the size of the payment for damage to the other driver's car, Y, has conditional density of 1 for $x < y < x + 1$. If the policyholder is responsible for an accident, what is the probability that the payment for damage to the other driver's car will be greater than 0.5?",
+          "options": {
+            "A": "3/8",
+            "B": "1/2",
+            "C": "3/4",
+            "D": "7/8",
+            "E": "15/16"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 30,
+          "question": "Let $T_1$ be the time between a car accident and reporting a claim to the in- surance company. Let $T_2$ be the time between the report of the claim and payment of the claim. The joint density function of $T_1$ and $T_2$, $f(t_1, t_2)$, is constant over the region $0 < t_1 < 6$, $0 < t_2 < 6$, $t_1 + t_2 < 10$, and zero other- wise. Determine $E[T_1 + T_2]$, the expected time between a car accident and payment of the claim.",
+          "options": {
+            "A": "4.9",
+            "B": "5.0",
+            "C": "5.7",
+            "D": "6.0",
+            "E": "6.7"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 31,
+          "question": "An insurance policy pays a total medical benefit consisting of two parts for each claim. Let X represent the part of the benefit that is paid to the sur- geon, and let Y represent the part that is paid to the hospital. The variance of X is 5000, the variance of Y is 10,000, and the variance of the total benefit, $X + Y$, is 17,000. Due to increasing medical costs, the company that issues the policy decides to increase X by a flat amount of 100 per claim and to increase Y by 10% per claim. Calculate the variance of the total benefit after these revisions have been made.",
+          "options": {
+            "A": "18,200",
+            "B": "18,800",
+            "C": "19,300",
+            "D": "19,520",
+            "E": "20,670"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 32,
+          "question": "Let X and Y be continuous random variables with joint density function $f_{XY}(x,y) = \\begin{cases} \\frac{8}{3}xy & 0 \\le x \\le 1,\\ x \\le y \\le 2x \\\\ 0 & \\text{otherwise} \\end{cases}$ Find $\\operatorname{Cov}(X, Y)$",
+          "options": {
+            "A": "0.04",
+            "B": "0.25",
+            "C": "0.67",
+            "D": "0.80",
+            "E": "1.24"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 33,
+          "question": "A diagnostic test for the presence of a disease has two possible outcomes: 1 for disease present and 0 for disease not present. Let X denote the disease state of a patient, and let Y denote the outcome of the diagnostic test. The joint probability function of X and Y is given by: $\\Pr(X = 0, Y = 0) = 0.800$ $\\Pr(X = 1, Y = 0) = 0.050$ $\\Pr(X = 0, Y = 1) = 0.025$ $\\Pr(X = 1, Y = 1) = 0.125$. Calculate $\\operatorname{Var}(Y \\mid X = 1)$.",
+          "options": {
+            "A": "0.13",
+            "B": "0.15",
+            "C": "0.20",
+            "D": "0.51",
+            "E": "0.71"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 34,
+          "question": "The number of workplace injuries, N, occurring in a factory on any given day is Poisson distributed with mean $\\lambda$. The parameter $\\lambda$ is a random variable that is determined by the level of activity in the factory, and is uniformly distributed on the interval [0, 3]. Calculate $\\operatorname{Var}(N)$.",
+          "options": {
+            "A": "$\\lambda$",
+            "B": "$2\\lambda$",
+            "C": "0.75",
+            "D": "1.50",
+            "E": "2.25"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 35,
+          "question": "A motorist makes three driving errors, each independently resulting in an accident with probability 0.25. Each accident results in a loss that is exponentially distributed with mean 0.80. Losses are mutually independent and independent of the number of accidents. The motorist's insurer reimburses 70% of each loss due to an ac- cident. Calculate the variance of the total unreimbursed loss the motorist experi- ences due to accidents resulting from these driving errors.",
+          "options": {
+            "A": "0.0432",
+            "B": "0.0756",
+            "C": "0.1782",
+            "D": "0.2520",
+            "E": "0.4116"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 36,
+          "question": "An actuary determines that the claim size for a certain class of accidents is a random variable, X, with moment generating function $M_X(t) = \\frac{1}{(1 - 2500t)^4}$ Determine the standard deviation of the claim size for this class of accidents.",
+          "options": {
+            "A": "1,340",
+            "B": "5,000",
+            "C": "8,660",
+            "D": "10,000",
+            "E": "11,180"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 37,
+          "question": "The value of a piece of factory equipment after three years of use is $100(0.5)^X$ where X is a random variable having moment generating function $M_X(t) = \\frac{1}{1 - 2t}$ for $t < \\frac{1}{2}$. Calculate the expected value of this piece of equipment after three years of use.",
+          "options": {
+            "A": "12.5",
+            "B": "25.0",
+            "C": "41.9",
+            "D": "70.7",
+            "E": "83.8"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 38,
+          "question": "An insurance company issues 1250 vision care insurance policies. The number of claims filed by a policyholder under a vision care insurance policy during one year is a Poisson random variable with mean 2. Assume the numbers of claims filed by distinct policyholders are independent of one another. What is the approximate probability that there is a total of between 2450 and 2600 claims during a one-year period?",
+          "options": {
+            "A": "0.68",
+            "B": "0.82",
+            "C": "0.87",
+            "D": "0.95",
+            "E": "1.00"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 39,
+          "question": "A city has just added 100 new female recruits to its police force. The city will provide a pension to each new hire who remains with the force until retire- ment. In addition, if the new hire is married at the time of her retirement, a second pension will be provided for her husband. A consulting actuary makes the following assumptions: (i) Each new recruit has a 0.4 probability of remaining with the police force until retirement. (ii) Given that a new recruit reaches retirement with the police force, the probability that she is not married at the time of retirement is 0.25. (iii) The number of pensions that the city will provide on behalf of each new hire is independent of the number of pensions it will provide on behalf of any other new hire. Determine the probability that the city will provide at most 90 pensions to the 100 new hires and their husbands.",
+          "options": {
+            "A": "0.60",
+            "B": "0.67",
+            "C": "0.75",
+            "D": "0.93",
+            "E": "0.99"
+          },
+          "answer": "E"
+        }
+      ]
+    },
+    {
+      "id": "sample-exam-2",
+      "name": "Sample Exam 2",
+      "count": 38,
+      "minutes": 180,
+      "questions": [
+        {
+          "n": 1,
+          "question": "An auto insurance has 10,000 policyholders. Each policyholder is classified as (i) young or old; (ii) male or female; (iii) married or single. Of these policyholders, 3,000 are young, 4,600 are male, and 7,000 are mar- ried. The policyholders can also be classified as 1,320 young males, 3,010 married males, and 1,400 young married persons. Finally, 600 of the policy- holders are young married males. How many of the company's policyholders are young, female, and single?",
+          "options": {
+            "A": "280",
+            "B": "423",
+            "C": "486",
+            "D": "880",
+            "E": "896"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 2,
+          "question": "A doctor is studying the relationship between blood pressure and heartbeat abnormalities in her patients. She tests a random sample of her patients and notes their blood pressures (high, low, or normal) and their heartbeats (regular or irregular). She finds that: (i) 14% have high blood pressure. (ii) 22% have low blood pressure. (iii) 15% have an irregular heartbeat. (iv) Of those with an irregular heartbeat, one-third have high blood pressure. (v) Of those with normal blood pressure, one-eighth have an irregular heartbeat. What portion of the patients selected have a regular heartbeat and low blood pressure?",
+          "options": {
+            "A": "2%",
+            "B": "5%",
+            "C": "8%",
+            "D": "9%",
+            "E": "20%"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 3,
+          "question": "You are given $\\Pr(A\\cup B) = 0.7$ and $\\Pr(A\\cup B^c) = 0.9$. Determine Pr",
+          "options": {
+            "A": "0.2",
+            "B": "0.3",
+            "C": "0.4",
+            "D": "0.6",
+            "E": "0.8"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 4,
+          "question": "A mattress store sells only king, queen and twin-size mattresses. Sales records at the store indicate that one-fourth as many queen-size mattresses are sold as king and twin-size mattresses combined. Records also indicate that three times as many king-size mattresses are sold as twin-size mattresses. Calculate the probability that the next mattress sold is either king or queen- size.",
+          "options": {
+            "A": "0.12",
+            "B": "0.15",
+            "C": "0.80",
+            "D": "0.85",
+            "E": "0.95"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 5,
+          "question": "A public health researcher examines the medical records of a group of 937 men who died in 1999 and discovers that 210 of the men died from causes related to heart disease. Moreover, 312 of the 937 men had at least one par- ent who suffered from heart disease, and, of these 312 men, 102 died from causes related to heart disease. Determine the probability that a man randomly selected from this group died of causes related to heart disease, given that neither of his parents suffered from heart disease.",
+          "options": {
+            "A": "0.115",
+            "B": "0.173",
+            "C": "0.224",
+            "D": "0.327",
+            "E": "0.514"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 6,
+          "question": "An insurance company issues life insurance policies in three separate cate- gories: standard, preferred, and ultra-preferred. Of the company's policy- holders, 50% are standard, 40% are preferred, and 10% are ultra-preferred. Each standard policyholder has probability 0.010 of dying in the next year, each preferred policyholder has probability 0.005 of dying in the next year, and each ultra-preferred policyholder has probability 0.001 of dying in the next year. A policyholder dies in the next year. What is the probability that the de- ceased policyholder was ultra-preferred?",
+          "options": {
+            "A": "0.0001",
+            "B": "0.0010",
+            "C": "0.0071",
+            "D": "0.0141",
+            "E": "0.2817"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 7,
+          "question": "A blood test indicates the presence of a particular disease 95% of the time when the disease is actually present. The same test indicates the presence of the disease 0.5% of the time when the disease is not present. One percent of the population actually has the disease. Calculate the probability that a person has the disease given that the test indicates the presence of the disease.",
+          "options": {
+            "A": "0.324",
+            "B": "0.657",
+            "C": "0.945",
+            "D": "0.950",
+            "E": "0.995"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 8,
+          "question": "One urn contains 4 red balls and 6 blue balls. A second urn contains 16 red balls and x blue balls. A single ball is drawn from each urn. The probability that both balls are the same color is 0.44 . Calculate x.",
+          "options": {
+            "A": "4",
+            "B": "20",
+            "C": "24",
+            "D": "44",
+            "E": "64"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 9,
+          "question": "The number of injury claims per month is modeled by a random variable N with $\\Pr(N = n) = \\frac{1}{(n + 1)(n + 2)}$, $n \\ge 0$. Determine the probability of at least one claim during a particular month, given that there have been at most four claims during that month.",
+          "options": {
+            "A": "1/3",
+            "B": "2/5",
+            "C": "1/2",
+            "D": "3/5",
+            "E": "5/6"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 10,
+          "question": "An auto insurance company is implementing a new bonus system. In each month, if a policyholder does not have an accident, he or she will receive a 5.00 cash-back bonus from the insurer. Among the 1,000 policyholders of the auto insurance company, 400 are clas- sified as low-risk drivers and 600 are classified as high-risk drivers. In each month, the probability of zero accidents for high-risk drivers is 0.80 and the probability of zero accidents for low-risk drivers is 0.90. Calculate the expected bonus payment from the insurer to the 1000 policy- holders in one year.",
+          "options": {
+            "A": "48,000",
+            "B": "50,400",
+            "C": "51,000",
+            "D": "54,000",
+            "E": "60,000"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 11,
+          "question": "The annual cost of maintaining and repairing a car averages 200 with a vari- ance of 260. what will be the variance of the annual cost of maintaining and repairing a car if 20% tax is introduced on all items associated with the maintenance and repair of cars?",
+          "options": {
+            "A": "208",
+            "B": "260",
+            "C": "270",
+            "D": "312",
+            "E": "374"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 12,
+          "question": "A tour operator has a bus that can accommodate 20 tourists. The operator knows that tourists may not show up, so he sells 21 tickets. The probability that an individual tourist will not show up is 0.02, independent of all other tourists. Each ticket costs 50, and is non-refundable if a tourist fails to show up. If a tourist shows up and a seat is not available, the tour operator has to pay 100 (ticket cost + 50 penalty) to the tourist. What is the expected revenue of the tour operator?",
+          "options": {
+            "A": "935",
+            "B": "950",
+            "C": "967",
+            "D": "976",
+            "E": "985"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 13,
+          "question": "A baseball team has scheduled its opening game for April 1. If it rains on April 1, the game is postponed and will be played on the next day that it does not rain. The team purchases insurance against rain. The policy will pay 1000 for each day, up to 2 days, that the opening game is postponed. The insurance company determines that the number of consecutive days of rain beginning on April 1 is a Poisson random variable with mean 0.6 . What is the standard deviation of the amount the insurance company will have to pay?",
+          "options": {
+            "A": "668",
+            "B": "699",
+            "C": "775",
+            "D": "817",
+            "E": "904"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 14,
+          "question": "The lifetime of a machine part has a continuous distribution on the inter- val (0, 40) with probability density function f, where $f(x)$ is proportional to $(10 + x)^{-2}$. Calculate the probability that the lifetime of the machine part is less than 6.",
+          "options": {
+            "A": "0.04",
+            "B": "0.15",
+            "C": "0.47",
+            "D": "0.53",
+            "E": "0.94"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 15,
+          "question": "An insurance policy pays for a random loss X subject to a deductible of C, where $0 < C < 1$. The loss amount is modeled as a continuous random variable with density function $f(x) = \\begin{cases} 2x & 0 < x < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Given a random loss X, the probability that the insurance payment is less than 0.5 is equal to 0.64 . Calculate C.",
+          "options": {
+            "A": "0.1",
+            "B": "0.3",
+            "C": "0.4",
+            "D": "0.6",
+            "E": "0.8"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 16,
+          "question": "Let X be a continuous random variable with density function $f(x) = \\begin{cases} \\frac{|x|}{10} & -2 \\le x \\le 4 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Calculate the expected value of X.",
+          "options": {
+            "A": "$\\frac{1}{5}$",
+            "B": "$\\frac{3}{5}$",
+            "C": "$1$",
+            "D": "$28$",
+            "E": "$\\frac{12}{5}$"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 17,
+          "question": "A company agrees to accept the highest of four sealed bids on a property. The four bids are regarded as four independent random variables with common cumulative distribution function $F(x) = \\frac{1}{2}(1 + \\sin\\pi x)$, $\\frac{3}{2} \\le x \\le \\frac{5}{2}$ and 0 otherwise. What is the expected value of the accepted bid?",
+          "options": {
+            "A": "$\\pi \\int_{3/2}^{5/2} x \\cos(\\pi x)\\,dx$",
+            "B": "$\\int_{3/2}^{5/2} (1 + \\sin(\\pi x))^4\\,dx$",
+            "C": "$\\int_{3/2}^{5/2} x(1 + \\sin(\\pi x))^4\\,dx$",
+            "D": "$\\frac{1}{4}\\pi \\int_{3/2}^{5/2} \\cos(\\pi x)(1 + \\sin(\\pi x))^3\\,dx$",
+            "E": "$\\frac{1}{4}\\pi \\int_{3/2}^{5/2} x \\cos(\\pi x)(1 + \\sin(\\pi x))^3\\,dx$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 18,
+          "question": "An automobile insurance company issues a one-year policy with a deductible of 500. The probability is 0.8 that the insured automobile has no accident and 0.0 that the automobile has more than one accident. If there is an accident, the loss before application of the deductible is exponentially distributed with mean 3000. Calculate the 95th percentile of the insurance company payout on this policy.",
+          "options": {
+            "A": "3466",
+            "B": "3659",
+            "C": "4159",
+            "D": "8487",
+            "E": "8987"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 19,
+          "question": "For Company A there is a 60% chance that no claim is made during the coming year. If one or more claims are made, the total claim amount is normally distributed with mean 10,000 and standard deviation 2,000. For Company B there is a 70% chance that no claim is made during the coming year. If one or more claims are made, the total claim amount is normally distributed with mean 9,000 and standard deviation 2,000. Assuming that the total claim amounts of the two companies are independent, what is the probability that, in the coming year, Company B's total claim amount will exceed Company A's total claim amount?",
+          "options": {
+            "A": "0.180",
+            "B": "0.185",
+            "C": "0.217",
+            "D": "0.223",
+            "E": "0.240"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 20,
+          "question": "A device that continuously measures and records seismic activity is placed in a remote region. The time, T, to failure of this device is exponentially distributed with mean 3 years. Since the device will not be monitored during its first two years of service, the time to discovery of its failure is $X = \\max(T, 2)$. Determine $E[X]$.",
+          "options": {
+            "A": "$2 + \\frac{1}{3}e^{-6}$",
+            "B": "$2 - 2e^{-2/3} + 5e^{-4/3}$",
+            "C": "$3$",
+            "D": "$2 + 3e^{-2/3}$",
+            "E": "$5$"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 21,
+          "question": "The cumulative distribution function for health care costs experienced by a policyholder is modeled by the function $F(x) = \\begin{cases} 1 - e^{-x/100} & \\text{for } x > 0 \\\\ 0 & \\text{otherwise.} \\end{cases}$ The policy has a deductible of 20. An insurer reimburses the policyholder for 100% of health care costs between 20 and 120 less the deductible. Health care costs above 120 are reimbursed at 50%. Let G be the cumulative distribution function of reimbursements given that the reimbursement is positive. Calculate $G(115)$.",
+          "options": {
+            "A": "0.683",
+            "B": "0.727",
+            "C": "0.741",
+            "D": "0.757",
+            "E": "0.777"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 22,
+          "question": "Let T denote the time in minutes for a customer service representative to respond to 10 telephone inquiries. T is uniformly distributed on the interval with endpoints 8 minutes and 12 minutes. Let R denote the average rate, in customers per minute, at which the representative responds to inquiries. Find the density function $f_R(r)$ of R.",
+          "options": {
+            "A": "$\\frac{12}{5}$",
+            "B": "$3 - \\frac{5}{2r}$",
+            "C": "$\\frac{3r - 5\\ln r}{2}$",
+            "D": "$\\frac{10}{r^2}$",
+            "E": "$\\frac{5}{2r^2}$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 23,
+          "question": "An insurance company insures a large number of drivers. Let X be the random variable representing the company's losses under collision insurance, and let Y represent the company's losses under liability insurance. X and Y have joint density function $f_{XY}(x,y) = \\begin{cases} \\frac{2x+2-y}{4} & 0 < x < 1,\\ 0 < y < 2 \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is the probability that the total loss is at least 1?",
+          "options": {
+            "A": "0.33",
+            "B": "0.38",
+            "C": "0.41",
+            "D": "0.71",
+            "E": "0.75"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 24,
+          "question": "A device contains two circuits. The second circuit is a backup for the first, so the second is used only when the first has failed. The device fails when and only when the second circuit fails. Let X and Y be the times at which the first and second circuits fail, respectively. X and Y have joint probability density function $f_{XY}(x,y) = \\begin{cases} 6e^{-x}e^{-2y} & 0 < x < y < \\infty \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is the expected time at which the device fails?",
+          "options": {
+            "A": "0.33",
+            "B": "0.50",
+            "C": "0.67",
+            "D": "0.83",
+            "E": "1.50"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 25,
+          "question": "A client spends X minutes in an insurance agent's waiting room and Y minutes meeting with the agent. The joint density function of X and Y can be modeled by $f(x,y) = \\begin{cases} \\frac{1}{800}e^{-x/40 - y/20} & \\text{for } x > 0,\\ y > 0 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find the probability that a client spends less than 60 minutes at the agent's office. You do NOT have to evaluate the integrals.",
+          "options": {
+            "A": "$\\int_0^{40} \\int_0^{20} e^{-x/40}e^{-y}$",
+            "B": "$\\int_0^{40} \\int_0^{20-x} e^{-x/40}e^{-y}$",
+            "C": "$\\int_0^{20} \\int_0^{40-x} e^{-x/40}e^{-y}$",
+            "D": "$\\int_0^{60} \\int_0^{60} e^{-x/40}e^{-y}$",
+            "E": "$\\int_0^{60} \\int_0^{60-x} e^{-x/40}e^{-y}$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 26,
+          "question": "An insurance company sells two types of auto insurance policies: Basic and Deluxe. The time until the next Basic Policy claim is an exponential random variable with mean two days. The time until the next Deluxe Policy claim is an independent exponential random variable with mean three days. What is the probability that the next claim will be a Deluxe Policy claim?",
+          "options": {
+            "A": "0.172",
+            "B": "0.223",
+            "C": "0.400",
+            "D": "0.487",
+            "E": "0.500"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 27,
+          "question": "A device containing two key components fails when, and only when, both components fail. The lifetimes, X and Y, of these components are independent with common density function $f(t) = e^{-t},\\ t > 0$. The cost, Z, of operating the device until failure is $2X + Y$. Find the probability density function of Z.",
+          "options": {
+            "A": "$e^{-x/2} - e^{-x}$",
+            "B": "$2(e^{-x/2} - e^{-x})$",
+            "C": "$\\frac{x^2 e^{-x}}{2}$",
+            "D": "$\\frac{e^{-x/2}}{2}$",
+            "E": "$\\frac{e^{-x/3}}{3}$"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 28,
+          "question": "Let X and Y be continuous random variables with joint density function $f_{XY}(x,y) = \\begin{cases} 24xy & 0 < x < 1,\\ 0 < y < 1-x \\\\ 0 & \\text{otherwise.} \\end{cases}$ Calculate $\\Pr\\left(Y < X \\mid X = \\frac{1}{3}\\right)$.",
+          "options": {
+            "A": "$1$",
+            "B": "$2$",
+            "C": "$\\frac{1}{4}$",
+            "D": "$\\frac{1}{3}$",
+            "E": "$\\frac{4}{9}$"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 29,
+          "question": "You are given the following information about N, the annual number of claims for a randomly selected insured: $\\Pr(N = 0) = \\frac{1}{2}$, $\\Pr(N = 1) = \\frac{1}{3}$, $\\Pr(N > 1) = \\frac{1}{6}$. Let S denote the total annual claim amount for an insured. When $N = 1$, S is exponentially distributed with mean 5. When $N > 1$, S is exponentially distributed with mean 8. Determine $\\Pr(4 < S < 8)$.",
+          "options": {
+            "A": "0.04",
+            "B": "0.08",
+            "C": "0.12",
+            "D": "0.24",
+            "E": "0.25"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 30,
+          "question": "Let $T_1$ and $T_2$ represent the lifetimes in hours of two linked components in an electronic device. The joint density function for $T_1$ and $T_2$ is uniform over the region defined by $0 \\le t_1 \\le t_2 \\le L$, where L is a positive constant. Determine the expected value of the sum of the squares of $T_1$ and $T_2$.",
+          "options": {
+            "A": "$L^2/3$",
+            "B": "$L^2/2$",
+            "C": "$2L^2/3$",
+            "D": "$3L^2/4$",
+            "E": "$L^2$"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 31,
+          "question": "The profit for a new product is given by $Z = 3X - Y - 5$. X and Y are independent random variables with $\\text{Var}(X) = 1$ and $\\text{Var}(Y) = 2$. What is the variance of Z?",
+          "options": {
+            "A": "1",
+            "B": "5",
+            "C": "7",
+            "D": "11",
+            "E": "16"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 32,
+          "question": "Let X and Y denote the values of two stocks at the end of a five-year period. X is uniformly distributed on the interval $(0, 12)$. Given $X = x$, Y is uniformly distributed on the interval $(0, x)$. Determine $\\text{Cov}(X, Y)$ according to this model.",
+          "options": {
+            "A": "0",
+            "B": "4",
+            "C": "6",
+            "D": "12",
+            "E": "24"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 33,
+          "question": "The stock prices of two companies at the end of any given year are modeled with random variables X and Y that follow a distribution with joint density function $f_{XY}(x,y) = \\begin{cases} 2x & 0 < x < 1,\\ x < y < x + 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is the conditional variance of Y given that $X = x$?",
+          "options": {
+            "A": "$\\frac{1}{12}$",
+            "B": "$\\frac{7}{6}$",
+            "C": "$\\frac{x+1}{2}$",
+            "D": "$\\frac{x^2-1}{6}$",
+            "E": "$\\frac{x^2+x+1}{3}$"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 34,
+          "question": "A fair die is rolled repeatedly. Let X be the number of rolls needed to obtain a 5 and Y the number of rolls needed to obtain a 6. Calculate $E(X \\mid Y = 2)$.",
+          "options": {
+            "A": "5.0",
+            "B": "5.2",
+            "C": "6.0",
+            "D": "6.6",
+            "E": "6.8"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 35,
+          "question": "The number of hurricanes that will hit a certain house in the next ten years is Poisson distributed with mean 4. Each hurricane results in a loss that is exponentially distributed with mean 1000. Losses are mutually independent and independent of the number of hurricanes. Calculate the variance of the total loss due to hurricanes hitting this house in the next ten years.",
+          "options": {
+            "A": "4,000,000",
+            "B": "4,004,000",
+            "C": "8,000,000",
+            "D": "16,000,000",
+            "E": "20,000,000"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 36,
+          "question": "A company insures homes in three cities, J, K, and L. Since sufficient distance separates the cities, it is reasonable to assume that the losses occurring in these cities are independent. The moment generating functions for the loss distributions of the cities are: $M_J(t) = (1 - 2t)^{-3}$, $M_K(t) = (1 - 2t)^{-2.5}$, $M_L(t) = (1 - 2t)^{-4.5}$. Let X represent the combined losses from the three cities. Calculate $E(X^3)$.",
+          "options": {
+            "A": "1,320",
+            "B": "2,082",
+            "C": "5,760",
+            "D": "8,000",
+            "E": "10,560"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 37,
+          "question": "Let X and Y be identically distributed independent random variables such that the moment generating function of $X + Y$ is $M(t) = 0.09e^{-2t} + 0.24e^{-t} + 0.34 + 0.24e^{t} + 0.09e^{2t}$, $-\\infty < t < \\infty$. Calculate $\\Pr(X \\le 0)$.",
+          "options": {
+            "A": "0.33",
+            "B": "0.34",
+            "C": "0.50",
+            "D": "0.67",
+            "E": "0.70"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 38,
+          "question": "A company manufactures a brand of light bulb with a lifetime in months that is normally distributed with mean 3 and variance 1. A consumer buys a number of these bulbs with the intention of replacing them successively as they burn out. The light bulbs have independent lifetimes. What is the smallest number of bulbs to be purchased so that the succession of light bulbs produces light for at least 40 months with probability at least 0.9772?",
+          "options": {
+            "A": "14",
+            "B": "16",
+            "C": "20",
+            "D": "40",
+            "E": "55"
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "sample-exam-3",
+      "name": "Sample Exam 3",
+      "count": 38,
+      "minutes": 180,
+      "questions": [
+        {
+          "n": 1,
+          "question": "A marketing survey indicates that 60% of the population owns an automobile, 30% owns a house, and 20% owns both an automobile and a house. What percentage of the population owns an automobile or a house, but not both?",
+          "options": {
+            "A": "0.4",
+            "B": "0.5",
+            "C": "0.6",
+            "D": "0.7",
+            "E": "0.9"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 2,
+          "question": "A survey of 100 TV watchers revealed that over the last year: i) 34 watched CBS. ii) 15 watched NBC. iii) 10 watched ABC. iv) 7 watched CBS and NBC. v) 6 watched CBS and ABC. vi) 5 watched NBC and ABC. vii) 4 watched CBS, NBC, and ABC. viii) 18 watched HGTV and of these, none watched CBS, NBC, or ABC. Calculate how many of the 100 TV watchers did not watch any of the four channels (CBS, NBC, ABC or HGTV).",
+          "options": {
+            "A": "$\\frac{1}{493}$",
+            "B": "37",
+            "C": "45",
+            "D": "55",
+            "E": "82"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 3,
+          "question": "Among a large group of patients recovering from shoulder injuries, it is found that 22% visit both a physical therapist and a chiropractor, whereas 12% visit neither of these. The probability that a patient visits a chiropractor exceeds by 14% the probability that a patient visits a physical therapist. Determine the probability that a randomly chosen member of this group visits a physical therapist.",
+          "options": {
+            "A": "0.26",
+            "B": "0.38",
+            "C": "0.40",
+            "D": "0.48",
+            "E": "0.62"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 4,
+          "question": "The probability that a member of a certain class of homeowners with liability and property coverage will file a liability claim is 0.04, and the probability that a member of this class will file a property claim is 0.10. The probability that a member of this class will file a liability claim but not a property claim is 0.01. Calculate the probability that a randomly selected member of this class of homeowners will not file a claim of either type.",
+          "options": {
+            "A": "0.850",
+            "B": "0.860",
+            "C": "0.864",
+            "D": "0.870",
+            "E": "0.890"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 5,
+          "question": "An insurance company examines its pool of auto insurance customers and gathers the following information: (i) All customers insure at least one car. (ii) 70% of the customers insure more than one car. (iii) 20% of the customers insure a sports car. (iv) Of those customers who insure more than one car, 15% insure a sports car. Calculate the probability that a randomly selected customer insures exactly one car and that car is not a sports car.",
+          "options": {
+            "A": "0.13",
+            "B": "0.21",
+            "C": "0.24",
+            "D": "0.25",
+            "E": "0.30"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 6,
+          "question": "Upon arrival at a hospital's emergency room, patients are categorized according to their condition as critical, serious, or stable. In the past year: (i) 10% of the emergency room patients were critical; (ii) 30% of the emergency room patients were serious; (iii) the rest of the emergency room patients were stable; (iv) 40% of the critical patients died; (v) 10% of the serious patients died; and (vi) 1% of the stable patients died. Given that a patient survived, what is the probability that the patient was categorized as serious upon arrival?",
+          "options": {
+            "A": "0.06",
+            "B": "0.29",
+            "C": "0.30",
+            "D": "0.39",
+            "E": "0.64"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 7,
+          "question": "The probability that a randomly chosen male has a circulation problem is 0.25. Males who have a circulation problem are twice as likely to be smokers as those who do not have a circulation problem. What is the conditional probability that a male has a circulation problem, given that he is a smoker?",
+          "options": {
+            "A": "$\\frac{1}{4}$",
+            "B": "$\\frac{1}{3}$",
+            "C": "$\\frac{2}{5}$",
+            "D": "$\\frac{1}{2}$",
+            "E": "$\\frac{2}{3}$"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 8,
+          "question": "An actuary studying the insurance preferences of automobile owners makes the following conclusions: (i) An automobile owner is twice as likely to purchase a collision coverage as opposed to a disability coverage. (ii) The event that an automobile owner purchases a collision coverage is independent of the event that he or she purchases a disability coverage. (iii) The probability that an automobile owner purchases both collision and disability coverages is 0.15. What is the probability that an automobile owner purchases neither collision nor disability coverage?",
+          "options": {
+            "A": "0.18",
+            "B": "0.33",
+            "C": "0.48",
+            "D": "0.67",
+            "E": "0.82"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 9,
+          "question": "Under an insurance policy, a maximum of five claims may be filed per year by a policyholder. Let $p_n$ be the probability that a policyholder files n claims during a given year, where $n = 0, 1, 2, 3, 4, 5$. An actuary makes the following observations: (i) $p_n \\ge p_{n+1}$ for $0 \\le n \\le 4$ (ii) The difference between $p_n$ and $p_{n+1}$ is the same for $0 \\le n \\le 4$ (iii) Exactly 40% of policyholders file fewer than two claims during a given year. Calculate the probability that a random policyholder will file more than three claims during a given year.",
+          "options": {
+            "A": "0.14",
+            "B": "0.16",
+            "C": "0.27",
+            "D": "0.29",
+            "E": "0.33"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 10,
+          "question": "An insurance policy pays 100 per day for up to 3 days of hospitalization and 50 per day for each day of hospitalization thereafter. The number of days of hospitalization, X, is a discrete random variable with probability function $p(k) = \\begin{cases} \\frac{6-k}{15} & k = 1, 2, 3, 4, 5 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Determine the expected payment for hospitalization under this policy.",
+          "options": {
+            "A": "123",
+            "B": "210",
+            "C": "220",
+            "D": "270",
+            "E": "367"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 11,
+          "question": "A hospital receives $\\frac{1}{5}$ of its flu vaccine shipments from Company X and the remainder of its shipments from other companies. Each shipment contains a very large number of vaccine vials. For Company X's shipments, 10% of the vials are ineffective. For every other company, 2% of the vials are ineffective. The hospital tests 30 randomly selected vials from a shipment and finds that one vial is ineffective. What is the probability that this shipment came from Company X?",
+          "options": {
+            "A": "0.10",
+            "B": "0.14",
+            "C": "0.37",
+            "D": "0.63",
+            "E": "0.86"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 12,
+          "question": "Let X represent the number of customers arriving during the morning hours and let Y represent the number of customers arriving during the afternoon hours at a diner. You are given: i) X and Y are Poisson distributed. ii) The first moment of X is less than the first moment of Y by 8. iii) The second moment of X is 60% of the second moment of Y. Calculate the variance of Y.",
+          "options": {
+            "A": "4",
+            "B": "12",
+            "C": "16",
+            "D": "27",
+            "E": "35"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 13,
+          "question": "As part of the underwriting process for insurance, each prospective policyholder is tested for high blood pressure. Let X represent the number of tests completed when the first person with high blood pressure is found. The expected value of X is 12.5. Calculate the probability that the sixth person tested is the first one with high blood pressure.",
+          "options": {
+            "A": "0.000",
+            "B": "0.053",
+            "C": "0.080",
+            "D": "0.316",
+            "E": "0.394"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 14,
+          "question": "A group insurance policy covers the medical claims of the employees of a small company. The value, V, of the claims made in one year is described by $V = 100000Y$ where Y is a random variable with density function $f(x) = \\begin{cases} k(1-y)^4 & 0 < y < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ where k is a constant. What is the conditional probability that V exceeds 40,000, given that V exceeds 10,000?",
+          "options": {
+            "A": "0.08",
+            "B": "0.13",
+            "C": "0.17",
+            "D": "0.20",
+            "E": "0.51"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 15,
+          "question": "An insurance policy reimburses a loss up to a benefit limit of 10. The policyholder's loss, X, follows a distribution with density function: $f(x) = \\begin{cases} \\frac{2}{x^3} & x > 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is the expected value of the benefit paid under the insurance policy?",
+          "options": {
+            "A": "1.0",
+            "B": "1.3",
+            "C": "1.8",
+            "D": "1.9",
+            "E": "2.0"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 16,
+          "question": "An auto insurance company insures an automobile worth 15,000 for one year under a policy with a 1,000 deductible. During the policy year there is a 0.04 chance of partial damage to the car and a 0.02 chance of a total loss of the car. If there is partial damage to the car, the amount X of damage (in thousands) follows a distribution with density function $f(x) = \\begin{cases} 0.5003e^{-0.5x} & 0 < x < 15 \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is the expected claim payment?",
+          "options": {
+            "A": "320",
+            "B": "328",
+            "C": "352",
+            "D": "380",
+            "E": "540"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 17,
+          "question": "An insurance policy on an electrical device pays a benefit of 4000 if the device fails during the first year. The amount of the benefit decreases by 1000 each successive year until it reaches 0. If the device has not failed by the beginning of any given year, the probability of failure during that year is 0.4. What is the expected benefit under this policy?",
+          "options": {
+            "A": "2234",
+            "B": "2400",
+            "C": "2500",
+            "D": "2667",
+            "E": "2694"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 18,
+          "question": "An insurance policy is written to cover a loss, X, where X has a uniform distribution on $[0, 1000]$. At what level must a deductible be set in order for the expected payment to be 25% of what it would be with no deductible?",
+          "options": {
+            "A": "250",
+            "B": "375",
+            "C": "500",
+            "D": "625",
+            "E": "750"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 19,
+          "question": "Ten years ago at a certain insurance company, the size of claims under homeowner insurance policies had an exponential distribution. Furthermore, 25% of claims were less than $1000. Today, the size of claims still has an exponential distribution but, owing to inflation, every claim made today is twice the size of a similar claim made 10 years ago. Determine the probability that a claim made today is less than $1000.",
+          "options": {
+            "A": "0.063",
+            "B": "0.125",
+            "C": "0.134",
+            "D": "0.163",
+            "E": "0.250"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 20,
+          "question": "A piece of equipment is being insured against early failure. The time from purchase until failure of the equipment is exponentially distributed with mean 10 years. The insurance will pay an amount x if the equipment fails during the first year, and it will pay 0.5x if failure occurs during the second or third year. If failure occurs after the first three years, no payment will be made. At what level must x be set if the expected payment made under this insurance is to be 1000?",
+          "options": {
+            "A": "3858",
+            "B": "4449",
+            "C": "5382",
+            "D": "5644",
+            "E": "7235"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 21,
+          "question": "The time, T, that a manufacturing system is out of operation has cumulative distribution function $F(t) = \\begin{cases} 1 - \\left(\\frac{2}{t}\\right)^2 & t > 2 \\\\ 0 & \\text{otherwise.} \\end{cases}$ The resulting cost to the company is $Y = T^2$. Determine the density function of Y, for $y > 4$.",
+          "options": {
+            "A": "$\\frac{4}{y^2}$",
+            "B": "$\\frac{8}{y^{3/2}}$",
+            "C": "$\\frac{8}{y^3}$",
+            "D": "$\\frac{16}{y}$",
+            "E": "$\\frac{1024}{y^5}$"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 22,
+          "question": "The monthly profit of Company A can be modeled by a continuous random variable with density function $f_A$. Company B has a monthly profit that is twice that of Company A. Determine the probability density function of the monthly profit of Company B.",
+          "options": {
+            "A": "$\\frac{1}{2}f\\left(\\frac{x}{2}\\right)$",
+            "B": "$f\\left(\\frac{x}{2}\\right)$",
+            "C": "$2f\\left(\\frac{x}{2}\\right)$",
+            "D": "$2f(x)$",
+            "E": "$2f(2x)$"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 23,
+          "question": "A car dealership sells 0, 1, or 2 luxury cars on any day. When selling a car, the dealer also tries to persuade the customer to buy an extended warranty for the car. Let X denote the number of luxury cars sold in a given day, and let Y denote the number of extended warranties sold. Given the following information $\\Pr(X = 0, Y = 0) = \\frac{1}{6}$, $\\Pr(X = 1, Y = 0) = \\frac{1}{12}$, $\\Pr(X = 1, Y = 1) = \\frac{1}{6}$, $\\Pr(X = 2, Y = 0) = \\frac{1}{12}$, $\\Pr(X = 2, Y = 1) = \\frac{1}{3}$, $\\Pr(X = 2, Y = 2) = \\frac{1}{6}$. What is the variance of X?",
+          "options": {
+            "A": "0.47",
+            "B": "0.58",
+            "C": "0.83",
+            "D": "1.42",
+            "E": "2.58"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 24,
+          "question": "The future lifetimes (in months) of two components of a machine have the following joint density function: $f_{XY}(x,y) = \\begin{cases} \\frac{6}{125000}(50-x-y) & 0 < x < 50-y < 50 \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is the probability that both components are still functioning 20 months from now?",
+          "options": {
+            "A": "$\\frac{6}{125{,}000} \\int_0^{20} \\int_0^{20} (50-x-y)\\,dy\\,dx$",
+            "B": "$\\frac{6}{125{,}000} \\int_2^{30} \\int_0^{50-x} (50-x-y)\\,dy\\,dx$",
+            "C": "$\\frac{6}{125{,}000} \\int_2^{30} \\int_{20}^{50-x-y} (50-x-y)\\,dy\\,dx$",
+            "D": "$\\frac{6}{125{,}000} \\int_{20}^{50} \\int_{20}^{50-x} (50-x-y)\\,dy\\,dx$",
+            "E": "$\\frac{6}{125{,}000} \\int_{20}^{50} \\int_{20}^{50-x-y} (50-x-y)\\,dy\\,dx$"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 25,
+          "question": "Automobile policies are separated into two groups: low-risk and high-risk. Actuary Rahul examines low-risk policies, continuing until a policy with a claim is found and then stopping. Actuary Toby follows the same procedure with high-risk policies. Each low-risk policy has a 10% probability of having a claim. Each high-risk policy has a 20% probability of having a claim. The claim statuses of polices are mutually independent. Calculate the probability that Actuary Rahul examines fewer policies than Actuary Toby.",
+          "options": {
+            "A": "0.2857",
+            "B": "0.3214",
+            "C": "0.3333",
+            "D": "0.3571",
+            "E": "0.4000"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 26,
+          "question": "Two insurers provide bids on an insurance policy to a large company. The bids must be between 2000 and 2200. The company decides to accept the lower bid if the two bids differ by 20 or more. Otherwise, the company will consider the two bids further. Assume that the two bids are independent and are both uniformly distributed on the interval from 2000 to 2200. Determine the probability that the company considers the two bids further.",
+          "options": {
+            "A": "0.10",
+            "B": "0.19",
+            "C": "0.20",
+            "D": "0.41",
+            "E": "0.60"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 27,
+          "question": "A company offers earthquake insurance. Annual premiums are modeled by an exponential random variable with mean 2. Annual claims are modeled by an exponential random variable with mean 1. Premiums and claims are independent. Let X denote the ratio of claims to premiums. What is the density function of X?",
+          "options": {
+            "A": "$\\frac{1}{2x+1}$",
+            "B": "$\\frac{2}{(2x+1)^2}$",
+            "C": "$e^{-x}$",
+            "D": "$2e^{-2x}$",
+            "E": "$xe^{-x}$"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 28,
+          "question": "Once a fire is reported to a fire insurance company, the company makes an initial estimate, X, of the amount it will pay to the claimant for the fire loss. When the claim is finally settled, the company pays an amount, Y, to the claimant. The company has determined that X and Y have the joint density function $f_{XY}(x,y) = \\begin{cases} \\frac{2}{x^2(x-1)}y^{-(2x-1)/(x-1)} & x > 1,\\ y > 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Given that the initial claim estimated by the company is 2, determine the probability that the final settlement amount is between 1 and 3.",
+          "options": {
+            "A": "$\\frac{1}{9}$",
+            "B": "$\\frac{2}{9}$",
+            "C": "$\\frac{1}{3}$",
+            "D": "$\\frac{2}{3}$",
+            "E": "$\\frac{8}{9}$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 29,
+          "question": "The distribution of Y, given X, is uniform on the interval $[0, X]$. The marginal density of X is $f_X(x) = \\begin{cases} 2x & \\text{for } 0 < x < 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Determine the conditional density of X, given $Y = y > 0$.",
+          "options": {
+            "A": "$1$",
+            "B": "$2$",
+            "C": "$2x$",
+            "D": "$\\frac{1}{y}$",
+            "E": "$\\frac{1}{1-y}$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 30,
+          "question": "A machine consists of two components, whose lifetimes have the joint density function $f(x,y) = \\begin{cases} \\frac{1}{50} & \\text{for } x > 0,\\ y > 0,\\ x + y < 10 \\\\ 0 & \\text{otherwise.} \\end{cases}$ The machine operates until both components fail. Calculate the expected operational time of the machine.",
+          "options": {
+            "A": "1.7",
+            "B": "2.5",
+            "C": "3.3",
+            "D": "5.0",
+            "E": "6.7"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 31,
+          "question": "A company has two electric generators. The time until failure for each generator follows an exponential distribution with mean 10. The company will begin using the second generator immediately after the first one fails. What is the variance of the total time that the generators produce electricity?",
+          "options": {
+            "A": "10",
+            "B": "20",
+            "C": "50",
+            "D": "100",
+            "E": "200"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 32,
+          "question": "Let X denote the size of a surgical claim and let Y denote the size of the associated hospital claim. An actuary is using a model in which $E(X) = 5$, $E(X^2) = 27.4$, $E(Y) = 7$, $E(Y^2) = 51.4$, and $\\text{Var}(X+Y) = 8$. Let $C_1 = X + Y$ denote the size of the combined claims before the application of a 20% surcharge on the hospital portion of the claim, and let $C_2$ denote the size of the combined claims after the application of that surcharge. Calculate $\\text{Cov}(C_1, C_2)$.",
+          "options": {
+            "A": "8.80",
+            "B": "9.60",
+            "C": "9.76",
+            "D": "11.52",
+            "E": "12.32"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 33,
+          "question": "An actuary determines that the annual numbers of tornadoes in counties P and Q are jointly distributed as follows: the joint probabilities $\\Pr(X=x, Y=y)$ are given by the rows for $X = 0,1,2,3$ and columns for $Y = 0,1,2$: for $X=0$: 0.12, 0.13, 0.05 (with $p_X(0) = 0.30$); for $X=1$: 0.06, 0.15, 0.15 (with $p_X(1) = 0.36$); for $X=2$: 0.05, 0.12, 0.10 (with $p_X(2) = 0.27$); for $X=3$: 0.02, 0.03, 0.02 (with $p_X(3) = 0.07$); and the marginals $p_Y(y)$ are 0.25, 0.43, 0.32, summing to 1, where X is the number of tornadoes in county Q and Y that of county P. Calculate the conditional variance of the annual number of tornadoes in county Q, given that there are no tornadoes in county P.",
+          "options": {
+            "A": "0.51",
+            "B": "0.84",
+            "C": "0.88",
+            "D": "0.99",
+            "E": "1.76"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 34,
+          "question": "A driver and a passenger are in a car accident. Each of them independently has probability 0.3 of being hospitalized. When a hospitalization occurs, the loss is uniformly distributed on $[0, 1]$. When two hospitalizations occur, the losses are independent. Calculate the expected number of people in the car who are hospitalized, given that the total loss due to hospitalizations from the accident is less than 1.",
+          "options": {
+            "A": "0.510",
+            "B": "0.534",
+            "C": "0.600",
+            "D": "0.628",
+            "E": "0.800"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 35,
+          "question": "An insurance company insures two types of cars, economy cars and luxury cars. The damage claim resulting from an accident involving an economy car has normal $N(7, 1)$ distribution, the claim from a luxury car accident has normal $N(20, 6)$ distribution. Suppose the company receives three claims from economy car accidents and one claim from a luxury car accident. Assuming that these four claims are mutually independent, what is the probability that the total claim amount from the three economy car accidents exceeds the claim amount from the luxury car accident?",
+          "options": {
+            "A": "0.731",
+            "B": "0.803",
+            "C": "0.629",
+            "D": "0.235",
+            "E": "0.296"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 36,
+          "question": "Let $X_1, X_2, X_3$ be independent discrete random variables with common probability mass function $\\Pr(x) = \\begin{cases} \\frac{1}{3} & x = 0 \\\\ \\frac{2}{3} & x = 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Determine the moment generating function $M(t)$, of $Y = X_1 X_2 X_3$.",
+          "options": {
+            "A": "$\\frac{19}{27} + \\frac{8}{27}e^{t}$",
+            "B": "$1 + 2e^{t}$",
+            "C": "$\\left(\\frac{1}{3} + \\frac{2}{3}e^{t}\\right)^3$",
+            "D": "$\\frac{1}{27} + \\frac{8}{27}e^{3t}$",
+            "E": "$\\frac{1}{3} + \\frac{2}{3}e^{3t}$"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 37,
+          "question": "In an analysis of healthcare data, ages have been rounded to the nearest multiple of 5 years. The difference between the true age and the rounded age is assumed to be uniformly distributed on the interval from $-2.5$ years to 2.5 years. The healthcare data are based on a random sample of 48 people. What is the approximate probability that the mean of the rounded ages is within 0.25 years of the mean of the true ages?",
+          "options": {
+            "A": "0.14",
+            "B": "0.38",
+            "C": "0.57",
+            "D": "0.77",
+            "E": "0.88"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 38,
+          "question": "Let X and Y be the number of hours that a randomly selected person watches movies and sporting events, respectively, during a three-month period. The following information is known about X and Y: $E(X) = 50$, $E(Y) = 20$, $\\text{Var}(X) = 50$, $\\text{Var}(Y) = 30$, $\\text{Cov}(X,Y) = 10$. One hundred people are randomly selected and observed for these three months. Let T be the total number of hours that these one hundred people watch movies or sporting events during this three-month period. Approximate the value of $\\Pr(T < 7100)$.",
+          "options": {
+            "A": "0.62",
+            "B": "0.84",
+            "C": "0.87",
+            "D": "0.92",
+            "E": "0.97"
+          },
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "sample-exam-4",
+      "name": "Sample Exam 4",
+      "count": 38,
+      "minutes": 180,
+      "questions": [
+        {
+          "n": 1,
+          "question": "35% of visits to a primary care physician's (PCP) office results in neither lab work nor referral to a specialist. Of those coming to a PCP's office, 30% are referred to specialists and 40% require lab work. What percentage of visits to a PCP's office results in both lab work and referral to a specialist?",
+          "options": {
+            "A": "0.05",
+            "B": "0.12",
+            "C": "0.18",
+            "D": "0.25",
+            "E": "0.35"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 2,
+          "question": "Thirty items are arranged in a 6-by-5 array as shown. $A_1\\ A_2\\ A_3\\ A_4\\ A_5$ $A_6\\ A_7\\ A_8\\ A_9\\ A_{10}$ $A_{11}\\ A_{12}\\ A_{13}\\ A_{14}\\ A_{15}$ $A_{16}\\ A_{17}\\ A_{18}\\ A_{19}\\ A_{20}$ $A_{21}\\ A_{22}\\ A_{23}\\ A_{24}\\ A_{25}$ $A_{26}\\ A_{27}\\ A_{28}\\ A_{29}\\ A_{30}$. Calculate the number of ways to form a set of three distinct items such that no two of the selected items are in the same row or same column.",
+          "options": {
+            "A": "200",
+            "B": "760",
+            "C": "1200",
+            "D": "4560",
+            "E": "7200"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 3,
+          "question": "In modeling the number of claims filed by an individual under an automobile policy during a three-year period, an actuary makes the simplifying assumption that for all integers $n \\ge 0$, $p_{n+1} = \\frac{1}{5}p_n$, where $p_n$ represents the probability that the policyholder files n claims during the period. Under this assumption, what is the probability that a policyholder files more than one claim during the period?",
+          "options": {
+            "A": "0.04",
+            "B": "0.16",
+            "C": "0.20",
+            "D": "0.80",
+            "E": "0.96"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 4,
+          "question": "A store has 80 modems in its inventory, 30 coming from Source A and the remainder from Source B. Of the modems from Source A, 20% are defective. Of the modems from Source B, 8% are defective. Calculate the probability that exactly two out of a random sample of five modems from the store's inventory are defective.",
+          "options": {
+            "A": "0.010",
+            "B": "0.078",
+            "C": "0.102",
+            "D": "0.105",
+            "E": "0.125"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 5,
+          "question": "An actuary is studying the prevalence of three health risk factors, denoted by A, B, and C, within a population of women. For each of the three factors, the probability is 0.1 that a woman in the population has only this risk factor (and no others). For any two of the three factors, the probability is 0.12 that she has exactly these two risk factors (but not the other). The probability that a woman has all three risk factors, given that she has A and B, is $\\frac{1}{3}$. What is the probability that a woman has none of the three risk factors, given that she does not have risk factor A?",
+          "options": {
+            "A": "0.280",
+            "B": "0.311",
+            "C": "0.467",
+            "D": "0.484",
+            "E": "0.700"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 6,
+          "question": "A health study tracked a group of persons for five years. At the beginning of the study, 20% were classified as heavy smokers, 30% as light smokers, and 50% as nonsmokers. Results of the study showed that light smokers were twice as likely as nonsmokers to die during the five-year study, but only half as likely as heavy smokers. A randomly selected participant from the study died over the five-year period. Calculate the probability that the participant was a heavy smoker.",
+          "options": {
+            "A": "0.20",
+            "B": "0.25",
+            "C": "0.35",
+            "D": "0.42",
+            "E": "0.57"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 7,
+          "question": "A study of automobile accidents produced the following data: for model year 1997, the proportion of all vehicles is 0.16 and the probability of involvement in an accident is 0.05; for 1998, 0.18 and 0.02; for 1999, 0.20 and 0.03; for Other, 0.46 and 0.04. An automobile from one of the model years 1997, 1998, and 1999 was involved in an accident. Determine the probability that the model year of this automobile is 1997.",
+          "options": {
+            "A": "0.22",
+            "B": "0.30",
+            "C": "0.33",
+            "D": "0.45",
+            "E": "0.50"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 8,
+          "question": "An insurance company pays hospital claims. The number of claims that include emergency room or operating room charges is 85% of the total number of claims. The number of claims that do not include emergency room charges is 25% of the total number of claims. The occurrence of emergency room charges is independent of the occurrence of operating room charges on hospital claims. Calculate the probability that a claim submitted to the insurance company includes operating room charges.",
+          "options": {
+            "A": "0.10",
+            "B": "0.20",
+            "C": "0.25",
+            "D": "0.40",
+            "E": "0.80"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 9,
+          "question": "Suppose that an insurance company has broken down yearly automobile claims for drivers from age 16 through 21 as shown in the following table. The amount of claim and its probability are: $0 with probability 0.80, $2000 with probability 0.10, $4000 with probability 0.05, $6000 with probability 0.03, $8000 with probability 0.01, $10000 with probability 0.01. How much should the company charge as its average premium in order to break even on costs for claims?",
+          "options": {
+            "A": "706",
+            "B": "760",
+            "C": "746",
+            "D": "766",
+            "E": "700"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 10,
+          "question": "An insurance company sells a one-year automobile policy with a deductible of 2. The probability that the insured will incur a loss is 0.05. If there is a loss, the probability of a loss of amount N is $\\frac{K}{N}$, for $N = 1, \\ldots, 5$ and K a constant. These are the only possible loss amounts and no more than one loss can occur. Determine the net premium for this policy.",
+          "options": {
+            "A": "0.031",
+            "B": "0.066",
+            "C": "0.072",
+            "D": "0.110",
+            "E": "0.150"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 11,
+          "question": "A company establishes a fund of 120 from which it wants to pay an amount, C, to any of its 20 employees who achieve a high performance level during the coming year. Each employee has a 2% chance of achieving a high performance level during the coming year, independent of any other employee. Determine the maximum value of C for which the probability is less than 1% that the fund will be inadequate to cover all payments for high performance.",
+          "options": {
+            "A": "24",
+            "B": "30",
+            "C": "40",
+            "D": "60",
+            "E": "120"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 12,
+          "question": "An actuary has discovered that policyholders are three times as likely to file two claims as to file four claims. If the number of claims filed has a Poisson distribution, what is the variance of the number of claims filed?",
+          "options": {
+            "A": "$\\frac{1}{\\sqrt{3}}$",
+            "B": "$1$",
+            "C": "$\\sqrt{2}$",
+            "D": "$2$",
+            "E": "$4$"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 13,
+          "question": "A company takes out an insurance policy to cover accidents that occur at its manufacturing plant. The probability that one or more accidents will occur during any given month is $\\frac{3}{5}$. The number of accidents that occur in any given month is independent of the number of accidents that occur in all other months. Calculate the probability that there will be at least four months in which no accidents occur before the fourth month in which at least one accident occurs.",
+          "options": {
+            "A": "0.01",
+            "B": "0.12",
+            "C": "0.23",
+            "D": "0.29",
+            "E": "0.41"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 14,
+          "question": "The loss due to a fire in a commercial building is modeled by a random variable X with density function $f(x) = \\begin{cases} 0.005(20-x) & 0 < x < 20 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Given that a fire loss exceeds 8, what is the probability that it exceeds 16?",
+          "options": {
+            "A": "$1$",
+            "B": "$\\frac{1}{9}$",
+            "C": "$\\frac{1}{8}$",
+            "D": "$\\frac{1}{3}$",
+            "E": "$\\frac{3}{7}$"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 15,
+          "question": "Claim amounts for wind damage to insured homes are independent random variables with common density function $f(x) = \\begin{cases} \\frac{3}{x^4} & x > 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ where $x$ is the amount of a claim in thousands. Suppose 3 such claims will be made, what is the expected value of the largest of the three claims?",
+          "options": {
+            "A": "2025",
+            "B": "2700",
+            "C": "3232",
+            "D": "3375",
+            "E": "4500"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 16,
+          "question": "An insurance company's monthly claims are modeled by a continuous, positive random variable $X$, whose probability density function is proportional to $(1+x)^{-4}$, where $0 < x < \\infty$ and 0 otherwise. Determine the company's expected monthly claims.",
+          "options": {
+            "A": "$\\frac{1}{6}$",
+            "B": "$\\frac{1}{3}$",
+            "C": "$\\frac{1}{2}$",
+            "D": "1",
+            "E": "3"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 17,
+          "question": "A man purchases a life insurance policy on his 40th birthday. The policy will pay 5000 only if he dies before his 50th birthday and will pay 0 otherwise. The length of lifetime, in years, of a male born the same year as the insured has the cumulative distribution function $F(t) = \\begin{cases} 1 - e^{-\\frac{1 - 1.1^t}{1000}} & t > 0 \\\\ 0 & t \\le 0 \\end{cases}$ Calculate the expected payment to the man under this policy.",
+          "options": {
+            "A": "333",
+            "B": "348",
+            "C": "421",
+            "D": "549",
+            "E": "574"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 18,
+          "question": "The warranty on a machine specifies that it will be replaced at failure or age 4, whichever occurs first. The machine's age at failure, $X$, has density function $f(x) = \\begin{cases} \\frac{1}{5} & 0 < x < 5 \\\\ 0 & \\text{otherwise} \\end{cases}$ Let $Y$ be the age of the machine at the time of replacement. Determine the variance of $Y$.",
+          "options": {
+            "A": "1.3",
+            "B": "1.4",
+            "C": "1.7",
+            "D": "2.1",
+            "E": "7.5"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 19,
+          "question": "The number of days that elapse between the beginning of a calendar year and the moment a high-risk driver is involved in an accident is exponentially distributed. An insurance company expects that 30% of high-risk drivers will be involved in an accident during the first 50 days of a calendar year. What portion of high-risk drivers are expected to be involved in an accident during the first 80 days of a calendar year?",
+          "options": {
+            "A": "0.15",
+            "B": "0.34",
+            "C": "0.43",
+            "D": "0.57",
+            "E": "0.66"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 20,
+          "question": "An insurance policy reimburses dental expense, $X$, up to a maximum benefit of 250. The probability density function for $X$ is: $f(x) = \\begin{cases} ce^{-0.004x} & x \\ge 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ where $c$ is a constant. Calculate the median benefit for this policy.",
+          "options": {
+            "A": "161",
+            "B": "165",
+            "C": "173",
+            "D": "182",
+            "E": "250"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 21,
+          "question": "An investment account earns an annual interest rate $R$ that follows a uniform distribution on the interval $(0.04, 0.08)$. The value of a 10,000 initial investment in this account after one year is given by $V = 10{,}000e^R$. Determine the cumulative distribution function, $F_V(v)$ of $V$.",
+          "options": {
+            "A": "$10{,}000e^{\\frac{v}{10{,}000}} - 10{,}408$",
+            "B": "$25e^{\\frac{v}{10{,}000}} - 0.04$",
+            "C": "$\\frac{v - 10{,}408}{10{,}833 - 10{,}408}$",
+            "D": "$\\frac{25}{v}$",
+            "E": "$25\\left[ \\ln\\left( \\frac{v}{10{,}000} \\right) - 0.04 \\right]$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 22,
+          "question": "A company is reviewing tornado damage claims under a farm insurance policy. Let $X$ be the portion of a claim representing damage to the house and let $Y$ be the portion of the same claim representing damage to the rest of the property. The joint density function of $X$ and $Y$ is $f_{XY}(x,y) = \\begin{cases} 6[1 - (x + y)] & x > 0, y > 0, x + y < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Determine the probability that the portion of a claim representing damage to the house is less than 0.2.",
+          "options": {
+            "A": "0.360",
+            "B": "0.480",
+            "C": "0.488",
+            "D": "0.512",
+            "E": "0.520"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 23,
+          "question": "Let $X$ and $Y$ be continuous random variables with joint density function $f_{XY}(x,y) = \\begin{cases} 15y & x^2 \\le y \\le x \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the marginal density function of $Y$.",
+          "options": {
+            "A": "$g(y) = \\begin{cases} 15y & 0 < y < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+            "B": "$g(y) = \\begin{cases} \\frac{15y^2}{2} & x^2 < y < x \\\\ 0 & \\text{otherwise} \\end{cases}$",
+            "C": "$g(y) = \\begin{cases} \\frac{15y^2}{2} & 0 < y < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+            "D": "$g(y) = \\begin{cases} \\frac{15y^{\\frac{3}{2}}(1 - y^{\\frac{1}{2}})}{} & x^2 < y < x \\\\ 0 & \\text{otherwise} \\end{cases}$",
+            "E": "$g(y) = \\begin{cases} \\frac{15y^{\\frac{3}{2}}(1 - y^{\\frac{1}{2}})}{} & 0 < y < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 24,
+          "question": "Let $X$ and $Y$ be random losses with joint density function $f_{XY}(x,y) = e^{-(x+y)}$, $x > 0, y > 0$ and 0 otherwise. An insurance policy is written to reimburse $X + Y$. Calculate the probability that the reimbursement is less than 1.",
+          "options": {
+            "A": "$e^{-2}$",
+            "B": "$e^{-1}$",
+            "C": "$1 - e^{-1}$",
+            "D": "$1 - 2e^{-1}$",
+            "E": "$1 - 2e^{-2}$"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 25,
+          "question": "A study is being conducted in which the health of two independent groups of ten policyholders is being monitored over a one-year period of time. Individual participants in the study drop out before the end of the study with probability 0.2 (independently of the other participants). What is the probability that at least 9 participants complete the study in one of the two groups, but not in both groups?",
+          "options": {
+            "A": "0.096",
+            "B": "0.192",
+            "C": "0.235",
+            "D": "0.376",
+            "E": "0.469"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 26,
+          "question": "A family buys two policies from the same insurance company. Losses under the two policies are independent and have continuous uniform distributions on the interval from 0 to 10. One policy has a deductible of 1 and the other has a deductible of 2. The family experiences exactly one loss under each policy. Calculate the probability that the total benefit paid to the family does not exceed 5.",
+          "options": {
+            "A": "0.13",
+            "B": "0.25",
+            "C": "0.30",
+            "D": "0.32",
+            "E": "0.42"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 27,
+          "question": "An insurance company determines that $N$, the number of claims received in a week, is a random variable with $P[N = n] = \\frac{1}{2^{n+1}}$, where $n \\ge 0$. The company also determines that the number of claims received in a given week is independent of the number of claims received in any other week. Determine the probability that exactly seven claims will be received during a given two-week period.",
+          "options": {
+            "A": "1",
+            "B": "1",
+            "C": "7",
+            "D": "1",
+            "E": "1"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 28,
+          "question": "A company offers a basic life insurance policy to its employees, as well as a supplemental life insurance policy. To purchase the supplemental policy, an employee must first purchase the basic policy. Let $X$ denote the proportion of employees who purchase the basic policy, and $Y$ the proportion of employees who purchase the supplemental policy. Let $X$ and $Y$ have the joint density function $f_{XY}(x,y) = 2(x + y)$ on the region where the density is positive. Given that 10% of the employees buy the basic policy, what is the probability that fewer than 5% buy the supplemental policy?",
+          "options": {
+            "A": "0.010",
+            "B": "0.013",
+            "C": "0.108",
+            "D": "0.417",
+            "E": "0.500"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 29,
+          "question": "An insurance policy is written to cover a loss $X$ where $X$ has density function $f_X(x) = \\begin{cases} \\frac{3}{8}x^2 & 0 \\le x \\le 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ The time $T$ (in hours) to process a claim of size $x$, where $0 \\le x \\le 2$, is uniformly distributed on the interval from $x$ to $2x$. Calculate the probability that a randomly chosen claim on this policy is processed in three hours or more.",
+          "options": {
+            "A": "0.17",
+            "B": "0.25",
+            "C": "0.32",
+            "D": "0.58",
+            "E": "0.83"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 30,
+          "question": "The profit for a new product is given by $Z = 3X - Y - 5$, where $X$ and $Y$ are independent random variables with $\\text{Var}(X) = 1$ and $\\text{Var}(Y) = 2$. What is the variance of $Z$?",
+          "options": {
+            "A": "1",
+            "B": "5",
+            "C": "7",
+            "D": "11",
+            "E": "16"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 31,
+          "question": "A joint density function is given by $f_{XY}(x,y) = \\begin{cases} kx & 0 < x, y < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find $\\text{Cov}(X,Y)$",
+          "options": {
+            "A": "$-\\frac{1}{6}$",
+            "B": "0",
+            "C": "$\\frac{1}{9}$",
+            "D": "$\\frac{1}{6}$",
+            "E": "$\\frac{2}{3}$"
+          },
+          "answer": "B"
+        },
+        {
+          "n": 32,
+          "question": "Claims filed under auto insurance policies follow a normal distribution with mean 19,400 and standard deviation 5,000. What is the probability that the average of 25 randomly selected claims exceeds 20,000?",
+          "options": {
+            "A": "0.01",
+            "B": "0.15",
+            "C": "0.27",
+            "D": "0.33",
+            "E": "0.45"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 33,
+          "question": "The joint probability density for $X$ and $Y$ is $f(x,y) = \\begin{cases} 2e^{-(x+2y)} & x > 0, y > 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ Calculate the variance of $Y$ given that $X > 3$ and $Y > 3$.",
+          "options": {
+            "A": "0.25",
+            "B": "0.50",
+            "C": "1.00",
+            "D": "3.25",
+            "E": "3.50"
+          },
+          "answer": "A"
+        },
+        {
+          "n": 34,
+          "question": "New dental and medical plan options will be offered to state employees next year. An actuary uses the following density function to model the joint distribution of the proportion $X$ of state employees who will choose Dental Option 1 and the proportion $Y$ who will choose Medical Option 1 under the new plan options: $f(x,y) = \\begin{cases} 0.50 & 0 < x, y < 0.5 \\\\ 1.25 & 0 < x < 0.5,\\ 0.5 < y < 1 \\\\ 1.50 & 0.5 < x < 1,\\ 0 < y < 0.5 \\\\ 0.75 & 0.5 < x < 1,\\ 0.5 < y < 1 \\end{cases}$ Calculate $\\text{Var}(Y \\mid X = 0.75)$.",
+          "options": {
+            "A": "0.000",
+            "B": "0.061",
+            "C": "0.076",
+            "D": "0.083",
+            "E": "0.141"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 35,
+          "question": "$X$ and $Y$ are independent random variables with common moment generating function $M(t) = e^{\\frac{t^2}{2}}$. Let $W = X + Y$ and $Z = X - Y$. Determine the joint moment generating function, $M(t_1, t_2)$ of $W$ and $Z$.",
+          "options": {
+            "A": "$e^{2t_1^2 + 2t_2^2}$",
+            "B": "$e^{(t_1 - t_2)^2}$",
+            "C": "$e^{(t_1 + t_2)^2}$",
+            "D": "$e^{2t_1 t_2}$",
+            "E": "$e^{t_1^2 + t_2^2}$"
+          },
+          "answer": "E"
+        },
+        {
+          "n": 36,
+          "question": "Two instruments are used to measure the height, $h$, of a tower. The error made by the less accurate instrument is normally distributed with mean 0 and standard deviation $0.0056h$. The error made by the more accurate instrument is normally distributed with mean 0 and standard deviation $0.0044h$. Assuming the two measurements are independent random variables, what is the probability that their average value is within $0.005h$ of the height of the tower?",
+          "options": {
+            "A": "0.38",
+            "B": "0.47",
+            "C": "0.68",
+            "D": "0.84",
+            "E": "0.90"
+          },
+          "answer": "D"
+        },
+        {
+          "n": 37,
+          "question": "A charity receives 2025 contributions. Contributions are assumed to be independent and identically distributed with mean 3125 and standard deviation 250. Calculate the approximate 90th percentile for the distribution of the total contributions received.",
+          "options": {
+            "A": "6,328,000",
+            "B": "6,338,000",
+            "C": "6,343,000",
+            "D": "6,784,000",
+            "E": "6,977,000"
+          },
+          "answer": "C"
+        },
+        {
+          "n": 38,
+          "question": "The total claim amount for a health insurance policy follows a distribution with density function $f(x) = \\begin{cases} \\frac{1}{1000}e^{-\\frac{x}{1000}} & x > 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ The premium for the policy is set at 100 over the expected total claim amount. If 100 policies are sold, what is the approximate probability that the insurance company will have claims exceeding the premiums collected?",
+          "options": {
+            "A": "0.001",
+            "B": "0.159",
+            "C": "0.333",
+            "D": "0.407",
+            "E": "0.460"
+          },
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

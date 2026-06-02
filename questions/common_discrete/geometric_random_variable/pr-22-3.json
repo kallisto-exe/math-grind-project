@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.3",
+  "question": "Suppose a certain exam is classified as either diﬃcult (with probability $\\frac{90}{92}$) or fair (with probability $\\frac{2}{92}$). Exams are taken one after the other. What is the probability that at least 4 diﬃcult exams will occur before the first fair one?",
+  "answer": "$0.916$",
+  "explanation": "Answer: $0.916$",
+  "source": "Finan §22 — Practice Problem 22.3"
+}

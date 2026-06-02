@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-5",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.5",
+  "question": "A company establishes a fund of 120 from which it wants to pay an amount, $C$, to any of its 20 employees who achieve a high performance level during the coming year. Each employee has a 2% chance of achieving a high performance level during the coming year, independent of any other employee. Determine the maximum value of $C$ for which the probability is less than 1% that the fund will be inadequate to cover all payments for high performance.",
+  "answer": "$60",
+  "explanation": "Answer: $60",
+  "source": "Finan §18 — Practice Problem 18.5"
+}

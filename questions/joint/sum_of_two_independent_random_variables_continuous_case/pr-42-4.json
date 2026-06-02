@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.4",
+  "question": "Consider two independent random variables $X$ and $Y$. Let $f_X(x) = 1 - \\frac{x}{2}$ if $0 \\le x \\le 2$ and 0 otherwise. Let $f_Y(y) = 2 - 2y$ for $0 \\le y \\le 1$ and 0 otherwise. Find the probability density function of $X + Y$.",
+  "answer": "If $0 \\le a \\le 1$ then $f_{X+Y}(a) = 2a - \\frac{3}{2}a^2 + \\frac{a^3}{6}$. If $1 \\le a \\le 2$ then $f_{X+Y}(a) = \\frac{7}{6} - \\frac{a}{2}$. If $2 \\le a \\le 3$ then $f_{X+Y}(a) = \\frac{9}{2} - \\frac{9}{2}a + \\frac{3}{2}a^2 - \\frac{1}{6}a^3$. If $a > 3$ then $f_{X+Y}(a) = 0$.",
+  "explanation": "Answer: If $0 \\le a \\le 1$ then $f_{X+Y}(a) = 2a - \\frac{3}{2}a^2 + \\frac{a^3}{6}$. If $1 \\le a \\le 2$ then $f_{X+Y}(a) = \\frac{7}{6} - \\frac{a}{2}$. If $2 \\le a \\le 3$ then $f_{X+Y}(a) = \\frac{9}{2} - \\frac{9}{2}a + \\frac{3}{2}a^2 - \\frac{1}{6}a^3$. If $a > 3$ then $f_{X+Y}(a) = 0$.",
+  "source": "Finan §42 — Practice Problem 42.4"
+}

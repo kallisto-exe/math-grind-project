@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-4",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.4",
+  "question": "A hand of 5 cards is dealt from a deck of 52 cards. Let E be the event that the hand contains 5 aces. List the elements of E.",
+  "answer": "$E = \\emptyset$",
+  "explanation": "Answer: $E = \\emptyset$",
+  "source": "Finan §1 — Practice Problem 1.4"
+}

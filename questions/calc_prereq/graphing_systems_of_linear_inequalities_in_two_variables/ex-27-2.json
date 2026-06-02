@@ -1,0 +1,13 @@
+{
+  "id": "ex-27-2",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§27 Graphing Systems of Linear Inequalities in Two Variables",
+  "section": 27,
+  "difficulty": 2,
+  "subtopic": "Worked Example 27.2",
+  "question": "Solve the linear system $-3x + 4y \\le 12$, $x + 2y < 6$, $-x + 5y \\ge -5$.",
+  "answer": "",
+  "explanation": "We graph the solution set to each linear inequality on the same set of axes. The overlapping region is the triangle with corners $(0, 3)$, $\\left(-\\frac{80}{11}, -27\\right)$, $\\left(\\frac{40}{7}, 1\\right)$ as shown in Figure 27.2 Figure 27.2",
+  "source": "Finan §27 — Worked Example 27.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-10",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.10",
+  "question": "The number of days that elapse between the beginning of a calendar year and the moment a high-risk driver is involved in an accident is exponentially distributed. An insurance company expects that 30% of high-risk drivers will be involved in an accident during the first 50 days of a calendar year. What portion of high-risk drivers are expected to be involved in an accident during the first 80 days of a calendar year?",
+  "answer": "0.435",
+  "explanation": "Answer: 0.435",
+  "source": "Finan §36 — Practice Problem 36.10"
+}

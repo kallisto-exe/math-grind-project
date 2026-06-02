@@ -1,0 +1,13 @@
+{
+  "id": "ex-19-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§19 The Expected Value and Variance of the Binomial Distribution",
+  "section": 19,
+  "difficulty": 4,
+  "subtopic": "Worked Example 19.2",
+  "question": "Let $X$ be a binomial random variable with parameters $(12, 0.5)$. Find the variance and the standard deviation of $X$.",
+  "answer": "",
+  "explanation": "We have $n = 12$ and $p = 0.5$. Thus, $\\mathrm{Var}(X) = np(1-p) = 6(1 - 0.5) = 3$. The standard deviation is $\\sigma_X = \\sqrt{3}$",
+  "source": "Finan §19 — Worked Example 19.2"
+}

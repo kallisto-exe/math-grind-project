@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-1",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.1",
+  "question": "Let $X$ and $Y$ be independent random variables, both being equally likely to be any of the numbers $1, 2, \\ldots, m$. Find $E(|X-Y|)$.",
+  "answer": "$\\frac{(m+1)(m-1)}{3m}$",
+  "explanation": "Answer: $\\frac{(m+1)(m-1)}{3m}$",
+  "source": "Finan §46 — Practice Problem 46.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-23-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 4,
+  "subtopic": "Worked Example 23.2",
+  "question": "A person is conducting a phone survey. Define \"success\" as the event a person completes the survey and let $Y$ be the number of failures before the third success. What is the probability that there are 10 failures before the third success? Assume that 1 out of 6 people contacted completed the survey.",
+  "answer": "",
+  "explanation": "The probability that there are 10 failures before the third success is given by $\\Pr(Y = 10) = \\binom{3+10-1}{10}\\left(\\frac{1}{6}\\right)^3\\left(\\frac{5}{6}\\right)^{10} \\approx 0.0493$",
+  "source": "Finan §23 — Worked Example 23.2"
+}

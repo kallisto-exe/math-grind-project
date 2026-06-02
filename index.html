@@ -3,323 +3,875 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Stat Theory Crash Course</title>
+  <title>Exam P Qbank — ADAPT + Spaced Repetition</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css"/>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f7; color: #1d1d1f; }
     button { font-family: inherit; }
-    ::-webkit-scrollbar { width: 5px; }
+    input, select { font-family: inherit; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
     ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
   </style>
 </head>
 <body>
 <div id="root"></div>
 <script type="text/babel">
-const { useState, useEffect, useCallback } = React;
+const { useState, useEffect, useCallback, useMemo, useRef } = React;
+
+/* ============================ math rendering (KaTeX) ============================ */
+function katexHTML(tex, display) {
+  try { return window.katex.renderToString(tex, { displayMode: display, throwOnError: false }); }
+  catch (e) { return tex; }
+}
+// Heuristic: does the text between two $ actually look like math (vs. a $50…$100 currency span)?
+function looksMath(s) {
+  if (/[\\^_{}=<>]/.test(s)) return true;            // LaTeX command or relational/structural math
+  if (s.length < 30 && !/[A-Za-z]{4,}/.test(s)) return true; // short, no English words
+  return false;
+}
+// Render a string that may contain $...$ (inline) or $$...$$ (display) LaTeX spans.
+const CURRENCY_SENTINEL = "";
+function Tex({ children }) {
+  const raw = children == null ? "" : String(children);
+  if (!window.katex || raw.indexOf("$") === -1) {
+    return <span style={{ whiteSpace: "pre-wrap" }}>{raw}</span>;
+  }
+  // Shield currency ("$" immediately before a digit) so it never pairs as a math delimiter.
+  const text = raw.replace(/\$(?=\d)/g, CURRENCY_SENTINEL);
+  const restore = s => s.split(CURRENCY_SENTINEL).join("$");
+  const parts = text.split(/(\$\$[\s\S]*?\$\$|\$[^$\n]+?\$)/g);
+  return (
+    <span style={{ whiteSpace: "pre-wrap" }}>
+      {parts.map((p, i) => {
+        if (p.length > 3 && p.startsWith("$$") && p.endsWith("$$"))
+          return <span key={i} dangerouslySetInnerHTML={{ __html: katexHTML(restore(p.slice(2, -2)), true) }} />;
+        if (p.length > 1 && p.startsWith("$") && p.endsWith("$") && looksMath(p.slice(1, -1)))
+          return <span key={i} dangerouslySetInnerHTML={{ __html: katexHTML(restore(p.slice(1, -1)), false) }} />;
+        return <span key={i}>{restore(p)}</span>;   // plain text (incl. currency like $50)
+      })}
+    </span>
+  );
+}
+
+/* ============================ constants & engines ============================ */
+const STORAGE_KEY = "examP_progress_v1";
+const START_EL = 3.0;       // every learner starts mid-low until they prove out
+const K = 0.5;              // ADAPT learning rate (max EL move per question)
+const SPREAD = 2.0;         // ELO spread in "levels"
+const DAY = 86400000;
+const BRAND = "#534AB7", BRAND_L = "#EEEDFE";
+
+// ----- ADAPT: ELO-style Earned Level (0-10) -----
+function expectedScore(el, diff) { return 1 / (1 + Math.pow(10, (diff - el) / SPREAD)); }
+function updateEL(el, diff, correct) {
+  const e = expectedScore(el, diff);
+  const next = el + K * ((correct ? 1 : 0) - e);
+  return Math.max(0, Math.min(10, next));
+}
+
+// ----- Spaced repetition: SM-2 lite -----
+function defaultCard() { return { ease: 2.5, intervalDays: 0, dueTs: 0, reps: 0, lapses: 0, lastTs: 0 }; }
+function updateCard(prev, correct, now) {
+  const c = { ...(prev || defaultCard()) };
+  c.lastTs = now;
+  if (correct) {
+    c.reps += 1;
+    if (c.reps === 1) c.intervalDays = 1;
+    else if (c.reps === 2) c.intervalDays = 3;
+    else c.intervalDays = Math.max(1, Math.round(c.intervalDays * c.ease));
+    c.ease = Math.min(2.8, c.ease + 0.05);
+    c.dueTs = now + c.intervalDays * DAY;
+  } else {
+    c.reps = 0;
+    c.lapses += 1;
+    c.ease = Math.max(1.3, c.ease - 0.2);
+    c.intervalDays = 0;
+    c.dueTs = now + 10 * 60 * 1000; // resurface in ~10 minutes
+  }
+  return c;
+}
 
 function shuffle(arr) {
   const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
   return a;
 }
+const tkey = q => `${q.subject}::${q.topic}`;
+const fmtEL = x => (Math.round(x * 10) / 10).toFixed(1);
 
+// ----- question content loader (cached) -----
+const qCache = {};
+async function loadQuestion(path) {
+  if (qCache[path]) return qCache[path];
+  const r = await fetch("questions/" + path);
+  if (!r.ok) throw new Error(`Failed to load questions/${path}: ${r.status}`);
+  const j = await r.json();
+  qCache[path] = j;
+  return j;
+}
 async function fetchJSON(path) {
   const r = await fetch(path);
   if (!r.ok) throw new Error(`Failed to fetch ${path}: ${r.status}`);
   return r.json();
 }
 
-function buildQueues(questionIndex) {
-  const queues = {};
-  for (const [subj, topics] of Object.entries(questionIndex)) {
-    for (const [topic, paths] of Object.entries(topics)) {
-      queues[`${subj}::${topic}`] = { paths: shuffle(paths), pos: 0 };
-    }
-  }
-  return queues;
+// ----- selection helpers -----
+function dueList(questions, srs, now, subjectScope) {
+  return questions
+    .filter(q => !subjectScope || q.subject === subjectScope)
+    .filter(q => srs[q.id] && srs[q.id].dueTs && srs[q.id].dueTs <= now)
+    .sort((a, b) => srs[a.id].dueTs - srs[b.id].dueTs);
+}
+function pickAdaptive(questions, srs, el, now, subjectScope, lastId) {
+  const due = dueList(questions, srs, now, subjectScope);
+  if (due.length) return due[0];                       // SRS-due always wins
+  let pool = questions.filter(q => !subjectScope || q.subject === subjectScope);
+  if (pool.length > 1 && lastId) pool = pool.filter(q => q.id !== lastId);
+  const unseen = pool.filter(q => !srs[q.id]);
+  const cand = unseen.length ? unseen : pool;          // freshness before review
+  const sorted = [...cand].sort((a, b) => Math.abs(a.difficulty - el) - Math.abs(b.difficulty - el));
+  const top = sorted.slice(0, Math.min(4, sorted.length)); // small band near EL, pick randomly
+  return top.length ? top[Math.floor(Math.random() * top.length)] : null;
 }
 
-function nextPath(queues, key) {
-  const q = queues[key];
-  if (!q || q.paths.length === 0) return null;
-  if (q.pos >= q.paths.length) { q.paths = shuffle(q.paths); q.pos = 0; }
-  return q.paths[q.pos++];
-}
-
+/* ============================ data bootstrap ============================ */
 function useAppData() {
   const [state, setState] = useState({ status: "loading", data: null, error: null });
   useEffect(() => {
     Promise.all([
       fetchJSON("data/curriculum.json"),
-      fetchJSON("data/explanations.json"),
-      fetchJSON("data/resources.json"),
+      fetchJSON("data/learn.json"),
       fetchJSON("questions/index.json"),
+      fetchJSON("data/exams.json"),
     ])
-    .then(([curriculum, explanations, resources, questionIndex]) => {
-      setState({ status: "ready", data: { curriculum, explanations, resources, questionIndex }, error: null });
-    })
-    .catch(err => setState({ status: "error", data: null, error: err.message }));
+      .then(([curriculum, learn, qIndex, examsData]) => {
+        const questions = Array.isArray(qIndex.questions) ? qIndex.questions : [];
+        const exams = (examsData && examsData.exams) || [];
+        setState({ status: "ready", data: { curriculum, learn, questions, exams }, error: null });
+      })
+      .catch(err => setState({ status: "error", data: null, error: err.message }));
   }, []);
   return state;
 }
 
-function App() {
-  const { status, data, error } = useAppData();
-  if (status === "loading") return <div style={{ display:"flex", alignItems:"center", justifyContent:"center", height:"100vh", color:"#888", fontSize:15 }}>Loading...</div>;
-  if (status === "error") return (
-    <div style={{ padding:40, maxWidth:600, margin:"60px auto", background:"#fff", borderRadius:12, border:"1px solid #e5e5ea" }}>
-      <div style={{ fontSize:20, fontWeight:600, marginBottom:12, color:"#993C1D" }}>Could not load data</div>
-      <div style={{ fontSize:14, lineHeight:1.7, color:"#444", marginBottom:16 }}>Run via a local server, not by opening the file directly.</div>
-      <div style={{ fontSize:13, background:"#f5f5f7", padding:14, borderRadius:8, fontFamily:"monospace", lineHeight:1.8 }}>
-        cd stat-crash-course<br/>python3 -m http.server<br/># open http://localhost:8000
-      </div>
-      <div style={{ fontSize:12, color:"#999", marginTop:12 }}>Error: {error}</div>
-    </div>
-  );
-  return <Course data={data} />;
+function loadProgress() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) { const p = JSON.parse(raw); if (p && typeof p.el === "number") return p; }
+  } catch (e) { /* ignore */ }
+  return { version: 1, el: START_EL, elByTopic: {}, srs: {}, totalAnswered: 0, totalCorrect: 0, streak: 0, bestStreak: 0, history: [] };
 }
 
-function Course({ data }) {
-  const { curriculum, explanations, resources, questionIndex } = data;
-  const subjects = curriculum.subjects;
-  const milestones = curriculum.milestones;
-  const subjMeta = {};
-  subjects.forEach(s => { subjMeta[s.label] = { color: s.color, light: s.light, icon: s.icon }; });
-
-  const [subj, setSubj]           = useState(subjects[0].label);
-  const [topic, setTopic]         = useState(subjects[0].topics[0]);
-  const [view, setView]           = useState("practice");
-  const [sidebar, setSidebar]     = useState(true);
-  const [showExp, setShowExp]     = useState(false);
-  const [showMS, setShowMS]       = useState(false);
-  const [xp, setXp]               = useState(0);
-  const [streak, setStreak]       = useState(0);
-  const [toast, setToast]         = useState(null);
-  const [sessionLog, setSessionLog] = useState({});
-  const [currentQ, setCurrentQ]   = useState(null);
-  const [qLoading, setQLoading]   = useState(false);
-  const [qError, setQError]       = useState(null);
-  const [selected, setSelected]   = useState(null);
+/* ============================ shared question card ============================ */
+function QuestionCard({ meta, accent, light, onAnswered, onNext, nextLabel, headerRight, banner }) {
+  const [full, setFull] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [err, setErr] = useState(null);
+  const [selected, setSelected] = useState(null);
   const [submitted, setSubmitted] = useState(false);
-  const [queues, setQueues]       = useState(() => buildQueues(questionIndex));
+  const [revealed, setRevealed] = useState(false);   // free-response: solution shown
 
-  const loadQuestion = useCallback(async (s, t, qs) => {
-    const key = `${s}::${t}`;
-    const path = nextPath(qs, key);
-    if (!path) { setCurrentQ(null); setQLoading(false); return; }
-    setQLoading(true); setQError(null); setCurrentQ(null); setSelected(null); setSubmitted(false);
-    try {
-      const q = await fetchJSON(`questions/${path}`);
-      setCurrentQ(q);
-    } catch (e) {
-      setQError(`Could not load: questions/${path}`);
-    }
-    setQLoading(false);
-  }, []);
+  const load = useCallback(() => {
+    let alive = true;
+    setLoading(true); setErr(null); setFull(null); setSelected(null); setSubmitted(false); setRevealed(false);
+    loadQuestion(meta.path)
+      .then(j => { if (alive) { setFull(j); setLoading(false); } })
+      .catch(e => { if (alive) { setErr(e.message); setLoading(false); } });
+    return () => { alive = false; };
+  }, [meta.path]);
+  useEffect(load, [load]);
 
-  useEffect(() => { loadQuestion(subjects[0].label, subjects[0].topics[0], queues); }, []);
-
-  function pickTopic(s, t) {
-    setSubj(s); setTopic(t); setView("practice"); setShowExp(false);
-    setSelected(null); setSubmitted(false); setCurrentQ(null);
-    loadQuestion(s, t, queues);
-  }
-
-  function handleSubmit() {
-    if (!selected || submitted || !currentQ) return;
-    const correct = selected === currentQ.answer;
+  function submit() {
+    if (!selected || submitted || !full) return;
     setSubmitted(true);
-    const key = `${subj}::${topic}`;
-    setSessionLog(prev => ({ ...prev, [key]: [...(prev[key] || []), { qId: currentQ.id, correct }] }));
-    if (correct) {
-      const nx = xp + 20;
-      setXp(nx); setStreak(s => s + 1);
-      const just = milestones.find(m => xp < m.xp && nx >= m.xp);
-      if (just) { setToast(just); setTimeout(() => setToast(null), 3500); }
-    } else { setStreak(0); }
+    onAnswered(selected === full.answer, full);
+  }
+  function grade(ok) {
+    if (submitted || !full) return;
+    setSubmitted(true);
+    onAnswered(ok, full);
   }
 
-  function getCatStats(subjLabel) {
-    const s = subjects.find(s => s.label === subjLabel);
-    if (!s) return { correct:0, total:0, pct:null };
-    let c=0, t=0;
-    s.topics.forEach(tp => {
-      (sessionLog[`${subjLabel}::${tp}`] || []).forEach(e => { t++; if (e.correct) c++; });
-    });
-    return { correct:c, total:t, pct: t ? Math.round(100*c/t) : null };
-  }
-
-  function getTopicStats(subjLabel, tp) {
-    const log = sessionLog[`${subjLabel}::${tp}`] || [];
-    return { correct: log.filter(e => e.correct).length, total: log.length };
-  }
-
-  const totalAnswered = Object.values(sessionLog).flat();
-  const totalCorrect  = totalAnswered.filter(e => e.correct).length;
-  const earned  = milestones.filter(m => xp >= m.xp);
-  const nextM   = milestones.find(m => xp < m.xp);
-  const prevXP  = earned.length > 0 ? milestones[earned.length-1].xp : 0;
-  const barPct  = nextM ? Math.round(100*(xp-prevXP)/(nextM.xp-prevXP)) : 100;
-  const sd = subjMeta[subj] || { color:"#534AB7", light:"#EEEDFE" };
-  const C = sd.color, L = sd.light;
+  if (loading) return <div style={{ color: "#888", padding: "40px 0", fontSize: 14 }}>Loading question…</div>;
+  if (err) return (
+    <div style={{ color: "#993C1D", padding: "20px 0", fontSize: 14 }}>
+      {err} <button onClick={load} style={btn("#ddd", "transparent", "#444")}>Retry</button>
+    </div>
+  );
+  if (!full) return null;
+  const isFree = full.type === "free" || !full.options;
+  const correct = selected === full.answer;
+  const typeLabel = isFree ? "Free response · self-graded" : "Multiple choice";
 
   return (
-    <div style={{ display:"flex", height:"100vh", overflow:"hidden", background:"#f5f5f7" }}>
-      {toast && (
-        <div style={{ position:"fixed", top:16, left:"50%", transform:"translateX(-50%)", zIndex:999, background:"#534AB7", color:"#fff", padding:"12px 28px", borderRadius:12, fontSize:14, textAlign:"center", pointerEvents:"none", boxShadow:"0 4px 20px rgba(0,0,0,0.15)" }}>
-          <div style={{ fontSize:22 }}>{toast.icon}</div>
-          <div style={{ fontWeight:600 }}>Milestone: {toast.label}</div>
-          <div style={{ fontSize:12, opacity:0.85 }}>{toast.desc}</div>
+    <div>
+      {banner}
+      <div style={{ display: "flex", gap: 8, marginBottom: 12, alignItems: "center", flexWrap: "wrap" }}>
+        {full.subtopic && <span style={pill(light, accent)}>{full.subtopic}</span>}
+        <span style={pill("#f0f0f0", "#555")}>Difficulty {full.difficulty}/10</span>
+        <span style={pill("#f0f0f0", "#888")}>{typeLabel}</span>
+        <span style={{ fontSize: 11, color: "#bbb", marginLeft: "auto" }}>{headerRight}</span>
+      </div>
+      <div style={{ padding: "18px 20px", marginBottom: 16, background: "#fff", border: "1px solid #e5e5ea", borderRadius: 10 }}>
+        <div style={{ fontSize: 15.5, lineHeight: 1.85 }}><Tex>{full.question}</Tex></div>
+      </div>
+
+      {!isFree && (
+        <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 18 }}>
+          {Object.entries(full.options).map(([letter, text]) => {
+            let bg = "#fff", border = "1px solid #ddd", color = "#1d1d1f";
+            if (submitted) {
+              if (letter === full.answer) { bg = "#E1F5EE"; border = "1.5px solid #0F6E56"; color = "#0F6E56"; }
+              else if (letter === selected) { bg = "#FAECE7"; border = "1.5px solid #993C1D"; color = "#993C1D"; }
+            } else if (selected === letter) { bg = light; border = `1.5px solid ${accent}`; color = accent; }
+            return (
+              <div key={letter} onClick={() => !submitted && setSelected(letter)}
+                style={{ padding: "12px 14px", borderRadius: 8, background: bg, border, color, cursor: submitted ? "default" : "pointer", fontSize: 14, lineHeight: 1.6, display: "flex", gap: 10, alignItems: "flex-start" }}>
+                <span style={{ fontWeight: 600, minWidth: 18 }}>{letter}.</span><span><Tex>{text}</Tex></span>
+              </div>
+            );
+          })}
         </div>
       )}
 
-      {/* Sidebar */}
-      <div style={{ width:sidebar?240:0, minWidth:sidebar?240:0, transition:"all 0.2s", overflow:"hidden", background:"#fff", borderRight:"1px solid #e5e5ea", display:"flex", flexDirection:"column" }}>
-        <div style={{ padding:"12px 14px 10px", borderBottom:"1px solid #e5e5ea" }}>
-          <div style={{ display:"flex", justifyContent:"space-between", marginBottom:5 }}>
-            <span style={{ fontSize:12, fontWeight:600, color:"#534AB7" }}>{xp} XP</span>
-            <span style={{ fontSize:11, color:"#888" }}>{streak > 1 ? `🔥 ${streak} streak` : ""}</span>
-          </div>
-          <div style={{ height:5, background:"#f0f0f0", borderRadius:3 }}>
-            <div style={{ height:5, width:`${barPct}%`, background:"#534AB7", borderRadius:3, transition:"width 0.4s" }}/>
-          </div>
-          {nextM && <div style={{ fontSize:11, color:"#888", marginTop:3 }}>{nextM.xp-xp} XP to {nextM.icon} {nextM.label}</div>}
-          <button onClick={() => setShowMS(s => !s)} style={{ marginTop:7, fontSize:11, padding:"2px 8px", cursor:"pointer", background:"transparent", color:"#888", border:"1px solid #ddd", borderRadius:6 }}>
-            {earned.length}/{milestones.length} milestones
-          </button>
-          {showMS && (
-            <div style={{ marginTop:8 }}>
-              {milestones.map(m => {
-                const e = xp >= m.xp;
-                return <div key={m.xp} style={{ display:"flex", alignItems:"center", gap:6, padding:"3px 0", fontSize:11, color:e?"#1d1d1f":"#bbb" }}>
-                  <span style={{ fontSize:13 }}>{m.icon}</span><span>{m.label}</span>
-                  {e && <span style={{ marginLeft:"auto", color:"#0F6E56", fontSize:10 }}>✓</span>}
-                </div>;
-              })}
+      {/* MULTIPLE CHOICE controls */}
+      {!isFree && (!submitted ? (
+        <button onClick={submit} disabled={!selected} style={btn(selected ? accent : "#e0e0e0", selected ? accent : "#e0e0e0", selected ? "#fff" : "#999", true)}>Submit</button>
+      ) : (
+        <div>
+          <div style={{ padding: "14px 16px", marginBottom: 14, background: correct ? "#E1F5EE" : "#FAECE7", borderRadius: 8, fontSize: 14, lineHeight: 1.85 }}>
+            <div style={{ fontWeight: 600, marginBottom: 6, color: correct ? "#0F6E56" : "#993C1D" }}>
+              {correct ? "✓ Correct" : `✗ Incorrect — the answer is ${full.answer}`}
             </div>
-          )}
-        </div>
-        <div style={{ flex:1, overflowY:"auto", padding:"6px 0" }}>
-          {subjects.map(s => {
-            const cat = getCatStats(s.label);
-            return <div key={s.label}>
-              <div style={{ padding:"8px 12px 3px", fontSize:11, fontWeight:600, color:s.color, display:"flex", justifyContent:"space-between", alignItems:"center" }}>
-                <span>{s.icon} {s.label}</span>
-                {cat.total > 0 && <span style={{ fontSize:10, background:s.light, color:s.color, padding:"1px 6px", borderRadius:10 }}>{cat.correct}/{cat.total}{cat.pct !== null ? ` · ${cat.pct}%` : ""}</span>}
-              </div>
-              {s.topics.map(t => {
-                const ts = getTopicStats(s.label, t);
-                const active = subj === s.label && topic === t;
-                return <div key={t} onClick={() => pickTopic(s.label, t)}
-                  style={{ padding:"5px 12px 5px 20px", fontSize:13, cursor:"pointer", background:active?s.light:"transparent", color:active?s.color:"#1d1d1f", fontWeight:active?500:400, display:"flex", justifyContent:"space-between", alignItems:"center" }}>
-                  <span style={{ lineHeight:1.3 }}>{t}</span>
-                  {ts.total > 0 && <span style={{ fontSize:11, color:"#888", marginLeft:4 }}>{ts.correct}/{ts.total}</span>}
-                </div>;
-              })}
-            </div>;
-          })}
-        </div>
-        <div style={{ padding:"8px 14px", borderTop:"1px solid #e5e5ea", fontSize:11, color:"#888" }}>
-          {totalCorrect}/{totalAnswered.length} correct this session
-        </div>
-      </div>
-
-      {/* Main */}
-      <div style={{ flex:1, display:"flex", flexDirection:"column", overflow:"hidden" }}>
-        <div style={{ padding:"10px 16px", background:"#fff", borderBottom:"1px solid #e5e5ea", display:"flex", alignItems:"center", gap:12 }}>
-          <button onClick={() => setSidebar(s => !s)} style={{ padding:"4px 8px", fontSize:14, cursor:"pointer", background:"transparent", border:"1px solid #ddd", borderRadius:6 }}>☰</button>
-          <div style={{ flex:1 }}>
-            <span style={{ fontSize:12, color:"#888" }}>{subj} / </span>
-            <span style={{ fontSize:14, fontWeight:500, color:C }}>{topic}</span>
+            <div><Tex>{full.explanation}</Tex></div>
           </div>
-          {["practice","resources"].map(v => (
-            <button key={v} onClick={() => setView(v)} style={{ padding:"4px 10px", fontSize:12, cursor:"pointer", background:view===v?L:"transparent", color:view===v?C:"#888", border:`1px solid ${view===v?C:"#ddd"}`, borderRadius:6, textTransform:"capitalize" }}>{v}</button>
-          ))}
+          <button onClick={onNext} style={btn(accent, accent, "#fff", true)}>{nextLabel || "Next →"}</button>
         </div>
+      ))}
 
-        <div style={{ flex:1, overflowY:"auto", padding:"24px 32px", maxWidth:780 }}>
-          {view === "resources" ? (
+      {/* FREE RESPONSE controls: reveal solution, then self-grade */}
+      {isFree && (
+        <div>
+          {!revealed ? (
             <div>
-              <div style={{ fontSize:14, color:"#666", marginBottom:16 }}>Free resources for <strong>{topic}</strong></div>
-              {(resources[subj]?.[topic] || []).map((r, i) => (
-                <a key={i} href={r.url} target="_blank" rel="noreferrer"
-                  style={{ display:"flex", alignItems:"center", gap:10, padding:"12px 14px", marginBottom:8, background:"#fff", border:"1px solid #e5e5ea", borderRadius:8, color:"#1d1d1f", fontSize:14, textDecoration:"none" }}>
-                  <span style={{ color:C, fontSize:16 }}>↗</span>{r.title}
-                </a>
-              ))}
+              <div style={{ fontSize: 12.5, color: "#999", marginBottom: 10 }}>Work it out, then reveal the {full.answer ? "answer" : "solution"} and grade yourself.</div>
+              <button onClick={() => setRevealed(true)} style={btn(accent, light, accent, true)}>Reveal {full.answer ? "answer" : "solution"} →</button>
             </div>
           ) : (
             <div>
-              <div style={{ marginBottom:22 }}>
-                <button onClick={() => setShowExp(s => !s)} style={{ padding:"6px 14px", fontSize:13, cursor:"pointer", background:L, color:C, border:`1px solid ${C}`, borderRadius:6 }}>
-                  {showExp ? "Hide explanation" : "📖 Explain this concept"}
-                </button>
-                {showExp && (
-                  <div style={{ marginTop:12, padding:"16px 18px", background:"#fff", border:`1.5px solid ${C}`, borderRadius:8, fontSize:14, lineHeight:1.85, color:"#1d1d1f", whiteSpace:"pre-wrap" }}>
-                    {explanations[subj]?.[topic] || "Explanation not found."}
-                  </div>
-                )}
-              </div>
-
-              {(() => {
-                const ts = getTopicStats(subj, topic);
-                const bankSize = (questionIndex[subj]?.[topic] || []).length;
-                return <div style={{ fontSize:12, color:"#888", marginBottom:16 }}>{bankSize} questions in bank{ts.total > 0 ? ` · ${ts.correct}/${ts.total} correct this session` : ""}</div>;
-              })()}
-
-              {qLoading && <div style={{ fontSize:14, color:"#888", padding:"30px 0" }}>Loading question...</div>}
-              {qError && <div style={{ fontSize:14, color:"#993C1D", padding:"20px 0" }}>{qError} <button onClick={() => loadQuestion(subj, topic, queues)} style={{ marginLeft:12, padding:"4px 12px", fontSize:13, cursor:"pointer", borderRadius:6, border:"1px solid #ddd", background:"transparent" }}>Retry</button></div>}
-
-              {currentQ && !qLoading && (
-                <div>
-                  <div style={{ display:"flex", gap:8, marginBottom:12, alignItems:"center" }}>
-                    {currentQ.subtopic && <span style={{ fontSize:11, padding:"2px 8px", background:L, color:C, borderRadius:10 }}>{currentQ.subtopic}</span>}
-                    {currentQ.difficulty && <span style={{ fontSize:11, padding:"2px 8px", background:"#f0f0f0", color:"#555", borderRadius:10, textTransform:"capitalize" }}>{currentQ.difficulty}</span>}
-                    <span style={{ fontSize:11, color:"#ccc", marginLeft:"auto" }}>#{currentQ.id}</span>
-                  </div>
-                  <div style={{ padding:"16px 18px", marginBottom:14, background:"#fff", border:"1px solid #e5e5ea", borderRadius:10 }}>
-                    <div style={{ fontSize:15, lineHeight:1.85, color:"#1d1d1f" }}>{currentQ.question}</div>
-                  </div>
-                  <div style={{ display:"flex", flexDirection:"column", gap:8, marginBottom:18 }}>
-                    {Object.entries(currentQ.options).map(([letter, text]) => {
-                      let bg="#fff", border="1px solid #ddd", color="#1d1d1f";
-                      if (submitted) {
-                        if (letter === currentQ.answer) { bg="#E1F5EE"; border="1.5px solid #0F6E56"; color="#0F6E56"; }
-                        else if (letter === selected)   { bg="#FAECE7"; border="1.5px solid #993C1D"; color="#993C1D"; }
-                      } else if (selected === letter) { bg=L; border=`1.5px solid ${C}`; color=C; }
-                      return <div key={letter} onClick={() => !submitted && setSelected(letter)}
-                        style={{ padding:"12px 14px", borderRadius:8, background:bg, border, color, cursor:submitted?"default":"pointer", fontSize:14, lineHeight:1.6, display:"flex", gap:10, alignItems:"flex-start" }}>
-                        <span style={{ fontWeight:600, minWidth:18 }}>{letter}.</span><span>{text}</span>
-                      </div>;
-                    })}
-                  </div>
-                  {!submitted ? (
-                    <button onClick={handleSubmit} disabled={!selected} style={{ padding:"9px 26px", fontSize:14, cursor:selected?"pointer":"not-allowed", background:selected?C:"#e0e0e0", color:selected?"#fff":"#999", border:"none", borderRadius:8 }}>Submit</button>
-                  ) : (
-                    <div>
-                      <div style={{ padding:"14px 16px", marginBottom:14, background:selected===currentQ.answer?"#E1F5EE":"#FAECE7", borderRadius:8, fontSize:14, lineHeight:1.85 }}>
-                        <div style={{ fontWeight:600, marginBottom:6, color:selected===currentQ.answer?"#0F6E56":"#993C1D" }}>
-                          {selected===currentQ.answer ? "✓ Correct! +20 XP" : `✗ Incorrect — the answer is ${currentQ.answer}`}
-                        </div>
-                        <div style={{ color:"#1d1d1f" }}>{currentQ.explanation}</div>
-                      </div>
-                      <button onClick={() => loadQuestion(subj, topic, queues)} style={{ padding:"9px 24px", fontSize:14, cursor:"pointer", background:C, color:"#fff", border:"none", borderRadius:8 }}>Next Question →</button>
-                    </div>
-                  )}
+              {full.answer && (
+                <div style={{ padding: "10px 16px", marginBottom: 10, background: "#E6F1FB", borderRadius: 8, fontSize: 14.5, fontWeight: 600, color: "#185FA5" }}>
+                  Answer: <Tex>{full.answer}</Tex>
                 </div>
+              )}
+              <div style={{ padding: "14px 16px", marginBottom: 14, background: "#fff", border: `1px solid ${accent}`, borderRadius: 8, fontSize: 14, lineHeight: 1.85 }}>
+                <Tex>{full.explanation}</Tex>
+              </div>
+              {!submitted ? (
+                <div>
+                  <div style={{ fontSize: 12.5, color: "#888", marginBottom: 8 }}>Did you get it right?</div>
+                  <div style={{ display: "flex", gap: 10 }}>
+                    <button onClick={() => grade(true)} style={btn("#0F6E56", "#E1F5EE", "#0F6E56", true)}>✓ Got it</button>
+                    <button onClick={() => grade(false)} style={btn("#993C1D", "#FAECE7", "#993C1D", true)}>✗ Missed it</button>
+                  </div>
+                </div>
+              ) : (
+                <button onClick={onNext} style={btn(accent, accent, "#fff", true)}>{nextLabel || "Next →"}</button>
               )}
             </div>
           )}
         </div>
+      )}
+    </div>
+  );
+}
+
+/* ============================ ADAPT practice ============================ */
+function AdaptView({ questions, progress, commit, subjects }) {
+  const [scope, setScope] = useState("");        // "" = all subjects
+  const [meta, setMeta] = useState(null);
+  const [fb, setFb] = useState(null);            // {correct, before, after}
+  const lastId = useRef(null);
+
+  const advance = useCallback((scopeVal) => {
+    setFb(null);
+    const next = pickAdaptive(questions, progress.srs, progress.el, Date.now(), scopeVal || null, lastId.current);
+    if (next) lastId.current = next.id;
+    setMeta(next);
+  }, [questions, progress.srs, progress.el]);
+
+  useEffect(() => { if (!meta) advance(scope); }, []); // first load
+
+  function onAnswered(correct, full) {
+    const before = progress.el;
+    const after = updateEL(before, full.difficulty, correct);
+    setFb({ correct, before, after });
+    commit(full, correct);
+  }
+
+  const due = dueList(questions, progress.srs, Date.now(), scope || null).length;
+
+  return (
+    <div style={{ maxWidth: 760 }}>
+      <PanelHead title="ADAPT Practice" sub="Adaptive difficulty — each answer re-estimates your Earned Level. Due review cards are served first." />
+      <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 18, flexWrap: "wrap" }}>
+        <span style={{ fontSize: 12, color: "#888" }}>Focus:</span>
+        <select value={scope} onChange={e => { setScope(e.target.value); advance(e.target.value); }}
+          style={{ padding: "5px 8px", fontSize: 13, borderRadius: 6, border: "1px solid #ddd", background: "#fff" }}>
+          <option value="">All subjects</option>
+          {subjects.map(s => <option key={s.label} value={s.label}>{s.label}</option>)}
+        </select>
+        {due > 0 && <span style={pill("#FFF4E0", "#9A6700")}>🔁 {due} due for review</span>}
+      </div>
+
+      {fb && (
+        <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 14px", marginBottom: 14, borderRadius: 8, background: fb.after >= fb.before ? "#E1F5EE" : "#FAECE7" }}>
+          <span style={{ fontSize: 13, color: "#444" }}>Earned Level</span>
+          <span style={{ fontWeight: 700, fontSize: 15 }}>{fmtEL(fb.before)} → {fmtEL(fb.after)}</span>
+          <span style={{ fontSize: 13, fontWeight: 600, color: fb.after >= fb.before ? "#0F6E56" : "#993C1D" }}>
+            {fb.after >= fb.before ? "▲" : "▼"} {(fb.after >= fb.before ? "+" : "") + fmtEL(fb.after - fb.before)}
+          </span>
+        </div>
+      )}
+
+      {meta ? (
+        <QuestionCard key={meta.id} meta={meta} accent={BRAND} light={BRAND_L}
+          headerRight={meta.subject}
+          onAnswered={onAnswered} onNext={() => advance(scope)} nextLabel="Next adaptive question →" />
+      ) : (
+        <div style={{ color: "#888", padding: "40px 0" }}>No questions available for this focus.</div>
+      )}
+    </div>
+  );
+}
+
+/* ============================ SRS review ============================ */
+function ReviewView({ questions, progress, commit }) {
+  const [meta, setMeta] = useState(null);
+  const [active, setActive] = useState(false);
+  const [done, setDone] = useState(0);
+
+  const nextDue = useCallback(() => {
+    const due = dueList(questions, progress.srs, Date.now(), null);
+    if (due.length) { setMeta(due[0]); return true; }
+    setMeta(null); return false;
+  }, [questions, progress.srs]);
+
+  const due = dueList(questions, progress.srs, Date.now(), null);
+  const upcoming = questions
+    .filter(q => progress.srs[q.id] && progress.srs[q.id].dueTs > Date.now())
+    .sort((a, b) => progress.srs[a.id].dueTs - progress.srs[b.id].dueTs);
+  const nextTime = upcoming.length ? upcoming[0].dueTs : null;
+
+  function start() { setActive(true); setDone(0); nextDue(); }
+  function onAnswered(correct, full) { commit(full, correct); setDone(d => d + 1); }
+  function onNext() { if (!nextDue()) setActive(false); }
+
+  if (active && meta) {
+    return (
+      <div style={{ maxWidth: 760 }}>
+        <PanelHead title="Spaced Repetition Review" sub={`${due.length} card${due.length === 1 ? "" : "s"} due · ${done} reviewed this session`} />
+        <QuestionCard key={meta.id} meta={meta} accent="#0F6E56" light="#E1F5EE"
+          headerRight={`${meta.subject} · ${meta.topic}`}
+          onAnswered={onAnswered} onNext={onNext} nextLabel="Next due card →" />
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ maxWidth: 620 }}>
+      <PanelHead title="Spaced Repetition Review" sub="Questions you've answered are scheduled to resurface on a forgetting curve (SM-2). Missed ones come back fast; mastered ones space out." />
+      <div style={{ background: "#fff", border: "1px solid #e5e5ea", borderRadius: 12, padding: "28px 26px", textAlign: "center" }}>
+        <div style={{ fontSize: 44, fontWeight: 700, color: due.length ? "#0F6E56" : "#bbb" }}>{due.length}</div>
+        <div style={{ fontSize: 13, color: "#888", marginBottom: 18 }}>card{due.length === 1 ? "" : "s"} due now</div>
+        {due.length > 0 ? (
+          <button onClick={start} style={btn("#0F6E56", "#0F6E56", "#fff", true)}>Start review →</button>
+        ) : (
+          <div style={{ fontSize: 14, color: "#666", lineHeight: 1.7 }}>
+            {done > 0 && <div style={{ color: "#0F6E56", fontWeight: 600, marginBottom: 8 }}>✓ All caught up — {done} reviewed.</div>}
+            {nextTime ? <div>Next card is due {relTime(nextTime)}.</div> : <div>Answer questions in ADAPT Practice or a quiz to build your review queue.</div>}
+          </div>
+        )}
       </div>
     </div>
   );
+}
+
+/* ============================ custom quiz ============================ */
+function QuizView({ questions, progress, commit, subjects }) {
+  const [picked, setPicked] = useState({});      // {topicKey: true}
+  const [count, setCount] = useState(10);
+  const [minD, setMinD] = useState(1);
+  const [maxD, setMaxD] = useState(10);
+  const [quiz, setQuiz] = useState(null);        // {items:[], idx, results:[]}
+
+  const allKeys = useMemo(() => {
+    const m = {};
+    subjects.forEach(s => s.topics.forEach(t => { m[`${s.label}::${t}`] = true; }));
+    return m;
+  }, [subjects]);
+
+  function toggleTopic(k) { setPicked(p => ({ ...p, [k]: !p[k] })); }
+  function toggleSubject(s, on) { setPicked(p => { const n = { ...p }; s.topics.forEach(t => { n[`${s.label}::${t}`] = on; }); return n; }); }
+
+  const selectedKeys = Object.keys(picked).filter(k => picked[k] && allKeys[k]);
+  const eligible = questions.filter(q =>
+    (selectedKeys.length === 0 || picked[tkey(q)]) && q.difficulty >= minD && q.difficulty <= maxD);
+
+  function generate() {
+    const pool = shuffle(eligible);
+    const items = pool.slice(0, Math.min(count, pool.length));
+    if (items.length) setQuiz({ items, idx: 0, results: [] });
+  }
+
+  if (quiz) {
+    const m = quiz.items[quiz.idx];
+    if (quiz.idx >= quiz.items.length) return <QuizReport quiz={quiz} onDone={() => setQuiz(null)} />;
+    return (
+      <div style={{ maxWidth: 760 }}>
+        <PanelHead title="Custom Quiz" sub={`Question ${quiz.idx + 1} of ${quiz.items.length}`} />
+        <div style={{ height: 5, background: "#f0f0f0", borderRadius: 3, marginBottom: 18 }}>
+          <div style={{ height: 5, width: `${(quiz.idx / quiz.items.length) * 100}%`, background: BRAND, borderRadius: 3, transition: "width .3s" }} />
+        </div>
+        <QuestionCard key={m.id} meta={m} accent={BRAND} light={BRAND_L} headerRight={`${m.subject} · ${m.topic}`}
+          onAnswered={(correct, full) => { commit(full, correct); setQuiz(q => ({ ...q, results: [...q.results, { meta: m, correct }] })); }}
+          onNext={() => setQuiz(q => ({ ...q, idx: q.idx + 1 }))}
+          nextLabel={quiz.idx + 1 >= quiz.items.length ? "See results →" : "Next →"} />
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ maxWidth: 680 }}>
+      <PanelHead title="Build a Custom Quiz" sub="Pick topics, length, and a difficulty band. Quiz answers still count toward your Earned Level and review schedule." />
+      <div style={{ background: "#fff", border: "1px solid #e5e5ea", borderRadius: 12, padding: "18px 20px", marginBottom: 16 }}>
+        <div style={{ fontSize: 12, fontWeight: 600, color: "#888", marginBottom: 10 }}>TOPICS <span style={{ fontWeight: 400 }}>(none selected = all)</span></div>
+        {subjects.map(s => {
+          const allOn = s.topics.every(t => picked[`${s.label}::${t}`]);
+          return (
+            <div key={s.label} style={{ marginBottom: 12 }}>
+              <div onClick={() => toggleSubject(s, !allOn)} style={{ cursor: "pointer", fontSize: 13, fontWeight: 600, color: s.color, marginBottom: 4, display: "flex", alignItems: "center", gap: 6 }}>
+                <span>{allOn ? "☑" : "☐"}</span><span>{s.icon} {s.label}</span>
+              </div>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 6, paddingLeft: 18 }}>
+                {s.topics.map(t => {
+                  const k = `${s.label}::${t}`; const on = !!picked[k];
+                  return <span key={t} onClick={() => toggleTopic(k)} style={{ cursor: "pointer", fontSize: 12, padding: "4px 10px", borderRadius: 14, border: `1px solid ${on ? s.color : "#ddd"}`, background: on ? s.light : "#fff", color: on ? s.color : "#666" }}>{t}</span>;
+                })}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 18 }}>
+        <label style={{ fontSize: 13, color: "#444" }}>Questions:&nbsp;
+          <select value={count} onChange={e => setCount(+e.target.value)} style={sel()}>
+            {[5, 10, 15, 20, 30].map(n => <option key={n} value={n}>{n}</option>)}
+          </select>
+        </label>
+        <label style={{ fontSize: 13, color: "#444" }}>Difficulty:&nbsp;
+          <select value={minD} onChange={e => setMinD(+e.target.value)} style={sel()}>
+            {[1, 2, 3, 4, 5, 6, 7, 8].map(n => <option key={n} value={n}>{n}</option>)}
+          </select> &nbsp;to&nbsp;
+          <select value={maxD} onChange={e => setMaxD(+e.target.value)} style={sel()}>
+            {[2, 3, 4, 5, 6, 7, 8, 9, 10].map(n => <option key={n} value={n}>{n}</option>)}
+          </select>
+        </label>
+      </div>
+
+      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+        <button onClick={generate} disabled={eligible.length === 0} style={btn(eligible.length ? BRAND : "#e0e0e0", eligible.length ? BRAND : "#e0e0e0", eligible.length ? "#fff" : "#999", true)}>
+          Generate quiz →
+        </button>
+        <span style={{ fontSize: 12, color: "#888" }}>{eligible.length} matching question{eligible.length === 1 ? "" : "s"} in bank</span>
+      </div>
+    </div>
+  );
+}
+
+function QuizReport({ quiz, onDone }) {
+  const total = quiz.results.length;
+  const correct = quiz.results.filter(r => r.correct).length;
+  const pct = total ? Math.round((100 * correct) / total) : 0;
+  const byTopic = {};
+  quiz.results.forEach(r => { const k = r.meta.topic; (byTopic[k] = byTopic[k] || { c: 0, t: 0 }); byTopic[k].t++; if (r.correct) byTopic[k].c++; });
+  return (
+    <div style={{ maxWidth: 620 }}>
+      <PanelHead title="Quiz Results" sub="" />
+      <div style={{ background: "#fff", border: "1px solid #e5e5ea", borderRadius: 12, padding: "26px 24px", textAlign: "center", marginBottom: 16 }}>
+        <div style={{ fontSize: 46, fontWeight: 700, color: pct >= 70 ? "#0F6E56" : pct >= 50 ? "#9A6700" : "#993C1D" }}>{pct}%</div>
+        <div style={{ fontSize: 14, color: "#888" }}>{correct} of {total} correct</div>
+      </div>
+      <div style={{ background: "#fff", border: "1px solid #e5e5ea", borderRadius: 12, padding: "16px 20px", marginBottom: 18 }}>
+        <div style={{ fontSize: 12, fontWeight: 600, color: "#888", marginBottom: 10 }}>BY TOPIC</div>
+        {Object.entries(byTopic).map(([t, s]) => (
+          <div key={t} style={{ display: "flex", justifyContent: "space-between", fontSize: 13, padding: "5px 0", borderBottom: "1px solid #f3f3f3" }}>
+            <span>{t}</span><span style={{ color: s.c === s.t ? "#0F6E56" : s.c === 0 ? "#993C1D" : "#444", fontWeight: 600 }}>{s.c}/{s.t}</span>
+          </div>
+        ))}
+      </div>
+      <button onClick={onDone} style={btn(BRAND, BRAND, "#fff", true)}>Build another quiz →</button>
+    </div>
+  );
+}
+
+/* ============================ practice tests (full-length sample exams) ============================ */
+function TestsView({ exams, progress, onExamDone }) {
+  const [active, setActive] = useState(null);
+  if (active) return <TestRunner exam={active} onDone={onExamDone} onExit={() => setActive(null)} />;
+  const scores = progress.examScores || {};
+  return (
+    <div style={{ maxWidth: 680 }}>
+      <PanelHead title="Practice Tests" sub="Full-length sample exams from Finan, taken end-to-end like the real thing — answers are revealed only in the score report. These are separate from your ADAPT Earned Level and review queue." />
+      {exams.map(ex => {
+        const sc = scores[ex.id];
+        return (
+          <div key={ex.id} style={{ display: "flex", alignItems: "center", gap: 14, padding: "16px 20px", marginBottom: 12, background: "#fff", border: "1px solid #e5e5ea", borderRadius: 12 }}>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontSize: 15, fontWeight: 600 }}>{ex.name}</div>
+              <div style={{ fontSize: 12, color: "#888", marginTop: 2 }}>{ex.count} questions · {ex.minutes} min{sc ? ` · best ${sc.bestPct}% · last ${sc.lastPct}% (${sc.attempts}×)` : ""}</div>
+            </div>
+            <button onClick={() => setActive(ex)} style={btn(BRAND, BRAND, "#fff", true)}>{sc ? "Retake →" : "Start →"}</button>
+          </div>
+        );
+      })}
+      {exams.length === 0 && <div style={{ color: "#999", fontSize: 14 }}>No practice tests available.</div>}
+    </div>
+  );
+}
+
+function TestRunner({ exam, onDone, onExit }) {
+  const qs = exam.questions;
+  const [idx, setIdx] = useState(0);
+  const [answers, setAnswers] = useState({});
+  const [finished, setFinished] = useState(false);
+  const [remaining, setRemaining] = useState(exam.minutes * 60);
+
+  const finish = useCallback(() => {
+    setFinished(prev => {
+      if (prev) return prev;
+      const correct = qs.filter(qq => answers[qq.n] === qq.answer).length;
+      onDone(exam.id, correct, qs.length);
+      return true;
+    });
+  }, [answers, qs, exam.id, onDone]);
+
+  useEffect(() => {
+    if (finished) return;
+    const t = setInterval(() => setRemaining(r => (r <= 1 ? 0 : r - 1)), 1000);
+    return () => clearInterval(t);
+  }, [finished]);
+  useEffect(() => { if (remaining === 0 && !finished) finish(); }, [remaining, finished, finish]);
+
+  if (finished) return <TestReport exam={exam} answers={answers} onExit={onExit} />;
+
+  const q = qs[idx];
+  const answeredCount = Object.keys(answers).length;
+  const mm = String(Math.floor(remaining / 60)).padStart(2, "0");
+  const ss = String(remaining % 60).padStart(2, "0");
+
+  return (
+    <div style={{ maxWidth: 780 }}>
+      <div style={{ display: "flex", alignItems: "center", marginBottom: 12 }}>
+        <div style={{ fontSize: 18, fontWeight: 700, flex: 1 }}>{exam.name}</div>
+        <span style={pill(remaining < 300 ? "#FAECE7" : "#f0f0f0", remaining < 300 ? "#993C1D" : "#555")}>⏱ {mm}:{ss}</span>
+      </div>
+      <div style={{ height: 5, background: "#f0f0f0", borderRadius: 3, marginBottom: 12 }}>
+        <div style={{ height: 5, width: `${(answeredCount / qs.length) * 100}%`, background: BRAND, borderRadius: 3, transition: "width .3s" }} />
+      </div>
+      <div style={{ fontSize: 12, color: "#888", marginBottom: 10 }}>Question {idx + 1} of {qs.length} · {answeredCount} answered</div>
+      <div style={{ padding: "18px 20px", marginBottom: 16, background: "#fff", border: "1px solid #e5e5ea", borderRadius: 10, fontSize: 15.5, lineHeight: 1.85 }}><Tex>{q.question}</Tex></div>
+      <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 18 }}>
+        {Object.entries(q.options).map(([letter, text]) => {
+          const sel = answers[q.n] === letter;
+          return (
+            <div key={letter} onClick={() => setAnswers(a => ({ ...a, [q.n]: letter }))}
+              style={{ padding: "12px 14px", borderRadius: 8, background: sel ? BRAND_L : "#fff", border: `1.5px solid ${sel ? BRAND : "#ddd"}`, color: sel ? BRAND : "#1d1d1f", cursor: "pointer", fontSize: 14, lineHeight: 1.6, display: "flex", gap: 10 }}>
+              <span style={{ fontWeight: 600, minWidth: 18 }}>{letter}.</span><span><Tex>{text}</Tex></span>
+            </div>
+          );
+        })}
+      </div>
+      <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
+        <button onClick={() => setIdx(i => Math.max(0, i - 1))} disabled={idx === 0} style={btn("#ddd", "#fff", idx === 0 ? "#bbb" : "#444")}>← Prev</button>
+        {idx < qs.length - 1
+          ? <button onClick={() => setIdx(i => i + 1)} style={btn(BRAND, BRAND, "#fff", true)}>Next →</button>
+          : <button onClick={finish} style={btn("#0F6E56", "#0F6E56", "#fff", true)}>Finish exam</button>}
+        <button onClick={finish} style={{ ...btn("#ddd", "#fff", "#888"), marginLeft: "auto" }}>Finish early</button>
+      </div>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 5, marginTop: 18 }}>
+        {qs.map((qq, i) => (
+          <div key={qq.n} onClick={() => setIdx(i)} title={`Question ${i + 1}`}
+            style={{ width: 24, height: 24, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 10.5, borderRadius: 5, cursor: "pointer", background: i === idx ? BRAND : (answers[qq.n] ? BRAND_L : "#f0f0f0"), color: i === idx ? "#fff" : (answers[qq.n] ? BRAND : "#999") }}>{i + 1}</div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function TestReport({ exam, answers, onExit }) {
+  const qs = exam.questions;
+  const correct = qs.filter(q => answers[q.n] === q.answer).length;
+  const pct = Math.round((100 * correct) / qs.length);
+  const [review, setReview] = useState(false);
+  return (
+    <div style={{ maxWidth: 780 }}>
+      <PanelHead title={`${exam.name} — Results`} sub="" />
+      <div style={{ background: "#fff", border: "1px solid #e5e5ea", borderRadius: 12, padding: "26px 24px", textAlign: "center", marginBottom: 16 }}>
+        <div style={{ fontSize: 46, fontWeight: 700, color: pct >= 70 ? "#0F6E56" : pct >= 55 ? "#9A6700" : "#993C1D" }}>{pct}%</div>
+        <div style={{ fontSize: 14, color: "#888" }}>{correct} of {qs.length} correct</div>
+        <div style={{ fontSize: 12, color: "#aaa", marginTop: 6 }}>Exam P typically requires roughly 70% to pass.</div>
+      </div>
+      <div style={{ display: "flex", gap: 10, marginBottom: 16 }}>
+        <button onClick={() => setReview(r => !r)} style={btn(BRAND, review ? BRAND_L : "#fff", BRAND)}>{review ? "Hide review" : "Review answers"}</button>
+        <button onClick={onExit} style={btn(BRAND, BRAND, "#fff", true)}>Back to tests</button>
+      </div>
+      {review && qs.map((q, i) => {
+        const your = answers[q.n], ok = your === q.answer;
+        return (
+          <div key={q.n} style={{ padding: "14px 16px", marginBottom: 10, background: "#fff", border: `1px solid ${ok ? "#cde9df" : "#f1d9cf"}`, borderRadius: 10 }}>
+            <div style={{ fontSize: 12, color: "#888", marginBottom: 4 }}>Q{i + 1} {ok ? "✓" : "✗"}</div>
+            <div style={{ fontSize: 14, lineHeight: 1.7, marginBottom: 8 }}><Tex>{q.question}</Tex></div>
+            <div style={{ fontSize: 13 }}>
+              <span style={{ color: ok ? "#0F6E56" : "#993C1D" }}>Your answer: {your || "—"}{your ? <span> (<Tex>{q.options[your]}</Tex>)</span> : ""}</span>
+              {!ok && <span style={{ color: "#0F6E56", marginLeft: 12 }}>Correct: {q.answer} (<Tex>{q.options[q.answer]}</Tex>)</span>}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+/* ============================ learn (worked examples from Finan) ============================ */
+function LearnView({ subjects, learn, onPractice }) {
+  const [subj, setSubj] = useState(subjects[0].label);
+  const [topic, setTopic] = useState(subjects[0].topics[0]);
+  const s = subjects.find(x => x.label === subj) || subjects[0];
+  const C = s.color, L = s.light;
+  const content = learn[topic] || { intro: "", nExamples: 0, nProblems: 0 };
+
+  return (
+    <div style={{ maxWidth: 820 }}>
+      <PanelHead title="Learn" sub="Concept refreshers from Finan's manual — read a section, then drill its worked examples and problems in ADAPT Practice or a quiz." />
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 12 }}>
+        {subjects.map(x => (
+          <button key={x.label} onClick={() => { setSubj(x.label); setTopic(x.topics[0]); }}
+            style={{ ...btn(subj === x.label ? x.color : "#ddd", subj === x.label ? x.light : "transparent", subj === x.label ? x.color : "#666"), fontSize: 11.5, padding: "5px 10px" }}>
+            {x.icon} {x.label}
+          </button>
+        ))}
+      </div>
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 18 }}>
+        {s.topics.map(t => (
+          <span key={t} onClick={() => setTopic(t)} style={{ cursor: "pointer", fontSize: 12, padding: "4px 10px", borderRadius: 14, border: `1px solid ${topic === t ? C : "#ddd"}`, background: topic === t ? L : "#fff", color: topic === t ? C : "#666" }}>{t}</span>
+        ))}
+      </div>
+
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
+        <div style={{ fontSize: 17, fontWeight: 700, color: C }}>{topic}</div>
+        <button onClick={onPractice} style={{ ...btn(C, L, C), fontSize: 12 }}>Practice this →</button>
+      </div>
+
+      {content.intro && (
+        <div style={{ padding: "18px 20px", marginBottom: 16, background: "#fff", border: `1.5px solid ${C}`, borderRadius: 10, fontSize: 14, lineHeight: 1.9 }}>
+          <Tex>{content.intro}</Tex>
+        </div>
+      )}
+
+      <div style={{ display: "flex", gap: 18, alignItems: "center", padding: "14px 18px", background: L, borderRadius: 10 }}>
+        <div style={{ fontSize: 13, color: "#444", flex: 1 }}>
+          This section has <strong>{content.nExamples} worked examples</strong> and <strong>{content.nProblems} practice problems</strong> in the question bank
+          {" "}— with full solutions revealed after you answer.
+        </div>
+        <button onClick={onPractice} style={btn(C, C, "#fff", true)}>Practice now →</button>
+      </div>
+
+      <div style={{ fontSize: 11, color: "#bbb", marginTop: 16, lineHeight: 1.6 }}>
+        Source: Marcel B. Finan, <em>A Probability Course for the Actuaries</em>. Math notation is being cleaned up — some symbols may render roughly for now.
+      </div>
+    </div>
+  );
+}
+
+/* ============================ shell ============================ */
+function PanelHead({ title, sub }) {
+  return (
+    <div style={{ marginBottom: 18 }}>
+      <div style={{ fontSize: 20, fontWeight: 700 }}>{title}</div>
+      {sub && <div style={{ fontSize: 13, color: "#888", marginTop: 4, lineHeight: 1.6, maxWidth: 640 }}>{sub}</div>}
+    </div>
+  );
+}
+
+function Sidebar({ curriculum, progress, mode, setMode, dueCount, onReset }) {
+  const subjects = curriculum.subjects;
+  const pass = curriculum.passLevel || 7;
+  const levels = curriculum.levels || [];
+  const el = progress.el;
+  const tier = [...levels].reverse().find(l => el >= l.el);
+  const nextTier = levels.find(l => el < l.el);
+  const acc = el >= pass ? "#0F6E56" : el >= pass - 1 ? "#9A6700" : BRAND;
+
+  const subjEL = subjects.map(s => {
+    const vals = s.topics.map(t => progress.elByTopic[`${s.label}::${t}`]).filter(v => typeof v === "number");
+    const avg = vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
+    return { s, avg };
+  });
+
+  const navItems = [
+    { id: "adapt", icon: "🎯", label: "ADAPT Practice" },
+    { id: "review", icon: "🔁", label: "Review", badge: dueCount },
+    { id: "quiz", icon: "📝", label: "Custom Quiz" },
+    { id: "tests", icon: "📄", label: "Practice Tests" },
+    { id: "learn", icon: "📖", label: "Learn" },
+  ];
+
+  return (
+    <div style={{ width: 256, minWidth: 256, background: "#fff", borderRight: "1px solid #e5e5ea", display: "flex", flexDirection: "column", height: "100vh" }}>
+      <div style={{ padding: "16px 16px 14px", borderBottom: "1px solid #e5e5ea" }}>
+        <div style={{ fontSize: 12, fontWeight: 700, color: BRAND, letterSpacing: 0.3 }}>EXAM P · PROBABILITY</div>
+        <div style={{ fontSize: 11, color: "#aaa", marginTop: 2 }}>Earned Level</div>
+        <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
+          <span style={{ fontSize: 36, fontWeight: 700, color: acc, lineHeight: 1.1 }}>{fmtEL(el)}</span>
+          <span style={{ fontSize: 13, color: "#bbb" }}>/ 10</span>
+        </div>
+        <div style={{ position: "relative", height: 6, background: "#f0f0f0", borderRadius: 3, marginTop: 6 }}>
+          <div style={{ height: 6, width: `${(el / 10) * 100}%`, background: acc, borderRadius: 3, transition: "width .4s" }} />
+          <div title={`Pass level ${pass}`} style={{ position: "absolute", top: -2, left: `${(pass / 10) * 100}%`, width: 2, height: 10, background: "#0F6E56" }} />
+        </div>
+        <div style={{ fontSize: 11, color: "#888", marginTop: 6 }}>
+          {tier ? <span>{tier.icon} {tier.label}</span> : "🌱 Getting Started"}
+          {el >= pass && <span style={{ color: "#0F6E56", fontWeight: 600 }}> · exam ready</span>}
+        </div>
+        {nextTier && <div style={{ fontSize: 10.5, color: "#aaa", marginTop: 2 }}>{fmtEL(nextTier.el - el)} to {nextTier.icon} {nextTier.label}</div>}
+      </div>
+
+      <div style={{ padding: "8px 8px 4px" }}>
+        {navItems.map(n => (
+          <div key={n.id} onClick={() => setMode(n.id)}
+            style={{ display: "flex", alignItems: "center", gap: 9, padding: "9px 12px", margin: "2px 0", borderRadius: 8, cursor: "pointer", fontSize: 13.5, fontWeight: mode === n.id ? 600 : 400, background: mode === n.id ? BRAND_L : "transparent", color: mode === n.id ? BRAND : "#1d1d1f" }}>
+            <span>{n.icon}</span><span>{n.label}</span>
+            {n.badge > 0 && <span style={{ marginLeft: "auto", fontSize: 11, fontWeight: 600, background: "#0F6E56", color: "#fff", borderRadius: 10, padding: "1px 7px" }}>{n.badge}</span>}
+          </div>
+        ))}
+      </div>
+
+      <div style={{ flex: 1, overflowY: "auto", padding: "10px 14px" }}>
+        <div style={{ fontSize: 10.5, fontWeight: 600, color: "#aaa", letterSpacing: 0.4, marginBottom: 6 }}>EARNED LEVEL BY SUBJECT</div>
+        {subjEL.map(({ s, avg }) => (
+          <div key={s.label} style={{ marginBottom: 10 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", fontSize: 11.5, color: "#555", marginBottom: 3 }}>
+              <span>{s.icon} {s.label}</span>
+              <span style={{ color: avg == null ? "#ccc" : s.color, fontWeight: 600 }}>{avg == null ? "—" : fmtEL(avg)}</span>
+            </div>
+            <div style={{ height: 4, background: "#f0f0f0", borderRadius: 2 }}>
+              <div style={{ height: 4, width: `${((avg || 0) / 10) * 100}%`, background: s.color, borderRadius: 2 }} />
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div style={{ padding: "10px 14px", borderTop: "1px solid #e5e5ea", fontSize: 11, color: "#888" }}>
+        <div>{progress.totalCorrect}/{progress.totalAnswered} correct · 🔥 {progress.streak} streak</div>
+        <div onClick={onReset} style={{ cursor: "pointer", color: "#bbb", marginTop: 6 }}>↺ Reset progress</div>
+      </div>
+    </div>
+  );
+}
+
+function App() {
+  const { status, data, error } = useAppData();
+  const [progress, setProgress] = useState(loadProgress);
+  const [mode, setMode] = useState("adapt");
+
+  useEffect(() => { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)); } catch (e) { /* ignore */ } }, [progress]);
+
+  const commit = useCallback((q, correct) => {
+    setProgress(p => {
+      const now = Date.now();
+      const tk = `${q.subject}::${q.topic}`;
+      const streak = correct ? p.streak + 1 : 0;
+      return {
+        ...p,
+        el: updateEL(p.el, q.difficulty, correct),
+        elByTopic: { ...p.elByTopic, [tk]: updateEL(p.elByTopic[tk] ?? START_EL, q.difficulty, correct) },
+        srs: { ...p.srs, [q.id]: updateCard(p.srs[q.id], correct, now) },
+        totalAnswered: p.totalAnswered + 1,
+        totalCorrect: p.totalCorrect + (correct ? 1 : 0),
+        streak, bestStreak: Math.max(p.bestStreak, streak),
+        history: [...p.history.slice(-499), { id: q.id, correct, ts: now, diff: q.difficulty, tk }],
+      };
+    });
+  }, []);
+
+  const recordExam = useCallback((examId, correct, total) => {
+    const pct = total ? Math.round((100 * correct) / total) : 0;
+    setProgress(p => {
+      const prev = (p.examScores || {})[examId];
+      return { ...p, examScores: { ...(p.examScores || {}),
+        [examId]: { lastPct: pct, lastCorrect: correct, total, bestPct: Math.max(pct, prev ? prev.bestPct : 0), attempts: (prev ? prev.attempts : 0) + 1 } } };
+    });
+  }, []);
+
+  function reset() {
+    if (!window.confirm("Reset all Earned Level, review schedule, and history?")) return;
+    const fresh = { version: 1, el: START_EL, elByTopic: {}, srs: {}, totalAnswered: 0, totalCorrect: 0, streak: 0, bestStreak: 0, history: [], examScores: {} };
+    setProgress(fresh);
+  }
+
+  if (status === "loading") return <Center>Loading Exam P qbank…</Center>;
+  if (status === "error") return (
+    <div style={{ padding: 40, maxWidth: 600, margin: "60px auto", background: "#fff", borderRadius: 12, border: "1px solid #e5e5ea" }}>
+      <div style={{ fontSize: 20, fontWeight: 600, marginBottom: 12, color: "#993C1D" }}>Could not load data</div>
+      <div style={{ fontSize: 14, lineHeight: 1.7, color: "#444", marginBottom: 16 }}>Run via a local server, not by opening the file directly.</div>
+      <div style={{ fontSize: 13, background: "#f5f5f7", padding: 14, borderRadius: 8, fontFamily: "monospace", lineHeight: 1.8 }}>
+        python3 -m http.server<br/># then open http://localhost:8000
+      </div>
+      <div style={{ fontSize: 12, color: "#999", marginTop: 12 }}>Error: {error}</div>
+    </div>
+  );
+
+  const { curriculum, learn, questions, exams } = data;
+  const subjects = curriculum.subjects;
+  const dueCount = dueList(questions, progress.srs, Date.now(), null).length;
+
+  return (
+    <div style={{ display: "flex", height: "100vh", overflow: "hidden" }}>
+      <Sidebar curriculum={curriculum} progress={progress} mode={mode} setMode={setMode} dueCount={dueCount} onReset={reset} />
+      <div style={{ flex: 1, overflowY: "auto", padding: "28px 36px" }}>
+        {mode === "adapt" && <AdaptView questions={questions} progress={progress} commit={commit} subjects={subjects} />}
+        {mode === "review" && <ReviewView questions={questions} progress={progress} commit={commit} />}
+        {mode === "quiz" && <QuizView questions={questions} progress={progress} commit={commit} subjects={subjects} />}
+        {mode === "tests" && <TestsView exams={exams} progress={progress} onExamDone={recordExam} />}
+        {mode === "learn" && <LearnView subjects={subjects} learn={learn} onPractice={() => setMode("adapt")} />}
+      </div>
+    </div>
+  );
+}
+
+/* ============================ small helpers ============================ */
+function Center({ children }) { return <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100vh", color: "#888", fontSize: 15 }}>{children}</div>; }
+function pill(bg, color) { return { fontSize: 11, padding: "2px 8px", background: bg, color, borderRadius: 10 }; }
+function sel() { return { padding: "4px 8px", fontSize: 13, borderRadius: 6, border: "1px solid #ddd", background: "#fff" }; }
+function btn(borderC, bg, color, solid) {
+  return { padding: "8px 18px", fontSize: 13, cursor: "pointer", background: bg, color, border: `1px solid ${borderC}`, borderRadius: 8, fontWeight: 500 };
+}
+function relTime(ts) {
+  const ms = ts - Date.now();
+  if (ms <= 0) return "now";
+  const min = Math.round(ms / 60000);
+  if (min < 60) return `in ${min} min`;
+  const hr = Math.round(min / 60);
+  if (hr < 24) return `in ${hr} hr`;
+  const d = Math.round(hr / 24);
+  return `in ${d} day${d === 1 ? "" : "s"}`;
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(<App/>);

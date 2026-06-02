@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-6",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.6",
+  "question": "Let $X$ be a random variable with pmf $p(n) = \\frac{1}{2^n}$, $n = 0, 1, 2, \\ldots$. Find a formula for $F(n)$.",
+  "answer": "$F(n) = \\Pr(X \\le n) = \\sum_{k=0}^{n} \\Pr(X = k) = \\sum_{k=0}^{n} \\frac{1}{2^k} = \\frac{1 - \\left(\\frac{1}{2}\\right)^{n+1}}{1 - \\frac{1}{2}} = 2\\left(1 - \\left(\\frac{1}{2}\\right)^{n+1}\\right)$",
+  "explanation": "Answer: $F(n) = \\Pr(X \\le n) = \\sum_{k=0}^{n} \\Pr(X = k) = \\sum_{k=0}^{n} \\frac{1}{2^k} = \\frac{1 - \\left(\\frac{1}{2}\\right)^{n+1}}{1 - \\frac{1}{2}} = 2\\left(1 - \\left(\\frac{1}{2}\\right)^{n+1}\\right)$",
+  "source": "Finan §14 — Practice Problem 14.6"
+}

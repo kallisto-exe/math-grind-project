@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-1",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.1",
+  "question": "A consumer testing service rates a given DVD player as either very good or good. Let $A$ denote the event that the rating is very good and $B$ the event that the rating is good. You are given: $\\Pr(A) = 0.22$, $\\Pr(B) = 0.35$. Find (a) $\\Pr(A^c)$; (b) $\\Pr(A \\cup B)$; (c) $\\Pr(A \\cap B)$.",
+  "answer": "(a) 0.78 (b) 0.57 (c) 0",
+  "explanation": "Answer: (a) 0.78 (b) 0.57 (c) 0",
+  "source": "Finan §7 — Practice Problem 7.1"
+}

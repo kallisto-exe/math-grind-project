@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-26",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.26",
+  "question": "Let $X$, $Y$ and $Z$ be random variables with means 1, 2 and 3, respectively, and variances 4, 5, and 9, respectively. Also, $\\mathrm{Cov}(X,Y) = 2$, $\\mathrm{Cov}(X,Z) = 3$, and $\\mathrm{Cov}(Y,Z) = 1$. What are the mean and variance, respectively, of the random variable $W = 3X + 2Y - Z$?",
+  "answer": "$E(W) = 4$ and $\\mathrm{Var}(W) = 67$",
+  "explanation": "Answer: $E(W) = 4$ and $\\mathrm{Var}(W) = 67$",
+  "source": "Finan §47 — Practice Problem 47.26"
+}

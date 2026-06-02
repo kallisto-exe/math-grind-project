@@ -1,0 +1,13 @@
+{
+  "id": "ex-30-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 4,
+  "subtopic": "Worked Example 30.3",
+  "question": "(a) Determine the value of $c$ so that the following function is a pdf. $f(x) = \\begin{cases} \\frac{15}{64} + x & -2 \\le x \\le 0 \\\\ \\frac{3}{8} + cx & 0 < x \\le 3 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) Determine $\\Pr(-1 \\le X \\le 1)$. (c) Find $F(x)$.",
+  "answer": "",
+  "explanation": "(a) Observe that $f$ is discontinuous at the points $-2$ and $0$, and is potentially also discontinuous at the point $3$. We first find the value of $c$ that makes $f$ a pdf. $1 = \\int_{-2}^0 \\left(\\frac{15}{64} + x\\right) dx + \\int_0^3 \\left(\\frac{3}{8} + cx\\right) dx = \\left[\\frac{15}{64}x + \\frac{x^2}{2}\\right]_{-2}^0 + \\left[\\frac{3}{8}x + \\frac{cx^2}{2}\\right]_0^3 = \\frac{30}{64} - \\frac{2}{64} + \\frac{9}{8} + \\frac{9c}{2} = \\frac{100}{64} + \\frac{9c}{2}$. Solving for $c$ we find $c = -\\frac{1}{8}$. (b) The probability $\\Pr(-1 \\le X \\le 1)$ is calculated as follows. $\\Pr(-1 \\le X \\le 1) = \\int_{-1}^0 \\left(\\frac{15}{64} + x\\right) dx + \\int_0^1 \\left(\\frac{3}{8} - \\frac{x}{8}\\right) dx = \\frac{69}{128}$. (c) For $-2 \\le x \\le 0$ we have $F(x) = \\int_{-2}^x \\left(\\frac{15}{64} + t\\right) dt = \\frac{x^2}{2} + \\frac{15}{64}x + \\frac{7}{16}$ and for $0 < x \\le 3$, $F(x) = \\int_{-2}^0 \\left(\\frac{15}{64} + x\\right) dx + \\int_0^x \\left(\\frac{3}{8} - \\frac{t}{8}\\right) dt = \\frac{7}{16} + \\frac{3}{8}x - \\frac{1}{16}x^2$. Hence the full cdf is $F(x) = \\begin{cases} 0 & x < -2 \\\\ \\frac{x^2}{2} + \\frac{15}{64}x + \\frac{7}{16} & -2 \\le x \\le 0 \\\\ \\frac{7}{16} + \\frac{3}{8}x - \\frac{1}{16}x^2 & 0 < x \\le 3 \\\\ 1 & x > 3 \\end{cases}$ Observe that at all points of discontinuity of the pdf, the cdf is continuous. That is, even when the pdf is discontinuous, the cdf is continuous.",
+  "source": "Finan §30 — Worked Example 30.3"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-31-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 4,
+  "subtopic": "Worked Example 31.4",
+  "question": "An insurance policy reimburses a loss up to a benefit limit of 10. The policyholder's loss, $X$, follows a distribution with density function: $f(x) = \\begin{cases} \\frac{2}{x^3} & x > 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is the expected value of the benefit paid under the insurance policy?",
+  "answer": "",
+  "explanation": "Let $Y$ denote the claim payments. Then $Y = \\begin{cases} X & 1 < X \\le 10 \\\\ 10 & X \\ge 10 \\end{cases}$ It follows that $E(Y) = \\int_1^{10} x \\cdot \\frac{2}{x^3}\\,dx + \\int_{10}^\\infty 10 \\cdot \\frac{2}{x^3}\\,dx = -\\frac{2}{x}\\Big|_1^{10} - \\frac{10}{x^2}\\Big|_{10}^\\infty = 1.9$. As a first application of Theorem 31.2, we have Corollary 31.1 For any constants $a$ and $b$, $E(aX + b) = aE(X) + b$. Proof. Let $g(x) = ax + b$ in Theorem 31.2 to obtain $E(aX + b) = \\int_{-\\infty}^\\infty (ax + b) f(x)\\,dx = a\\int_{-\\infty}^\\infty x f(x)\\,dx + b\\int_{-\\infty}^\\infty f(x)\\,dx = aE(X) + b$",
+  "source": "Finan §31 — Worked Example 31.4"
+}

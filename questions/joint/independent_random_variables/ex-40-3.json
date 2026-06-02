@@ -1,0 +1,13 @@
+{
+  "id": "ex-40-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 5,
+  "subtopic": "Worked Example 40.3",
+  "question": "The joint pdf of $X$ and $Y$ is given by $f_{XY}(x,y) = \\begin{cases} 4e^{-2(x+y)} & 0 < x < \\infty,\\ 0 < y < \\infty \\\\ 0 & \\text{Otherwise.} \\end{cases}$ Are $X$ and $Y$ independent?",
+  "answer": "",
+  "explanation": "Marginal density $f_X(x)$ is given by $f_X(x) = \\int_0^{\\infty} 4e^{-2(x+y)}\\,dy = 2e^{-2x} \\int_0^{\\infty} 2e^{-2y}\\,dy = 2e^{-2x}$, $x > 0$. Similarly, the marginal density $f_Y(y)$ is given by $f_Y(y) = \\int_0^{\\infty} 4e^{-2(x+y)}\\,dx = 2e^{-2y} \\int_0^{\\infty} 2e^{-2x}\\,dx = 2e^{-2y}$, $y > 0$. Now since $f_{XY}(x,y) = 4e^{-2(x+y)} = [2e^{-2x}][2e^{-2y}] = f_X(x)f_Y(y)$, $X$ and $Y$ are independent",
+  "source": "Finan §40 — Worked Example 40.3"
+}

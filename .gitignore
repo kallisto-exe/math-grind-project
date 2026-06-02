@@ -1,0 +1,9 @@
+# Python build cache
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+
+# Local, per-machine Claude settings (keep launch.json shared)
+.claude/settings.local.json

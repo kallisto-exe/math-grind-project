@@ -1,0 +1,13 @@
+{
+  "id": "pr-33-11",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 33.11",
+  "question": "Let $X$ be a random variable with a continuous uniform distribution on the interval $(1, a)$, $a > 1$. If $E(X) = 6\\,\\mathrm{Var}(X)$, what is the value of $a$?",
+  "answer": "3",
+  "explanation": "Answer: 3",
+  "source": "Finan §33 — Practice Problem 33.11"
+}

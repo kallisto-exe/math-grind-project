@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.1",
+  "question": "Let $X$ and $Y$ be two independent discrete random variables with probability mass functions defined in the tables below. Find the probability mass function of $Z = X+Y$. $$\\begin{array}{c|cccc} x & 0 & 1 & 2 & 3 \\\\ \\hline p_X(x) & 0.10 & 0.20 & 0.30 & 0.40 \\end{array} \\qquad \\begin{array}{c|ccc} y & 0 & 1 & 2 \\\\ \\hline p_Y(y) & 0.25 & 0.40 & 0.35 \\end{array}$$",
+  "answer": "$\\Pr(Z=0) = \\Pr(X=0)\\Pr(Y=0) = (0.1)(0.25) = 0.025$. $\\Pr(Z=1) = \\Pr(X=1)\\Pr(Y=0) + \\Pr(Y=1)\\Pr(X=0) = (0.2)(0.25) + (0.4)(0.1) = 0.09$. $\\Pr(Z=2) = \\Pr(X=1)\\Pr(Y=1) + \\Pr(X=2)\\Pr(Y=0) + \\Pr(Y=2)\\Pr(X=0) = (0.2)(0.4) + (0.3)(0.25) + (0.35)(0.1) = 0.19$. $\\Pr(Z=3) = \\Pr(X=2)\\Pr(Y=1) + \\Pr(Y=2)\\Pr(X=1) + \\Pr(X=3)\\Pr(Y=0) = (0.3)(0.4) + (0.35)(0.2) + (0.4)(0.25) = 0.29$. $\\Pr(Z=4) = \\Pr(X=2)\\Pr(Y=2) + \\Pr(X=3)\\Pr(Y=1) = (0.3)(0.35) + (0.4)(0.4) = 0.265$. $\\Pr(Z=5) = \\Pr(X=3)\\Pr(X=2) = (0.4)(0.35) = 0.14$ and 0 otherwise.",
+  "explanation": "Answer: $\\Pr(Z=0) = \\Pr(X=0)\\Pr(Y=0) = (0.1)(0.25) = 0.025$. $\\Pr(Z=1) = \\Pr(X=1)\\Pr(Y=0) + \\Pr(Y=1)\\Pr(X=0) = (0.2)(0.25) + (0.4)(0.1) = 0.09$. $\\Pr(Z=2) = \\Pr(X=1)\\Pr(Y=1) + \\Pr(X=2)\\Pr(Y=0) + \\Pr(Y=2)\\Pr(X=0) = (0.2)(0.4) + (0.3)(0.25) + (0.35)(0.1) = 0.19$. $\\Pr(Z=3) = \\Pr(X=2)\\Pr(Y=1) + \\Pr(Y=2)\\Pr(X=1) + \\Pr(X=3)\\Pr(Y=0) = (0.3)(0.4) + (0.35)(0.2) + (0.4)(0.25) = 0.29$. $\\Pr(Z=4) = \\Pr(X=2)\\Pr(Y=2) + \\Pr(X=3)\\Pr(Y=1) = (0.3)(0.35) + (0.4)(0.4) = 0.265$. $\\Pr(Z=5) = \\Pr(X=3)\\Pr(X=2) = (0.4)(0.35) = 0.14$ and 0 otherwise.",
+  "source": "Finan §41 — Practice Problem 41.1"
+}

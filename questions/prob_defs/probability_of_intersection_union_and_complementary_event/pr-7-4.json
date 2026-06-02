@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-4",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.4",
+  "question": "An urn contains 4 red balls, 8 yellow balls, and 6 green balls. A ball is selected at random. What is the probability that the ball chosen is either red or green?",
+  "answer": "0.555",
+  "explanation": "Answer: 0.555",
+  "source": "Finan §7 — Practice Problem 7.4"
+}

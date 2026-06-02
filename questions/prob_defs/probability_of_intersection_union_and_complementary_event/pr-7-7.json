@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-7",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.7",
+  "question": "In the experiment of rolling of fair pair of dice, let $E$ denote the event of rolling a sum that is an even number and $P$ the event of rolling a sum that is a prime number. Find the probability of rolling a sum that is even or prime?",
+  "answer": "0.889",
+  "explanation": "Answer: 0.889",
+  "source": "Finan §7 — Practice Problem 7.7"
+}

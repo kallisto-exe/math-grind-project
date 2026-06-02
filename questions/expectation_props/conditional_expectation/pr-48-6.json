@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-6",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.6",
+  "question": "Suppose that $X$ and $Y$ have joint distribution $$f_{XY}(x,y) = \\begin{cases} \\frac{21}{4}x^2y & x^2<y<1 \\\\ 0 & \\text{otherwise.} \\end{cases}$$ Find $E(Y|X)$.",
+  "answer": "$\\frac{2}{3}\\left( \\frac{1-X^6}{1-X^4} \\right)$",
+  "explanation": "Answer: $\\frac{2}{3}\\left( \\frac{1-X^6}{1-X^4} \\right)$",
+  "source": "Finan §48 — Practice Problem 48.6"
+}

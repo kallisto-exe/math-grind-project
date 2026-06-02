@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-8",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.8",
+  "question": "Let $M_X(t) = E(e^{tX})$ be the moment generating function of a random variable $X$. Show that $\\Pr(X \\ge \\epsilon) \\le e^{-\\epsilon t} M_X(t)$, $t > 0$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.8"
+}

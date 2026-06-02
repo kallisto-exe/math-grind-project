@@ -1,0 +1,13 @@
+{
+  "id": "ex-10-7",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 3,
+  "subtopic": "Worked Example 10.7",
+  "question": "A group of traffic violators consists of 45 men and 15 women. The men have probability $1/2$ for being ticketed for crossing a red light while the women have probability $1/3$ for the same offense. (a) Suppose you choose at random a person from the group. What is the probability that the person will be ticketed for crossing a red light? (b) Determine the conditional probability that you chose a woman given that the person you chose was being ticketed for crossing the red light.",
+  "answer": "",
+  "explanation": "Let $W = \\{$the one selected is a woman$\\}$, $M = \\{$the one selected is a man$\\}$, $T = \\{$the one selected is ticketed for crossing a red light$\\}$. (a) We are given the following information: $\\Pr(W) = \\frac{15}{60} = \\frac{1}{4}$, $\\Pr(M) = \\frac{3}{4}$, $\\Pr(T|W) = \\frac{1}{3}$, and $\\Pr(T|M) = \\frac{1}{2}$. We have $\\Pr(T) = \\Pr(T|W)\\Pr(W) + \\Pr(T|M)\\Pr(M) = \\frac{11}{24}$. (b) Using Bayes' theorem we find $\\Pr(W|T) = \\frac{\\Pr(T|W)\\Pr(W)}{\\Pr(T)} = \\frac{(1/3)(1/4)}{(11/24)} = \\frac{2}{11}$",
+  "source": "Finan §10 — Worked Example 10.7"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-22-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 4,
+  "subtopic": "Worked Example 22.2",
+  "question": "Used watch batteries are tested one at a time until a good battery is found. Let $X$ denote the number of batteries that need to be tested in order to find a good one. Find the expected value of $X$, given that $\\Pr(X > 3) = 0.5$.",
+  "answer": "",
+  "explanation": "$X$ has geometric distribution, so $\\Pr(X > 3) = \\Pr(X\\ge 4) = (1-p)^3$. Setting this equal to $1/2$ and solving for $p$ gives $p = 1-2^{-\\frac{1}{3}}$. Therefore, $E(X) = \\frac{1}{p} = \\frac{1}{1-2^{-\\frac{1}{3}}} = 4.847$",
+  "source": "Finan §22 — Worked Example 22.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-42-5",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 5,
+  "subtopic": "Worked Example 42.5",
+  "question": "Let $X$ and $Y$ be two independent gamma random variables with respective parameters $(s, \\lambda)$ and $(t, \\lambda)$. Show that $X + Y$ is a gamma random variable with parameters $(s + t, \\lambda)$.",
+  "answer": "",
+  "explanation": "We have $f_X(a) = \\frac{\\lambda e^{-\\lambda a}(\\lambda a)^{s-1}}{\\Gamma(s)}$ and $f_Y(a) = \\frac{\\lambda e^{-\\lambda a}(\\lambda a)^{t-1}}{\\Gamma(t)}$. By Theorem 42.1 we have $f_{X+Y}(a) = \\frac{1}{\\Gamma(s)\\Gamma(t)} \\int_0^a \\lambda e^{-\\lambda(a-y)}[\\lambda(a-y)]^{s-1} \\lambda e^{-\\lambda y}(\\lambda y)^{t-1}\\,dy = \\frac{\\lambda^{s+t} e^{-\\lambda a}}{\\Gamma(s)\\Gamma(t)} \\int_0^a (a-y)^{s-1} y^{t-1}\\,dy = \\frac{\\lambda^{s+t} e^{-\\lambda a} a^{s+t-1}}{\\Gamma(s)\\Gamma(t)} \\int_0^1 (1-x)^{s-1} x^{t-1}\\,dx, x = \\frac{y}{a}$. Using the fact that $\\int_0^1 (1-x)^{s-1} x^{t-1}\\,dx = \\frac{\\Gamma(s)\\Gamma(t)}{\\Gamma(s+t)}$ we can write $f_{X+Y}(a) = \\frac{\\lambda e^{-\\lambda a}(\\lambda a)^{s+t-1}}{\\Gamma(s+t)}$",
+  "source": "Finan §42 — Worked Example 42.5"
+}

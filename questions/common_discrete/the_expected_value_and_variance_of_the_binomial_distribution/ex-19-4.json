@@ -1,0 +1,13 @@
+{
+  "id": "ex-19-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§19 The Expected Value and Variance of the Binomial Distribution",
+  "section": 19,
+  "difficulty": 4,
+  "subtopic": "Worked Example 19.4",
+  "question": "Construct the binomial distribution for the total number of heads in four flips of a balanced coin. Make a histogram.",
+  "answer": "",
+  "explanation": "The binomial distribution is given by the following table $r$ 0 1 2 3 4 $p(r)$ 1 The corresponding histogram is shown in Figure 19.1 Figure 19.1",
+  "source": "Finan §19 — Worked Example 19.4"
+}

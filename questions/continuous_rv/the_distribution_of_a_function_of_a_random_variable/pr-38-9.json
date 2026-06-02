@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-9",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.9",
+  "question": "The time, $T$, that a manufacturing system is out of operation has cumulative distribution function $F(t) = \\begin{cases} 1 - \\left(\\frac{2}{t}\\right)^2 & t > 2 \\\\ 0 & \\text{otherwise} \\end{cases}$. The resulting cost to the company is $Y = T^2$. Determine the density function of $Y$, for $y > 4$.",
+  "answer": "For $y > 4$, $f_Y(y) = 4y^{-2}$ and 0 otherwise",
+  "explanation": "Answer: For $y > 4$, $f_Y(y) = 4y^{-2}$ and 0 otherwise.",
+  "source": "Finan §38 — Practice Problem 38.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-17-6",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 17.6",
+  "question": "Suppose $X$ is a random variable with $E(X) = 4$ and $\\mathrm{Var}(X) = 9$. Let $Y = 4X + 5$. Compute $E(Y)$ and $\\mathrm{Var}(Y)$.",
+  "answer": "$E(Y) = 21$ and $\\mathrm{Var}(Y) = 144$",
+  "explanation": "Answer: $E(Y) = 21$ and $\\mathrm{Var}(Y) = 144$",
+  "source": "Finan §17 — Practice Problem 17.6"
+}

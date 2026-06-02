@@ -1,0 +1,13 @@
+{
+  "id": "pr-26-3",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§26 The Survival Distribution Function",
+  "section": 26,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 26.3",
+  "question": "If $X$ is a continuous random variable then the survival distribution function is defined by $S(x) = \\int_x^\\infty f(t)\\,dt$ where $f(t)$ is called the probability density function of $X$. Show that $F'(x) = f(x)$.",
+  "answer": "Using the fundamental theorem of calculus, we have $S'(x) = \\left(\\int_x^\\infty f(t)\\,dt\\right)' = \\left(-\\int_\\infty^x f(t)\\,dt\\right)' = -f(x)$",
+  "explanation": "Answer: Using the fundamental theorem of calculus, we have $S'(x) = \\left(\\int_x^\\infty f(t)\\,dt\\right)' = \\left(-\\int_\\infty^x f(t)\\,dt\\right)' = -f(x)$",
+  "source": "Finan §26 — Practice Problem 26.3"
+}

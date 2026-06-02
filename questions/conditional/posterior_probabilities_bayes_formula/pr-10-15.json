@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-15",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.15",
+  "question": "A group of people consists of 70 men and 70 women. Seven men and ten women are found to be color-blind. (a) What is the probability that a randomly selected person is color-blind? (b) If the randomly selected person is color-blind, what is the probability that the person is a man?",
+  "answer": "(a) $\\frac{17}{140}$ (b) 7",
+  "explanation": "Answer: (a) $\\frac{17}{140}$ (b) 7",
+  "source": "Finan §10 — Practice Problem 10.15"
+}

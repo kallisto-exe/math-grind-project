@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-6",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.6",
+  "question": "Prove by using mathematical induction that $1 + 2 + 3 + \\ldots + n = \\frac{n(n + 1)}{2}$, $n \\in \\mathbb{N}$.",
+  "answer": "The result is true for $n = 1$ since $1 = \\frac{1(1+1)}{2}$. Assume that the equality is true for $1, 2, \\ldots, n$. Then $1 + 2 + \\ldots + n + 1 = (1 + 2 + \\ldots + n) + n + 1 = \\frac{n(n + 1)}{2} + n + 1 = (n + 1)\\left[\\frac{n}{2} + 1\\right] = \\frac{(n + 1)(n + 2)}{2}$",
+  "explanation": "Answer: The result is true for $n = 1$ since $1 = \\frac{1(1+1)}{2}$. Assume that the equality is true for $1, 2, \\ldots, n$. Then $1 + 2 + \\ldots + n + 1 = (1 + 2 + \\ldots + n) + n + 1 = \\frac{n(n + 1)}{2} + n + 1 = (n + 1)\\left[\\frac{n}{2} + 1\\right] = \\frac{(n + 1)(n + 2)}{2}$",
+  "source": "Finan §1 — Practice Problem 1.6"
+}

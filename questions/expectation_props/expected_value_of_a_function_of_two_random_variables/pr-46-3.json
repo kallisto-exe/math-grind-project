@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-3",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.3",
+  "question": "Let $X$ and $Y$ be two independent uniformly distributed random variables in $[0,1]$. Find $E(|X - Y|)$.",
+  "answer": "$E(|X - Y|) = \\frac{1}{3}$",
+  "explanation": "Answer: $E(|X - Y|) = \\frac{1}{3}$",
+  "source": "Finan §46 — Practice Problem 46.3"
+}

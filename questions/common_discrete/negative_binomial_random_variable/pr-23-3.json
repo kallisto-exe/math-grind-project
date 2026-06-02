@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.3",
+  "question": "Consider a 52-card deck. Repeatedly draw a card with replacement and record its face value. Let $X$ be the number of trials needed to get three kings. (a) What is the distribution of $X$? (b) What is the probability that $X = 39$?",
+  "answer": "(a) $X$ is negative binomial distribution with $r = 3$ and $p = \\frac{4}{52} = \\frac{1}{13}$. So $p(n) = \\binom{n-1}{2}\\left(\\frac{1}{13}\\right)^3\\left(\\frac{12}{13}\\right)^{n-3}$ (b) $0.01793$",
+  "explanation": "Answer: (a) $X$ is negative binomial distribution with $r = 3$ and $p = \\frac{4}{52} = \\frac{1}{13}$. So $p(n) = \\binom{n-1}{2}\\left(\\frac{1}{13}\\right)^3\\left(\\frac{12}{13}\\right)^{n-3}$ (b) $0.01793$",
+  "source": "Finan §23 — Practice Problem 23.3"
+}

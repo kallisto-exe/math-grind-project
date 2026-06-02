@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-27",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.27",
+  "question": "Suppose $X$ and $Y$ are random variables whose joint distribution has moment generating function $M_{XY}(t_1, t_2) = \\left(\\frac{1}{4}e^{t_1} + \\frac{3}{8}e^{t_2} + \\frac{3}{8}\\right)^{10}$ for all $t_1, t_2$. Find the covariance between $X$ and $Y$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.27"
+}

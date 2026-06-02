@@ -1,0 +1,13 @@
+{
+  "id": "ex-51-4",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 5,
+  "subtopic": "Worked Example 51.4",
+  "question": "Assume that the weights of individuals are independent and normally distributed with a mean of 160 pounds and a standard deviation of 30 pounds. Suppose that 25 people squeeze into an elevator that is designed to hold 4300 pounds. (a) What is the probability that the load (total weight) exceeds the design limit? (b) What design limit is exceeded by 25 occupants with probability 0.001?",
+  "answer": "",
+  "explanation": "(a) Let $X$ be an individual's weight. Then, $X$ has a normal distribution with $\\mu = 160$ pounds and $\\sigma = 30$ pounds. Let $Y = X_1 + X_2 + \\dots + X_{25}$, where $X_i$ denotes the $i$th person's weight. Then, $Y$ has a normal distribution with $E(Y) = 25E(X) = 25 \\cdot (160) = 4000$ pounds and $\\operatorname{Var}(Y) = 25\\operatorname{Var}(X) = 25 \\cdot (900) = 22500$. Now, the desired probability is $$\\Pr(Y > 4300) = P\\left(\\frac{Y-4000}{\\sqrt{22500}} > \\frac{4300-4000}{\\sqrt{22500}}\\right) = \\Pr(Z > 2) = 1 - \\Pr(Z \\le 2) = 1 - 0.9772 = 0.0228$$ (b) We want to find $x$ such that $\\Pr(Y > x) = 0.001$. Note that $$\\Pr(Y > x) = P\\left(\\frac{Y-4000}{\\sqrt{22500}} > \\frac{x-4000}{\\sqrt{22500}}\\right) = P\\left(Z > \\frac{x-4000}{\\sqrt{22500}}\\right) = 0.01$$ It is equivalent to $P\\left(Z \\le \\frac{x-4000}{\\sqrt{22500}}\\right) = 0.999$. From the normal Table we find $\\Pr(Z \\le 3.09) = 0.999$. So $(x-4000)/150 = 3.09$. Solving for $x$ we find $x \\approx 4463.5$ pounds",
+  "source": "Finan §51 — Worked Example 51.4"
+}

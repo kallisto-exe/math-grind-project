@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-1",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.1",
+  "question": "If each of the 10 digits 0-9 is chosen at random, how many ways can you choose the following numbers? (a) A two-digit code number, repeated digits permitted. (b) A three-digit identification card number, for which the first digit cannot be a 0. Repeated digits permitted. (c) A four-digit bicycle lock number, where no digit can be used twice. (d) A five-digit zip code number, with the first digit not zero. Repeated digits permitted.",
+  "answer": "(a) 100 (b) 900 (c) 5,040 (d) 90,000",
+  "explanation": "Answer: (a) 100 (b) 900 (c) 5,040 (d) 90,000",
+  "source": "Finan §3 — Practice Problem 3.1"
+}

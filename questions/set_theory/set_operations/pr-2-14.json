@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-14",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.14",
+  "question": "A doctor is studying the relationship between blood pressure and heartbeat abnormalities in her patients. She tests a random sample of her patients and notes their blood pressures (high, low, or normal) and their heartbeats (regular or irregular). She finds that: (i) 14% have high blood pressure. (ii) 22% have low blood pressure. (iii) 15% have an irregular heartbeat. (iv) Of those with an irregular heartbeat, one-third have high blood pressure. (v) Of those with normal blood pressure, one-eighth have an irregular heartbeat. What portion of the patients selected have a regular heartbeat and low blood pressure?",
+  "answer": "20%",
+  "explanation": "Answer: 20%",
+  "source": "Finan §2 — Practice Problem 2.14"
+}

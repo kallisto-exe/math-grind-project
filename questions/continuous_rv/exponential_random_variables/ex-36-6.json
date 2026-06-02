@@ -1,0 +1,13 @@
+{
+  "id": "ex-36-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 4,
+  "subtopic": "Worked Example 36.6",
+  "question": "Very often, credit card customers are placed on hold when they call for inquiries. Suppose the amount of time until a service agent assists a customer has an exponential distribution with mean 5 minutes. Given that a customer has already been on hold for 2 minutes, what is the probability that he/she will remain on hold for a total of more than 5 minutes?",
+  "answer": "",
+  "explanation": "Let X represent the total time on hold. Then X is an exponential random variable with $\\lambda = \\frac{1}{5}$. Thus, $\\Pr(X > 3+2 \\mid X > 2) = \\Pr(X > 3) = 1-F(3) = e^{-3/5}$",
+  "source": "Finan §36 — Worked Example 36.6"
+}

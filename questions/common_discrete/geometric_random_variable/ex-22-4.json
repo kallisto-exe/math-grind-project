@@ -1,0 +1,13 @@
+{
+  "id": "ex-22-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 4,
+  "subtopic": "Worked Example 22.4",
+  "question": "Assume that every time you attend your high school reunion there is a probability of 0.1 that your high school prom companion will not show up. Assume her arrival to any given reunion is independent of her arrival (or non-arrival) to any other reunion. What is the expected number of high school reunions you must attend until the time your prom companion misses the reunion?",
+  "answer": "",
+  "explanation": "Let $X$ be the number of reunions you must attend until you arrive to find your prom companion is absent, then $X$ has a Geometric distribution with parameter $p = 0.1$. Thus $\\Pr(X = n) = 0.1(1-p)^{n-1}$, $n = 1, 2, \\ldots$ and $E(X) = \\frac{1}{p} = 10$",
+  "source": "Finan §22 — Worked Example 22.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-13",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.13",
+  "question": "The stock prices of two companies at the end of any given year are modeled with random variables $X$ and $Y$ that follow a distribution with joint density function $$f_{XY}(x,y) = \\begin{cases} 2x & 0<x<1,\\ x<y<x+1 \\\\ 0 & \\text{otherwise.} \\end{cases}$$ What is the conditional variance of $Y$ given that $X = x$?",
+  "answer": "1",
+  "explanation": "Answer: 1",
+  "source": "Finan §48 — Practice Problem 48.13"
+}

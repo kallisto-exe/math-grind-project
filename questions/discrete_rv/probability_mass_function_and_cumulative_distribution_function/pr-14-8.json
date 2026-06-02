@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-8",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.8",
+  "question": "Let $X$ be a discrete random variable with cdf given by $F(x) = \\begin{cases} 0 & x < -4 \\\\ \\frac{3}{10} & -4 \\le x < 1 \\\\ \\frac{7}{10} & 1 \\le x < 4 \\\\ 1 & x \\ge 4 \\end{cases}$. Find a formula of $p(x)$.",
+  "answer": "$p(x) = \\begin{cases} \\frac{3}{10} & x = -4 \\\\ \\frac{4}{10} & x = 1 \\\\ \\frac{3}{10} & x = 4 \\end{cases}$",
+  "explanation": "Answer: $p(x) = \\begin{cases} \\frac{3}{10} & x = -4 \\\\ \\frac{4}{10} & x = 1 \\\\ \\frac{3}{10} & x = 4 \\end{cases}$",
+  "source": "Finan §14 — Practice Problem 14.8"
+}

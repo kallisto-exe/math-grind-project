@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-4",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.4",
+  "question": "You are given $\\Pr(A) = \\frac{2}{5}$, $\\Pr(A \\cup B) = \\frac{3}{5}$, $\\Pr(B \\mid A) = \\frac{1}{4}$, $\\Pr(C \\mid B) = \\frac{1}{3}$, and $\\Pr(C \\mid A \\cap B) = \\frac{1}{2}$. Find $\\Pr(A \\mid B \\cap C)$.",
+  "answer": "0.5",
+  "explanation": "Answer: 0.5",
+  "source": "Finan §9 — Practice Problem 9.4"
+}

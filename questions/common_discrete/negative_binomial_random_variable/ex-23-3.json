@@ -1,0 +1,13 @@
+{
+  "id": "ex-23-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 4,
+  "subtopic": "Worked Example 23.3",
+  "question": "A four-sided die is rolled repeatedly. A success is when the die shows a 1. What is the probability that the tenth success occurs in the fortieth attempt?",
+  "answer": "",
+  "explanation": "Let $X$ number of attempts at which the tenth success occurs. Then $X$ is a negative binomial random variable with parameters $r = 10$ and $p = 0.25$. Thus, $\\Pr(X = 40) = \\binom{40-1}{10-1}(0.25)^{10}(0.75)^{30} \\approx 0.0360911$ Expected value and Variance The expected value of $Y$ is $E(Y) = \\sum_{y=0}^{\\infty} y\\binom{r+y-1}{y}p^r(1-p)^y = \\sum_{y=1}^{\\infty} \\frac{(r+y-1)!}{(y-1)!(r-1)!}p^r(1-p)^y = \\sum_{y=1}^{\\infty} \\frac{r(1-p)}{p}\\binom{r+y-1}{y-1}p^{r+1}(1-p)^{y-1} = \\frac{r(1-p)}{p}\\sum_{z=0}^{\\infty}\\binom{r+1+z-1}{z}p^{r+1}(1-p)^z = \\frac{r(1-p)}{p}$ It follows that $E(X) = E(Y+r) = E(Y) + r = \\frac{r}{p}$. Similarly, $E(Y^2) = \\sum_{y=0}^{\\infty} y^2\\binom{r+y-1}{y}p^r(1-p)^y = \\frac{r(1-p)}{p}\\sum_{y=1}^{\\infty} y\\frac{(r+y-1)!}{(y-1)!r!}p^{r+1}(1-p)^{y-1} = \\frac{r(1-p)}{p}\\sum_{z=0}^{\\infty}(z+1)\\binom{r+1+z-1}{z}p^{r+1}(1-p)^z = \\frac{r(1-p)}{p}(E(Z)+1)$ where $Z$ is the negative binomial random variable with parameters $r+1$ and $p$. Using the formula for the expected value of a negative binomial random variable gives that $E(Z) = \\frac{(r+1)(1-p)}{p}$ Thus, $E(Y^2) = \\frac{r^2(1-p)^2}{p^2} + \\frac{r(1-p)}{p^2}$. The variance of $Y$ is $\\mathrm{Var}(Y) = E(Y^2) - [E(Y)]^2 = \\frac{r(1-p)}{p^2}$. Since $X = Y + r$, $\\mathrm{Var}(X) = \\mathrm{Var}(Y) = \\frac{r(1-p)}{p^2}$.",
+  "source": "Finan §23 — Worked Example 23.3"
+}

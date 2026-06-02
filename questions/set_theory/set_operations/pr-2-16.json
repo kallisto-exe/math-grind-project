@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-16",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.16",
+  "question": "Translate the following verbal description of events into set theoretic nota- tion. For example, \"A or B occurs, but not both\" corresponds to the set $A\\cup B - A\\cap B$. (a) A occurs whenever B occurs. (b) If A occurs, then B does not occur. (c) Exactly one of the events A and B occurs. (d) Neither A nor B occur.",
+  "answer": "(a) $B\\subseteq A$ (b) $A\\cap B = \\emptyset$ or $A\\subseteq B^c$. (c) $A\\cup B - A\\cap B$ (d) $(A\\cup B)^c$",
+  "explanation": "Answer: (a) $B\\subseteq A$ (b) $A\\cap B = \\emptyset$ or $A\\subseteq B^c$. (c) $A\\cup B - A\\cap B$ (d) $(A\\cup B)^c$",
+  "source": "Finan §2 — Practice Problem 2.16"
+}

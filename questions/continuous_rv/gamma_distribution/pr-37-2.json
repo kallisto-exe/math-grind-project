@@ -1,0 +1,13 @@
+{
+  "id": "pr-37-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 37.2",
+  "question": "If X has a probability density function given by $f(x) = \\begin{cases} 4x^2 e^{-2x} & x > 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the mean and the variance.",
+  "answer": "E(X) = 1.5 and Var(X) = 0.75",
+  "explanation": "Answer: $E(X) = 1.5$ and $\\mathrm{Var}(X) = 0.75$",
+  "source": "Finan §37 — Practice Problem 37.2"
+}

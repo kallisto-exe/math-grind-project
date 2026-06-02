@@ -1,0 +1,13 @@
+{
+  "id": "pr-13-7",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 13.7",
+  "question": "The number of injury claims per month is modeled by a random variable $N$ with $\\Pr(N = n) = \\frac{1}{(n + 1)(n + 2)}$, $n \\ge 0$. Determine the probability of at least one claim during a particular month, given that there have been at most four claims during that month.",
+  "answer": "0.4",
+  "explanation": "Answer: 0.4",
+  "source": "Finan §13 — Practice Problem 13.7"
+}

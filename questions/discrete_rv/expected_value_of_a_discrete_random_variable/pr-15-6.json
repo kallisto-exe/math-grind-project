@@ -1,0 +1,13 @@
+{
+  "id": "pr-15-6",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 15.6",
+  "question": "A game consists of spinning a spinner with payoff as shown in Figure 15.1. The cost of playing is $2 per spin. What is the expected return to the owner of this game? Figure 15.1",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §15 — Practice Problem 15.6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-5",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.5",
+  "question": "What is the cardinality of each of the following sets? (a) $\\emptyset$. A function $f : A \\mapsto B$ is a one-to-one function if $f(m) = f(n)$ implies $m = n$, where $m, n \\in A$. A function $f : A \\mapsto B$ is an onto function if for every $b \\in B$, there is an $a \\in A$ such that $b = f(a)$. (b) $\\{\\emptyset\\}$. (c) $A = \\{a, \\{a\\}, \\{a, \\{a\\}\\}\\}$.",
+  "answer": "",
+  "explanation": "(a) $n(\\emptyset) = 0$. (b) This is a set consisting of one element $\\emptyset$. Thus, $n(\\{\\emptyset\\}) = 1$. (c) $n(A) = 3$",
+  "source": "Finan §1 — Worked Example 1.5"
+}

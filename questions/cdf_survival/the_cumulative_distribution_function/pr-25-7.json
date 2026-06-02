@@ -1,0 +1,13 @@
+{
+  "id": "pr-25-7",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 25.7",
+  "question": "The cdf of $X$ is given by $F(x) = \\begin{cases} 0 & x < -4 \\\\ 0.3 & -4\\le x < 1 \\\\ 0.7 & 1\\le x < 4 \\\\ 1 & x\\ge 4 \\end{cases}$ (a) Find the probability mass function. (b) Find the variance and the standard deviation of $X$.",
+  "answer": "(a) Pr(x) =",
+  "explanation": "Answer: (a) Pr(x) =",
+  "source": "Finan §25 — Practice Problem 25.7"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-12",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.12",
+  "question": "In each of the following you are to determine whether the problem is a binomial type problem or a geometric type. In each case, find the probability mass function $p(x)$. Assume outcomes of individual trials are independent with constant probability of success. (a) A arch shooter will aim at the target until one successfully hits it. The underlying probability of success is 0.40. (b) A clinical trial enrolls 20 patients with a rare disease. Each patient is given an experimental therapy, and the number of patients showing marked improvement is observed. The true underlying probability of success is 0.60.",
+  "answer": "(a) $X$ is a geometric distribution with pmf $p(x) = 0.4(0.6)^{x-1}$, $x = 1, 2, \\ldots$ (b) $X$ is a binomial random variable with pmf $p(x) = \\binom{20}{x}(0.60)^x(0.40)^{20-x}$ where $x = 0, 1, \\ldots, 20$",
+  "explanation": "Answer: (a) $X$ is a geometric distribution with pmf $p(x) = 0.4(0.6)^{x-1}$, $x = 1, 2, \\ldots$ (b) $X$ is a binomial random variable with pmf $p(x) = \\binom{20}{x}(0.60)^x(0.40)^{20-x}$ where $x = 0, 1, \\ldots, 20$",
+  "source": "Finan §22 — Practice Problem 22.12"
+}

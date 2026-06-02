@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-18",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.18",
+  "question": "Let $X$ and $Y$ be continuous random variables with joint cumulative distribution $F_{XY}(x, y) = \\frac{1}{250}(20xy - x^2 y - xy^2)$ for $0 \\le x \\le 5$ and $0 \\le y \\le 5$. Compute $\\Pr(X > 2)$.",
+  "answer": "12",
+  "explanation": "Answer: 12",
+  "source": "Finan §39 — Practice Problem 39.18"
+}

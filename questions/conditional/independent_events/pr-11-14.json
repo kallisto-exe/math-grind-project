@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-14",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.14",
+  "question": "Workplace accidents are categorized into three groups: minor, moderate and severe. The probability that a given accident is minor is 0.5, that it is moderate is 0.4, and that it is severe is 0.1. Two accidents occur independently in one month. Calculate the probability that neither accident is severe and at most one is moderate.",
+  "answer": "0.65",
+  "explanation": "Answer: 0.65",
+  "source": "Finan §11 — Practice Problem 11.14"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-12",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.12",
+  "question": "If events $A, B,$ and $C$ are independent, show that (a) $A$ and $B \\cap C$ are independent (b) $A$ and $B \\cup C$ are independent",
+  "answer": "(a) We have $\\Pr(A \\mid B \\cap C) = \\frac{\\Pr(A \\cap B \\cap C)}{\\Pr(B \\cap C)} = \\frac{\\Pr(A)\\Pr(B)\\Pr(C)}{\\Pr(B)\\Pr(C)} = \\Pr(A)$. Thus, $A$ and $B \\cap C$ are independent. (b) We have $\\Pr(A \\mid B \\cup C) = \\frac{\\Pr(A \\cap (B \\cup C))}{\\Pr(B \\cup C)} = \\frac{\\Pr((A \\cap B) \\cup (A \\cap C))}{\\Pr(B \\cup C)} = \\frac{\\Pr(A \\cap B) + \\Pr(A \\cap C) - \\Pr(A \\cap B \\cap C)}{\\Pr(B) + \\Pr(C) - \\Pr(B \\cap C)} = \\frac{\\Pr(A)\\Pr(B) + \\Pr(A)\\Pr(C) - \\Pr(A)\\Pr(B)\\Pr(C)}{\\Pr(A) + \\Pr(B) - \\Pr(A)\\Pr(B)} = \\frac{\\Pr(A)\\Pr(B)[1 - \\Pr(C)] + \\Pr(A)\\Pr(C)}{\\Pr(B) + \\Pr(C) - \\Pr(B)\\Pr(C)} = \\frac{\\Pr(A)\\Pr(B)\\Pr(C^c) + \\Pr(A)\\Pr(C)}{\\Pr(B)\\Pr(C^c) + \\Pr(C)} = \\frac{\\Pr(A)[\\Pr(B)\\Pr(C^c) + \\Pr(C)]}{\\Pr(B)\\Pr(C^c) + \\Pr(C)} = \\Pr(A)$. Hence, $A$ and $B \\cup C$ are independent",
+  "explanation": "Answer: (a) We have $\\Pr(A \\mid B \\cap C) = \\frac{\\Pr(A \\cap B \\cap C)}{\\Pr(B \\cap C)} = \\frac{\\Pr(A)\\Pr(B)\\Pr(C)}{\\Pr(B)\\Pr(C)} = \\Pr(A)$. Thus, $A$ and $B \\cap C$ are independent. (b) We have $\\Pr(A \\mid B \\cup C) = \\frac{\\Pr(A \\cap (B \\cup C))}{\\Pr(B \\cup C)} = \\frac{\\Pr((A \\cap B) \\cup (A \\cap C))}{\\Pr(B \\cup C)} = \\frac{\\Pr(A \\cap B) + \\Pr(A \\cap C) - \\Pr(A \\cap B \\cap C)}{\\Pr(B) + \\Pr(C) - \\Pr(B \\cap C)} = \\frac{\\Pr(A)\\Pr(B) + \\Pr(A)\\Pr(C) - \\Pr(A)\\Pr(B)\\Pr(C)}{\\Pr(A) + \\Pr(B) - \\Pr(A)\\Pr(B)} = \\frac{\\Pr(A)\\Pr(B)[1 - \\Pr(C)] + \\Pr(A)\\Pr(C)}{\\Pr(B) + \\Pr(C) - \\Pr(B)\\Pr(C)} = \\frac{\\Pr(A)\\Pr(B)\\Pr(C^c) + \\Pr(A)\\Pr(C)}{\\Pr(B)\\Pr(C^c) + \\Pr(C)} = \\frac{\\Pr(A)[\\Pr(B)\\Pr(C^c) + \\Pr(C)]}{\\Pr(B)\\Pr(C^c) + \\Pr(C)} = \\Pr(A)$. Hence, $A$ and $B \\cup C$ are independent",
+  "source": "Finan §11 — Practice Problem 11.12"
+}

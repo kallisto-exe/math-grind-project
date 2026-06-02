@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-2",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.2",
+  "question": "In the previous problem, describe the cumulative distribution function by a formula and by a graph.",
+  "answer": "$F(x) = \\begin{cases} 0, & x < 0 \\\\ \\frac{1}{8}, & 0 \\le x < 1 \\\\ \\frac{1}{2}, & 1 \\le x < 2 \\\\ \\frac{7}{8}, & 2 \\le x < 3 \\\\ 1, & 3 \\le x \\end{cases}$",
+  "explanation": "Answer: $F(x) = \\begin{cases} 0, & x < 0 \\\\ \\frac{1}{8}, & 0 \\le x < 1 \\\\ \\frac{1}{2}, & 1 \\le x < 2 \\\\ \\frac{7}{8}, & 2 \\le x < 3 \\\\ 1, & 3 \\le x \\end{cases}$",
+  "source": "Finan §14 — Practice Problem 14.2"
+}

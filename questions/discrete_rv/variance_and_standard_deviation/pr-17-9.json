@@ -1,0 +1,13 @@
+{
+  "id": "pr-17-9",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 17.9",
+  "question": "Let $X$ be a random variable with probability distribution $p(0) = 1 - p$, $p(1) = p$, and 0 otherwise, where $0 < p < 1$. Find $E(X)$ and $\\mathrm{Var}(X)$.",
+  "answer": "$E(X) = p$, $\\mathrm{Var}(X) = p(1-p)$",
+  "explanation": "Answer: $E(X) = p$, $\\mathrm{Var}(X) = p(1-p)$",
+  "source": "Finan §17 — Practice Problem 17.9"
+}

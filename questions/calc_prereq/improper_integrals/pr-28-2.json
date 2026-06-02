@@ -1,0 +1,13 @@
+{
+  "id": "pr-28-2",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 28.2",
+  "question": "Determine if the following integral is convergent or divergent. If it is convergent find its value. $\\int_{-1}^1 \\frac{e^x}{e^x - 1}\\,dx$.",
+  "answer": "Divergent",
+  "explanation": "Answer: Divergent",
+  "source": "Finan §28 — Practice Problem 28.2"
+}

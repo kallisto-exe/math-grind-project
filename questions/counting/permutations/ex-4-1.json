@@ -1,0 +1,13 @@
+{
+  "id": "ex-4-1",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 2,
+  "subtopic": "Worked Example 4.1",
+  "question": "Evaluate the following expressions: (a) $6!$ (b) $\\frac{10!}{7!}$.",
+  "answer": "",
+  "explanation": "(a) $6! = 6 \\cdot 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 = 720$ (b) $\\frac{10!}{7!} = \\frac{10 \\cdot 9 \\cdot 8 \\cdot 7 \\cdot 6 \\cdot 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1}{7 \\cdot 6 \\cdot 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1} = 10 \\cdot 9 \\cdot 8 = 720$ Using factorials and the Fundamental Principle of Counting, we see that the number of permutations of $n$ objects is $n!$.",
+  "source": "Finan §4 — Worked Example 4.1"
+}

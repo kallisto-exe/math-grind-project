@@ -1,0 +1,13 @@
+{
+  "id": "ex-49-10",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 5,
+  "subtopic": "Worked Example 49.10",
+  "question": "An insurance company insures two types of cars, economy cars and luxury cars. The damage claim resulting from an accident involving an economy car has normal $N(7, 1)$ distribution, the claim from a luxury car accident has normal $N(20, 6)$ distribution. Suppose the company receives three claims from economy car accidents and one claim from a luxury car accident. Assuming that these four claims are mutually independent, what is the probability that the total claim amount from the three economy car accidents exceeds the claim amount from the luxury car accident?",
+  "answer": "",
+  "explanation": "Let $X_1, X_2, X_3$ denote the claim amounts from the three economy cars, and $X_4$ the claim from the luxury car. Then we need to compute $\\Pr(X_1 + X_2 + X_3 > X_4)$, which is the same as $\\Pr(X_1 + X_2 + X_3 - X_4 > 0)$. Now, since the $X_i$s are independent and normal with distribution $N(7, 1)$ (for $i = 1, 2, 3$) and $N(20, 6)$ for $i = 4$, the linear combination $X = X_1 + X_2 + X_3 - X_4$ has normal distribution with parameters $\\mu = 7 + 7 + 7 - 20 = 1$ and $\\sigma^2 = 1 + 1 + 1 + 6 = 9$. Thus, the probability we want is $\\Pr(X > 0) = P\\left(\\frac{X - 1}{\\sqrt{9}} > \\frac{0 - 1}{\\sqrt{9}}\\right) = \\Pr(Z > -0.33) = 1 - \\Pr(Z \\le -0.33) = \\Pr(Z \\le 0.33) \\approx 0.6293$ Joint Moment Generating Functions For any random variables $X_1, X_2, \\ldots, X_n$, the joint moment generating function is defined by $M(t_1, t_2, \\ldots, t_n) = E(e^{t_1 X_1 + t_2 X_2 + \\ldots + t_n X_n})$.",
+  "source": "Finan §49 — Worked Example 49.10"
+}

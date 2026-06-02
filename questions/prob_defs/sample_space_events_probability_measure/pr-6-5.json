@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-5",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.5",
+  "question": "Let $S = \\{1, 2, 3, \\ldots, 10\\}$. If a number is chosen at random, that is, with the same chance of being drawn as all other numbers in the set, calculate each of the following probabilities: (a) The event A that an even number is drawn. (b) The event B that a number less than 5 and greater than 9 is drawn. (c) The event C that a number less than 11 but greater than 0 is drawn. (d) The event D that a prime number is drawn. (e) The event E that a number both odd and prime is drawn.",
+  "answer": "(a) 0.5 (b) 0 (c) 1 (d) 0.4 (e) 0.3",
+  "explanation": "Answer: (a) 0.5 (b) 0 (c) 1 (d) 0.4 (e) 0.3",
+  "source": "Finan §6 — Practice Problem 6.5"
+}

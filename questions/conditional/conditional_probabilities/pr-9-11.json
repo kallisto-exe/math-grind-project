@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-11",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.11",
+  "question": "A box of television tubes contains 20 tubes, of which five are defective. If three of the tubes are selected at random and removed from the box in succession without replacement, what is the probability that all three tubes are defective?",
+  "answer": "$\\frac{1}{114}$",
+  "explanation": "Answer: $\\frac{1}{114}$",
+  "source": "Finan §9 — Practice Problem 9.11"
+}

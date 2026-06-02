@@ -1,0 +1,13 @@
+{
+  "id": "pr-8-8",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 8.8",
+  "question": "Repeat the previous problem but with each drawn ball to be put back into the urn.",
+  "answer": "The probability is $\\frac{3}{5} \\cdot \\frac{2}{5} + \\frac{2}{5} \\cdot \\frac{3}{5} = \\frac{12}{25} = 0.48$",
+  "explanation": "Answer: The probability is $\\frac{3}{5} \\cdot \\frac{2}{5} + \\frac{2}{5} \\cdot \\frac{3}{5} = \\frac{12}{25} = 0.48$",
+  "source": "Finan §8 — Practice Problem 8.8"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-6",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.6",
+  "question": "If a travel agency offers special weekend trips to 12 different cities, by air, rail, bus, or sea, in how many different ways can such a trip be arranged?",
+  "answer": "48 ways",
+  "explanation": "Answer: 48 ways",
+  "source": "Finan §3 — Practice Problem 3.6"
+}

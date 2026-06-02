@@ -1,0 +1,13 @@
+{
+  "id": "pr-5-2",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 5.2",
+  "question": "A club with 42 members has to select three representatives for a regional meeting. How many possible choices are there?",
+  "answer": "11,480",
+  "explanation": "Answer: 11,480",
+  "source": "Finan §5 — Practice Problem 5.2"
+}

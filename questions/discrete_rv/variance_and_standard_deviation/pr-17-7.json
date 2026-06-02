@@ -1,0 +1,13 @@
+{
+  "id": "pr-17-7",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 17.7",
+  "question": "A box contains 3 red and 4 blue marbles. Two marbles are randomly selected without replacement. If they are the same color then you win $2. If they are of different colors then you lose $1. Let $X$ denote the amount you win. (a) Find the probability mass function of $X$. (b) Compute $E(X)$ and $E(X^2)$. (c) Find $\\mathrm{Var}(X)$.",
+  "answer": "(a) $\\Pr(X = 2) = \\Pr(RR) + \\Pr(BB) = \\frac{{}_3C_2}{{}_7C_2} + \\frac{{}_4C_2}{{}_7C_2} = \\frac{3}{21} + \\frac{6}{21} = \\frac{9}{21} = 3$ and $\\Pr(X = -1) = 1 - \\Pr(X = 2) = 1 - \\frac{3}{7} = 4$ (b) $E(X) = \\frac{2}{7}$ and $E(X^2) = \\frac{16}{7}$ (c) $\\mathrm{Var}(X) = 108$",
+  "explanation": "Answer: (a) $\\Pr(X = 2) = \\Pr(RR) + \\Pr(BB) = \\frac{{}_3C_2}{{}_7C_2} + \\frac{{}_4C_2}{{}_7C_2} = \\frac{3}{21} + \\frac{6}{21} = \\frac{9}{21} = 3$ and $\\Pr(X = -1) = 1 - \\Pr(X = 2) = 1 - \\frac{3}{7} = 4$ (b) $E(X) = \\frac{2}{7}$ and $E(X^2) = \\frac{16}{7}$ (c) $\\mathrm{Var}(X) = 108$",
+  "source": "Finan §17 — Practice Problem 17.7"
+}

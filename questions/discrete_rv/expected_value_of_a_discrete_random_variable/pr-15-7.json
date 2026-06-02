@@ -1,0 +1,13 @@
+{
+  "id": "pr-15-7",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 15.7",
+  "question": "Consider a game that costs $1 to play. The probability of losing is 0.7. The probability of winning $50 is 0.1, and the probability of winning $35 is 0.2. Would you expect to win or lose if you play this game 10 times?",
+  "answer": "$110",
+  "explanation": "Answer: $110",
+  "source": "Finan §15 — Practice Problem 15.7"
+}

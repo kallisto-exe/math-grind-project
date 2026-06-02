@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.4",
+  "question": "Repeatdly roll a fair die until the outcome 3 has accurred for the 4th time. Let $X$ be the number of times needed in order to achieve this goal. Find $E(X)$ and $\\mathrm{Var}(X)$.",
+  "answer": "$E(X) = 24$ and $\\mathrm{Var}(X) = 120$",
+  "explanation": "Answer: $E(X) = 24$ and $\\mathrm{Var}(X) = 120$",
+  "source": "Finan §23 — Practice Problem 23.4"
+}

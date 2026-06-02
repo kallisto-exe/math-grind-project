@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-5",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.5",
+  "question": "Let $X$ and $Y$ have joint density $f_{XY}(x, y) = \\begin{cases} kxy^2 & 0 \\le x, y \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find $k$. (b) Compute the marginal densities of $X$ and of $Y$. (c) Compute $\\Pr(Y > 2X)$. (d) Compute $\\Pr(|X - Y| < 0.5)$. (e) Are $X$ and $Y$ independent?",
+  "answer": "(a) $k = 6$ (b) We have $f_X(x) = \\int_0^1 6xy^2\\,dy = 2x, 0 \\le x \\le 1$, 0 otherwise and $f_Y(y) = \\int_0^1 6xy^2\\,dx = 3y^2, 0 \\le y \\le 1$, 0 otherwise (c) 0.15 (d) 0.875 (e) $X$ and $Y$ are independent",
+  "explanation": "Answer: (a) $k = 6$ (b) We have $f_X(x) = \\int_0^1 6xy^2\\,dy = 2x, 0 \\le x \\le 1$, 0 otherwise and $f_Y(y) = \\int_0^1 6xy^2\\,dx = 3y^2, 0 \\le y \\le 1$, 0 otherwise (c) 0.15 (d) 0.875 (e) $X$ and $Y$ are independent",
+  "source": "Finan §40 — Practice Problem 40.5"
+}

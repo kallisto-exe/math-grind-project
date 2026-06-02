@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.4",
+  "question": "The lifetime $X$ of a battery (in hours) has a density function given by $f(x) = \\begin{cases} 2x & 0 \\le x < 1 \\\\ \\frac{1}{4} & 2 < x < 3 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the probability that a battery will last for more than 15 minutes?",
+  "answer": "0.938",
+  "explanation": "Answer: 0.938",
+  "source": "Finan §30 — Practice Problem 30.4"
+}

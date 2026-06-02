@@ -1,0 +1,13 @@
+{
+  "id": "pr-52-9",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 52.9",
+  "question": "Suppose that $\\{x_1, x_2, \\dots, x_n\\}$ is a set of positive numbers. Prove $(x_1 \\cdot x_2 \\dots x_n)^{\\frac{1}{n}} \\le \\sqrt{\\frac{x_1^2 + x_2^2 + \\dots + x_n^2}{n}}$. Risk Management and Insurance This section repersents a discussion of the study notes entitled \"Risk and Insurance\" by Anderson and Brown as listed in the SOA syllabus for Exam P. By Economic risk or simply \"risk\" we mean one's possibility of losing economic security. For example, a driver faces a potential economic loss if his car is damaged and even a larger possible economic risk exists with respect to potential damages a driver might have to pay if he injures a third party in a car accident for which he is responsible. Insurance is a form of risk management primarily used to hedge against the risk of a contingent, uncertain loss. Insurance is defined as the equitable transfer of the risk of a loss, from one entity (the insured) to another (the insurer), in exchange for payment. An insurer is a company selling the insurance; an insured or policyholder is the person or entity buying the insurance policy. The amount of money to be charged by the insurer for a certain amount of insurance coverage is called the premium. The insurance involves the insured assuming a guaranteed and known covered loss in the form of payment from the insurer upon the occurrence of a specific loss. The payment is referred to as the benefit or claim payment. This defined claim payment amount can be a fixed amount or can reimburse all or a part of the loss that occurred. The insured receives a ",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §52 — Practice Problem 52.9"
+}

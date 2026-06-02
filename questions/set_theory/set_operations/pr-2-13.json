@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-13",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.13",
+  "question": "Fifty students living in a college dormitory were registering for classes for the fall semester. The following were observed: • 30 registered in a math class, • 18 registered in a history class, • 26 registered in a computer class, • 9 registered in both math and history classes, • 16 registered in both math and computer classes, • 8 registered in both history and computer classes, • 47 registered in at least one of the three classes. (a) How many students did not register in any of these classes ? (b) How many students registered in all three classes?",
+  "answer": "(a) 3 (b) 6",
+  "explanation": "Answer: (a) 3 (b) 6",
+  "source": "Finan §2 — Practice Problem 2.13"
+}

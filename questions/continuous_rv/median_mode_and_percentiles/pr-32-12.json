@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-12",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.12",
+  "question": "Let X be a loss random variable with cdf $F(x) = \\begin{cases} 1-\\left(\\frac{\\theta}{\\theta+x}\\right)^\\alpha & x\\ge 0 \\\\ 0 & x < 0. \\end{cases}$ The 10th percentile is $\\theta-k$. The 90th percentile is $5\\theta-3k$. Determine the value of $\\alpha$.",
+  "answer": "2",
+  "explanation": "Answer: 2",
+  "source": "Finan §32 — Practice Problem 32.12"
+}

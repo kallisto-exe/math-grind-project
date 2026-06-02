@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-28",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.28",
+  "question": "Independent random variables $X, Y$ and $Z$ are identically distributed. Let $W = X + Y$. The moment generating function of $W$ is $M_W(t) = (0.7 + 0.3e^t)^6$. Find the moment generating function of $V = X + Y + Z$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.28"
+}

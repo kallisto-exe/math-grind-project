@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-7",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.7",
+  "question": "In a junior league tennis tournament, teams play 20 games. Let A denote the event that Team Blazers wins 15 or more games in the tournament. Let B be the event that the Blazers win less than 10 games and C be the event that they win between 8 to 16 games. The Blazers can win at most 20 games. Using words, what do the following events represent? (a) $A\\cup B$ and $A\\cap B$. (b) $A\\cup C$ and $A\\cap C$. (c) $B\\cup C$ and $B\\cap C$. (d) $A^c$, $B^c$, and $C^c$.",
+  "answer": "",
+  "explanation": "(a) $A\\cup B$ is the event that the Blazers win 15 or more games or win 9 or less games. $A\\cap B$ is the empty set, since the Blazers cannot win 15 or more games and have less than 10 wins at the same time. Therefore, event A and event B are disjoint. (b) $A\\cup C$ is the event that the Blazers win at least 8 games. $A\\cap C$ is the event that the Blazers win 15 or 16 games. (c) $B\\cup C$ is the event that the Blazers win at most 16 games. $B\\cap C$ is the event that the Blazers win 8 or 9 games. (d) $A^c$ is the event that the Blazers win 14 or fewer games. $B^c$ is the event that the Blazers win 10 or more games. $C^c$ is the event that the Blazers win fewer than 8 or more than 16 games Given the sets $A_1, A_2, \\ldots$, we define $\\bigcap_{n=1}^\\infty A_n = \\{x \\mid x\\in A_i \\text{ for all } i\\in \\mathbb{N}\\}$.",
+  "source": "Finan §2 — Worked Example 2.7"
+}

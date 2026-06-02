@@ -1,0 +1,13 @@
+{
+  "id": "pr-33-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 33.3",
+  "question": "Suppose that $X$ has a uniform distribution over the interval $(0, 1)$. Find (a) $F(x)$. (b) Show that $\\Pr(a \\le X \\le a + b)$ for $a, b \\ge 0$, $a + b \\le 1$ depends only on $b$.",
+  "answer": "(a) $F(x) = \\begin{cases} 0 & x < 0 \\\\ x & 0 \\le x \\le 1 \\\\ 1 & x > 1 \\end{cases}$ (b) $\\Pr(a \\le X \\le a + b) = F(a + b) - F(a) = a + b - a = b$",
+  "explanation": "Answer: (a) $F(x) = \\begin{cases} 0 & x < 0 \\\\ x & 0 \\le x \\le 1 \\\\ 1 & x > 1 \\end{cases}$ (b) $\\Pr(a \\le X \\le a + b) = F(a + b) - F(a) = a + b - a = b$",
+  "source": "Finan §33 — Practice Problem 33.3"
+}

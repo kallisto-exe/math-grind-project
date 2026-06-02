@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-3",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.3",
+  "question": "Toss a pair of fair dice. Let $X$ denote the sum of the dots on the two faces. Find the probability mass function.",
+  "answer": "$x$: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12; the corresponding $p(x)$ values are not fully recoverable from the source.",
+  "explanation": "Answer: $x$: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12; the corresponding $p(x)$ values are not fully recoverable from the source.",
+  "source": "Finan §14 — Practice Problem 14.3"
+}

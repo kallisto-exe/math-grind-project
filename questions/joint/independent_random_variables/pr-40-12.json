@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-12",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.12",
+  "question": "Two insurers provide bids on an insurance policy to a large company. The bids must be between 2000 and 2200. The company decides to accept the lower bid if the two bids differ by 20 or more. Otherwise, the company will consider the two bids further. Assume that the two bids are independent and are both uniformly distributed on the interval from 2000 to 2200. Determine the probability that the company considers the two bids further.",
+  "answer": "0.19",
+  "explanation": "Answer: 0.19",
+  "source": "Finan §40 — Practice Problem 40.12"
+}

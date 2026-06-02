@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-6",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.6",
+  "question": "The following spinner is spun: Find the probabilities of obtaining each of the following: (a) Pr(factor of 24) (b) Pr(multiple of 4) (c) Pr(odd number) (d) $\\mathrm{Pr}(\\{9\\})$ (e) Pr(composite number), i.e., a number that is not prime (f) Pr(neither prime nor composite)",
+  "answer": "Answer: (a) 0.75 (b) 0.25 (c) 0.5 (d) 0 (e) 0.375 (f) 0.125",
+  "explanation": "Answer: (a) 0.75 (b) 0.25 (c) 0.5 (d) 0 (e) 0.375 (f) 0.125",
+  "source": "Finan §6 — Practice Problem 6.6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-11-4",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 3,
+  "subtopic": "Worked Example 11.4",
+  "question": "Show that if $A$ and $B$ are independent so are $A^c$ and $B^c$.",
+  "answer": "",
+  "explanation": "Using De Morgan's formula we have $\\Pr(A^c \\cap B^c) = 1 - \\Pr(A \\cup B) = 1 - [\\Pr(A) + \\Pr(B) - \\Pr(A \\cap B)] = [1 - \\Pr(A)] - \\Pr(B) + \\Pr(A)\\Pr(B) = \\Pr(A^c) - \\Pr(B)[1 - \\Pr(A)] = \\Pr(A^c) - \\Pr(B)\\Pr(A^c) = \\Pr(A^c)[1 - \\Pr(B)] = \\Pr(A^c)\\Pr(B^c)$ When the outcome of one event affects the outcome of a second event, the events are said to be dependent. The following is an example of events that are not independent.",
+  "source": "Finan §11 — Worked Example 11.4"
+}

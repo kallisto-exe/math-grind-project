@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-10",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.10",
+  "question": "Let $X$ be a negative binomial distribution with $r = 2$ and $p = 0.1$. Find $E(X)$ and $\\sigma_X$.",
+  "answer": "$E(X) = \\frac{r}{p} = 20$ and $\\sigma_X = \\sqrt{\\frac{r(1-p)}{p^2}} = 13.416$",
+  "explanation": "Answer: $E(X) = \\frac{r}{p} = 20$ and $\\sigma_X = \\sqrt{\\frac{r(1-p)}{p^2}} = 13.416$",
+  "source": "Finan §23 — Practice Problem 23.10"
+}

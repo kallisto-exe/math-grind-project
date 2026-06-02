@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-9",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.9",
+  "question": "Let $X$ and $Y$ be two independent random variables with pmfs given by $p_X(x) = \\begin{cases} \\frac{1}{3} & x = 1, 2, 3 \\\\ 0 & \\text{otherwise} \\end{cases}$ $p_Y(y) = \\begin{cases} 2 & y = 0 \\\\ 3 & y = 1 \\\\ 6 & y = 2 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find the probability mass function of $X+Y$.",
+  "answer": "$p_{X+Y}(1) = p_X(0)p_Y(1) + p_X(1)p_Y(0) = 1$. $p_{X+Y}(2) = p_X(0)p_Y(2) + p_X(2)p_Y(0) + p_X(1)p_Y(1) = 5$. $p_{X+Y}(3) = p_X(0)p_Y(3) + p_X(1)p_Y(2) + p_X(2)p_Y(1) + p_X(3)p_Y(0) = 6$. $p_{X+Y}(4) = p_X(0)p_Y(4) + p_X(1)p_Y(3) + p_X(2)p_Y(2) + p_X(3)p_Y(1) + p_X(4)p_Y(0) = 3$. $p_{X+Y}(5) = p_X(0)p_Y(5) + p_X(1)p_Y(4) + p_X(2)p_Y(3) + p_X(3)p_Y(2) + p_X(4)p_Y(1) + p_X(4)p_Y(1) = 1$ and 0 otherwise.",
+  "explanation": "Answer: $p_{X+Y}(1) = p_X(0)p_Y(1) + p_X(1)p_Y(0) = 1$. $p_{X+Y}(2) = p_X(0)p_Y(2) + p_X(2)p_Y(0) + p_X(1)p_Y(1) = 5$. $p_{X+Y}(3) = p_X(0)p_Y(3) + p_X(1)p_Y(2) + p_X(2)p_Y(1) + p_X(3)p_Y(0) = 6$. $p_{X+Y}(4) = p_X(0)p_Y(4) + p_X(1)p_Y(3) + p_X(2)p_Y(2) + p_X(3)p_Y(1) + p_X(4)p_Y(0) = 3$. $p_{X+Y}(5) = p_X(0)p_Y(5) + p_X(1)p_Y(4) + p_X(2)p_Y(3) + p_X(3)p_Y(2) + p_X(4)p_Y(1) + p_X(4)p_Y(1) = 1$ and 0 otherwise.",
+  "source": "Finan §41 — Practice Problem 41.9"
+}

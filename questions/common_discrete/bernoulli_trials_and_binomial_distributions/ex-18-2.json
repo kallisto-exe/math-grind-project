@@ -1,0 +1,13 @@
+{
+  "id": "ex-18-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 4,
+  "subtopic": "Worked Example 18.2",
+  "question": "We roll a fair die 5 times. A success is when the face that comes up shows a prime number. We are interested in the probability of obtaining three prime numbers. What are $p, q, n$, and $r$? Solutions. This is a binomial experiment with 5 trials. The prime numbers on the die are 2, 3, 5 so that $p = q = \\frac{1}{2}$. Also, we have $n = 5$ and $r = 3$. Binomial Distribution Function As mentioned above, the central problem of a binomial experiment is to find the probability of $r$ successes out of $n$ independent trials. Recall from Section 5 the formula for finding the number of combinations of $n$ distinct objects taken $r$ at a time ${}_nC_r = \\frac{n!}{r!(n-r)!}$. Now, the probability of $r$ successes in a sequence of $n$ independent trials is given by $p^r q^{n-r}$. Since the binomial coefficient ${}_nC_r$ counts all the number of outcomes that have $r$ successes and $n-r$ failures, the probability of having $r$ successes in any order is given by the binomial mass function $p(r) = \\Pr(X = r) = {}_nC_r p^r q^{n-r}$. Note that by letting $a = p$ and $b = 1-p$ in the binomial formula we find $\\sum_{k=0}^n p(k) = \\sum_{k=0}^n {}_nC_k p^k (1-p)^{n-k} = (p + 1-p)^n = 1$. The histogram of the binomial distribution is given in Figure 18.1. Figure 18.1 The cumulative distribution function is given by $F(x) = \\Pr(X\\le x) = \\begin{cases} 0, & x < 0 \\\\ \\sum_{k=0}^{\\lfloor x\\rfloor} {}_nC_k p^k (1-p)^{n-k}, & 0\\le x\\le n \\\\ 1, & x > n \\end{cases}$ where $\\lfloor k\\rfloor$ is the floor function.",
+  "answer": "",
+  "explanation": "(See the section in Learn.)",
+  "source": "Finan §18 — Worked Example 18.2"
+}

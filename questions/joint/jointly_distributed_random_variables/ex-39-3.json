@@ -1,0 +1,13 @@
+{
+  "id": "ex-39-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 5,
+  "subtopic": "Worked Example 39.3",
+  "question": "Suppose two balls are chosen from a box containing 3 white, 2 red and 5 blue balls. Let $X$ = the number of white balls chosen and $Y$ = the number of blue balls chosen. Find the joint pmf of $X$ and $Y$.",
+  "answer": "",
+  "explanation": "$p_{XY}(0, 0) = \\frac{{}_2C_2}{{}_{10}C_2} = \\frac{1}{45}$; $p_{XY}(0, 1) = \\frac{{}_2C_1 \\cdot {}_5C_1}{{}_{10}C_2} = \\frac{10}{45}$; $p_{XY}(0, 2) = \\frac{{}_5C_2}{{}_{10}C_2} = \\frac{10}{45}$; $p_{XY}(1, 0) = \\frac{{}_2C_1 \\cdot {}_3C_1}{{}_{10}C_2} = \\frac{6}{45}$; $p_{XY}(1, 1) = \\frac{{}_5C_1 \\cdot {}_3C_1}{{}_{10}C_2} = \\frac{15}{45}$; $p_{XY}(1, 2) = 0$; $p_{XY}(2, 0) = \\frac{{}_3C_2}{{}_{10}C_2} = \\frac{3}{45}$; $p_{XY}(2, 1) = 0$; $p_{XY}(2, 2) = 0$. The pmf of $X$ is $p_X(0) = \\Pr(X = 0) = \\sum_{y : p_{XY}(0, y) > 0} p_{XY}(0, y) = \\frac{1 + 10 + 10}{45} = \\frac{21}{45}$; $p_X(1) = \\Pr(X = 1) = \\sum_{y : p_{XY}(1, y) > 0} p_{XY}(1, y) = \\frac{6 + 15}{45} = \\frac{21}{45}$; $p_X(2) = \\Pr(X = 2) = \\sum_{y : p_{XY}(2, y) > 0} p_{XY}(2, y) = \\frac{3}{45}$. The pmf of $Y$ is $p_Y(0) = \\Pr(Y = 0) = \\sum_{x : p_{XY}(x, 0) > 0} p_{XY}(x, 0) = \\frac{1 + 6 + 3}{45} = \\frac{10}{45}$; $p_Y(1) = \\Pr(Y = 1) = \\sum_{x : p_{XY}(x, 1) > 0} p_{XY}(x, 1) = \\frac{10 + 15}{45} = \\frac{25}{45}$; $p_Y(2) = \\Pr(Y = 2) = \\sum_{x : p_{XY}(x, 2) > 0} p_{XY}(x, 2) = \\frac{10}{45}$. Two random variables $X$ and $Y$ are said to be jointly continuous if there exists a function $f_{XY}(x, y) \\ge 0$ with the property that for every subset $C$ of $\\mathbb{R}^2$ we have $\\Pr((X, Y) \\in C) = \\int\\int_{(x, y) \\in C} f_{XY}(x, y)\\,dx\\,dy$. The function $f_{XY}(x, y)$ is called the joint probability density function of $X$ and $Y$. If $A$ and $B$ are any sets of real numbers then by letting $C = \\{(x, y) : x \\in A, y \\in B\\}$ we have $\\Pr(X \\in A, Y \\in B) = \\int_B \\int_A f_{XY}(x, y)\\,dx\\,dy$. As a result of this last equation we can write $F_{XY}(x, y) = \\Pr(X \\in (-\\infty, x], Y \\in (-\\infty, y]) = \\int_{-\\infty}^y \\int_{-\\infty}^x f_{XY}(u, v)\\,du\\,dv$. It follows upon differentiation that $f_{XY}(x, y) = \\frac{\\partial^2}{\\partial y \\partial x} F_{XY}(x, y)$ whenever the partial derivatives exist.",
+  "source": "Finan §39 — Worked Example 39.3"
+}

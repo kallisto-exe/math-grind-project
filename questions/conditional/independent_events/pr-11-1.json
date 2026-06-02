@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-1",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.1",
+  "question": "Determine whether the events are independent or dependent. (a) Selecting a marble from an urn and then choosing a second marble from the same urn without replacing the first marble. (b) Rolling a die and spinning a spinner.",
+  "answer": "(a) Dependent (b) Independent",
+  "explanation": "Answer: (a) Dependent (b) Independent",
+  "source": "Finan §11 — Practice Problem 11.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-28-4",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 2,
+  "subtopic": "Worked Example 28.4",
+  "question": "For what values of $c$ is the improper integral $\\int_0^\\infty e^{cx}\\,dx$ convergent?",
+  "answer": "",
+  "explanation": "We have $\\int^\\infty e^{cx}\\,dx = \\lim_{b\\to\\infty} \\int^b e^{cx}\\,dx = \\lim_{b\\to\\infty} \\frac{1}{c}e^{cx}\\Big|^b = \\lim_{b\\to\\infty} \\frac{1}{c}(e^{cb} - 1) = -\\frac{1}{c}$ provided that $c < 0$. Otherwise, i.e. if $c \\ge 0$, then the improper integral is divergent. Remark 28.1 The previous two results are very useful and you may want to memorize them.",
+  "source": "Finan §28 — Worked Example 28.4"
+}

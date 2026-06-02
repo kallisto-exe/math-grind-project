@@ -1,0 +1,13 @@
+{
+  "id": "pr-16-4",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§16 Expected Value of a Function of a Discrete Random Variable",
+  "section": 16,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 16.4",
+  "question": "Let $X$ be a discrete random variable. Show that $E(aX^2 + bX + c) = aE(X^2) + bE(X) + c$.",
+  "answer": "Let D denote the range of X. Then E(aX2 +bX +c) = ∑ x∈D (ax2 +bx +c)p(x) = ∑ x∈D ax2p(x) + ∑ x∈D bxp(x) + ∑ x∈D cp(x) =a ∑ x∈D x2p(x) +b ∑ x∈D xp(x) +c ∑ x∈D p(x) =aE(X2) +bE(X) +c",
+  "explanation": "Answer: Let $D$ denote the range of $X$. Then $E(aX^2 + bX + c) = \\sum_{x \\in D} (ax^2 + bx + c) p(x) = \\sum_{x \\in D} ax^2 p(x) + \\sum_{x \\in D} bx p(x) + \\sum_{x \\in D} c p(x) = a \\sum_{x \\in D} x^2 p(x) + b \\sum_{x \\in D} x p(x) + c \\sum_{x \\in D} p(x) = aE(X^2) + bE(X) + c$",
+  "source": "Finan §16 — Practice Problem 16.4"
+}

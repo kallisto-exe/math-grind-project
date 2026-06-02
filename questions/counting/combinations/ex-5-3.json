@@ -1,0 +1,13 @@
+{
+  "id": "ex-5-3",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 2,
+  "subtopic": "Worked Example 5.3",
+  "question": "Expand $(x + y)^6$ using the Binomial Theorem.",
+  "answer": "",
+  "explanation": "By the Binomial Theorem and Pascal's triangle we have $(x + y)^6 = x^6 + 6x^5 y + 15x^4 y^2 + 20x^3 y^3 + 15x^2 y^4 + 6x y^5 + y^6$",
+  "source": "Finan §5 — Worked Example 5.3"
+}

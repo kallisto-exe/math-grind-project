@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-19",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.19",
+  "question": "If the moment generating function for the random variable $X$ is $M_X(t) = \\frac{1}{t+1}$, find $E[(X - 2)^3]$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.19"
+}

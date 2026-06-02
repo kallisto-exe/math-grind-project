@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-15",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.15",
+  "question": "Let $X$ be a uniformly distributed random variable on the interval $(-1, 1)$. Show that $Y = X^2$ is a beta random variable with parameters $\\left(\\frac{1}{2}, 1\\right)$.",
+  "answer": "The cdf is given by $F_Y(a) = \\begin{cases} 0 & a \\le 0 \\\\ \\sqrt{a} & 0 < a < 1 \\\\ 1 & a \\ge 1 \\end{cases}$ Thus, the density function of $Y$ is $f_Y(a) = F_Y'(a) = \\begin{cases} \\frac{1}{2} a^{-1/2} & 0 < a < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Hence, $Y$ is a beta random variable with parameters $\\left(\\frac{1}{2}, 1\\right)$",
+  "explanation": "Answer: The cdf is given by $F_Y(a) = \\begin{cases} 0 & a \\le 0 \\\\ \\sqrt{a} & 0 < a < 1 \\\\ 1 & a \\ge 1 \\end{cases}$ Thus, the density function of $Y$ is $f_Y(a) = F_Y'(a) = \\begin{cases} \\frac{1}{2} a^{-1/2} & 0 < a < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Hence, $Y$ is a beta random variable with parameters $\\left(\\frac{1}{2}, 1\\right)$.",
+  "source": "Finan §38 — Practice Problem 38.15"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-9",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.9",
+  "question": "A survey of a group's viewing habits over the last year revealed the following information (i) 28% watched gymnastics (ii) 29% watched baseball (iii) 19% watched soccer (iv) 14% watched gymnastics and baseball (v) 12% watched baseball and soccer (vi) 10% watched gymnastics and soccer (vii) 8% watched all three sports. Find the probability of the group that watched none of the three sports during the last year.",
+  "answer": "0.52",
+  "explanation": "Answer: 0.52",
+  "source": "Finan §7 — Practice Problem 7.9"
+}

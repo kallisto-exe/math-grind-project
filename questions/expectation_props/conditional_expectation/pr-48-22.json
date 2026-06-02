@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-22",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.22",
+  "question": "New dental and medical plan options will be offered to state employees next year. An actuary uses the following density function to model the joint distribution of the proportion $X$ of state employees who will choose Dental Option 1 and the proportion $Y$ who will choose Medical Option 1 under the new plan options: $$f(x,y) = \\begin{cases} 0.50 & \\text{for } 0<x,y<0.5 \\\\ 1.25 & \\text{for } 0<x<0.5,\\ 0.5<y<1 \\\\ 1.50 & \\text{for } 0.5<x<1,\\ 0<y<0.5 \\\\ 0.75 & \\text{for } 0.5<x<1,\\ 0.5<y<1. \\end{cases}$$ Calculate $\\mathrm{Var}(Y|X = 0.75)$.",
+  "answer": "0.076",
+  "explanation": "Answer: 0.076",
+  "source": "Finan §48 — Practice Problem 48.22"
+}

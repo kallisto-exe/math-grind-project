@@ -1,0 +1,13 @@
+{
+  "id": "ex-6-5",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 3,
+  "subtopic": "Worked Example 6.5",
+  "question": "What is the probability of drawing an ace from a well-shuffled deck of 52 playing cards?",
+  "answer": "",
+  "explanation": "Since there are four aces in a deck of 52 playing cards, the probability of getting an ace is $\\frac{4}{52} = \\frac{1}{13}$.",
+  "source": "Finan §6 — Worked Example 6.5"
+}

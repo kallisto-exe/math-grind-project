@@ -1,0 +1,13 @@
+{
+  "id": "ex-50-2",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 5,
+  "subtopic": "Worked Example 50.2",
+  "question": "If $X$ is a non-negative random variable with $E(X) > 0$. Show that $\\Pr(X \\ge aE(X)) \\le \\frac{1}{a}$ for all $a > 0$.",
+  "answer": "",
+  "explanation": "The result follows by letting $c = aE(X)$ in Markov's inequality. Remark 50.1 Markov's inequality does not apply for negative random variable. To see this, let $X$ be a random variable with range $\\{-1000, 1000\\}$. Suppose that $\\Pr(X = -1000) = \\Pr(X = 1000) = \\frac{1}{2}$. Then $E(X) = 0$ and $\\Pr(X \\ge 1000) \\ne 0$. Markov's bound gives us an upper bound on the probability that a random variable is large. It turns out, though, that there is a related result to get an upper bound on the probability that a random variable is small. Proposition 50.2 Suppose that $X$ is a random variable such that $X \\le M$ for some constant $M$. Then for all $x < M$ we have $\\Pr(X \\le x) \\le \\frac{M-E(X)}{M-x}$. Proof. By applying Markov's inequality we find $\\Pr(X \\le x) = \\Pr(M-X \\ge M-x) \\le \\frac{E(M-X)}{M-x} = \\frac{M-E(X)}{M-x}$.",
+  "source": "Finan §50 — Worked Example 50.2"
+}

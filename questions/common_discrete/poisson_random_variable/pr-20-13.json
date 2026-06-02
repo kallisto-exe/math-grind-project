@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-13",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.13",
+  "question": "Let $X$ be a Poisson random variable with mean $\\lambda$. If $P(X = 1 \\mid X \\le 1) = 0.8$, what is the value of $\\lambda$?",
+  "answer": "$4$",
+  "explanation": "Answer: $4$",
+  "source": "Finan §20 — Practice Problem 20.13"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-32-7",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 4,
+  "subtopic": "Worked Example 32.7",
+  "question": "What percentile is 0.63 quantile?",
+  "answer": "",
+  "explanation": "0.63 quantile is 63rd percentile",
+  "source": "Finan §32 — Worked Example 32.7"
+}

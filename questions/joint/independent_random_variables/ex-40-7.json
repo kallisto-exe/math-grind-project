@@ -1,0 +1,13 @@
+{
+  "id": "ex-40-7",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 5,
+  "subtopic": "Worked Example 40.7",
+  "question": "(Order statistics) Let $X$ and $Y$ be two independent random variables with $X$ having a normal distribution with mean $\\mu$ and variance 1 and $Y$ being the standard normal distribution. (a) Find the density of $Z = \\min\\{X, Y\\}$. (b) For each $t \\in \\mathbb{R}$ calculate $\\Pr(\\max(X,Y) - \\min(X,Y) > t)$.",
+  "answer": "",
+  "explanation": "(a) Fix a real number $z$. Then $F_Z(z) = \\Pr(Z \\le z) = 1 - \\Pr(\\min(X,Y) > z) = 1 - \\Pr(X > z)\\Pr(Y > z) = 1 - (1 - \\Phi(z-\\mu))(1 - \\Phi(z))$. Hence, $f_Z(z) = (1 - \\Phi(z-\\mu))\\varphi(z) + (1 - \\Phi(z))\\varphi(z-\\mu)$ where $\\varphi(z)$ is the pdf of the standard normal distribution. (b) If $t \\le 0$ then $\\Pr(\\max(X,Y) - \\min(X,Y) > t) = 1$. If $t > 0$ then $\\Pr(\\max(X,Y) - \\min(X,Y) > t) = \\Pr(|X - Y| > t) = 1 - \\Phi\\left(\\frac{t-\\mu}{\\sqrt{2}}\\right) + \\Phi\\left(\\frac{-t-\\mu}{\\sqrt{2}}\\right)$. Note that $X - Y$ is normal with mean $\\mu$ and variance 2",
+  "source": "Finan §40 — Worked Example 40.7"
+}

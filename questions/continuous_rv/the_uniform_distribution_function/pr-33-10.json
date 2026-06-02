@@ -1,0 +1,13 @@
+{
+  "id": "pr-33-10",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 33.10",
+  "question": "Let $X$ be a random variable distributed uniformly over the interval $[-1, 1]$. (a) Compute $E(e^{-X})$. (b) Compute $\\mathrm{Var}(e^{-X})$.",
+  "answer": "(a) $\\frac{e^2 - 1}{2e}$ (b) $\\frac{1}{2} - \\frac{1}{2e^2}$",
+  "explanation": "Answer: (a) $\\frac{e^2 - 1}{2e}$ (b) $\\frac{1}{2} - \\frac{1}{2e^2}$",
+  "source": "Finan §33 — Practice Problem 33.10"
+}

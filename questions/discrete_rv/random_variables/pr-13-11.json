@@ -1,0 +1,13 @@
+{
+  "id": "pr-13-11",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 13.11",
+  "question": "Under an insurance policy, a maximum of five claims may be filed per year by a policyholder. Let $p_n$ be the probability that a policyholder files $n$ claims during a given year, where $n = 0, 1, 2, 3, 4, 5$. An actuary makes the following observations: (i) $p_n \\ge p_{n+1}$ for $0 \\le n \\le 4$ (ii) The difference between $p_n$ and $p_{n+1}$ is the same for $0 \\le n \\le 4$ (iii) Exactly 40% of policyholders file fewer than two claims during a given year. Calculate the probability that a random policyholder will file more than three claims during a given year.",
+  "answer": "0.267",
+  "explanation": "Answer: 0.267",
+  "source": "Finan §13 — Practice Problem 13.11"
+}

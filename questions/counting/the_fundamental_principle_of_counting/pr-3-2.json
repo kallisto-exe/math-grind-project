@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-2",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.2",
+  "question": "(a) If eight cars are entered in a race and three finishing places are considered, how many finishing orders can they finish? Assume no ties. (b) If the top three cars are Buick, Honda, and BMW, in how many possible orders can they finish?",
+  "answer": "(a) 336 (b) 6",
+  "explanation": "Answer: (a) 336 (b) 6",
+  "source": "Finan §3 — Practice Problem 3.2"
+}

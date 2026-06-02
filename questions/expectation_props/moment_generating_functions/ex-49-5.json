@@ -1,0 +1,13 @@
+{
+  "id": "ex-49-5",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 5,
+  "subtopic": "Worked Example 49.5",
+  "question": "Let $X$ be an exponential random variable with parameter $\\lambda$. Find the expected value and the variance of $X$ using moment generating functions.",
+  "answer": "",
+  "explanation": "We can write $M_X(t) = E(e^{tX}) = \\int_0^{\\infty} e^{tx} \\lambda e^{-\\lambda x}\\,dx = \\lambda \\int_0^{\\infty} e^{-(\\lambda - t)x}\\,dx = \\frac{\\lambda}{\\lambda - t}$ where $t < \\lambda$. Differentiation twice yields $M_X'(t) = \\frac{\\lambda}{(\\lambda - t)^2}$ and $M_X''(t) = \\frac{2\\lambda}{(\\lambda - t)^3}$. Hence, $E(X) = M_X'(0) = \\frac{1}{\\lambda}$ and $E(X^2) = M_X''(0) = \\frac{2}{\\lambda^2}$. The variance of $X$ is given by $\\mathrm{Var}(X) = E(X^2) - (E(X))^2 = \\frac{1}{\\lambda^2}$ Moment generating functions are also useful in establishing the distribution of sums of independent random variables. To see this, the following two observations are useful. Let $X$ be a random variable, and let $a$ and $b$ be finite constants. Then, $M_{aX+b}(t) = E[e^{t(aX+b)}] = E[e^{bt} e^{(at)X}] = e^{bt} E[e^{(at)X}] = e^{bt} M_X(at)$",
+  "source": "Finan §49 — Worked Example 49.5"
+}

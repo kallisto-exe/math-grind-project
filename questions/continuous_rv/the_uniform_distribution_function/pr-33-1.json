@@ -1,0 +1,13 @@
+{
+  "id": "pr-33-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 33.1",
+  "question": "Let $X$ be the total time to process a passport application by the state department. It is known that $X$ is uniformly distributed between 3 and 7 weeks. (a) Find $f(x)$. (b) What is the probability that an application will be processed in fewer than 3 weeks? (c) What is the probability that an application will be processed in 5 weeks or less?",
+  "answer": "(a) The pdf is given by $f(x) = \\begin{cases} \\frac{1}{4} & 3 \\le x \\le 7 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) 0 (c) 0.5",
+  "explanation": "Answer: (a) The pdf is given by $f(x) = \\begin{cases} \\frac{1}{4} & 3 \\le x \\le 7 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) 0 (c) 0.5",
+  "source": "Finan §33 — Practice Problem 33.1"
+}

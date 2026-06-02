@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-4",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.4",
+  "question": "A box of six apples has one rotten apple. Randomly draw one apple from the box, without replacement, until the rotten apple is found. Let $X$ denote the number of apples drawn until the rotten apple is found. Find the probability mass function of $X$ and draw its histogram.",
+  "answer": "$X$ Event $\\Pr(x)$: For $X = 1$, event $R$: $\\frac{1}{6}$. For $X = 2$, event $(NR, R)$: $\\frac{5}{6} \\cdot \\frac{1}{5} = \\frac{1}{6}$. For $X = 3$: $\\frac{5}{6} \\cdot \\frac{4}{5} \\cdot \\frac{1}{4} = \\frac{1}{6}$. For $X = 4$: $\\frac{5}{6} \\cdot \\frac{4}{5} \\cdot \\frac{3}{4} \\cdot \\frac{1}{3} = \\frac{1}{6}$. For $X = 5$: $\\frac{5}{6} \\cdot \\frac{4}{5} \\cdot \\frac{3}{4} \\cdot \\frac{2}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$. For $X = 6$: $\\frac{5}{6} \\cdot \\frac{4}{5} \\cdot \\frac{3}{4} \\cdot \\frac{2}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$.",
+  "explanation": "Answer: $X$ Event $\\Pr(x)$: For $X = 1$, event $R$: $\\frac{1}{6}$. For $X = 2$, event $(NR, R)$: $\\frac{5}{6} \\cdot \\frac{1}{5} = \\frac{1}{6}$. For $X = 3$: $\\frac{5}{6} \\cdot \\frac{4}{5} \\cdot \\frac{1}{4} = \\frac{1}{6}$. For $X = 4$: $\\frac{5}{6} \\cdot \\frac{4}{5} \\cdot \\frac{3}{4} \\cdot \\frac{1}{3} = \\frac{1}{6}$. For $X = 5$: $\\frac{5}{6} \\cdot \\frac{4}{5} \\cdot \\frac{3}{4} \\cdot \\frac{2}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$. For $X = 6$: $\\frac{5}{6} \\cdot \\frac{4}{5} \\cdot \\frac{3}{4} \\cdot \\frac{2}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$.",
+  "source": "Finan §14 — Practice Problem 14.4"
+}

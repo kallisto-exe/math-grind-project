@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-17",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.17",
+  "question": "The probability that a person with certain symptoms has prostate cancer is 0.8. A PSA test used to confirm this diagnosis gives positive results for 90% of those who have the disease, and 5% of those who do not have the disease. What is the probability that a person who reacts positively to the test actually has the disease?",
+  "answer": "$\\frac{72}{73}$.",
+  "explanation": "Answer: $\\frac{72}{73}$.",
+  "source": "Finan §10 — Practice Problem 10.17"
+}

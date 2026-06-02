@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-6",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.6",
+  "question": "Let A and B be two non-empty sets. Write A as the union of two disjoint sets.",
+  "answer": "",
+  "explanation": "Using a Venn diagram one can easily see that $A\\cap B$ and $A\\cap B^c$ are disjoint sets such that $A = (A\\cap B)\\cup (A\\cap B^c)$",
+  "source": "Finan §2 — Worked Example 2.6"
+}

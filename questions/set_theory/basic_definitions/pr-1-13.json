@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-13",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.13",
+  "question": "Show that the function $f : \\mathbb{R} \\mapsto \\mathbb{R}$ defined by $f(x) = 3x + 5$ is one-to-one and onto.",
+  "answer": "Suppose that $f(a) = f(b)$. Then $3a + 5 = 3b + 5 \\implies 3a + 5 - 5 = 3b + 5 - 5 \\implies 3a = 3b \\implies \\frac{3a}{3} = \\frac{3b}{3} \\implies a = b$. That is, $f$ is one-to-one. Let $y \\in \\mathbb{R}$. From the equation $y = 3x + 5$ we find $x = \\frac{y-5}{3} \\in \\mathbb{R}$ and $f(x) = f\\left(\\frac{y-5}{3}\\right) = y$. That is, $f$ is onto.",
+  "explanation": "Answer: Suppose that $f(a) = f(b)$. Then $3a + 5 = 3b + 5 \\implies 3a + 5 - 5 = 3b + 5 - 5 \\implies 3a = 3b \\implies \\frac{3a}{3} = \\frac{3b}{3} \\implies a = b$. That is, $f$ is one-to-one. Let $y \\in \\mathbb{R}$. From the equation $y = 3x + 5$ we find $x = \\frac{y-5}{3} \\in \\mathbb{R}$ and $f(x) = f\\left(\\frac{y-5}{3}\\right) = y$. That is, $f$ is onto.",
+  "source": "Finan §1 — Practice Problem 1.13"
+}

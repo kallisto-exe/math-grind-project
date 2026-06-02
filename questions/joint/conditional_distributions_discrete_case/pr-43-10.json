@@ -1,0 +1,13 @@
+{
+  "id": "pr-43-10",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 43.10",
+  "question": "If two cards are randomly drawn (without replacement) from an ordinary deck of 52 playing cards, $Y$ is the number of aces obtained in the first draw and $X$ is the total number of aces obtained in both draws, find (a) the joint probability distribution of $X$ and $Y$; (b) the marginal distribution of $Y$; (c) the conditional distribution of $X$ given $Y = 1$.",
+  "answer": "(a) $\\Pr(X = 0, Y = 0) = \\frac{48}{51}$, $\\Pr(X = 1, Y = 0) = \\frac{48}{51}$, $\\Pr(X = 1, Y = 1) = \\frac{4}{51}$, $\\Pr(X = 2, Y = 1) = \\frac{4}{51}$ and 0 otherwise. (b) $\\Pr(Y = 0) = \\Pr(X = 0, Y = 0) + \\Pr(X = 1, Y = 0) = \\frac{204}{221} = \\frac{12}{13}$ and $\\Pr(Y = 1) = \\Pr(X = 1, Y = 1) + \\Pr(X = 2, Y = 2) = \\frac{1}{13}$ and 0 otherwise. (c) $p_{X|Y}(1|1) = \\frac{13 \\times \\frac{16}{221}}{} = \\frac{16}{17}$ and $p_{X|Y}(2|1) = \\frac{13 \\times \\frac{1}{221}}{} = \\frac{1}{17}$ and 0 otherwise",
+  "explanation": "Answer: (a) $\\Pr(X = 0, Y = 0) = \\frac{48}{51}$, $\\Pr(X = 1, Y = 0) = \\frac{48}{51}$, $\\Pr(X = 1, Y = 1) = \\frac{4}{51}$, $\\Pr(X = 2, Y = 1) = \\frac{4}{51}$ and 0 otherwise. (b) $\\Pr(Y = 0) = \\Pr(X = 0, Y = 0) + \\Pr(X = 1, Y = 0) = \\frac{204}{221} = \\frac{12}{13}$ and $\\Pr(Y = 1) = \\Pr(X = 1, Y = 1) + \\Pr(X = 2, Y = 2) = \\frac{1}{13}$ and 0 otherwise. (c) $p_{X|Y}(1|1) = \\frac{13 \\times \\frac{16}{221}}{} = \\frac{16}{17}$ and $p_{X|Y}(2|1) = \\frac{13 \\times \\frac{1}{221}}{} = \\frac{1}{17}$ and 0 otherwise",
+  "source": "Finan §43 — Practice Problem 43.10"
+}

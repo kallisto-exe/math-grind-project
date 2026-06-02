@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-9",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.9",
+  "question": "Let X be a continuous random variable with density function $f(x) = \\begin{cases} \\lambda\\frac{1}{9}x(4-x) & 0 < x < 3 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the mode of X.",
+  "answer": "2",
+  "explanation": "Answer: 2",
+  "source": "Finan §32 — Practice Problem 32.9"
+}

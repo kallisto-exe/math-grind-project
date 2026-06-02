@@ -1,0 +1,13 @@
+{
+  "id": "ex-31-7",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 4,
+  "subtopic": "Worked Example 31.7",
+  "question": "Let $X$ be a random variable with probability density function $f(x) = \\begin{cases} 2 - 4|x| & -\\frac{1}{2} < x < \\frac{1}{2}, \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find the variance of $X$. (b) Find the c.d.f. $F(x)$ of $X$.",
+  "answer": "",
+  "explanation": "(a) Since the function $x f(x)$ is odd in $-\\frac{1}{2} < x < \\frac{1}{2}$, we have $E(X) = 0$. Thus, $\\mathrm{Var}(X) = E(X^2) = \\int_{-1/2}^0 x^2(2 + 4x)\\,dx + \\int_0^{1/2} x^2(2 - 4x)\\,dx = \\frac{1}{24}$. (b) Since the range of $f$ is the interval $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$, we have $F(x) = 0$ for $x \\le -\\frac{1}{2}$ and $F(x) = 1$ for $x \\ge \\frac{1}{2}$. Thus it remains to consider the case when $-\\frac{1}{2} < x < \\frac{1}{2}$. For $-\\frac{1}{2} < x \\le 0$, $F(x) = \\int_{-1/2}^x (2 + 4t)\\,dt = 2x^2 + 2x + \\frac{1}{2}$. For $0 \\le x < \\frac{1}{2}$, we have $F(x) = \\int_{-1/2}^0 (2 + 4t)\\,dt + \\int_0^x (2 - 4t)\\,dt = -2x^2 + 2x + \\frac{1}{2}$. Combining these cases, we get $F(x) = \\begin{cases} 0 & x < -\\frac{1}{2} \\\\ 2x^2 + 2x + \\frac{1}{2} & -\\frac{1}{2} \\le x < 0 \\\\ -2x^2 + 2x + \\frac{1}{2} & 0 \\le x < \\frac{1}{2} \\\\ 1 & x \\ge \\frac{1}{2} \\end{cases}$",
+  "source": "Finan §31 — Worked Example 31.7"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-18-5",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 4,
+  "subtopic": "Worked Example 18.5",
+  "question": "A student takes a test consisting of 10 true-false questions. (a) What is the probability that the student answers at least six questions correctly? (b) What is the probability that the student answers at most two questions correctly?",
+  "answer": "",
+  "explanation": "(a) Let $X$ be the number of correct responses. Then $X$ is a binomial random variable with parameters $n = 10$ and $p = \\frac{1}{2}$. So, the desired probability is $\\Pr(X\\ge 6) = \\Pr(X = 6) + \\Pr(X = 7) + \\Pr(X = 8) + \\Pr(X = 9) + \\Pr(X = 10) = \\sum_{x=6}^{10} {}_{10}C_x (0.5)^x (0.5)^{10-x} \\approx 0.3769$. (b) We have $\\Pr(X\\le 2) = \\sum_{x=0}^{2} {}_{10}C_x (0.5)^x (0.5)^{10-x} \\approx 0.0547$",
+  "source": "Finan §18 — Worked Example 18.5"
+}

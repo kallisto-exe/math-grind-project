@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-13",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.13",
+  "question": "Let $X$ and $Y$ be two independent random variables with $\\mu_X = 1$, $\\mu_Y = -1$, $\\sigma_X^2 = \\frac{1}{2}$, and $\\sigma_Y^2 = 2$. Compute $E[(X + 1)^2(Y - 1)^2]$.",
+  "answer": "27",
+  "explanation": "Answer: 27",
+  "source": "Finan §46 — Practice Problem 46.13"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-17-1",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 17.1",
+  "question": "A probability distribution of the claim sizes for an auto insurance policy is given in the table below: Claim size, Probability — 20, 0.15; 30, 0.10; 40, 0.05; 50, 0.20; 60, 0.10; 70, 0.10; 80, 0.30. What percentage of the claims are within one standard deviation of the mean claim size?",
+  "answer": "0.45",
+  "explanation": "Answer: 0.45",
+  "source": "Finan §17 — Practice Problem 17.1"
+}

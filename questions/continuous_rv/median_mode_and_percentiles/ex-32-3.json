@@ -1,0 +1,13 @@
+{
+  "id": "ex-32-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 4,
+  "subtopic": "Worked Example 32.3",
+  "question": "Let X be the discrete random variable with pmf given by $p(x) = \\left(\\frac{1}{2}\\right)^x$, $x = 1, 2,\\ldots$ and 0 otherwise. Find the mode of X.",
+  "answer": "",
+  "explanation": "The value of x that maximizes $p(x)$ is $x = 1$. Thus, the mode of X is 1",
+  "source": "Finan §32 — Worked Example 32.3"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-34-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 4,
+  "subtopic": "Worked Example 34.2",
+  "question": "Let X be a normal random variable with parameters $\\mu = 24$ and $\\sigma^2_X = 9$. (a) Find $\\Pr(X > 27)$ using Table 34.1. (b) Solve $S(x) = 0.05$ where $S(x)$ is the survival function of X.",
+  "answer": "",
+  "explanation": "(a) The desired probability is given by $\\Pr(X > 27) = \\Pr\\left(\\frac{X-24}{3} > \\frac{27-24}{3}\\right) = \\Pr(Z > 1) = 1-\\Pr(Z\\le 1) = 1-\\Phi(1) = 1-0.8413 = 0.1587$. (b) The equation $\\Pr(X > x) = 0.05$ is equivalent to $\\Pr(X\\le x) = 0.95$. Note that $\\Pr(X\\le x) = \\Pr\\left(\\frac{X-24}{3} < \\frac{x-24}{3}\\right) = \\Pr\\left(Z < \\frac{x-24}{3}\\right) = 0.95$. From Table 34.1 we find $\\Pr(Z\\le 1.65) = 0.95$. Thus, we set $\\frac{x-24}{3} = 1.65$ and solve for x we find $x = 28.95$. From the above example, we see that probabilities involving normal random variables can be reduced to the ones involving standard normal variable. For example $\\Pr(X\\le a) = \\Pr\\left(\\frac{X-\\mu}{\\sigma}\\le \\frac{a-\\mu}{\\sigma}\\right) = \\Phi\\left(\\frac{a-\\mu}{\\sigma}\\right)$.",
+  "source": "Finan §34 — Worked Example 34.2"
+}

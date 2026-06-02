@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-10",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.10",
+  "question": "Subway prepared 60 4-inch sandwiches for a birthday party. Among these sandwiches, 45 of them had tomatoes, 30 had both tomatoes and onions, and 5 had neither tomatoes nor onions. Using a Venn diagram, how many sandwiches did he make with (a) tomatoes or onions? (b) onions? (c) onions but not tomatoes?",
+  "answer": "(a) 55 sandwiches with tomatoes or onions. (b) There are 40 sandwiches with onions. (c) There are 10 sandwiches with onions but not tomatoes",
+  "explanation": "Answer: (a) 55 sandwiches with tomatoes or onions. (b) There are 40 sandwiches with onions. (c) There are 10 sandwiches with onions but not tomatoes",
+  "source": "Finan §1 — Practice Problem 1.10"
+}

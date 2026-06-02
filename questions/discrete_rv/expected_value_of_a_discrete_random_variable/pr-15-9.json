@@ -1,0 +1,13 @@
+{
+  "id": "pr-15-9",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 15.9",
+  "question": "Two life insurance policies, each with a death benefit of 10,000 and a one-time premium of 500, are sold to a couple, one for each person. The policies will expire at the end of the tenth year. The probability that only the wife will survive at least ten years is 0.025, the probability that only the husband will survive at least ten years is 0.01, and the probability that both of them will survive at least ten years is 0.96. What is the expected excess of premiums over claims, given that the husband survives at least ten years?",
+  "answer": "897",
+  "explanation": "Answer: 897",
+  "source": "Finan §15 — Practice Problem 15.9"
+}

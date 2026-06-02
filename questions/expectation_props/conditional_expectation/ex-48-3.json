@@ -1,0 +1,13 @@
+{
+  "id": "ex-48-3",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 5,
+  "subtopic": "Worked Example 48.3",
+  "question": ", the best estimator is given by $$g(x) = E(Y|X) = \\begin{cases} \\frac{\\alpha}{\\alpha-1}, & \\text{if } x < 1 \\\\ \\frac{\\alpha x}{\\alpha-1}, & \\text{if } x \\ge 1 \\end{cases}$$",
+  "answer": "",
+  "explanation": "(See the section in Learn.)",
+  "source": "Finan §48 — Worked Example 48.3"
+}

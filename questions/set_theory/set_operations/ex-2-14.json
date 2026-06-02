@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-14",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.14",
+  "question": "Consider the experiment of tossing a fair coin n times. Represent the sample space as a Cartesian product.",
+  "answer": "",
+  "explanation": "If S is the sample space then $S = S_1 \\times S_2 \\times \\ldots \\times S_n$, where $S_i$, $1 \\le i \\le n$, is the set consisting of the two outcomes H = head and T = tail The following theorem is a tool for finding the cardinality of the Cartesian product of two finite sets. Theorem 2.4 Given two finite sets A and B. Then $n(A \\times B) = n(A) \\cdot n(B)$. Proof. Suppose that $A = \\{a_1, a_2, \\ldots, a_n\\}$ and $B = \\{b_1, b_2, \\ldots, b_m\\}$. Then $A \\times B = \\{(a_1, b_1), (a_1, b_2), \\ldots, (a_1, b_m), (a_2, b_1), (a_2, b_2), \\ldots, (a_2, b_m), (a_3, b_1), (a_3, b_2), \\ldots, (a_3, b_m), \\ldots (a_n, b_1), (a_n, b_2), \\ldots, (a_n, b_m)\\}$ Thus, $n(A \\times B) = n \\cdot m = n(A) \\cdot n(B)$ Remark 2.4 By induction, the previous result can be extended to any finite number of sets.",
+  "source": "Finan §2 — Worked Example 2.14"
+}

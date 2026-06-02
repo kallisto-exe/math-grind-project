@@ -1,0 +1,13 @@
+{
+  "id": "ex-29-5",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 2,
+  "subtopic": "Worked Example 29.5",
+  "question": "Sketch the region of integration of $\\int^2 \\int_{-\\sqrt{4-x^2}}^{\\sqrt{4-x^2}} xy\\,dy\\,dx$",
+  "answer": "",
+  "explanation": "A sketch of the region is given in Figure 29.5. Figure 29.5",
+  "source": "Finan §29 — Worked Example 29.5"
+}

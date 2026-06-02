@@ -1,0 +1,13 @@
+{
+  "id": "ex-29-4",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 2,
+  "subtopic": "Worked Example 29.4",
+  "question": "Find $\\int_R (4xy - y^3)\\,dx\\,dy$ where $R$ is the region bounded by the curves $y = \\sqrt{x}$ and $y = x^3$.",
+  "answer": "",
+  "explanation": "A sketch of $R$ is given in Figure 29.4. Using horizontal strips we can write $\\int_R (4xy - y^3)\\,dx\\,dy = \\int^1 \\int_{y^2}^{\\sqrt[3]{y}} (4xy - y^3)\\,dx\\,dy = \\int^1 \\left[2x^2 y - xy^3\\right]_{y^2}^{\\sqrt[3]{y}} dy = \\int^1 \\left(2y^{\\frac{?}{?}} - y^{?} - y^5\\right) dy = \\frac{3}{4}y^{\\frac{?}{?}} - \\frac{3}{13}y^{\\frac{?}{?}} - \\frac{1}{6}y^6\\Big| = \\frac{55}{?}$ Figure 29.4",
+  "source": "Finan §29 — Worked Example 29.4"
+}

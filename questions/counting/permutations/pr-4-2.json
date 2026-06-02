@@ -1,0 +1,13 @@
+{
+  "id": "pr-4-2",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 4.2",
+  "question": "How many four-letter code words can be formed using a standard 26-letter alphabet (a) if repetition is allowed? (b) if repetition is not allowed?",
+  "answer": "(a) 456,976 (b) 358,800",
+  "explanation": "Answer: (a) 456,976 (b) 358,800",
+  "source": "Finan §4 — Practice Problem 4.2"
+}

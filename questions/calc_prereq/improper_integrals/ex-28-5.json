@@ -1,0 +1,13 @@
+{
+  "id": "ex-28-5",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 2,
+  "subtopic": "Worked Example 28.5",
+  "question": "Show that the improper integral $\\int_{-\\infty}^\\infty \\frac{1}{1+x^2}\\,dx$ converges.",
+  "answer": "",
+  "explanation": "We have $\\int_{-\\infty}^\\infty \\frac{1}{1 +x^2}\\,dx = \\lim_{a\\to\\infty} \\int_{-a}^c \\frac{1}{1 +x^2}\\,dx + \\lim_{a\\to\\infty} \\int_c^a \\frac{1}{1 +x^2}\\,dx = \\lim_{a\\to\\infty} \\left[\\tan^{-1}x\\right]_{-a}^c + \\lim_{a\\to\\infty} \\left[\\tan^{-1}x\\right]_c^a = \\lim_{a\\to\\infty} \\left[\\tan^{-1}a - \\tan^{-1}(-a)\\right] = \\lim_{a\\to\\infty} 2\\tan^{-1}a = 2 \\cdot \\frac{\\pi}{2} = \\pi$ Integrands with infinite discontinuity Suppose $f(x)$ is unbounded at $x = a$, that is $\\lim_{x\\to a^+} f(x) = \\infty$. Then we define $\\int_a^b f(x)\\,dx = \\lim_{t\\to a^+} \\int_t^b f(x)\\,dx$. Similarly, if $f(x)$ is unbounded at $x = b$, that is $\\lim_{x\\to b^-} f(x) = \\infty$. Then we define $\\int_a^b f(x)\\,dx = \\lim_{t\\to b^-} \\int_a^t f(x)\\,dx$. Now, if $f(x)$ is unbounded at an interior point $a < c < b$ then we define $\\int_a^b f(x)\\,dx = \\lim_{t\\to c^-} \\int_a^t f(x)\\,dx + \\lim_{t\\to c^+} \\int_t^b f(x)\\,dx$. If both limits exist then the integral on the left-hand side converges. If one of the limits does not exist then we say that the improper integral is divergent.",
+  "source": "Finan §28 — Worked Example 28.5"
+}

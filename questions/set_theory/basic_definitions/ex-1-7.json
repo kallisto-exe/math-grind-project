@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-7",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.7",
+  "question": "Suppose that $A = \\{2, 4, 6\\}$, $B = \\{2, 6\\}$, and $C = \\{4, 6\\}$. Determine which of these sets are subsets of which other of these sets.",
+  "answer": "",
+  "explanation": "$B \\subseteq A$ and $C \\subseteq A$ If sets A and B are represented as regions in the plane, relationships between A and B can be represented by pictures, called Venn diagrams.",
+  "source": "Finan §1 — Worked Example 1.7"
+}

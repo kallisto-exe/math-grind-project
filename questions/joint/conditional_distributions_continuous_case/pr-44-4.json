@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.4",
+  "question": "The joint density function of $X$ and $Y$ is given by $f_{XY}(x,y) = \\begin{cases} xe^{-x(y+1)} & x \\ge 0, y \\ge 0 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find the conditional density of $X$ given $Y = y$ and that of $Y$ given $X = x$.",
+  "answer": "$f_{X|Y}(x|y) = (y+1)^2 x e^{-x(y+1)}$, $x \\ge 0$ and $f_{Y|X}(y|x) = xe^{-xy}$, $y \\ge 0$",
+  "explanation": "Answer: $f_{X|Y}(x|y) = (y+1)^2 x e^{-x(y+1)}$, $x \\ge 0$ and $f_{Y|X}(y|x) = xe^{-xy}$, $y \\ge 0$",
+  "source": "Finan §44 — Practice Problem 44.4"
+}

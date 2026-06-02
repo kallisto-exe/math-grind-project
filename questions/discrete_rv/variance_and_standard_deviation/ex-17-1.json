@@ -1,0 +1,13 @@
+{
+  "id": "ex-17-1",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 3,
+  "subtopic": "Worked Example 17.1",
+  "question": "Find the variance of the random variable $X$ with probability distribution $\\Pr(X = 1) = \\Pr(X = -1) = \\frac{1}{2}$.",
+  "answer": "",
+  "explanation": "Since $E(X) = 1 \\times \\frac{1}{2} - 1 \\times \\frac{1}{2} = 0$ and $E(X^2) = 1^2 \\cdot \\frac{1}{2} + (-1)^2 \\times \\frac{1}{2} = 1$ we find $\\mathrm{Var}(X) = 1 - 0 = 1$. A useful identity is given in the following result. Theorem 17.1 If $X$ is a discrete random variable then for any constants $a$ and $b$ we have $\\mathrm{Var}(aX + b) = a^2 \\mathrm{Var}(X)$. Proof. Since $E(aX + b) = aE(X) + b$, we have $\\mathrm{Var}(aX + b) = E\\left[(aX + b - E(aX + b))^2\\right] = E[a^2(X - E(X))^2] = a^2 E((X - E(X))^2) = a^2 \\mathrm{Var}(X)$. Remark 17.1 Note that the units of $\\mathrm{Var}(X)$ is the square of the units of $X$. This motivates the definition of the standard deviation $\\sigma_X = \\sqrt{\\mathrm{Var}(X)}$ which is measured in the same units as $X$.",
+  "source": "Finan §17 — Worked Example 17.1"
+}

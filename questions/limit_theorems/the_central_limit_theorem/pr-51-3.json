@@ -1,0 +1,13 @@
+{
+  "id": "pr-51-3",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 51.3",
+  "question": "A radio battery manufacturer claims that the lifespan of its batteries has a mean of 54 days and a standard deviation of 6 days. A random sample of 50 batteries were picked for testing. Assuming the manufacturer's claims are true, what is the probability that the sample has a mean lifetime of less than 52 days?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §51 — Practice Problem 51.3"
+}

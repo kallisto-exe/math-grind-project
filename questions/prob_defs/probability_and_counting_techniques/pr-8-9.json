@@ -1,0 +1,13 @@
+{
+  "id": "pr-8-9",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 8.9",
+  "question": "An urn contains 16 black balls and 3 purple balls. Two balls are to be drawn one at a time without replacement. What is the probability of drawing out a black on the first draw and a purple on the second?",
+  "answer": "0.14",
+  "explanation": "Answer: 0.14",
+  "source": "Finan §8 — Practice Problem 8.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-47-2",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 5,
+  "subtopic": "Worked Example 47.2",
+  "question": "Given: $E(X) = 10$, $\\mathrm{Var}(X) = 25$, $E(Y) = 50$, $\\mathrm{Var}(Y) = 100$, $E(Z) = 6$, $\\mathrm{Var}(Z) = 4$, $\\mathrm{Cov}(X,Y) = 10$, and $\\mathrm{Cov}(X,Z) = 3.5$. Let $Z = X + cY$. Find $c$ if $\\mathrm{Cov}(X,Z) = 3.5$.",
+  "answer": "",
+  "explanation": "We have $$\\mathrm{Cov}(X,Z) = \\mathrm{Cov}(X, X+cY) = \\mathrm{Cov}(X,X) + c\\,\\mathrm{Cov}(X,Y) = \\mathrm{Var}(X) + c\\,\\mathrm{Cov}(X,Y) = 25 + c(10) = 3.5$$ Solving for $c$ we find $c = -2.15$. Using (b) and (d) in the previous theorem with $Y_j = X_j$, $j = 1, 2, \\ldots, n$ we find $$\\mathrm{Var}\\left( \\sum_{i=1}^n X_i \\right) = \\mathrm{Cov}\\left( \\sum_{i=1}^n X_i, \\sum_{i=1}^n X_i \\right) = \\sum_{i=1}^n \\sum_{j=1}^n \\mathrm{Cov}(X_i,X_j) = \\sum_{i=1}^n \\mathrm{Var}(X_i) + \\sum_{i\\ne j}\\sum \\mathrm{Cov}(X_i,X_j)$$ Since each pair of indices $i\\ne j$ appears twice in the double summation, the above reduces to $$\\mathrm{Var}\\left( \\sum_{i=1}^n X_i \\right) = \\sum_{i=1}^n \\mathrm{Var}(X_i) + 2\\sum_{i<j}\\sum \\mathrm{Cov}(X_i,X_j).$$ In particular, if $X_1, X_2, \\ldots, X_n$ are pairwise independent then $\\mathrm{Var}\\left( \\sum_{i=1}^n X_i \\right) = \\sum_{i=1}^n \\mathrm{Var}(X_i)$.",
+  "source": "Finan §47 — Worked Example 47.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-28-8",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 2,
+  "subtopic": "Worked Example 28.8",
+  "question": "Investigate the improper integral $\\int_{-1}^1 \\frac{1}{x}\\,dx$.",
+  "answer": "",
+  "explanation": "We first write $\\int_{-1}^1 \\frac{1}{x}\\,dx = \\int_{-1}^0 \\frac{1}{x}\\,dx + \\int^1 \\frac{1}{x}\\,dx$. On one hand we have, $\\int_{-1}^0 \\frac{1}{x}\\,dx = \\lim_{t\\to 0^-} \\int_{-1}^t \\frac{1}{x}\\,dx = \\lim_{t\\to 0^-} \\ln|x|\\Big|_{-1}^t = \\lim_{t\\to 0^-} \\ln|t| = \\infty$. This shows that the improper integral $\\int_{-1}^0 \\frac{1}{x}\\,dx$ is divergent and therefore the improper integral $\\int_{-1}^1 \\frac{1}{x}\\,dx$ is divergent Improper Integrals of Mixed Type Now, if the interval of integration is unbounded and the integrand is unbounded at one or more points inside the interval of integration we can evaluate the improper integral by decomposing it into a sum of an improper integral with finite interval but where the integrand is unbounded and an improper integral with an infinite interval. If each component integrals converges, then we say that the original integral converges to the sum of the values of the component integrals. If one of the component integrals diverges, we say that the entire integral diverges.",
+  "source": "Finan §28 — Worked Example 28.8"
+}

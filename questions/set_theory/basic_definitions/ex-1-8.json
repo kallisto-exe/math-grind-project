@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-8",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.8",
+  "question": "Represent $A \\subseteq B \\subseteq C$ using Venn diagram.",
+  "answer": "",
+  "explanation": "The Venn diagram is given in Figure 1.1 Figure 1.1 Let A and B be two sets. We say that A is a proper subset of B, denoted by $A \\subset B$, if $A \\subseteq B$ and $A \\ne B$. Thus, to show that A is a proper subset of B we must show that every element of A is an element of B and there is an element of B which is not in A.",
+  "source": "Finan §1 — Worked Example 1.8"
+}

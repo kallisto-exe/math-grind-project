@@ -1,0 +1,13 @@
+{
+  "id": "ex-28-1",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 2,
+  "subtopic": "Worked Example 28.1",
+  "question": "Does the integral $\\int_1^\\infty \\frac{1}{x^2}\\,dx$ converge or diverge?",
+  "answer": "",
+  "explanation": "We have $\\int_1^\\infty \\frac{1}{x^2}\\,dx = \\lim_{b\\to\\infty} \\int_1^b \\frac{1}{x^2}\\,dx = \\lim_{b\\to\\infty} \\left[-\\frac{1}{x}\\right]_1^b = \\lim_{b\\to\\infty} \\left(-\\frac{1}{b} + 1\\right) = 1$. In terms of area, the given integral represents the area under the graph of $f(x) = \\frac{1}{x^2}$ from $x = 1$ and extending infinitely to the right. The above improper integral says the following. Let $b > 1$ and obtain the area shown in Figure 28.1. Figure 28.1 Then $\\int_1^b \\frac{1}{x^2}\\,dx$ is the area under the graph of $f(x)$ from $x = 1$ to $x = b$. As $b$ gets larger and larger this area is close to 1",
+  "source": "Finan §28 — Worked Example 28.1"
+}

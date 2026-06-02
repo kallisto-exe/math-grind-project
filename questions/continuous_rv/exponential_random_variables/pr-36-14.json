@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-14",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.14",
+  "question": "An insurance policy reimburses dental expense, X, up to a maximum benefit of 250. The probability density function for X is: $f(x) = \\begin{cases} ce^{-0.004x} & x\\ge 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ where c is a constant. Calculate the median benefit for this policy.",
+  "answer": "173.29",
+  "explanation": "Answer: 173.29",
+  "source": "Finan §36 — Practice Problem 36.14"
+}

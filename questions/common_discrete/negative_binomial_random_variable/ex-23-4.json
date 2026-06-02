@@ -1,0 +1,13 @@
+{
+  "id": "ex-23-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 4,
+  "subtopic": "Worked Example 23.4",
+  "question": "A person is conducting a phone survey. Suppose that 1 of 6 people contacted will complete the survey. Define \"success\" as the event a person completes the survey and let $Y$ be the number of failures before the third success. Find $E(Y)$ and $\\mathrm{Var}(Y)$.",
+  "answer": "",
+  "explanation": "The expected value of $Y$ is $E(Y) = \\frac{r(1-p)}{p} = 15$ and the variance is $\\mathrm{Var}(Y) = \\frac{r(1-p)}{p^2} = 90$",
+  "source": "Finan §23 — Worked Example 23.4"
+}

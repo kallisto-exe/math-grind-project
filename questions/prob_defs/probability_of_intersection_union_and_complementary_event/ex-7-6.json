@@ -1,0 +1,13 @@
+{
+  "id": "ex-7-6",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 3,
+  "subtopic": "Worked Example 7.6",
+  "question": "Suppose there's 40% chance of getting a freezing rain, 10% chance of snow and freezing rain, 80% chance of snow or freezing rain. Find the chance of snow.",
+  "answer": "",
+  "explanation": "By the addition rule we have $\\Pr(R) = \\Pr(R \\cup C) - \\Pr(C) + \\Pr(R \\cap C) = 0.8 - 0.4 + 0.1 = 0.5$.",
+  "source": "Finan §7 — Worked Example 7.6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.4",
+  "question": "Suppose $X$ is an exponential random variable with density function $f(x) = \\begin{cases} \\lambda e^{-\\lambda x} & x \\ge 0 \\\\ 0 & \\text{otherwise} \\end{cases}$. What is the density function of $Y = e^X$?",
+  "answer": "For $y \\ge 1$ we have $f_Y(y) = \\lambda y^{-\\lambda - 1}$ and 0 otherwise",
+  "explanation": "Answer: For $y \\ge 1$ we have $f_Y(y) = \\lambda y^{-\\lambda - 1}$ and 0 otherwise.",
+  "source": "Finan §38 — Practice Problem 38.4"
+}

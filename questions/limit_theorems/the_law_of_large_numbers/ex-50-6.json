@@ -1,0 +1,13 @@
+{
+  "id": "ex-50-6",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 5,
+  "subtopic": "Worked Example 50.6",
+  "question": "The expected life of a certain battery is 240 hours. (a) Let $p$ be the probability that a battery will NOT last for 300 hours. What can you say about $p$? (b) Assume now that the standard deviation of a battery's life is 30 hours. What can you say now about $p$?",
+  "answer": "",
+  "explanation": "(a) Let $X$ be the random variable representing the number of hours of the battery's life. Then by using Markov's inequality we find $p = \\Pr(X < 300) = 1 - \\Pr(X \\ge 300) \\ge 1 - \\frac{240}{300} = 0.2$. (b) By Chebyshev's inequality we find $p = \\Pr(X < 300) = 1 - \\Pr(X \\ge 300) \\ge 1 - \\Pr(|X-240| \\ge 60) \\ge 1 - \\frac{900}{3600} = 0.75$.",
+  "source": "Finan §50 — Worked Example 50.6"
+}

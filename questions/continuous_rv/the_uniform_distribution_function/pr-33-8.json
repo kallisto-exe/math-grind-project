@@ -1,0 +1,13 @@
+{
+  "id": "pr-33-8",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 33.8",
+  "question": "The warranty on a machine specifies that it will be replaced at failure or age 4, whichever occurs first. The machine's age at failure, $X$, has density function $f(x) = \\begin{cases} \\frac{1}{5} & 0 < x < 5 \\\\ 0 & \\text{otherwise} \\end{cases}$ Let $Y$ be the age of the machine at the time of replacement. Determine the variance of $Y$.",
+  "answer": "1.707",
+  "explanation": "Answer: 1.707",
+  "source": "Finan §33 — Practice Problem 33.8"
+}

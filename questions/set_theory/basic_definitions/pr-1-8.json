@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-8",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.8",
+  "question": "Use induction to show that $(1 + x)^n \\ge 1 + nx$ for all $n \\in \\mathbb{N}$, where $x > -1$.",
+  "answer": "The result is true for $n = 1$. Suppose true up to $n$. Then $(1 + x)^{n+1} = (1 + x)(1 + x)^n \\ge (1 + x)(1 + nx)$, since $1 + x > 0$ $= 1 + nx + x + nx^2 = 1 + nx^2 + (n + 1)x \\ge 1 + (n + 1)x$",
+  "explanation": "Answer: The result is true for $n = 1$. Suppose true up to $n$. Then $(1 + x)^{n+1} = (1 + x)(1 + x)^n \\ge (1 + x)(1 + nx)$, since $1 + x > 0$ $= 1 + nx + x + nx^2 = 1 + nx^2 + (n + 1)x \\ge 1 + (n + 1)x$",
+  "source": "Finan §1 — Practice Problem 1.8"
+}

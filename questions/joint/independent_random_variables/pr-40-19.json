@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-19",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.19",
+  "question": "Let $X$ and $Y$ be two discrete random variables with joint distribution given by the following table. $Y \\backslash X$: at $1$: $5$; at $2$: $\\theta_1 + \\theta_2$, $\\theta_1 + 2\\theta_2$; at $4$: $\\theta_1 + 2\\theta_2$, $\\theta_1 + \\theta_2$. We assume that $-0.25 \\le \\theta_1 \\le 2.5$ and $0 \\le \\theta_2 \\le 0.35$. Find $\\theta_1$ and $\\theta_2$ when $X$ and $Y$ are independent.",
+  "answer": "$\\theta_1 = \\frac{1}{4}$ and $\\theta_2 = 0$",
+  "explanation": "Answer: $\\theta_1 = \\frac{1}{4}$ and $\\theta_2 = 0$",
+  "source": "Finan §40 — Practice Problem 40.19"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.2",
+  "question": "An urn contains 15 red marbles and 10 blue ones. Seven marbles were randomly drawn without replacement. Find the probability of picking exactly 3 red marbles.",
+  "answer": "$0.1988$",
+  "explanation": "Answer: $0.1988$",
+  "source": "Finan §24 — Practice Problem 24.2"
+}

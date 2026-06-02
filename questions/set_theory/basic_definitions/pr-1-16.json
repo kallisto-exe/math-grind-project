@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-16",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.16",
+  "question": "Let A be a non-empty set and $f : A \\mapsto \\mathcal{P}(A)$ be any function. Let $B = \\{a \\in A \\mid a \\notin f(a)\\}$. Clearly, $B \\in \\mathcal{P}(A)$. Show that there is no $b \\in A$ such that $f(b) = B$. Hence, there is no onto map from A to $\\mathcal{P}(A)$.",
+  "answer": "Suppose the contrary. That is, there is a $b \\in A$ such that $f(b) = B$. Since $B \\subseteq A$, either $b \\in B$ or $b \\notin B$. If $b \\in B$ then $b \\notin f(b)$. But $B = f(b)$ so $b \\in B$ implies $b \\in f(b)$, a contradiction. If $b \\notin B$ then $b \\in f(b) = B$ which is again a contradiction. Hence, we conclude that there is no onto map from A to its power set.",
+  "explanation": "Answer: Suppose the contrary. That is, there is a $b \\in A$ such that $f(b) = B$. Since $B \\subseteq A$, either $b \\in B$ or $b \\notin B$. If $b \\in B$ then $b \\notin f(b)$. But $B = f(b)$ so $b \\in B$ implies $b \\in f(b)$, a contradiction. If $b \\notin B$ then $b \\in f(b) = B$ which is again a contradiction. Hence, we conclude that there is no onto map from A to its power set.",
+  "source": "Finan §1 — Practice Problem 1.16"
+}

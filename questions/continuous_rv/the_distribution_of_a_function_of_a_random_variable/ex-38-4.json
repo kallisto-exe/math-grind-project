@@ -1,0 +1,13 @@
+{
+  "id": "ex-38-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 4,
+  "subtopic": "Worked Example 38.4",
+  "question": "Let $X$ be a continuous random variable with pdf $f_X$. Find the pdf of $Y = aX + b$, $a > 0$.",
+  "answer": "",
+  "explanation": "Let $g(x) = ax + b$. Then $g^{-1}(y) = \\frac{y-b}{a}$. By the previous theorem, we have $f_Y(y) = \\frac{1}{a} f_X\\left(\\frac{y-b}{a}\\right)$.",
+  "source": "Finan §38 — Worked Example 38.4"
+}

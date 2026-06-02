@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-2",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.2",
+  "question": "Consider the random experiment of tossing a coin three times. (a) Let S be the collection of all outcomes of this experiment. List the elements of S. Use H for head and T for tail. (b) Let E be the subset of S with more than one tail. List the elements of E. (c) Suppose $F = \\{THH, HTH, HHT, HHH\\}$. Write F in set-builder notation.",
+  "answer": "(a) $S = \\{TTT, TTH, THT, THH, HTT, HTH, HHT, HHH\\}$ (b) $E = \\{TTT, TTH, HTT, THT\\}$ (c) $F = \\{x : x \\text{ is an element of S with more than one head}\\}$",
+  "explanation": "Answer: (a) $S = \\{TTT, TTH, THT, THH, HTT, HTH, HHT, HHH\\}$ (b) $E = \\{TTT, TTH, HTT, THT\\}$ (c) $F = \\{x : x \\text{ is an element of S with more than one head}\\}$",
+  "source": "Finan §1 — Practice Problem 1.2"
+}

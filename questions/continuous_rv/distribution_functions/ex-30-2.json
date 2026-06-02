@@ -1,0 +1,13 @@
+{
+  "id": "ex-30-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 4,
+  "subtopic": "Worked Example 30.2",
+  "question": "Suppose that the function $f(t)$ defined below is the density function of some random variable $X$. $f(t) = \\begin{cases} e^{-t} & t \\ge 0, \\\\ 0 & t < 0. \\end{cases}$ Compute $\\Pr(-10 \\le X \\le 10)$.",
+  "answer": "",
+  "explanation": "$\\Pr(-10 \\le X \\le 10) = \\int_{-10}^{10} f(t)\\,dt = \\int_{-10}^0 f(t)\\,dt + \\int_0^{10} f(t)\\,dt = \\int_0^{10} e^{-t}\\,dt = -e^{-t}\\Big|_0^{10} = 1 - e^{-10}$. A pdf need not be continuous, as the following example illustrates.",
+  "source": "Finan §30 — Worked Example 30.2"
+}

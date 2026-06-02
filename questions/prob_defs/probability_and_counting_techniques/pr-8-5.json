@@ -1,0 +1,13 @@
+{
+  "id": "pr-8-5",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 8.5",
+  "question": "An urn contains two black balls and one red ball. Two balls are drawn with replacement. What is the probability that both balls are black? Assume that the balls are equally likely to be drawn.",
+  "answer": "0.444",
+  "explanation": "Answer: 0.444",
+  "source": "Finan §8 — Practice Problem 8.5"
+}

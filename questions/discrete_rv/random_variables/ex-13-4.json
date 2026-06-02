@@ -1,0 +1,13 @@
+{
+  "id": "ex-13-4",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 3,
+  "subtopic": "Worked Example 13.4",
+  "question": "A class consisting of five male students and five female students has taken the GRE examination. All ten students got different scores on the test. The students are ranked according to their scores on the test. Assume that all possible rankings are equally likely. Let $X$ denote the highest ranking achieved by a male student. Find $\\Pr(X=i)$, $i = 1, 2, \\ldots, 10$.",
+  "answer": "",
+  "explanation": "Since 6 is the lowest possible rank attainable by the highest-scoring male, we must have $\\Pr(X = 7) = \\Pr(X = 8) = \\Pr(X = 9) = \\Pr(X = 10) = 0$. For $X = 1$ (male is highest-ranking scorer), we have 5 possible choices out of 10 for the top spot that satisfy this requirement; hence $\\Pr(X = 1) = \\frac{5 \\cdot 9!}{10!} = \\frac{1}{2}$. For $X = 2$ (male is 2nd-highest scorer), we have 5 possible choices for the top female, then 5 possible choices for the male who ranked 2nd overall, and then any arrangement of the remaining 8 individuals is acceptable (out of $10!$ possible arrangements of 10 individuals); hence, $\\Pr(X = 2) = \\frac{5 \\cdot 5 \\cdot 8!}{10!} = \\frac{5}{18}$. For $X = 3$ (male is 3rd-highest scorer), acceptable configurations yield $(5)(4)=20$ possible choices for the top 2 females, 5 possible choices for the male who ranked 3rd overall, and $7!$ different arrangement of the remaining 7 individuals (out of a total of $10!$ possible arrangements of 10 individuals); hence, $\\Pr(X = 3) = \\frac{5 \\cdot 4 \\cdot 5 \\cdot 7!}{10!} = \\frac{5}{36}$. Similarly, we have $\\Pr(X = 4) = \\frac{5 \\cdot 4 \\cdot 3 \\cdot 5 \\cdot 6!}{10!} = 5$ $\\Pr(X = 5) = \\frac{5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 5 \\cdot 5!}{10!} = 5$ $\\Pr(X = 6) = \\frac{5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 \\cdot 5 \\cdot 4!}{10!} = 1$",
+  "source": "Finan §13 — Worked Example 13.4"
+}

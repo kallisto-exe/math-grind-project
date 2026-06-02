@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-4",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.4",
+  "question": "A Poker club has 10 members. A president and a vice-president are to be selected. In how many ways can this be done if everyone is eligible?",
+  "answer": "90",
+  "explanation": "Answer: 90",
+  "source": "Finan §3 — Practice Problem 3.4"
+}

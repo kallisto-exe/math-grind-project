@@ -1,0 +1,13 @@
+{
+  "id": "ex-39-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 5,
+  "subtopic": "Worked Example 39.4",
+  "question": "The cumulative distribution function for the joint distribution of the continuous random variables $X$ and $Y$ is $F_{XY}(x, y) = 0.2(3x^3 y + 2x^2 y^2), 0 \\le x \\le 1, 0 \\le y \\le 1$. Find $f_{XY}\\left(\\frac{1}{2}, \\frac{1}{2}\\right)$.",
+  "answer": "",
+  "explanation": "Since $f_{XY}(x, y) = \\frac{\\partial^2}{\\partial y \\partial x} F_{XY}(x, y) = 0.2(9x^2 + 8xy)$ we find $f_{XY}\\left(\\frac{1}{2}, \\frac{1}{2}\\right) = \\frac{17}{40}$. Now, if $X$ and $Y$ are jointly continuous then they are individually continuous, and their probability density functions can be obtained as follows: $\\Pr(X \\in A) = \\Pr(X \\in A, Y \\in (-\\infty, \\infty)) = \\int_A \\int_{-\\infty}^{\\infty} f_{XY}(x, y)\\,dy\\,dx = \\int_A f_X(x)\\,dx$ where $f_X(x) = \\int_{-\\infty}^{\\infty} f_{XY}(x, y)\\,dy$ is thus the probability density function of $X$. Similarly, the probability density function of $Y$ is given by $f_Y(y) = \\int_{-\\infty}^{\\infty} f_{XY}(x, y)\\,dx$.",
+  "source": "Finan §39 — Worked Example 39.4"
+}

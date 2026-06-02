@@ -1,0 +1,13 @@
+{
+  "id": "ex-20-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 4,
+  "subtopic": "Worked Example 20.1",
+  "question": "The number of car accidents on a certain section of highway I40 averages 2.1 per day. Assuming that the number of accidents in a given day follows a Poisson distribution, what is the probability that 4 accidents will occur on a given day?",
+  "answer": "",
+  "explanation": "The probability that 4 accidents will occur on a given day is given by $\\Pr(X = 4) = e^{-2.1}\\frac{(2.1)^4}{4!} \\approx 0.0992$",
+  "source": "Finan §20 — Worked Example 20.1"
+}

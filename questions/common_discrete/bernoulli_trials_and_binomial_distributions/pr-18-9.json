@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-9",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.9",
+  "question": "Suppose that 3% of flashlight batteries produced by a certain machine are defective. The batteries are put into packages of 20 batteries for distribution to retailers. What is the probability that a randomly selected package of batteries will contain at least 2 defective batteries?",
+  "answer": "0.1198",
+  "explanation": "Answer: 0.1198",
+  "source": "Finan §18 — Practice Problem 18.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-15",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.15",
+  "question": "What is the total number of outcomes of tossing a fair coin n times.",
+  "answer": "",
+  "explanation": "If S is the sample space then $S = S_1 \\times S_2 \\times \\ldots \\times S_n$ where $S_i$, $1 \\le i \\le n$, is the set consisting of the two outcomes H = head and T = tail. By the previous theorem, $n(S) = 2^n$",
+  "source": "Finan §2 — Worked Example 2.15"
+}

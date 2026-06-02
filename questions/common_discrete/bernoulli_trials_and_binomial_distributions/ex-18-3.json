@@ -1,0 +1,13 @@
+{
+  "id": "ex-18-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 4,
+  "subtopic": "Worked Example 18.3",
+  "question": "Suppose that in a box of 100 computer chips, the probability of a chip to be defective is 3%. Inspection process for defective chips consists of selecting with replacement 5 randomly chosen chips in the box and to send the box for shipment if none of the five chips is defective. Write down the random variable, the corresponding probability distribution and then determine the probability that the box described here will be allowed to be shipped.",
+  "answer": "",
+  "explanation": "Let $X$ be the number of defective chips in the box. Then $X$ is a binomial random variable with probability distribution $\\Pr(X = x) = {}_5C_x (0.03)^x (0.97)^{5-x}$, $x = 0, 1, 2, 3, 4, 5$. Here $\\lfloor x\\rfloor$ is the largest integer less than or equal to $x$. Now, $\\Pr(\\text{box goes into circulation}) = \\Pr(X = 0) = (0.97)^5 = 0.859$",
+  "source": "Finan §18 — Worked Example 18.3"
+}

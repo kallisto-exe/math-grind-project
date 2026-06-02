@@ -1,0 +1,13 @@
+{
+  "id": "ex-25-1",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 4,
+  "subtopic": "Worked Example 25.1",
+  "question": "Determine whether the given values can serve as the values of a distribution function of a random variable with the range $x = 1, 2, 3, 4$. $F(1) = 0.5$, $F(2) = 0.4$, $F(3) = 0.7$, and $F(4) = 1.0$",
+  "answer": "",
+  "explanation": "Since $F(2) < F(1)$, $F$ is not increasing and therefore $F$ can not be a cdf. Proposition 25.3 $F$ is continuous from the right. That is, $\\lim_{t\\to b^+} F(t) = F(b)$. Proof. Let $\\{b_n\\}$ be a decreasing sequence that converges to $b$ with $b_n\\ge b$ for all $n$. Define $E_n = \\{s : X(s)\\le b_n\\}$. Then $\\{E_n\\}_{n\\ge 1}$ is a decreasing sequence of events such that $\\bigcap_{n=1}^\\infty E_n = \\{s : X(s)\\le b\\}$. By Proposition 25.1 we have $\\lim_{n\\to\\infty} F(b_n) = \\lim_{n\\to\\infty} \\Pr(E_n) = \\Pr\\left(\\bigcap_{n=1}^\\infty E_n\\right) = \\Pr(X\\le b) = F(b)$. Proposition 25.4 (a) $\\lim_{b\\to-\\infty} F(b) = 0$ (b) $\\lim_{b\\to\\infty} F(b) = 1$. Proof. (a) Note that $\\lim_{x\\to-\\infty} F(x) = \\lim_{n\\to\\infty} F(x_n)$ where $(x_n)$ is a decreasing sequence such that $x_n\\to-\\infty$. Define $E_n = \\{s\\in S : X(s)\\le x_n\\}$. Then we have the nested chain $E_1\\supseteq E_2\\supseteq E_3\\supseteq\\cdots$. Moreover, $\\emptyset = \\bigcap_{n=1}^\\infty E_n$. By Proposition 25.1, we find $\\lim_{x\\to-\\infty} F(x) = \\lim_{n\\to\\infty} F(x_n) = \\lim_{n\\to\\infty} \\Pr(E_n) = \\Pr\\left(\\bigcap_{n=1}^\\infty E_n\\right) = \\Pr(\\emptyset) = 0$. (b) Note that $\\lim_{x\\to\\infty} F(x) = \\lim_{n\\to\\infty} F(x_n)$ where $(x_n)$ is an increasing sequence such that $x_n\\to\\infty$. Define $E_n = \\{s\\in S : X(s)\\le x_n\\}$. Then we have the nested chain $E_1\\subseteq E_2\\subseteq E_3\\subseteq\\cdots$. Moreover, $S = \\bigcup_{n=1}^\\infty E_n$. By Proposition 25.1, we find $\\lim_{x\\to\\infty} F(x) = \\lim_{n\\to\\infty} F(x_n) = \\lim_{n\\to\\infty} \\Pr(E_n) = \\Pr\\left(\\bigcup_{n=1}^\\infty E_n\\right) = \\Pr(S) = 1$",
+  "source": "Finan §25 — Worked Example 25.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-3",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.3",
+  "question": "An insurer offers a health plan to the employees of a large company. As part of this plan, the individual employees may choose exactly two of the supplementary coverages $A$, $B$, and $C$, or they may choose no supplementary coverage. The proportions of the company's employees that choose coverages $A$, $B$, and $C$ are $\\frac{1}{4}$, $\\frac{1}{3}$, and $\\frac{5}{12}$ respectively. Determine the probability that a randomly chosen employee will choose no supplementary coverage.",
+  "answer": "50%",
+  "explanation": "Answer: 50%",
+  "source": "Finan §6 — Practice Problem 6.3"
+}

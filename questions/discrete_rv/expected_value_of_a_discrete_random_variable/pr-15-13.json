@@ -1,0 +1,13 @@
+{
+  "id": "pr-15-13",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 15.13",
+  "question": "An urn contains 10 marbles in which 3 are black. Four of the marbles are selected at random (without replacement) and are tested for the black color. Define the random variable $X$ to be the number of the selected marbles that are not black. (a) Find the probability mass function of $X$. (b) What is the cumulative distribution function of $X$? (c) Find the expected value of $X$.",
+  "answer": "(a) p(1) =Pr(X = 1) = 3C3* 7C1 210 = 7 p(2) =Pr(X = 2) = 3C2* 7C2 210 = 63 p(3) =Pr(X = 3) = 3C1* 7C3 210 = 105 p(4) =Pr(X = 4) = 3C0* 7C4 210 = 35 (b) F (x) =    0 x< 1 210 1≤x< 2 210 2≤x< 3 210 3≤x< 4 1 x≥ 4 (c) 2.8",
+  "explanation": "Answer: (a) $p(1) = \\Pr(X = 1) = \\frac{{}_3C_3 \\cdot {}_7C_1}{210} = 7$ $p(2) = \\Pr(X = 2) = \\frac{{}_3C_2 \\cdot {}_7C_2}{210} = 63$ $p(3) = \\Pr(X = 3) = \\frac{{}_3C_1 \\cdot {}_7C_3}{210} = 105$ $p(4) = \\Pr(X = 4) = \\frac{{}_3C_0 \\cdot {}_7C_4}{210} = 35$ (b) $F(x) = \\begin{cases} 0 & x < 1 \\\\ 210 & 1 \\le x < 2 \\\\ 210 & 2 \\le x < 3 \\\\ 210 & 3 \\le x < 4 \\\\ 1 & x \\ge 4 \\end{cases}$ (c) 2.8",
+  "source": "Finan §15 — Practice Problem 15.13"
+}

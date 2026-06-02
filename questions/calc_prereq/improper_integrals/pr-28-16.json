@@ -1,0 +1,13 @@
+{
+  "id": "pr-28-16",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 28.16",
+  "question": "Investigate the convergence of the improper integral $\\int^\\infty \\frac{\\sin x + 3}{\\sqrt{x}}\\,dx$.",
+  "answer": "Divergent",
+  "explanation": "Answer: Divergent",
+  "source": "Finan §28 — Practice Problem 28.16"
+}

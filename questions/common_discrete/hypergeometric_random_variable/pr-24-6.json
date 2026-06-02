@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-6",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.6",
+  "question": "A batch of 8 components contains 2 defective components and 6 good ones. Randomly select four components without replacement. (a) What is the probability that all four components are good? (b) What are the mean and variance for the number of good components?",
+  "answer": "(a) $0.214$ (b) $E(X) = 3$ and $\\mathrm{Var}(X) = 0.429$",
+  "explanation": "Answer: (a) $0.214$ (b) $E(X) = 3$ and $\\mathrm{Var}(X) = 0.429$",
+  "source": "Finan §24 — Practice Problem 24.6"
+}

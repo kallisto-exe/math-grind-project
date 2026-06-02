@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-18",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.18",
+  "question": "Claims filed under auto insurance policies follow a normal distribution with mean 19,400 and standard deviation 5,000. What is the probability that the average of 25 randomly selected claims exceeds 20,000?",
+  "answer": "0.2743",
+  "explanation": "Answer: 0.2743",
+  "source": "Finan §47 — Practice Problem 47.18"
+}

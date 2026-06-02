@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-11",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.11",
+  "question": "Let $X, Y, Z$ be independent Poisson random variables with $E(X)=3$, $E(Y)=1$, and $E(Z)=4$. What is $\\Pr(X+Y+Z \\le 1)$?",
+  "answer": "$9e^{-8}$",
+  "explanation": "Answer: $9e^{-8}$",
+  "source": "Finan §41 — Practice Problem 41.11"
+}

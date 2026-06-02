@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.1",
+  "question": "Determine the value of $c$ so that the following function is a pdf. $f(x) = \\begin{cases} \\frac{c}{(x+1)^3} & \\text{if } x \\ge 0 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "answer": "2",
+  "explanation": "Answer: 2",
+  "source": "Finan §30 — Practice Problem 30.1"
+}

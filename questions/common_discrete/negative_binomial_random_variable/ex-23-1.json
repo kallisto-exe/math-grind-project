@@ -1,0 +1,13 @@
+{
+  "id": "ex-23-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 4,
+  "subtopic": "Worked Example 23.1",
+  "question": "A research study is concerned with the side eﬀects of a new drug. The drug is given to patients, one at a time, until two patients develop sided eﬀects. If the probability of getting a side eﬀect from the drug is $\\frac{1}{6}$, what is the probability that eight patients are needed?",
+  "answer": "",
+  "explanation": "Let $Y$ be the number of patients who do not show side eﬀects. Then $Y$ follows a negative binomial distribution with $r = 2$, $y = 6$, and $p = \\frac{1}{6}$. Thus, $\\Pr(Y = 6) = \\binom{2+6-1}{6}\\left(\\frac{1}{6}\\right)^2\\left(\\frac{5}{6}\\right)^6 \\approx 0.0651$",
+  "source": "Finan §23 — Worked Example 23.1"
+}

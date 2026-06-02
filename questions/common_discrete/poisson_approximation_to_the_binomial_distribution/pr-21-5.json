@@ -1,0 +1,13 @@
+{
+  "id": "pr-21-5",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§21 Poisson Approximation to the Binomial Distribution",
+  "section": 21,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 21.5",
+  "question": "From a group of 120 engineering students, 3% are not in favor of studying diﬀerential equations. Use the Poisson approximation to estimate the probability that (a) exactly 2 students are not in favor of studying diﬀerential equations; (b) at least two students are not in favor of studying diﬀerential equations.",
+  "answer": "(a) $0.177$ (b) $0.876$",
+  "explanation": "Answer: (a) $0.177$ (b) $0.876$",
+  "source": "Finan §21 — Practice Problem 21.5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-5",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.5",
+  "question": "Let the random variable $\\Theta$ be uniformly distributed on $[0, 2\\pi]$. Consider the random variables $X = \\cos\\Theta$ and $Y = \\sin\\Theta$. Show that $\\mathrm{Cov}(X,Y) = 0$ even though $X$ and $Y$ are dependent. This means that there is a weak relationship between $X$ and $Y$.",
+  "answer": "We have $$E(X) = \\frac{1}{2\\pi}\\int_0^{2\\pi} \\cos\\theta\\,d\\theta = 0 \\qquad E(Y) = \\frac{1}{2\\pi}\\int_0^{2\\pi} \\sin\\theta\\,d\\theta = 0 \\qquad E(XY) = \\frac{1}{2\\pi}\\int_0^{2\\pi} \\cos\\theta\\sin\\theta\\,d\\theta = 0$$ Thus $X$ and $Y$ are uncorrelated, but they are clearly not independent, since they are both functions of $\\theta$",
+  "explanation": "Answer: We have $$E(X) = \\frac{1}{2\\pi}\\int_0^{2\\pi} \\cos\\theta\\,d\\theta = 0 \\qquad E(Y) = \\frac{1}{2\\pi}\\int_0^{2\\pi} \\sin\\theta\\,d\\theta = 0 \\qquad E(XY) = \\frac{1}{2\\pi}\\int_0^{2\\pi} \\cos\\theta\\sin\\theta\\,d\\theta = 0$$ Thus $X$ and $Y$ are uncorrelated, but they are clearly not independent, since they are both functions of $\\theta$",
+  "source": "Finan §47 — Practice Problem 47.5"
+}

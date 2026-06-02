@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-8",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.8",
+  "question": "Let $S$ be a sample space and $A$ and $B$ be two events such that $\\Pr(A) = 0.8$ and $\\Pr(B) = 0.9$. Determine whether $A$ and $B$ are mutually exclusive or not.",
+  "answer": "No",
+  "explanation": "Answer: No",
+  "source": "Finan §7 — Practice Problem 7.8"
+}

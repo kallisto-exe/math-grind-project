@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-14",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.14",
+  "question": "Find $n(A)$ if $n(\\mathcal{P}(A)) = 32$.",
+  "answer": "5",
+  "explanation": "Answer: 5",
+  "source": "Finan §1 — Practice Problem 1.14"
+}

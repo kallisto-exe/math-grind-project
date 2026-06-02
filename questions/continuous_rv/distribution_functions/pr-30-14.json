@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-14",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.14",
+  "question": "Let $X_1, X_2, X_3$ be three independent, identically distributed random variables each with density function $f(x) = \\begin{cases} 3x^2 & 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Let $Y = \\max\\{X_1, X_2, X_3\\}$. Find $\\Pr\\left(Y > \\frac{1}{2}\\right)$.",
+  "answer": "$\\frac{511}{512}$",
+  "explanation": "Answer: $\\frac{511}{512}$",
+  "source": "Finan §30 — Practice Problem 30.14"
+}

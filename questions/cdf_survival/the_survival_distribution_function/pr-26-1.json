@@ -1,0 +1,13 @@
+{
+  "id": "pr-26-1",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§26 The Survival Distribution Function",
+  "section": 26,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 26.1",
+  "question": "Consider the random variable $X$ with survival distribution defined by $S(x) = \\begin{cases} 1, & x < 0 \\\\ \\frac{1}{10}(100-x)^2, & 0\\le x\\le 100 \\\\ 0, & x > 100 \\end{cases}$ (a) Find the corresponding expression for the cumulative probability function. (b) Compute $\\Pr(65 < X\\le 75)$.",
+  "answer": "(a) We have $F(x) = \\begin{cases} 0, & x < 0 \\\\ 1-\\frac{1}{10}(100-x)^2, & 0\\le x\\le 100 \\\\ 1, & x > 100 \\end{cases}$ (b) 0.092",
+  "explanation": "Answer: (a) We have $F(x) = \\begin{cases} 0, & x < 0 \\\\ 1-\\frac{1}{10}(100-x)^2, & 0\\le x\\le 100 \\\\ 1, & x > 100 \\end{cases}$ (b) 0.092",
+  "source": "Finan §26 — Practice Problem 26.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-5",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.5",
+  "question": "At a reception event guests arrive at an average of 2 per minute. Find the probability that (a) at most 4 will arrive at any given minute (b) at least 3 will arrive during an interval of 2 minutes (c) 5 will arrive in an interval of 3 minutes.",
+  "answer": "(a) $0.947$ (b) $0.762$ (c) $0.161$",
+  "explanation": "Answer: (a) $0.947$ (b) $0.762$ (c) $0.161$",
+  "source": "Finan §20 — Practice Problem 20.5"
+}

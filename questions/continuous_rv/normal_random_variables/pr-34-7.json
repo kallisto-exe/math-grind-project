@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-7",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.7",
+  "question": "For Company A there is a 60% chance that no claim is made during the coming year. If one or more claims are made, the total claim amount is normally distributed with mean 10,000 and standard deviation 2,000. For Company B there is a 70% chance that no claim is made during the coming year. If one or more claims are made, the total claim amount is normally distributed with mean 9,000 and standard deviation 2,000. Assuming that the total claim amounts of the two companies are independent, what is the probability that, in the coming year, Company B's total claim amount will exceed Company A's total claim amount?",
+  "answer": "0.223584",
+  "explanation": "Answer: 0.223584",
+  "source": "Finan §34 — Practice Problem 34.7"
+}

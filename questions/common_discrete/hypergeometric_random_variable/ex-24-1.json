@@ -1,0 +1,13 @@
+{
+  "id": "ex-24-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 4,
+  "subtopic": "Worked Example 24.1",
+  "question": "An urn contains 70 red marbles and 30 green marbles. If we draw out 20 without replacement, what is the probability of getting exactly 14 red marbles?",
+  "answer": "",
+  "explanation": "If $X$ is the number of red marbles, then $X$ is a hypergeometric random variable with parameters $N = 100$, $r = 20$, $n = 70$. Thus, $\\Pr(X = 14) = \\frac{\\binom{70}{14}\\binom{30}{6}}{\\binom{100}{20}} \\approx 0.21$",
+  "source": "Finan §24 — Worked Example 24.1"
+}

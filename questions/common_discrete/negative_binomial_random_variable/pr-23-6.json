@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-6",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.6",
+  "question": "There is 75% chance to pass the written test for a driver's license. What is the probability that a person will pass the test on the second try?",
+  "answer": "$0.1875$",
+  "explanation": "Answer: $0.1875$",
+  "source": "Finan §23 — Practice Problem 23.6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-13",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.13",
+  "question": "Suppose you flip a nickel, a dime and a quarter. Each coin is fair, and the flips of the different coins are independent. Let $A$ be the event \"the total value of the coins that came up heads is at least 15 cents\". Let $B$ be the event \"the quarter came up heads\". Let $C$ be the event \"the total value of the coins that came up heads is divisible by 10 cents\". (a) Write down the sample space, and list the events $A, B,$ and $C$. (b) Find $\\Pr(A)$, $\\Pr(B)$ and $\\Pr(C)$. (c) Compute $\\Pr(B \\mid A)$. (d) Are $B$ and $C$ independent? Explain.",
+  "answer": "(a) We have (b) $\\Pr(A) = \\frac{5}{8}$, $\\Pr(B) = 0.5$, $\\Pr(C) = \\frac{1}{2}$ (c) $\\frac{4}{5}$ (d) We have $B \\cap C = \\{HHH, HTH\\}$, so $\\Pr(B \\cap C) = \\frac{1}{4}$. That is equal to $\\Pr(B)\\Pr(C)$, so $B$ and $C$ are independent",
+  "explanation": "Answer: (a) We have (b) $\\Pr(A) = \\frac{5}{8}$, $\\Pr(B) = 0.5$, $\\Pr(C) = \\frac{1}{2}$ (c) $\\frac{4}{5}$ (d) We have $B \\cap C = \\{HHH, HTH\\}$, so $\\Pr(B \\cap C) = \\frac{1}{4}$. That is equal to $\\Pr(B)\\Pr(C)$, so $B$ and $C$ are independent",
+  "source": "Finan §11 — Practice Problem 11.13"
+}

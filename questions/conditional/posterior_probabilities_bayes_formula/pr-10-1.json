@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-1",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.1",
+  "question": "An insurance company believes that auto drivers can be divided into two categories: those who are a high risk for accidents and those who are low risk. Past statistics show that the probability for a high risk driver to have an accident within a one-year period is 0.4, whereas this probability is 0.2 for a low risk driver. (a) If we assume that 30% of the population is high risk, what is the probability that a new policyholder will have an accident within a year of purchasing a policy? (b) Suppose that a new policyholder has an accident within a year of purchasing a policy. What is the probability that he or she is high risk?",
+  "answer": "(a) 0.26 (b) 6",
+  "explanation": "Answer: (a) 0.26 (b) 6",
+  "source": "Finan §10 — Practice Problem 10.1"
+}

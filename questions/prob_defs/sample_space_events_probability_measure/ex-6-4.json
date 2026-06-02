@@ -1,0 +1,13 @@
+{
+  "id": "ex-6-4",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 3,
+  "subtopic": "Worked Example 6.4",
+  "question": "A hand of 5 cards is dealt from a deck. Let $E$ be the event that the hand contains 5 aces. List the elements of $E$ and find $\\Pr(E)$.",
+  "answer": "",
+  "explanation": "Recall that a standard deck of 52 playing cards can be described as follows: hearts (red) Ace 2 3 4 5 6 7 8 9 10 Jack Queen King clubs (black) Ace 2 3 4 5 6 7 8 9 10 Jack Queen King diamonds (red) Ace 2 3 4 5 6 7 8 9 10 Jack Queen King spades (black) Ace 2 3 4 5 6 7 8 9 10 Jack Queen King Cards labeled Ace, Jack, Queen, or King are called face cards. Since there are only 4 aces in the deck, event $E$ is impossible, i.e. $E = \\emptyset$ so that $\\Pr(E) = 0$.",
+  "source": "Finan §6 — Worked Example 6.4"
+}

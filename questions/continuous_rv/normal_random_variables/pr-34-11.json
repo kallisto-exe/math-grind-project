@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-11",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.11",
+  "question": "Let X be a normal random variable with mean 360 and variance 16. (a) Calculate $\\Pr(X < 355)$. (b) Suppose the variance is kept at 16 but the mean is to be adjusted so that $\\Pr(X < 355) = 0.025$. Find the adjusted mean.",
+  "answer": "(a) 0.1056 (b) 362.84",
+  "explanation": "Answer: (a) 0.1056 (b) 362.84",
+  "source": "Finan §34 — Practice Problem 34.11"
+}

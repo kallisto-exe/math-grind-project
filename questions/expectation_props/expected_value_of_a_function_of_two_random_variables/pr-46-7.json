@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-7",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.7",
+  "question": "Let $X$ and $Y$ be two independent random variables that are uniformly distributed on the interval $(0, L)$. Find $E(|X - Y|)$.",
+  "answer": "$\\frac{L}{3}$",
+  "explanation": "Answer: $\\frac{L}{3}$",
+  "source": "Finan §46 — Practice Problem 46.7"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-40-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 5,
+  "subtopic": "Worked Example 40.4",
+  "question": "The joint pdf of $X$ and $Y$ is given by $f_{XY}(x,y) = \\begin{cases} 3(x+y) & 0 \\le x + y \\le 1,\\ 0 \\le x, y < \\infty \\\\ 0 & \\text{Otherwise.} \\end{cases}$ Are $X$ and $Y$ independent?",
+  "answer": "",
+  "explanation": "For the limit of integration see Figure 40.1 below. Figure 40.1. The marginal pdf of $X$ is $f_X(x) = \\int_0^{1-x} 3(x+y)\\,dy = 3xy + \\frac{3}{2}y^2 \\Big|_0^{1-x} = \\frac{3}{2}(1-x^2)$, $0 \\le x \\le 1$. The marginal pdf of $Y$ is $f_Y(y) = \\int_0^{1-y} 3(x+y)\\,dx = \\frac{3}{2}x^2 + 3xy \\Big|_0^{1-y} = \\frac{3}{2}(1-y^2)$, $0 \\le y \\le 1$. But $f_{XY}(x,y) = 3(x+y) \\ne \\frac{3}{2}(1-x^2)\\frac{3}{2}(1-y^2) = f_X(x)f_Y(y)$ so that $X$ and $Y$ are dependent. The following theorem provides a necessary and sufficient condition for two random variables to be independent. Theorem 40.2 Two continuous random variables $X$ and $Y$ are independent if and only if their joint probability density function can be expressed as $f_{XY}(x,y) = h(x)g(y)$, $-\\infty < x < \\infty$, $-\\infty < y < \\infty$. The same result holds for discrete random variables. Proof. Suppose first that $X$ and $Y$ are independent. Then $f_{XY}(x,y) = f_X(x)f_Y(y)$. Let $h(x) = f_X(x)$ and $g(y) = f_Y(y)$. Conversely, suppose that $f_{XY}(x,y) = h(x)g(y)$. Let $C = \\int_{-\\infty}^{\\infty} h(x)\\,dx$ and $D = \\int_{-\\infty}^{\\infty} g(y)\\,dy$. Then $CD = \\left(\\int_{-\\infty}^{\\infty} h(x)\\,dx\\right)\\left(\\int_{-\\infty}^{\\infty} g(y)\\,dy\\right) = \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} h(x)g(y)\\,dx\\,dy = \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} f_{XY}(x,y)\\,dx\\,dy = 1$. Furthermore, $f_X(x) = \\int_{-\\infty}^{\\infty} f_{XY}(x,y)\\,dy = \\int_{-\\infty}^{\\infty} h(x)g(y)\\,dy = h(x)D$ and $f_Y(y) = \\int_{-\\infty}^{\\infty} f_{XY}(x,y)\\,dx = \\int_{-\\infty}^{\\infty} h(x)g(y)\\,dx = g(y)C$. Hence, $f_X(x)f_Y(y) = h(x)g(y)CD = h(x)g(y) = f_{XY}(x,y)$. This proves that $X$ and $Y$ are independent",
+  "source": "Finan §40 — Worked Example 40.4"
+}

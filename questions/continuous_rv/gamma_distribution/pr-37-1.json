@@ -1,0 +1,13 @@
+{
+  "id": "pr-37-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 37.1",
+  "question": "Let X be a gamma distribution with parameters $(\\alpha,\\lambda)$. Let $Y = cX$ with $c > 0$. Show that $F_Y(y) = \\frac{(\\lambda/c)^\\alpha}{\\Gamma(\\alpha)}\\int_0^y z^{\\alpha-1}e^{-\\lambda z/c}\\,dz$. Hence, Y is a gamma distribution with parameters $\\left(\\alpha, \\frac{\\lambda}{c}\\right)$.",
+  "answer": "We have $F_Y(y) = \\Pr(Y\\le y) = \\Pr\\left(X\\le \\frac{y}{c}\\right) = \\frac{\\lambda^\\alpha}{\\Gamma(\\alpha)}\\int_0^{y/c} t^{\\alpha-1}e^{-\\lambda t}\\,dt = \\frac{(\\lambda/c)^\\alpha}{\\Gamma(\\alpha)}\\int_0^y z^{\\alpha-1}e^{-\\lambda z/c}\\,dz$.",
+  "explanation": "Answer: We have $F_Y(y) = \\Pr(Y\\le y) = \\Pr\\left(X\\le \\frac{y}{c}\\right) = \\frac{\\lambda^\\alpha}{\\Gamma(\\alpha)}\\int_0^{y/c} t^{\\alpha-1}e^{-\\lambda t}\\,dt = \\frac{(\\lambda/c)^\\alpha}{\\Gamma(\\alpha)}\\int_0^y z^{\\alpha-1}e^{-\\lambda z/c}\\,dz$.",
+  "source": "Finan §37 — Practice Problem 37.1"
+}

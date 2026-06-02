@@ -1,0 +1,13 @@
+{
+  "id": "pr-15-11",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 15.11",
+  "question": "The distribution function of a discrete random variable $X$ is given by $F(x) = \\begin{cases} 0 & x < -2 \\\\ 0.2 & -2 \\le x < 0 \\\\ 0.5 & 0 \\le x < 2.2 \\\\ 0.6 & 2.2 \\le x < 3 \\\\ 0.6 + q & 3 \\le x < 4 \\\\ 1 & x \\ge 4 \\end{cases}$ Suppose that $\\Pr(X > 3) = 0.1$. (a) Determine the value of $q$? (b) Compute $\\Pr(X^2 > 2)$. (c) Find $p(0)$, $p(1)$ and $p(\\Pr(X \\le 0))$. (d) Find the formula of the probability mass function $p(x)$. (e) Compute $E(X)$.",
+  "answer": "(a) 0.3 (b) 0.7 (c) p(0) = 0.3, p(1) = 0, p(Pr(X≤ 0)) = 0 (d) Pr(x) =   ",
+  "explanation": "Answer: (a) 0.3 (b) 0.7 (c) $p(0) = 0.3$, $p(1) = 0$, $p(\\Pr(X \\le 0)) = 0$ (d) Pr(x) =   ",
+  "source": "Finan §15 — Practice Problem 15.11"
+}

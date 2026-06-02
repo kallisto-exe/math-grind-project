@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-9",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.9",
+  "question": "Let X be a continuous random variable with density function $f(x) = \\begin{cases} \\frac{|x|}{10} & -2\\le x\\le 4 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Calculate the expected value of X.",
+  "answer": "1.867",
+  "explanation": "Answer: 1.867",
+  "source": "Finan §31 — Practice Problem 31.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-32-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 4,
+  "subtopic": "Worked Example 32.6",
+  "question": "Let X be the random variable with pdf $f(x) = \\frac{1}{b-a}$ for $a < x < b$ and 0 otherwise. Find the pth quantile of X.",
+  "answer": "",
+  "explanation": "We have $p = \\Pr(X\\le x) = \\int_a^x \\frac{dt}{b-a} = \\frac{x-a}{b-a}$. Solving this equation for x, we find $x = a + (b-a)p$",
+  "source": "Finan §32 — Worked Example 32.6"
+}

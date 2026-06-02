@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-14",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.14",
+  "question": "Two instruments are used to measure the height, $h$, of a tower. The error made by the less accurate instrument is normally distributed with mean 0 and standard deviation $0.0056h$. The error made by the more accurate instrument is normally distributed with mean 0 and standard deviation $0.0044h$. Assuming the two measurements are independent random variables, what is the probability that their average value is within $0.005h$ of the height of the tower?",
+  "answer": "0.84",
+  "explanation": "Answer: 0.84",
+  "source": "Finan §49 — Practice Problem 49.14"
+}

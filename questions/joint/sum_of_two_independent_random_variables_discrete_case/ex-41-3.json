@@ -1,0 +1,13 @@
+{
+  "id": "ex-41-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 5,
+  "subtopic": "Worked Example 41.3",
+  "question": "Let $X$ and $Y$ be two independent binomial random variables with respective parameters $(n,p)$ and $(m,p)$. Compute the pmf of $X+Y$.",
+  "answer": "",
+  "explanation": "$X$ represents the number of successes in $n$ independent trials, each of which results in a success with probability $p$; similarly, $Y$ represents the number of successes in $m$ independent trials, each of which results in a success with probability $p$. Hence, as $X$ and $Y$ are assumed to be independent, it follows that $X+Y$ represents the number of successes in $n+m$ independent trials, each of which results in a success with probability $p$. So $X+Y$ is a binomial random variable with parameters $(n+m,p)$.",
+  "source": "Finan §41 — Worked Example 41.3"
+}

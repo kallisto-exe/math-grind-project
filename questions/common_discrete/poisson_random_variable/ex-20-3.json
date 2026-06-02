@@ -1,0 +1,13 @@
+{
+  "id": "ex-20-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 4,
+  "subtopic": "Worked Example 20.3",
+  "question": "The number of weekly life insurance sold by an insurance agent averages 3 per week. Assuming that this number follows a Poisson distribution, calculate the probability that in a given week the agent will sell (a) some policies (b) 2 or more policies but less than 5 policies. (c) Assuming that there are 5 working days per week, what is the probability that in a given day the agent will sell one policy?",
+  "answer": "",
+  "explanation": "(a) Let $X$ be the number of policies sold in a week. Then $\\Pr(X \\ge 1) = 1 - \\Pr(X = 0) = 1 - e^{-3}\\frac{3^0}{0!} \\approx 0.95021$ (b) We have $\\Pr(2 \\le X < 5) = \\Pr(X = 2) + \\Pr(X = 3) + \\Pr(X = 4) = e^{-3}\\frac{3^2}{2!} + e^{-3}\\frac{3^3}{3!} + e^{-3}\\frac{3^4}{4!} \\approx 0.61611$ (c) Let $X$ be the number of policies sold per day. Then $\\lambda = \\frac{3}{5} = 0.6$. Thus, $\\Pr(X = 1) = \\frac{e^{-0.6}(0.6)}{1!} \\approx 0.32929$",
+  "source": "Finan §20 — Worked Example 20.3"
+}

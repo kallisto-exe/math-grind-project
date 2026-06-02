@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-16",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.16",
+  "question": "A distribution has a pdf $f(x) = \\frac{3}{x^4}$ for $x > 1$ and 0 otherwise. Calculate the 0.95th quantile of this distribution.",
+  "answer": "2.71",
+  "explanation": "Answer: 2.71",
+  "source": "Finan §32 — Practice Problem 32.16"
+}

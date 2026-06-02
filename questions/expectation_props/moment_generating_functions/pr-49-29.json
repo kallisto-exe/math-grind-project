@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-29",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.29",
+  "question": "The value of a piece of factory equipment after three years of use is $100(0.5)^X$ where $X$ is a random variable having moment generating function $M_X(t) = \\frac{1}{1 - 2t}$ for $t < \\frac{1}{2}$. Calculate the expected value of this piece of equipment after three years of use.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.29"
+}

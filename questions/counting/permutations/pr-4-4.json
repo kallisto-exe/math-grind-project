@@ -1,0 +1,13 @@
+{
+  "id": "pr-4-4",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 4.4",
+  "question": "A permutation lock has 40 numbers on it. (a) How many different three-number permutation lock can be made if the numbers can be repeated? (b) How many different permutation locks are there if the three numbers are different?",
+  "answer": "(a) 64,000 (b) 59,280",
+  "explanation": "Answer: (a) 64,000 (b) 59,280",
+  "source": "Finan §4 — Practice Problem 4.4"
+}

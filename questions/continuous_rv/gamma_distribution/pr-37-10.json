@@ -1,0 +1,13 @@
+{
+  "id": "pr-37-10",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 37.10",
+  "question": "Find the pdf, mean and variance of the chi-squared distribution with degrees of freedom n.",
+  "answer": "The density function is $f(x) = \\begin{cases} \\frac{2^{-n/2}x^{n/2-1}e^{-x/2}}{\\Gamma(n/2)} & x\\ge 0 \\\\ 0 & \\text{elsewhere} \\end{cases}$ The expected value is $E(X) = n$ and the variance is $\\mathrm{Var}(X) = 2n$.",
+  "explanation": "Answer: The density function is $f(x) = \\begin{cases} \\frac{2^{-n/2}x^{n/2-1}e^{-x/2}}{\\Gamma(n/2)} & x\\ge 0 \\\\ 0 & \\text{elsewhere} \\end{cases}$ The expected value is $E(X) = n$ and the variance is $\\mathrm{Var}(X) = 2n$.",
+  "source": "Finan §37 — Practice Problem 37.10"
+}

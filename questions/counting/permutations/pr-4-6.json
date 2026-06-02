@@ -1,0 +1,13 @@
+{
+  "id": "pr-4-6",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 4.6",
+  "question": "Using the digits 1, 3, 5, 7, and 9, with no repetitions of the digits, how many (a) one-digit numbers can be made? (b) two-digit numbers can be made? (c) three-digit numbers can be made? (d) four-digit numbers can be made?",
+  "answer": "(a) 5 (b) 20 (c) 60 (d) 120",
+  "explanation": "Answer: (a) 5 (b) 20 (c) 60 (d) 120",
+  "source": "Finan §4 — Practice Problem 4.6"
+}

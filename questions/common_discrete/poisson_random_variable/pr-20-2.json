@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.2",
+  "question": "A phone operator receives calls on average of 2 calls per minute. What is the probability of receiving 10 calls in 5 minutes?",
+  "answer": "$0.1251$",
+  "explanation": "Answer: $0.1251$",
+  "source": "Finan §20 — Practice Problem 20.2"
+}

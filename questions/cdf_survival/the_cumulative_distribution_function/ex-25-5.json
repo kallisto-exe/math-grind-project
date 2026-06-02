@@ -1,0 +1,13 @@
+{
+  "id": "ex-25-5",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 4,
+  "subtopic": "Worked Example 25.5",
+  "question": "(Mixed RV) The distribution function of a random variable $X$, is given by $F(x) = \\begin{cases} 0, & x < 0 \\\\ \\frac{x}{2}, & 0\\le x < 1 \\\\ \\frac{2}{3}, & 1\\le x < 2 \\\\ \\frac{11}{12}, & 2\\le x < 3 \\\\ 1, & 3\\le x \\end{cases}$ (a) Graph $F(x)$. (b) Compute $\\Pr(X < 3)$. (c) Compute $\\Pr(X = 1)$. (d) Compute $\\Pr(X > \\frac{1}{2})$ (e) Compute $\\Pr(2 < X\\le 4)$.",
+  "answer": "",
+  "explanation": "(a) The graph is given in Figure 25.3. (b) $\\Pr(X < 3) = \\lim_{n\\to\\infty} \\Pr\\left(\\left\\{X\\le 3-\\frac{1}{n}\\right\\}\\right) = \\lim_{n\\to\\infty} F\\left(3-\\frac{1}{n}\\right) = \\frac{11}{12}$. (c) $\\Pr(X = 1) = \\Pr(X\\le 1) - \\Pr(X < 1) = F(1) - \\lim_{n\\to\\infty} F\\left(1-\\frac{1}{n}\\right) = \\frac{2}{3} - \\frac{1}{2} = \\frac{1}{6}$. (d) $\\Pr(X > \\frac{1}{2}) = 1-\\Pr(X\\le \\frac{1}{2}) = 1-F\\left(\\frac{1}{2}\\right) = \\frac{3}{4}$. (e) $\\Pr(2 < X\\le 4) = F(4)-F(2) = \\frac{1}{12}$. Figure 25.3",
+  "source": "Finan §25 — Worked Example 25.5"
+}

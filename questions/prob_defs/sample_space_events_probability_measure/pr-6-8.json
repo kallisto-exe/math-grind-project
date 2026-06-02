@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-8",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.8",
+  "question": "A coin is tossed repeatedly. What is the probability that the second head appears at the 7 th toss? (Hint: Since only the first seven tosses matter, you can assume that the coin is tossed only 7 times.)",
+  "answer": "6",
+  "explanation": "Answer: 6",
+  "source": "Finan §6 — Practice Problem 6.8"
+}

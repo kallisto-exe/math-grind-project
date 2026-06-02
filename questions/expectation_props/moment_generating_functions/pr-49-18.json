@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-18",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.18",
+  "question": "Let $X$ be a random variable with density function $f(x) = \\begin{cases} (k + 1)x^2 & 0 < x < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the moment generating function of $X$",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.18"
+}

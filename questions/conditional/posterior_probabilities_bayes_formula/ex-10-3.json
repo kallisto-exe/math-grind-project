@@ -1,0 +1,13 @@
+{
+  "id": "ex-10-3",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 3,
+  "subtopic": "Worked Example 10.3",
+  "question": "A credit card company offers two types of cards: a basic card ($B$) and a gold card ($G$). Over the past year, 40% of the cards issued have been of the basic type. Of those getting the basic card, 30% enrolled in an identity theft plan, whereas 50% of all gold cards holders do so. If you learn that a randomly selected cardholder has an identity theft plan, how likely is it that he/she has a basic card?",
+  "answer": "",
+  "explanation": "Let $I$ denote the identity theft plan. We are given $\\Pr(B) = 0.4$, $\\Pr(G) = 0.6$, $\\Pr(I|B) = 0.3$, and $\\Pr(I|G) = 0.5$. By Bayes' formula we have $\\Pr(B|I) = \\frac{\\Pr(B \\cap I)}{\\Pr(I)} = \\frac{\\Pr(I|B)\\Pr(B)}{\\Pr(I|B)\\Pr(B) + \\Pr(I|G)\\Pr(G)} = \\frac{(0.3)(0.4)}{(0.3)(0.4) + (0.5)(0.6)} = 0.286$. Formula (10.2) is a special case of the more general result: Theorem 10.1 (Bayes' formula) Suppose that the sample space $S$ is the union of mutually exclusive events $H_1, H_2, \\ldots, H_n$ with $\\Pr(H_i) > 0$ for each $i$. Then for any event $A$ and $1 \\le i \\le n$ we have $\\Pr(H_i|A) = \\frac{\\Pr(A|H_i)\\Pr(H_i)}{\\Pr(A)}$ where $\\Pr(A) = \\Pr(H_1)\\Pr(A|H_1) + \\Pr(H_2)\\Pr(A|H_2) + \\ldots + \\Pr(H_n)\\Pr(A|H_n)$. Proof. First note that $\\Pr(A) = \\Pr(A \\cap S) = \\Pr\\left(A \\cap \\left(\\bigcup_{i=1}^n H_i\\right)\\right) = \\Pr\\left(\\bigcup_{i=1}^n (A \\cap H_i)\\right) = \\sum_{i=1}^n \\Pr(A \\cap H_i) = \\sum_{i=1}^n \\Pr(A|H_i)\\Pr(H_i)$. Hence, $\\Pr(H_i|A) = \\frac{\\Pr(A|H_i)\\Pr(H_i)}{\\Pr(A)} = \\frac{\\Pr(A|H_i)\\Pr(H_i)}{\\sum_{i=1}^n \\Pr(A|H_i)\\Pr(H_i)}$",
+  "source": "Finan §10 — Worked Example 10.3"
+}

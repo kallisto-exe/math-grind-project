@@ -1,0 +1,13 @@
+{
+  "id": "pr-51-2",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 51.2",
+  "question": "In the SunBelt Conference men basketball league, the standard deviation in the distribution of players' height is 2 inches. A random group of 25 players are selected and their heights are measured. Estimate the probability that the average height of the players in this sample is within 1 inch of the conference average height.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §51 — Practice Problem 51.2"
+}

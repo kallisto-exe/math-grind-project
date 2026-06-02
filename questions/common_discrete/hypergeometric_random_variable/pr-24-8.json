@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-8",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.8",
+  "question": "A recent study shows that in a certain city 2,477 cars out of 123,850 are stolen. The city police are trying to find the stolen cars. Suppose that 100 randomly chosen cars are checked by the police. Find the expression that gives the probability that exactly 3 of the chosen cars are stolen. You do not need to give the numerical value of this expression.",
+  "answer": "$\\frac{\\binom{2477}{3}\\binom{121373}{97}}{\\binom{123850}{100}}$",
+  "explanation": "Answer: $\\frac{\\binom{2477}{3}\\binom{121373}{97}}{\\binom{123850}{100}}$",
+  "source": "Finan §24 — Practice Problem 24.8"
+}

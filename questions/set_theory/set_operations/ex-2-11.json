@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-11",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.11",
+  "question": "Find sets $A_1, A_2, \\ldots$ that are pairwise disjoint and $\\bigcap_{n=1}^{\\infty} A_n = \\emptyset$.",
+  "answer": "",
+  "explanation": "For each positive integer $n$, let $A_n = \\{n\\}$",
+  "source": "Finan §2 — Worked Example 2.11"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-14-1",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 3,
+  "subtopic": "Worked Example 14.1",
+  "question": "Suppose a variable $X$ can take the values 1, 2, 3, or 4. The probabilities associated with each outcome are described by the following table: $x$: 1, 2, 3, 4; $p(x)$: 0.1, 0.3, 0.4, 0.2. Draw the probability histogram.",
+  "answer": "",
+  "explanation": "The probability histogram is shown in Figure 14.1.",
+  "source": "Finan §14 — Worked Example 14.1"
+}

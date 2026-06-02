@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-7",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.7",
+  "question": "Prove by using mathematical induction that $1^2 + 2^2 + 3^2 + \\ldots + n^2 = \\frac{n(n + 1)(2n + 1)}{6}$, $n \\in \\mathbb{N}$.",
+  "answer": "Let $S_n = 1^2 + 2^2 + 3^2 + \\ldots + n^2$. For $n = 1$, we have $S_1 = 1 = \\frac{1(1+1)(2+1)}{6}$. Suppose that $S_n = \\frac{n(n+1)(2n+1)}{6}$. We next want to show that $S_{n+1} = \\frac{(n+1)(n+2)(2n+3)}{6}$. Indeed, $S_{n+1} = 1^2 + 2^2 + 3^2 + \\ldots + n^2 + (n + 1)^2 = \\frac{n(n+1)(2n+1)}{6} + (n + 1)^2 = (n + 1)\\left[\\frac{n(2n+1)}{6} + n + 1\\right] = \\frac{(n+1)(n+2)(2n+3)}{6}$",
+  "explanation": "Answer: Let $S_n = 1^2 + 2^2 + 3^2 + \\ldots + n^2$. For $n = 1$, we have $S_1 = 1 = \\frac{1(1+1)(2+1)}{6}$. Suppose that $S_n = \\frac{n(n+1)(2n+1)}{6}$. We next want to show that $S_{n+1} = \\frac{(n+1)(n+2)(2n+3)}{6}$. Indeed, $S_{n+1} = 1^2 + 2^2 + 3^2 + \\ldots + n^2 + (n + 1)^2 = \\frac{n(n+1)(2n+1)}{6} + (n + 1)^2 = (n + 1)\\left[\\frac{n(2n+1)}{6} + n + 1\\right] = \\frac{(n+1)(n+2)(2n+3)}{6}$",
+  "source": "Finan §1 — Practice Problem 1.7"
+}

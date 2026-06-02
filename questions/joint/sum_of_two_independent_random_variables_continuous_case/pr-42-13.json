@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-13",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.13",
+  "question": "$X_1$ and $X_2$ are independent exponential random variables each with a mean of 1. Find $\\Pr(X_1 + X_2 < 1)$.",
+  "answer": "$1 - 2e^{-1}$",
+  "explanation": "Answer: $1 - 2e^{-1}$",
+  "source": "Finan §42 — Practice Problem 42.13"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-19",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.19",
+  "question": "Let $X$ and $Y$ be two independent random variables with densities $$f_X(x) = \\begin{cases} 1 & 0<x<1 \\\\ 0 & \\text{otherwise} \\end{cases} \\qquad f_Y(y) = \\begin{cases} \\frac{1}{2} & 0<y<2 \\\\ 0 & \\text{otherwise} \\end{cases}$$ (a) Write down the joint pdf $f_{XY}(x,y)$. (b) Let $Z = X+Y$. Find the pdf $f_Z(a)$. Simplify as much as possible. (c) Find the expectation $E(X)$ and variance $\\mathrm{Var}(X)$. Repeat for $Y$. (d) Compute the expectation $E(Z)$ and the variance $\\mathrm{Var}(Z)$.",
+  "answer": "(a) $f_{XY}(x,y) = f_X(x)f_Y(y) = \\begin{cases} \\frac{1}{2} & 0<x<1,\\ 0<y<2 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) $f_Z(a) = \\begin{cases} 0 & a\\le 0 \\\\ \\frac{a}{2} & 0<a\\le 1 \\\\ \\frac{1}{2} & 1<a\\le 2 \\\\ \\frac{3-a}{2} & 2<a\\le 3 \\\\ 0 & a>3 \\end{cases}$ (c) $E(X) = 0.5$, $\\mathrm{Var}(X) = \\frac{1}{12}$, $E(Y) = 1$, $\\mathrm{Var}(Y) = \\frac{1}{3}$ (d) $E(Z) = 1.5$ and $\\mathrm{Var}(Z) = \\frac{5}{12}$",
+  "explanation": "Answer: (a) $f_{XY}(x,y) = f_X(x)f_Y(y) = \\begin{cases} \\frac{1}{2} & 0<x<1,\\ 0<y<2 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) $f_Z(a) = \\begin{cases} 0 & a\\le 0 \\\\ \\frac{a}{2} & 0<a\\le 1 \\\\ \\frac{1}{2} & 1<a\\le 2 \\\\ \\frac{3-a}{2} & 2<a\\le 3 \\\\ 0 & a>3 \\end{cases}$ (c) $E(X) = 0.5$, $\\mathrm{Var}(X) = \\frac{1}{12}$, $E(Y) = 1$, $\\mathrm{Var}(Y) = \\frac{1}{3}$ (d) $E(Z) = 1.5$ and $\\mathrm{Var}(Z) = \\frac{5}{12}$",
+  "source": "Finan §47 — Practice Problem 47.19"
+}

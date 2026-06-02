@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.5",
+  "question": "Let $F: \\mathbb{R} \\to \\mathbb{R}$ be a function defined by $F(x) = \\begin{cases} 0 & x < 0 \\\\ x/2 & 0 \\le x < 1 \\\\ (x+2)/6 & 1 \\le x < 4 \\\\ 1 & x \\ge 4 \\end{cases}$ (a) Show that $F$ satisfies conditions (a), (b), (c), and (e) of Theorem 30.1. (b) Find the probability density function $f(x)$.",
+  "answer": "(b) $f(x) = F'(x) = \\begin{cases} 0 & x < 0 \\\\ 1/2 & 0 \\le x < 1 \\\\ 1/6 & 1 \\le x < 4 \\\\ 0 & x \\ge 4 \\end{cases}$",
+  "explanation": "Answer: (b) $f(x) = F'(x) = \\begin{cases} 0 & x < 0 \\\\ 1/2 & 0 \\le x < 1 \\\\ 1/6 & 1 \\le x < 4 \\\\ 0 & x \\ge 4 \\end{cases}$",
+  "source": "Finan §30 — Practice Problem 30.5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-13",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.13",
+  "question": "The State Department interviewed 35 candidates for a diplomatic post in Algeria; 25 speak arabic, 28 speak french, and 2 speak neither languages. How many speak both languages?",
+  "answer": "",
+  "explanation": "Let F be the group of applicants that speak french, A those who speak arabic. Then $F \\cap A$ consists if those who speak both languages. By the Inclusion-Exclusion Principle we have $n(F \\cup A) = n(F) + n(A) - n(F \\cap A)$. That is, $33 = 28 + 25 - n(F \\cap A)$. Solving for $n(F \\cap A)$ we find $n(F \\cap A) = 20$ Cartesian Product The notation $(a, b)$ is known as an ordered pair of elements and is defined by $(a, b) = \\{\\{a\\}, \\{a, b\\}\\}$. The Cartesian product of two sets A and B is the set $A \\times B = \\{(a, b) \\mid a \\in A, b \\in B\\}$. The idea can be extended to products of any number of sets. Given $n$ sets $A_1, A_2, \\ldots, A_n$ the Cartesian product of these sets is the set $A_1 \\times A_2 \\times \\ldots \\times A_n = \\{(a_1, a_2, \\ldots, a_n) : a_1 \\in A_1, a_2 \\in A_2, \\ldots, a_n \\in A_n\\}$",
+  "source": "Finan §2 — Worked Example 2.13"
+}

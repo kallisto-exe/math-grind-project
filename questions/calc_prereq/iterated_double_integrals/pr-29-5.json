@@ -1,0 +1,13 @@
+{
+  "id": "pr-29-5",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 29.5",
+  "question": "Set up a double integral of $f(x,y)$ over the part of the region given by $0 < x < 50-y < 50$ on which both $x$ and $y$ are greater than 20.",
+  "answer": "$\\int_{20}^{30}\\int_{20}^{50-x} f(x,y)\\,dy\\,dx$",
+  "explanation": "Answer: $\\int_{20}^{30}\\int_{20}^{50-x} f(x,y)\\,dy\\,dx$",
+  "source": "Finan §29 — Practice Problem 29.5"
+}

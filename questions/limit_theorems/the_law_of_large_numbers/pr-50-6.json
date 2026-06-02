@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-6",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.6",
+  "question": "Let $X_1, X_2, \\dots, X_{20}$ be independent Poisson random variables with mean 1. Use Markov's inequality to obtain a bound on $\\Pr(X_1 + X_2 + \\dots + X_{20} > 15)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.6"
+}

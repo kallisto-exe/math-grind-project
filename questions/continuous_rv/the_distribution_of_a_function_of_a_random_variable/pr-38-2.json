@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.2",
+  "question": "Let $X$ be a continuous random variable with pdf $f(x) = \\begin{cases} 2x & 0 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$. Find probability density function for $Y = 3X - 1$.",
+  "answer": "$f_Y(y) = \\frac{2(y+1)}{9}$ for $-1 \\le y \\le 2$ and $f_Y(y) = 0$ otherwise",
+  "explanation": "Answer: $f_Y(y) = \\frac{2(y+1)}{9}$ for $-1 \\le y \\le 2$ and $f_Y(y) = 0$ otherwise.",
+  "source": "Finan §38 — Practice Problem 38.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-17",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.17",
+  "question": "Let $X$ and $Y$ be independent continuous random variables with common density function $f_X(x) = f_Y(x) = \\begin{cases} 1 & 0 < x < 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ What is $\\Pr(X^2 \\ge Y^3)$?",
+  "answer": "3",
+  "explanation": "Answer: 3",
+  "source": "Finan §40 — Practice Problem 40.17"
+}

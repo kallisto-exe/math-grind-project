@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-1",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.1",
+  "question": "Suppose that $X$ and $Y$ have joint distribution $$f_{XY}(x,y) = \\begin{cases} 8xy & 0<x<y<1 \\\\ 0 & \\text{otherwise.} \\end{cases}$$ Find $E(X|Y)$ and $E(Y|X)$.",
+  "answer": "$E(X|Y) = \\frac{2}{3}Y$ and $E(Y|X) = \\frac{2}{3}\\left( \\frac{1-X^3}{1-X^2} \\right)$",
+  "explanation": "Answer: $E(X|Y) = \\frac{2}{3}Y$ and $E(Y|X) = \\frac{2}{3}\\left( \\frac{1-X^3}{1-X^2} \\right)$",
+  "source": "Finan §48 — Practice Problem 48.1"
+}

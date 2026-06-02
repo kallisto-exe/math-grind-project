@@ -1,0 +1,13 @@
+{
+  "id": "pr-3-9",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 3.9",
+  "question": "Find the number of ways in which four of ten new novels can be ranked first, second, third, and fourth according to their figure sales for the first three months.",
+  "answer": "5,040",
+  "explanation": "Answer: 5,040",
+  "source": "Finan §3 — Practice Problem 3.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-9",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.9",
+  "question": "A study is being conducted in which the health of two independent groups of ten policyholders is being monitored over a one-year period of time. Individual participants in the study drop out before the end of the study with probability 0.2 (independently of the other participants). What is the probability that at least 9 participants complete the study in one of the two groups, but not in both groups?",
+  "answer": "0.469",
+  "explanation": "Answer: 0.469",
+  "source": "Finan §40 — Practice Problem 40.9"
+}

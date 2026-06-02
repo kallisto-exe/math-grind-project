@@ -1,0 +1,13 @@
+{
+  "id": "ex-42-6",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 5,
+  "subtopic": "Worked Example 42.6",
+  "question": "The joint distribution function of $X$ and $Y$ is given by $f_{XY}(x, y) = \\begin{cases} \\frac{3}{11}(5x + y) & x, y > 0, x + 2y < 2 \\\\ 0 & \\text{elsewhere} \\end{cases}$ Find the probability density of $Z = X + Y$.",
+  "answer": "",
+  "explanation": "Note first that the region of integration is the interior of the triangle with vertices at $(0, 0), (0, 1)$, and $(2, 0)$. From Figure 42.2, we see that $F(a) = 0$ if $a < 0$. If $0 \\le a < 1$ then $F_Z(a) = \\Pr(Z \\le a) = \\int_0^a \\int_0^{a-y} \\frac{3}{11}(5x + y)\\,dx\\,dy = \\frac{3}{11}a^3$. If $1 \\le a < 2$ then the two lines $x + y = a$ and $x + 2y = 2$ intersect at $(2a - 2, 2 - a)$. In this case, $F_Z(a) = \\Pr(Z \\le a) = \\int_0^{2-a} \\int_0^{a-y} \\frac{3}{11}(5x + y)\\,dx\\,dy + \\int_{2-a}^1 \\int_0^{2-2y} \\frac{3}{11}(5x + y)\\,dx\\,dy = \\frac{3}{11}\\left(-\\frac{7}{3}a^3 + 9a^2 - 8a + 7\\right)$. If $a \\ge 2$ then $F_Z(a)$ is the area of the shaded triangle which is equal to 1. Differentiating with respect to $a$ we find $f_Z(a) = \\begin{cases} \\frac{9}{11}a^2 & 0 < a \\le 1 \\\\ \\frac{3}{11}(-7a^2 + 18a - 8) & 1 < a < 2 \\\\ 0 & \\text{elsewhere} \\end{cases}$ Figure 42.2",
+  "source": "Finan §42 — Worked Example 42.6"
+}

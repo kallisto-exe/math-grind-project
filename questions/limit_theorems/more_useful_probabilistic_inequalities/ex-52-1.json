@@ -1,0 +1,13 @@
+{
+  "id": "ex-52-1",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 5,
+  "subtopic": "Worked Example 52.1",
+  "question": "If the number produced in a factory during a week is a random variable with mean 100 and variance 400, compute an upper bound on the probability that this week's production will be at least 120.",
+  "answer": "",
+  "explanation": "Applying the previous result we find $$\\Pr(X \\ge 120) = \\Pr(X-100 \\ge 20) \\le \\frac{400}{400 + 20^2} = 1$$ The following provides bounds on $\\Pr(X \\ge a)$ in terms of the moment generating function $M(t) = E(e^{tX})$ with $t > 0$. Proposition 52.2 (Chernoff's bound) Let $X$ be a random variable and suppose that $M(t) = E(e^{tX})$ is finite. Then $$\\Pr(X \\ge a) \\le e^{-ta}M(t), \\quad t > 0$$ and $$\\Pr(X \\le a) \\le e^{-ta}M(t), \\quad t < 0$$ Proof. Suppose first that $t > 0$. Then $$\\Pr(X \\ge a) \\le \\Pr(e^{tX} \\ge e^{ta}) \\le E[e^{tX}]e^{-ta}$$ where the last inequality follows from Markov's inequality. Similarly, for $t < 0$ we have $$\\Pr(X \\le a) \\le \\Pr(e^{tX} \\ge e^{ta}) \\le E[e^{tX}]e^{-ta}$$ It follows from Chernoff's inequality that a sharp bound for $\\Pr(X \\ge a)$ is a minimizer of the function $e^{-ta}M(t)$.",
+  "source": "Finan §52 — Worked Example 52.1"
+}

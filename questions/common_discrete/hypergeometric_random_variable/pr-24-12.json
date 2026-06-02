@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-12",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.12",
+  "question": "Among the 48 applicants for an actuarial position, 30 have a college degree in actuarial science. Ten of the applicants are randomly chosen for interviews. Let $X$ be the number of applicants among these ten who have a college degree in actuarial science. Find $\\Pr(X \\le 8)$.",
+  "answer": "$0.956$",
+  "explanation": "Answer: $0.956$",
+  "source": "Finan §24 — Practice Problem 24.12"
+}

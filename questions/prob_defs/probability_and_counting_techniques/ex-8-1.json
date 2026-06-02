@@ -1,0 +1,13 @@
+{
+  "id": "ex-8-1",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 3,
+  "subtopic": "Worked Example 8.1",
+  "question": "In an actuarial course in probability, an instructor has decided to give his class a weekly quiz consisting of 5 multiple-choice questions taken from a pool of previous SOA P/1 exams. Each question has 4 answer choices, of which 1 is correct and the other 3 are incorrect. (a) How many answer choices are there? (b) What is the probability of getting all 5 right answers? (c) What is the probability of answering exactly 4 questions correctly? (d) What is the probability of getting at least four answers correctly?",
+  "answer": "",
+  "explanation": "(a) We can look at this question as a decision consisting of five steps. There are 4 ways to do each step so that by the Fundamental Principle of Counting there are $(4)(4)(4)(4)(4) = 1024$ possible choices of answers. (b) There is only one way to answer each question correctly. Using the Fundamental Principle of Counting there is $(1)(1)(1)(1)(1) = 1$ way to answer all 5 questions correctly out of 1024 possible answer choices. Hence, $\\Pr(\\text{all 5 right}) = \\frac{1}{1024}$. (c) The following table lists all possible responses that involve exactly 4 right answers where R stands for right and W stands for a wrong answer Five Responses Number of ways to fill out the test So there are 15 ways out of the 1024 possible ways that result in 4 right answers and 1 wrong answer so that $\\Pr(\\text{4 right, 1 wrong}) = \\frac{15}{1024} \\approx 1.5\\%$. (d) \"At least 4\" means you can get either 4 right and 1 wrong or all 5 right. Thus, $\\Pr(\\text{at least 4 right}) = \\Pr(4R, 1W) + P(5R) = \\frac{15}{1024} + \\frac{1}{1024} = \\frac{16}{1024} \\approx 0.016$.",
+  "source": "Finan §8 — Worked Example 8.1"
+}

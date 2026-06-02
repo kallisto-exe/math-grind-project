@@ -1,0 +1,13 @@
+{
+  "id": "ex-24-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 4,
+  "subtopic": "Worked Example 24.3",
+  "question": "The faculty senate of a certain college has 20 members. Suppose there are 12 men and 8 women. A committee of 10 senators is selected at random. (a) What is the probability that there will be 6 men and 4 women on the committee? (b) What is the expected number of men on this committee? (c) What is the variance of the number of men on this committee?",
+  "answer": "",
+  "explanation": "Let $X$ be the number of men of the committee of 10 selected at random. Then $X$ is a hypergeometric random variable with $N = 20$, $r = 10$, and $n = 12$. (a) $\\Pr(X = 6) = \\frac{\\binom{12}{6}\\binom{8}{4}}{\\binom{20}{10}}$. (b) $E(X) = \\frac{nr}{N} = \\frac{12(10)}{20} = 6$ (c) $\\mathrm{Var}(X) = n \\cdot \\frac{r}{N} \\cdot \\frac{N-r}{N} \\cdot \\frac{N-n}{N-1} = 1.263$",
+  "source": "Finan §24 — Worked Example 24.3"
+}

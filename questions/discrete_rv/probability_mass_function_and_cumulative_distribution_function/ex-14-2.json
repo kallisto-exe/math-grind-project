@@ -1,0 +1,13 @@
+{
+  "id": "ex-14-2",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 3,
+  "subtopic": "Worked Example 14.2",
+  "question": "A committee of 4 is to be selected from a group consisting of 5 men and 5 women. Let $X$ be the random variable that represents the number of women in the committee. Create the probability mass distribution.",
+  "answer": "",
+  "explanation": "For $x = 0, 1, 2, 3, 4$ we have $p(x) = \\frac{\\binom{5}{x} \\binom{5}{4-x}}{\\binom{10}{4}}$. The probability mass function can be described by the table $x$: 0, 1, 2, 3, 4 with corresponding values $p(x)$.",
+  "source": "Finan §14 — Worked Example 14.2"
+}

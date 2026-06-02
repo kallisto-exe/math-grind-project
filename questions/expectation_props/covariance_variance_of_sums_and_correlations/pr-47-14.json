@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-14",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.14",
+  "question": "A joint density function is given by $$f_{XY}(x,y) = \\begin{cases} kx & 0<x,y<1 \\\\ 0 & \\text{otherwise} \\end{cases}$$ Find $\\mathrm{Cov}(X,Y)$.",
+  "answer": "0",
+  "explanation": "Answer: 0",
+  "source": "Finan §47 — Practice Problem 47.14"
+}

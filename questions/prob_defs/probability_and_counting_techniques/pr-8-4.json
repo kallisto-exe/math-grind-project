@@ -1,0 +1,13 @@
+{
+  "id": "pr-8-4",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 8.4",
+  "question": "Consider a jar with three black marbles and one red marble. For the experiment of drawing two marbles with replacement, what is the probability of drawing a black marble and then a red marble in that order? Assume that the balls are equally likely to be drawn.",
+  "answer": "0.1875",
+  "explanation": "Answer: 0.1875",
+  "source": "Finan §8 — Practice Problem 8.4"
+}

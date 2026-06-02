@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.1",
+  "question": "Let $X$ and $Y$ be two random variables with joint density function $f_{XY}(x,y) = \\begin{cases} 5x^2y & -1 \\le x \\le 1,\\ 0 < y \\le |x| \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find $f_{X|Y}(x|y)$, the conditional probability density function of $X$ given $Y = y$. Sketch the graph of $f_{X|Y}(x|0.5)$.",
+  "answer": "For $y \\le |x| \\le 1$, $0 \\le y \\le 1$ we have $f_{X|Y}(x|y) = 3\\left[\\frac{x^2}{1-y^3}\\right]$. If $y = 0.5$ then $f_{X|Y}(x|0.5) = \\frac{12}{7}x^2$, $0.5 \\le |x| \\le 1$. The graph of $f_{X|Y}(x|0.5)$ is given below",
+  "explanation": "Answer: For $y \\le |x| \\le 1$, $0 \\le y \\le 1$ we have $f_{X|Y}(x|y) = 3\\left[\\frac{x^2}{1-y^3}\\right]$. If $y = 0.5$ then $f_{X|Y}(x|0.5) = \\frac{12}{7}x^2$, $0.5 \\le |x| \\le 1$. The graph of $f_{X|Y}(x|0.5)$ is given below",
+  "source": "Finan §44 — Practice Problem 44.1"
+}

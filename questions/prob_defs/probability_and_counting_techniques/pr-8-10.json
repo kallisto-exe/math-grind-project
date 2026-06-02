@@ -1,0 +1,13 @@
+{
+  "id": "pr-8-10",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 8.10",
+  "question": "A board of trustees of a university consists of 8 men and 7 women. A committee of 3 must be selected at random and without replacement. The role of the committee is to select a new president for the university. Calculate the probability that the number of men selected exceeds the number of women selected.",
+  "answer": "36",
+  "explanation": "Answer: 36",
+  "source": "Finan §8 — Practice Problem 8.10"
+}

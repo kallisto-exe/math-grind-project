@@ -1,0 +1,13 @@
+{
+  "id": "pr-12-4",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§12 Odds and Conditional Probability",
+  "section": 12,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 12.4",
+  "question": "If the probability of snow for the day is 60%, what are the odds against snowing?",
+  "answer": "$4:6$",
+  "explanation": "Answer: $4:6$",
+  "source": "Finan §12 — Practice Problem 12.4"
+}

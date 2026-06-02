@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-25",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.25",
+  "question": "Let $X$ and $Y$ be two independent random variables with moment generating functions $M_X(t) = e^{t^2 + 2t}$ and $M_Y(t) = e^{3t^2 + t}$ Determine the moment generating function of $X + 2Y$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.25"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-10",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.10",
+  "question": "The waiting time for the first claim from a good driver and the waiting time for the first claim from a bad driver are independent and follow exponential distributions with means 6 years and 3 years, respectively. What is the probability that the first claim from a good driver will be filed within 3 years and the first claim from a bad driver will be filed within 2 years?",
+  "answer": "0.191",
+  "explanation": "Answer: 0.191",
+  "source": "Finan §40 — Practice Problem 40.10"
+}

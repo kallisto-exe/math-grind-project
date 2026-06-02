@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-14",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.14",
+  "question": "Let $X$ have normal distribution with mean 1 and standard deviation 2. (a) Find $\\Pr(|X| \\le 1)$. (b) Let $Y = e^X$. Find the probability density function $f_Y(y)$ of $Y$.",
+  "answer": "(a) 0.341 (b) $f_Y(y) = \\frac{1}{2y\\sqrt{2\\pi}} \\exp\\left( -\\frac{1}{2 \\cdot 2^2} (\\ln y - 1)^2 \\right)$ for $y > 0$ and 0 otherwise.",
+  "explanation": "Answer: (a) 0.341 (b) $f_Y(y) = \\frac{1}{2y\\sqrt{2\\pi}} \\exp\\left( -\\frac{1}{2 \\cdot 2^2} (\\ln y - 1)^2 \\right)$ for $y > 0$ and 0 otherwise.",
+  "source": "Finan §38 — Practice Problem 38.14"
+}

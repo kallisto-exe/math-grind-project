@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-15",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.15",
+  "question": "An insurance agent offers his clients auto insurance, homeowners insurance and renters insurance. The purchase of homeowners insurance and the purchase of renters insurance are mutually exclusive. The profile of the agent's clients is as follows: i) 17% of the clients have none of these three products. ii) 64% of the clients have auto insurance. iii) Twice as many of the clients have homeowners insurance as have renters insurance. iv) 35% of the clients have two of these three products. v) 11% of the clients have homeowners insurance, but not auto insurance. Calculate the percentage of the agent's clients that have both auto and renters insurance.",
+  "answer": "10%",
+  "explanation": "Answer: 10%",
+  "source": "Finan §7 — Practice Problem 7.15"
+}

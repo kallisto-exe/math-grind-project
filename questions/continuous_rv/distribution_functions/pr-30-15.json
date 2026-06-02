@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-15",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.15",
+  "question": "Let $X$ have the density function $f(x) = \\begin{cases} \\frac{3x^2}{\\theta^3} & 0 < x < \\theta \\\\ 0 & \\text{otherwise} \\end{cases}$ If $\\Pr(X > 1) = \\frac{7}{8}$, find the value of $\\theta$.",
+  "answer": "2",
+  "explanation": "Answer: 2",
+  "source": "Finan §30 — Practice Problem 30.15"
+}

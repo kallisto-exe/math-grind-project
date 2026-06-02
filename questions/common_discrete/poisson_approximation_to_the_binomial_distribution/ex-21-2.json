@@ -1,0 +1,13 @@
+{
+  "id": "ex-21-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§21 Poisson Approximation to the Binomial Distribution",
+  "section": 21,
+  "difficulty": 4,
+  "subtopic": "Worked Example 21.2",
+  "question": "Consider the experiment of rolling two fair dice 6 times. Let $X$ denote the number of times a double 4 appears. For $k = 0, 1, 2$ compare $\\Pr(X = k)$ found using the binomial distribution with the one found using Poisson approximation.",
+  "answer": "",
+  "explanation": "We are given that $n = 6$ and $p = \\frac{1}{36}$ so that $\\lambda = np = \\frac{1}{6}$. Let $B(X = k)$ be the probability using binomial distribution and $P(X = k)$ be the probability using Poisson distribution. Then $B(X = 0) = \\left(1-\\frac{1}{36}\\right)^6 \\approx 0.8445$, $P(X = 0) = e^{-1/6} \\approx 0.8465$, $B(X = 1) = \\binom{6}{1}\\left(\\frac{1}{36}\\right)\\left(1-\\frac{1}{36}\\right)^5 \\approx 0.1448$, $P(X = 1) = e^{-1/6}\\left(\\frac{1}{6}\\right) \\approx 0.1411$, $B(X = 2) = \\binom{6}{2}\\left(\\frac{1}{36}\\right)^2\\left(1-\\frac{1}{36}\\right)^4 \\approx 0.0103$, $P(X = 2) = e^{-1/6}\\frac{(1/6)^2}{2!} \\approx 0.0118$",
+  "source": "Finan §21 — Worked Example 21.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.3",
+  "question": "In the first draft of a book on probability theory, there are an average of 15 spelling errors per page. Suppose that the number of errors per page follows a Poisson distribution. What is the probability of having no errors on a page?",
+  "answer": "$3.06 \\times 10^{-7}$",
+  "explanation": "Answer: $3.06 \\times 10^{-7}$",
+  "source": "Finan §20 — Practice Problem 20.3"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-12",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.12",
+  "question": "Among a large group of patients recovering from shoulder injuries, it is found that 22% visit both a physical therapist and a chiropractor, whereas 12% visit neither of these. The probability that a patient visits a chiropractor exceeds by 14% the probability that a patient visits a physical therapist. Determine the probability that a randomly chosen member of this group visits a physical therapist.",
+  "answer": "0.48",
+  "explanation": "Answer: 0.48",
+  "source": "Finan §7 — Practice Problem 7.12"
+}

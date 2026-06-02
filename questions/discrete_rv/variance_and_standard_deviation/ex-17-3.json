@@ -1,0 +1,13 @@
+{
+  "id": "ex-17-3",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§17 Variance and Standard Deviation",
+  "section": 17,
+  "difficulty": 3,
+  "subtopic": "Worked Example 17.3",
+  "question": "In the experiment of rolling one die, let $X$ be the number on the face that comes up. Find the variance and standard deviation of $X$.",
+  "answer": "",
+  "explanation": "We have $E(X) = (1 + 2 + 3 + 4 + 5 + 6) \\cdot \\frac{1}{6} = \\frac{21}{6} = 7$ and $E(X^2) = (1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2) \\cdot \\frac{1}{6} = \\frac{91}{6}$. Thus, $\\mathrm{Var}(X) = \\frac{91}{6} - \\frac{49}{4} = 35$. The standard deviation is $\\sigma_X = \\sqrt{12} \\approx 1.7078$. Next, we will show that $g(c) = E[(X - c)^2]$ is minimum when $c = E(X)$. Theorem 17.2 Let $c$ be a constant and let $X$ be a random variable with mean $E(X)$ and variance $\\mathrm{Var}(X) < \\infty$. Then (a) $g(c) = E[(X - c)^2] = \\mathrm{Var}(X) + (c - E(X))^2$. (b) $g(c)$ is minimized at $c = E(X)$. Proof. (a) We have $E[(X - c)^2] = E[((X - E(X)) - (c - E(X)))^2] = E[(X - E(X))^2] - 2(c - E(X))E(X - E(X)) + (c - E(X))^2 = \\mathrm{Var}(X) + (c - E(X))^2$ (b) Note that $g'(c) = 0$ when $c = E(X)$ and $g''(E(X)) = 2 > 0$ so that $g$ has a global minimum at $c = E(X)$",
+  "source": "Finan §17 — Worked Example 17.3"
+}

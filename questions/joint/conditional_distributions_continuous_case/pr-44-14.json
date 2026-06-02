@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-14",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.14",
+  "question": "The distribution of $Y$, given $X$, is uniform on the interval $[0, X]$. The marginal density of $X$ is $f_X(x) = \\begin{cases} 2x & \\text{for } 0 < x < 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Determine the conditional density of $X$, given $Y = y > 0$.",
+  "answer": "$\\frac{1}{1-y}$ for $0 < y < x < 1$",
+  "explanation": "Answer: $\\frac{1}{1-y}$ for $0 < y < x < 1$",
+  "source": "Finan §44 — Practice Problem 44.14"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-18-12",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§18 Bernoulli Trials and Binomial Distributions",
+  "section": 18,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 18.12",
+  "question": "The probability of a computer chip to be defective is 0.05. Consider a package of 6 computer chips. (a) What is the probability one chip will be defective? (b) What is the probability at least one chip will be defective? (c) What is the probability that more than one chip will be defective, given at least one is defective?",
+  "answer": "(a) 0.2321 (b) 0.2649 (c) 0.1238",
+  "explanation": "Answer: (a) 0.2321 (b) 0.2649 (c) 0.1238",
+  "source": "Finan §18 — Practice Problem 18.12"
+}

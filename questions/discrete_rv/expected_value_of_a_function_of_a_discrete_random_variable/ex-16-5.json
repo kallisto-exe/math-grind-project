@@ -1,0 +1,13 @@
+{
+  "id": "ex-16-5",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§16 Expected Value of a Function of a Discrete Random Variable",
+  "section": 16,
+  "difficulty": 3,
+  "subtopic": "Worked Example 16.5",
+  "question": "If the probability distribution of $X$ is given by $p(x) = \\left( \\frac{1}{2} \\right)^x$, $x = 1, 2, 3, \\dots$ show that $E(2^X)$ does not exist.",
+  "answer": "",
+  "explanation": "We have $E(2^X) = (2^1) \\frac{1}{2^1} + (2^2) \\frac{1}{2^2} + \\dots = \\sum_{n=1}^{\\infty} 1$ The series on the right is divergent so that $E(2^X)$ does not exist",
+  "source": "Finan §16 — Worked Example 16.5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-15",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.15",
+  "question": "Consider the function $f : \\mathbb{N} \\mapsto \\mathbb{Z}$ defined by $f(n) = \\begin{cases} \\frac{n}{2}, & \\text{if } n \\text{ is even} \\\\ -\\frac{n-1}{2}, & \\text{if } n \\text{ is odd.} \\end{cases}$ (a) Show that $f(n) = f(m)$ cannot happen if n and m have different parity, i.e., either both are even or both are odd. (b) Show that $\\mathbb{Z}$ is countable.",
+  "answer": "(a) The condition $f(n) = f(m)$ with n even and m odd leads to $n + m = 1$ with $n, m \\in \\mathbb{N}$ which cannot happen. (b) Suppose that $f(n) = f(m)$. If n and m are even, we have $\\frac{n}{2} = \\frac{m}{2} \\implies n = m$. If n and m are odd then $-\\frac{n-1}{2} = -\\frac{m-1}{2} \\implies n = m$. Thus, $f$ is one-to-one. Now, if $m = 0$ then $n = 1$ and $f(n) = m$. If $m \\in \\mathbb{N} = \\mathbb{Z}^+$ then $n = 2m$ and $f(n) = m$. If $n \\in \\mathbb{Z}^-$ then $n = 2|m| + 1$ and $f(n) = m$. Thus, $f$ is onto. If follows that $\\mathbb{Z}$ is countable.",
+  "explanation": "Answer: (a) The condition $f(n) = f(m)$ with n even and m odd leads to $n + m = 1$ with $n, m \\in \\mathbb{N}$ which cannot happen. (b) Suppose that $f(n) = f(m)$. If n and m are even, we have $\\frac{n}{2} = \\frac{m}{2} \\implies n = m$. If n and m are odd then $-\\frac{n-1}{2} = -\\frac{m-1}{2} \\implies n = m$. Thus, $f$ is one-to-one. Now, if $m = 0$ then $n = 1$ and $f(n) = m$. If $m \\in \\mathbb{N} = \\mathbb{Z}^+$ then $n = 2m$ and $f(n) = m$. If $n \\in \\mathbb{Z}^-$ then $n = 2|m| + 1$ and $f(n) = m$. Thus, $f$ is onto. If follows that $\\mathbb{Z}$ is countable.",
+  "source": "Finan §1 — Practice Problem 1.15"
+}

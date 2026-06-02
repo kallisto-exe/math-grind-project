@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-12",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.12",
+  "question": "The profit for a new product is given by $Z = 3X - Y - 5$. $X$ and $Y$ are independent random variables with $\\mathrm{Var}(X) = 1$ and $\\mathrm{Var}(Y) = 2$. What is the variance of $Z$?",
+  "answer": "11",
+  "explanation": "Answer: 11",
+  "source": "Finan §47 — Practice Problem 47.12"
+}

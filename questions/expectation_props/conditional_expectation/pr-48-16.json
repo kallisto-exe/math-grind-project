@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-16",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.16",
+  "question": "Let $X$ and $Y$ be two continuous random variables with joint density function $$f_{XY}(x,y) = \\begin{cases} 2 & 0<x<y<1 \\\\ 0 & \\text{otherwise.} \\end{cases}$$ For $0<x<1$, find $\\mathrm{Var}(Y|X=x)$.",
+  "answer": "$(1-x)^2$",
+  "explanation": "Answer: $(1-x)^2$",
+  "source": "Finan §48 — Practice Problem 48.16"
+}

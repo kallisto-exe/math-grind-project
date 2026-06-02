@@ -1,0 +1,13 @@
+{
+  "id": "pr-35-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§35 The Normal Approximation to the Binomial Distribution",
+  "section": 35,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 35.5",
+  "question": "A survey shows that 10% of the students in a college are left-handed. In a random sample of 818, what is the probability that at most 100 students are left-handed?",
+  "answer": "0.9854",
+  "explanation": "Answer: 0.9854",
+  "source": "Finan §35 — Practice Problem 35.5"
+}

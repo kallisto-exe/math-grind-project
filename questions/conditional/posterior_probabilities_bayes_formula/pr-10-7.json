@@ -1,0 +1,13 @@
+{
+  "id": "pr-10-7",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 10.7",
+  "question": "A blood test indicates the presence of a particular disease 95% of the time when the disease is actually present. The same test indicates the presence of the disease 0.5% of the time when the disease is not present. One percent of the population actually has the disease. Calculate the probability that a person has the disease given that the test indicates the presence of the disease.",
+  "answer": "0.657",
+  "explanation": "Answer: 0.657",
+  "source": "Finan §10 — Practice Problem 10.7"
+}

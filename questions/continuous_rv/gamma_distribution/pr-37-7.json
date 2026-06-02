@@ -1,0 +1,13 @@
+{
+  "id": "pr-37-7",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§37 Gamma Distribution",
+  "section": 37,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 37.7",
+  "question": "Let X be a gamma random variable with parameter $(\\alpha,\\lambda)$. Find $E(e^{tX})$.",
+  "answer": "$E(e^{tX}) = \\left(\\frac{\\lambda}{\\lambda-t}\\right)^\\alpha$, $t < \\lambda$",
+  "explanation": "Answer: $E(e^{tX}) = \\left(\\frac{\\lambda}{\\lambda-t}\\right)^\\alpha$, $t < \\lambda$",
+  "source": "Finan §37 — Practice Problem 37.7"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-10",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.10",
+  "question": "A group consists of 4 women and 20 men. A committe of six is to be formed. Using the appropriate hypergeometric distribution, what is the probability that none of the women are on the committee?",
+  "answer": "$0.2880$",
+  "explanation": "Answer: $0.2880$",
+  "source": "Finan §24 — Practice Problem 24.10"
+}

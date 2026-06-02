@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-13",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.13",
+  "question": "The monthly profit of Company A can be modeled by a continuous random variable with density function $f_A$. Company B has a monthly profit that is twice that of Company A. Determine the probability density function of the monthly profit of Company B.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §38 — Practice Problem 38.13"
+}

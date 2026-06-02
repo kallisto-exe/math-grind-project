@@ -1,0 +1,13 @@
+{
+  "id": "pr-44-16",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 44.16",
+  "question": "An insurance policy is written to cover a loss $X$ where $X$ has density function $f_X(x) = \\begin{cases} \\frac{3}{8}x^2 & 0 \\le x \\le 2 \\\\ 0 & \\text{otherwise.} \\end{cases}$ The time $T$ (in hours) to process a claim of size $x$, where $0 \\le x \\le 2$, is uniformly distributed on the interval from $x$ to $2x$. Calculate the probability that a randomly chosen claim on this policy is processed in three hours or more.",
+  "answer": "0.172",
+  "explanation": "Answer: 0.172",
+  "source": "Finan §44 — Practice Problem 44.16"
+}

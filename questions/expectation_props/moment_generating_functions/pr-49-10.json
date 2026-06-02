@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-10",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.10",
+  "question": "$X$ and $Y$ are independent random variables with common moment generating function $M(t) = e^{\\frac{t^2}{2}}$. Let $W = X + Y$ and $Z = X - Y$. Determine the joint moment generating function, $M(t_1, t_2)$ of $W$ and $Z$.",
+  "answer": "$E(t_1 W + t_2 Z) = e^{\\frac{(t_1 + t_2)^2}{2}} e^{\\frac{(t_1 - t_2)^2}{2}} = e^{t_1^2 + t_2^2}$",
+  "explanation": "Answer: $E(t_1 W + t_2 Z) = e^{\\frac{(t_1 + t_2)^2}{2}} e^{\\frac{(t_1 - t_2)^2}{2}} = e^{t_1^2 + t_2^2}$",
+  "source": "Finan §49 — Practice Problem 49.10"
+}

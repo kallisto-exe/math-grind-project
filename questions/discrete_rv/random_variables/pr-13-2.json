@@ -1,0 +1,13 @@
+{
+  "id": "pr-13-2",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 13.2",
+  "question": "Two apples are selected at random and removed in succession and without replacement from a bag containing five golden apples and three red apples. List the elements of the sample space, the corresponding probabilities, and the corresponding values of the random variable $X$, where $X$ is the number of golden apples selected.",
+  "answer": "If $G$ and $R$ stand for golden and red, the probabilities for $GG, GR, RG$, and $RR$ are, respectively $\\frac{5}{8} \\cdot \\frac{4}{7} = \\frac{5}{14}$, $\\frac{5}{8} \\cdot \\frac{3}{7} = \\frac{15}{56}$, $\\frac{3}{8} \\cdot \\frac{5}{7} = \\frac{15}{56}$, and $\\frac{3}{8} \\cdot \\frac{2}{7} = \\frac{3}{28}$. The results are shown in the following table. Element of sample space Probability $x$ — $GG$: $\\frac{5}{14}$, 2; $GR$: $\\frac{15}{56}$, 1; $RG$: $\\frac{15}{56}$, 1; $RR$: $\\frac{3}{28}$, 0",
+  "explanation": "Answer: If $G$ and $R$ stand for golden and red, the probabilities for $GG, GR, RG$, and $RR$ are, respectively $\\frac{5}{8} \\cdot \\frac{4}{7} = \\frac{5}{14}$, $\\frac{5}{8} \\cdot \\frac{3}{7} = \\frac{15}{56}$, $\\frac{3}{8} \\cdot \\frac{5}{7} = \\frac{15}{56}$, and $\\frac{3}{8} \\cdot \\frac{2}{7} = \\frac{3}{28}$. The results are shown in the following table. Element of sample space Probability $x$ — $GG$: $\\frac{5}{14}$, 2; $GR$: $\\frac{15}{56}$, 1; $RG$: $\\frac{15}{56}$, 1; $RR$: $\\frac{3}{28}$, 0",
+  "source": "Finan §13 — Practice Problem 13.2"
+}

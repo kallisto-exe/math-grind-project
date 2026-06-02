@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-23",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.23",
+  "question": "Let $X_1$ and $X_2$ be two random variables with joint density function $f_{X_1 X_2}(x_1, x_2) = \\begin{cases} 1 & 0 < x_1 < 1, 0 < x_2 < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the moment generating function $M(t_1, t_2)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.23"
+}

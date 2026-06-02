@@ -1,0 +1,13 @@
+{
+  "id": "ex-3-2",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 2,
+  "subtopic": "Worked Example 3.2",
+  "question": "The following three factors were considered in the study of the effectivenenss of a certain cancer treatment: (i) Medicine ($A_1, A_2, A_3, A_4, A_5$) (ii) Dosage Level (Low, Medium, High) (iii) Dosage Frequency (1,2,3,4 times/day) Find the number of ways that a cancer patient can be given the medecine?",
+  "answer": "",
+  "explanation": "The choice here consists of three stages, that is, $k = 3$. The first stage, can be made in $n_1 = 5$ different ways, the second in $n_2 = 3$ different ways, and the third in $n_3 = 4$ ways. Hence, the number of possible ways a cancer patient can be given medecine is $n_1 \\cdot n_2 \\cdot n_3 = 5 \\cdot 3 \\cdot 4 = 60$ different ways",
+  "source": "Finan §3 — Worked Example 3.2"
+}

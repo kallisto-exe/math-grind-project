@@ -1,0 +1,13 @@
+{
+  "id": "pr-12-3",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§12 Odds and Conditional Probability",
+  "section": 12,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 12.3",
+  "question": "What are the odds in favor of getting at least two heads if a fair coin is tossed three times?",
+  "answer": "$1:1$",
+  "explanation": "Answer: $1:1$",
+  "source": "Finan §12 — Practice Problem 12.3"
+}

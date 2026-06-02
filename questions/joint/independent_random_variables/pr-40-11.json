@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-11",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.11",
+  "question": "An insurance company sells two types of auto insurance policies: Basic and Deluxe. The time until the next Basic Policy claim is an exponential random variable with mean two days. The time until the next Deluxe Policy claim is an independent exponential random variable with mean three days. What is the probability that the next claim will be a Deluxe Policy claim?",
+  "answer": "0.4",
+  "explanation": "Answer: 0.4",
+  "source": "Finan §40 — Practice Problem 40.11"
+}

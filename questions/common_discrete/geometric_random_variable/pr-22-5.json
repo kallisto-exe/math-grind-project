@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-5",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.5",
+  "question": "Consider the experiment of flipping three coins simultaneously. Let a success be when the three outcomes are the same. What is the probability that (a) exactly three rounds of flips are needed for the first success? (b) more than four rounds are needed?",
+  "answer": "(a) $0.1406$ (b) $0.3164$",
+  "explanation": "Answer: (a) $0.1406$ (b) $0.3164$",
+  "source": "Finan §22 — Practice Problem 22.5"
+}

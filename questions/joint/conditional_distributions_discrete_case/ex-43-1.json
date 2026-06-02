@@ -1,0 +1,13 @@
+{
+  "id": "ex-43-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 5,
+  "subtopic": "Worked Example 43.1",
+  "question": "Two coins are being tossed repeatedly. The tossing of each coin stops when the coin comes up a head. (a) Find the probability that the two coins come up heads at the same time. (b) Find the conditional distribution of the number of coin tosses given that the two coins come up heads simultaneously.",
+  "answer": "",
+  "explanation": "(a) Let $X$ be the number of tosses of the first coin before getting a head, and $Y$ be the number of tosses of the second coin before getting a head. So $X$ and $Y$ are independent identically distributed geometric random variables with parameter $p = \\frac{1}{2}$. Thus, $\\Pr(X = Y) = \\sum_{k=1}^{\\infty} \\Pr(X = k, Y = k) = \\sum_{k=1}^{\\infty} \\Pr(X = k)\\Pr(Y = k) = \\sum_{k=1}^{\\infty} \\frac{1}{4^k} = \\frac{1}{3}$ (b) Notice that given the event $[X = Y]$ the number of coin tosses is well defined and it is $X$ (or $Y$). So for any $k \\ge 1$ we have $\\Pr(X = k | Y = k) = \\frac{\\Pr(X = k, Y = k)}{\\Pr(X = Y)} = \\frac{1/4^k}{1/3} = 3\\left(\\frac{1}{4}\\right)^{k-1}$. Thus given $[X = Y]$, the number of tosses follows a geometric distribution with parameter $p = \\frac{3}{4}$. Sometimes it is not the joint distribution that is known, but rather, for each $y$, one knows the conditional distribution of $X$ given $Y = y$. If one also knows the distribution of $Y$, then one can recover the joint distribution using (43.1). We also mention one more use of (43.1): $p_X(x) = \\sum_y p_{XY}(x,y) = \\sum_y p_{X|Y}(x|y)p_Y(y)$. (43.2) Thus, given the conditional distribution of $X$ given $Y = y$ for each possible value $y$, and the (marginal) distribution of $Y$, one can compute the (marginal) distribution of $X$, using (43.2). The conditional cumulative distribution of $X$ given that $Y = y$ is defined by $F_{X|Y}(x|y) = \\Pr(X \\le x | Y = y) = \\sum_{a \\le x} p_{X|Y}(a|y)$. Note that if $X$ and $Y$ are independent, then the conditional mass function and the conditional distribution function are the same as the unconditional ones. This follows from the next theorem. Theorem 43.1 If $X$ and $Y$ are independent and $p_Y(y) > 0$ then $p_{X|Y}(x|y) = p_X(x)$. Proof. We have $p_{X|Y}(x|y) = \\Pr(X = x | Y = y) = \\frac{\\Pr(X = x, Y = y)}{\\Pr(Y = y)} = \\frac{\\Pr(X = x)\\Pr(Y = y)}{\\Pr(Y = y)} = \\Pr(X = x) = p_X(x)$",
+  "source": "Finan §43 — Worked Example 43.1"
+}

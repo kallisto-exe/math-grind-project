@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-7",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.7",
+  "question": "A box of clothes contains 15 shirts and 10 pants. Three items are drawn from the box without replacement. What is the probability that all three are all shirts or all pants?",
+  "answer": "25%",
+  "explanation": "Answer: 25%",
+  "source": "Finan §6 — Practice Problem 6.7"
+}

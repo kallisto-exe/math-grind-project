@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-3",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.3",
+  "question": "You randomly select two cards from a standard 52-card deck. What is the probability that the first card is not a face card (a king, queen, jack, or an ace) and the second card is a face card if (a) you replace the first card before selecting the second, and (b) you do not replace the first card?",
+  "answer": "(a) 21.3% (b) 21.7%",
+  "explanation": "Answer: (a) 21.3% (b) 21.7%",
+  "source": "Finan §11 — Practice Problem 11.3"
+}

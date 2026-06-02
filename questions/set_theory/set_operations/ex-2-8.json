@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-8",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.8",
+  "question": "For each positive integer n we define $A_n = \\{n\\}$. Find $\\bigcap_{n=1}^\\infty A_n$.",
+  "answer": "",
+  "explanation": "Clearly, $\\bigcap_{n=1}^\\infty A_n = \\emptyset$ Remark 2.1 Note that the Venn diagrams of $A\\cap B$ and $A\\cup B$ show that $A\\cap B = B\\cap A$ and $A\\cup B = B\\cup A$. That is, $\\cup$ and $\\cap$ are commutative laws. The following theorem establishes the distributive laws of sets. Theorem 2.1 If $A, B$, and $C$ are subsets of $U$ then (a) $A\\cap (B\\cup C) = (A\\cap B)\\cup (A\\cap C)$. (b) $A\\cup (B\\cap C) = (A\\cup B)\\cap (A\\cup C)$. Proof. See Problem 2.15 Remark 2.2 Note that since $\\cap$ and $\\cup$ are commutative operations, we have $(A\\cap B)\\cup C = (A\\cup C)\\cap (B\\cup C)$ and $(A\\cup B)\\cap C = (A\\cap C)\\cup (B\\cap C)$. The following theorem presents the relationships between $(A\\cup B)^c$, $(A\\cap B)^c$, $A^c$ and $B^c$. Theorem 2.2 (De Morgan's Laws) Let A and B be subsets of U. We have (a) $(A\\cup B)^c = A^c\\cap B^c$. (b) $(A\\cap B)^c = A^c\\cup B^c$. Proof. We prove part (a) leaving part (b) as an exercise for the reader. (a) Let $x\\in (A\\cup B)^c$. Then $x\\in U$ and $x\\notin A\\cup B$. Hence, $x\\in U$ and ($x\\notin A$ and $x\\notin B$). This implies that ($x\\in U$ and $x\\notin A$) and ($x\\in U$ and $x\\notin B$). It follows that $x\\in A^c\\cap B^c$. Conversely, let $x\\in A^c\\cap B^c$. Then $x\\in A^c$ and $x\\in B^c$. Hence, $x\\notin A$ and $x\\notin B$ which implies that $x\\notin (A\\cup B)$. Hence, $x\\in (A\\cup B)^c$ Remark 2.3 De Morgan's laws are valid for any countable number of sets. That is $\\left(\\bigcup_{n=1}^\\infty A_n\\right)^c = \\bigcap_{n=1}^\\infty A_n^c$ and $\\left(\\bigcap_{n=1}^\\infty A_n\\right)^c = \\bigcup_{n=1}^\\infty A_n^c$",
+  "source": "Finan §2 — Worked Example 2.8"
+}

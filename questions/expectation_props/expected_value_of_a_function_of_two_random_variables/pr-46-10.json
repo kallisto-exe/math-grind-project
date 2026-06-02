@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-10",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.10",
+  "question": "If $E(X) = 1$ and $\\mathrm{Var}(X) = 5$ find (a) $E[(2 + X)^2]$ (b) $\\mathrm{Var}(4 + 3X)$",
+  "answer": "(a) 14 (b) 45",
+  "explanation": "Answer: (a) 14 (b) 45",
+  "source": "Finan §46 — Practice Problem 46.10"
+}

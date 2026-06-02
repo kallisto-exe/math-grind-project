@@ -1,0 +1,13 @@
+{
+  "id": "ex-11-9",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 3,
+  "subtopic": "Worked Example 11.9",
+  "question": "Consider the experiment of flipping two fair coins. Consider the three events: $A$ = the first coin shows heads; $B$ = the second coin shows heads, and $C$ = the two coins show the same result. Show that these events are pairwise independent, but not independent.",
+  "answer": "",
+  "explanation": "Note that $A = \\{(H,H), (H,T)\\}$, $B = \\{(H,H), (T,H)\\}$, $C = \\{(H,H), (T,T)\\}$. We have $\\Pr(A \\cap B) = \\Pr(\\{(H,H)\\}) = \\frac{1}{4} = \\frac{2}{4} \\cdot \\frac{2}{4} = \\Pr(A)\\Pr(B)$ $\\Pr(A \\cap C) = \\Pr(\\{(H,H)\\}) = \\frac{1}{4} = \\frac{2}{4} \\cdot \\frac{2}{4} = \\Pr(A)\\Pr(C)$ $\\Pr(B \\cap C) = \\Pr(\\{(H,H)\\}) = \\frac{1}{4} = \\frac{2}{4} \\cdot \\frac{2}{4} = \\Pr(B)\\Pr(C)$ Hence, the events $A, B,$ and $C$ are pairwise independent. On the other hand $\\Pr(A \\cap B \\cap C) = \\Pr(\\{(H,H)\\}) = \\frac{1}{4} \\ne \\frac{2}{4} \\cdot \\frac{2}{4} \\cdot \\frac{2}{4} = \\Pr(A)\\Pr(B)\\Pr(C)$ so that $A, B,$ and $C$ are not independent",
+  "source": "Finan §11 — Worked Example 11.9"
+}

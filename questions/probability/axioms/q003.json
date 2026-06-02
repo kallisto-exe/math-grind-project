@@ -1,1 +1,0 @@
-{"id":"prob-axioms-003","subject":"Probability","topic":"Axioms & Counting","subtopic":"Permutations with Repetition","difficulty":"intermediate","question":"How many distinct arrangements are there of the letters in STATS?","options":{"A":"120","B":"60","C":"30","D":"20"},"answer":"C","explanation":"5 letters: S twice, T twice, A once. Arrangements = 5!/(2!2!1!) = 120/4 = 30."}

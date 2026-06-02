@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-12",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.12",
+  "question": "A diagnostic test for the presence of a disease has two possible outcomes: 1 for disease present and 0 for disease not present. Let $X$ denote the disease state of a patient, and let $Y$ denote the outcome of the diagnostic test. The joint probability function of $X$ and $Y$ is given by: $\\Pr(X = 0,Y = 0) = 0.800$, $\\Pr(X = 1,Y = 0) = 0.050$, $\\Pr(X = 0,Y = 1) = 0.025$, $\\Pr(X = 1,Y = 1) = 0.125$. Calculate $\\mathrm{Var}(Y|X = 1)$.",
+  "answer": "0.20",
+  "explanation": "Answer: 0.20",
+  "source": "Finan §48 — Practice Problem 48.12"
+}

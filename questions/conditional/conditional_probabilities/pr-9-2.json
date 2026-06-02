@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-2",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.2",
+  "question": "An insurance company examines its pool of auto insurance customers and gathers the following information: (i) All customers insure at least one car. (ii) 70% of the customers insure more than one car. (iii) 20% of the customers insure a sports car. (iv) Of those customers who insure more than one car, 15% insure a sports car. Calculate the probability that a randomly selected customer insures exactly one car and that car is not a sports car.",
+  "answer": "0.205",
+  "explanation": "Answer: 0.205",
+  "source": "Finan §9 — Practice Problem 9.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-5",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.5",
+  "question": "An auto insurance has 10,000 policyholders. Each policyholder is classified as (i) young or old; (ii) male or female; (iii) married or single. Of these policyholders, 3,000 are young, 4,600 are male, and 7,000 are mar- ried. The policyholders can also be classified as 1,320 young males, 3,010 married males, and 1,400 young married persons. Finally, 600 of the policy- holders are young married males. How many of the company's policyholders are young, female, and single?",
+  "answer": "880",
+  "explanation": "Answer: 880",
+  "source": "Finan §2 — Practice Problem 2.5"
+}

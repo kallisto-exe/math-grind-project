@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-8",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.8",
+  "question": "A commercial water distributor supplies an office with gallons of water once a week. Suppose that the weekly supplies in tens of gallons is a random variable with pdf $f(x) = \\begin{cases} 5(1-x)^4 & 0 < x < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Approximately, how many gallons should be delivered in one week so that the probability of the supply is 0.1?",
+  "answer": "About 4 gallons",
+  "explanation": "Answer: About 4 gallons",
+  "source": "Finan §30 — Practice Problem 30.8"
+}

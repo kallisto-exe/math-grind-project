@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-13",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.13",
+  "question": "A TV manufacturer buys TV tubes from three sources. Source A supplies 50% of all tubes and has a 1% defective rate. Source B supplies 30% of all tubes and has a 2% defective rate. Source C supplies the remaining 20% of tubes and has a 5% defective rate. (a) What is the probability that a randomly selected purchased tube is defective? (b) Given that a purchased tube is defective, what is the probability it came from Source A? From Source B? From Source C?",
+  "answer": "(a) 0.021 (b) 0.2381, 0.2857, 0.476",
+  "explanation": "Answer: (a) 0.021 (b) 0.2381, 0.2857, 0.476",
+  "source": "Finan §9 — Practice Problem 9.13"
+}

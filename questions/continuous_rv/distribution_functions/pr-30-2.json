@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.2",
+  "question": "Let $X$ denote the length of time (in minutes) of using a computer at a public library with pdf given by $f(x) = \\begin{cases} \\frac{1}{5}e^{-x/5} & \\text{if } x \\ge 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ (a) What is the probability of using a computer for more than 10 minutes. (b) Find the probability of using a computer between 5 and 10 minutes. (c) Find the cumulative distribution function of $X$.",
+  "answer": "(a) 0.135 (b) 0.233 (c) $F(x) = \\begin{cases} 1 - e^{-x/5} & x \\ge 0 \\\\ 0 & x < 0 \\end{cases}$",
+  "explanation": "Answer: (a) 0.135 (b) 0.233 (c) $F(x) = \\begin{cases} 1 - e^{-x/5} & x \\ge 0 \\\\ 0 & x < 0 \\end{cases}$",
+  "source": "Finan §30 — Practice Problem 30.2"
+}

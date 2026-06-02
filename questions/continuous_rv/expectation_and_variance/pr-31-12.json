@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-12",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.12",
+  "question": "A random variable $X$ has the cumulative distribution function $F(x) = \\begin{cases} 0 & x < 1 \\\\ \\frac{x^2 - 2x + 2}{2} & 1 \\le x < 2 \\\\ 1 & x \\ge 2. \\end{cases}$ Calculate the variance of $X$.",
+  "answer": "0.139",
+  "explanation": "Answer: 0.139",
+  "source": "Finan §31 — Practice Problem 31.12"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-6",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.6",
+  "question": "You roll a fair die repeatedly. Let a success be when the die shows either a 1 or a 3. Let $X$ be the number of times you roll the die. (a) What is $\\Pr(X = 3)$? What is $\\Pr(X = 50)$? (b) Find the expected value of $X$.",
+  "answer": "(a) $0.1481$ and $7.842 \\times 10^{-10}$ (b) $3$",
+  "explanation": "Answer: (a) $0.1481$ and $7.842 \\times 10^{-10}$ (b) $3$",
+  "source": "Finan §22 — Practice Problem 22.6"
+}

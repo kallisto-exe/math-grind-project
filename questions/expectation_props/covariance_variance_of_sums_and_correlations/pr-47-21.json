@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-21",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.21",
+  "question": "Let $X$ and $Y$ be discrete random variables with joint distribution defined by the following table Y\\X 2 3 4 5 $p_Y(y)$ 0 0.05 0.05 0.15 0.05 0.30 1 0.40 0 0 0 0.40 2 0.05 0.15 0.10 0 0.30 $p_X(x)$ 0.50 0.20 0.25 0.05 1 For this joint distribution, $E(X) = 2.85$, $E(Y) = 1$. Calculate $\\mathrm{Cov}(X, Y)$.",
+  "answer": "$-0.15$",
+  "explanation": "Answer: $-0.15$",
+  "source": "Finan §47 — Practice Problem 47.21"
+}

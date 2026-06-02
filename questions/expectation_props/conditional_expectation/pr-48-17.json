@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-17",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.17",
+  "question": "Suppose that the number of stops $X$ in a day for a UPS delivery truck driver is Poisson with mean $\\lambda$ and that the expected distance driven by the driver $Y$, given that there are $X = x$ stops, has a normal distribution with a mean of $\\alpha x$ miles, and a standard deviation of $\\beta x$ miles. Find the mean and variance of the number of miles driven per day.",
+  "answer": "Mean is $\\alpha\\lambda$ and variance is $\\beta^2(\\lambda + \\lambda^2) + \\alpha^2\\lambda$",
+  "explanation": "Answer: Mean is $\\alpha\\lambda$ and variance is $\\beta^2(\\lambda + \\lambda^2) + \\alpha^2\\lambda$",
+  "source": "Finan §48 — Practice Problem 48.17"
+}

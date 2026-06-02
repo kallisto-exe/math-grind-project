@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-7",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.7",
+  "question": "In Texas all vehicles are subject to annual inspection. A transportation company has a fleet of 20 trucks in which 7 do not meet the standards for passing inspection. Five trucks are randomly selected for inspection. What is the probability of no more than 2 trucks that fail to have the standards for passing inspection being selected?",
+  "answer": "$0.793$",
+  "explanation": "Answer: $0.793$",
+  "source": "Finan §24 — Practice Problem 24.7"
+}

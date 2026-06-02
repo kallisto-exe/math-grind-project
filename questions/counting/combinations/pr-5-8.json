@@ -1,0 +1,13 @@
+{
+  "id": "pr-5-8",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 5.8",
+  "question": "Determine whether each problem requires a combination or a permutation: (a) There are 10 toppings available for your ice cream and you are allowed to choose only three. How many possible 3-topping combinations can you have? (b) Fifteen students participated in a spelling bee competition. The first place winner will receive $1,000, the second place $500, and the third place $250. In how many ways can the 3 winners be drawn?",
+  "answer": "(a) Combination (b) Permutation",
+  "explanation": "Answer: (a) Combination (b) Permutation",
+  "source": "Finan §5 — Practice Problem 5.8"
+}

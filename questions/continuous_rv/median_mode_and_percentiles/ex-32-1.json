@@ -1,0 +1,13 @@
+{
+  "id": "ex-32-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 4,
+  "subtopic": "Worked Example 32.1",
+  "question": "Given the pmf of a discrete random variable X. $\\begin{array}{c|cccccc} x & 0 & 1 & 2 & 3 & 4 & 5 \\\\ \\hline p(x) & 0.35 & 0.20 & 0.15 & 0.15 & 0.10 & 0.05 \\end{array}$ Find the median of X.",
+  "answer": "",
+  "explanation": "Since $\\Pr(X\\le 1) = 0.55$ and $\\Pr(X\\ge 1) = 0.65$, 1 is the median of X. In the case of a continuous random variable X, the median is the number M such that $\\Pr(X\\le M) = \\Pr(X\\ge M) = 0.5$. Generally, M is found by solving the equation $F(M) = 0.5$ where F is the cdf of X.",
+  "source": "Finan §32 — Worked Example 32.1"
+}

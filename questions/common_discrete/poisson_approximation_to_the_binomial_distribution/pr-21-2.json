@@ -1,0 +1,13 @@
+{
+  "id": "pr-21-2",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§21 Poisson Approximation to the Binomial Distribution",
+  "section": 21,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 21.2",
+  "question": "In a TV plant, the probability of manufacturing a defective TV is 0.03. Using Poisson approximation, find the probability of obtaining exactly one defective TV set out of a group of 20.",
+  "answer": "$0.3293$",
+  "explanation": "Answer: $0.3293$",
+  "source": "Finan §21 — Practice Problem 21.2"
+}

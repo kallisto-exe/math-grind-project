@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-20",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.20",
+  "question": "Let $X$ and $Y$ be two random variables with joint pdf $$f_{XY}(x,y) = \\begin{cases} \\frac{1}{2} & x>0,\\ y>0,\\ x+y<2 \\\\ 0 & \\text{otherwise} \\end{cases}$$ (a) Let $Z = X+Y$. Find the pdf of $Z$. (b) Find the pdf of $X$ and that of $Y$. (c) Find the expectation and variance of $X$. (d) Find the covariance $\\mathrm{Cov}(X,Y)$.",
+  "answer": "(a) $f_Z(z) = \\frac{dF_z}{dz}(z) = \\frac{z}{2}$, $0<z<2$ and 0 otherwise. (b) $f_X(x) = 1 - \\frac{x}{2}$, $0<x<2$ and 0 otherwise; $f_Y(y) = 1 - \\frac{y}{2}$, $0<y<2$ and 0 otherwise. (c) $E(X) = \\frac{2}{3}$ and $\\mathrm{Var}(X) = \\frac{2}{9}$ (d) $\\mathrm{Cov}(X,Y) = -\\frac{1}{9}$",
+  "explanation": "Answer: (a) $f_Z(z) = \\frac{dF_z}{dz}(z) = \\frac{z}{2}$, $0<z<2$ and 0 otherwise. (b) $f_X(x) = 1 - \\frac{x}{2}$, $0<x<2$ and 0 otherwise; $f_Y(y) = 1 - \\frac{y}{2}$, $0<y<2$ and 0 otherwise. (c) $E(X) = \\frac{2}{3}$ and $\\mathrm{Var}(X) = \\frac{2}{9}$ (d) $\\mathrm{Cov}(X,Y) = -\\frac{1}{9}$",
+  "source": "Finan §47 — Practice Problem 47.20"
+}

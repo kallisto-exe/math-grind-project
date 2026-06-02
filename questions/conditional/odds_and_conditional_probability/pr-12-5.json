@@ -1,0 +1,13 @@
+{
+  "id": "pr-12-5",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§12 Odds and Conditional Probability",
+  "section": 12,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 12.5",
+  "question": "On a tote board at a race track, the odds for Smarty Harper are listed as $26:1$. Tote boards list the odds that the horse will lose the race. If this is the case, what is the probability of Smarty Harper's winning the race?",
+  "answer": "4%",
+  "explanation": "Answer: 4%",
+  "source": "Finan §12 — Practice Problem 12.5"
+}

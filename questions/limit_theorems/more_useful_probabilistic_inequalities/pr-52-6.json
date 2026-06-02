@@ -1,0 +1,13 @@
+{
+  "id": "pr-52-6",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 52.6",
+  "question": "Let $X$ be a Poisson random variable with mean 20. (a) Use the Markov's inequality to obtain an upper bound on $p = \\Pr(X \\ge 26)$. (b) Use the Chernoff bound to obtain an upper bound on $p$. (c) Use the Chebyshev's bound to obtain an upper bound on $p$. (d) Approximate $p$ by making use of the central limit theorem.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §52 — Practice Problem 52.6"
+}

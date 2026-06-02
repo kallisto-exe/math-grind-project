@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-8",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.8",
+  "question": "Let X have a pdf $f(x) = \\begin{cases} 1 & 1<x<2 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find the expected value and variance of $Y = X^2$.",
+  "answer": "E(Y) = $\\frac{7}{3}$ and Var(Y) = 0.756",
+  "explanation": "Answer: $E(Y) = \\frac{7}{3}$ and $\\mathrm{Var}(Y) = 0.756$",
+  "source": "Finan §31 — Practice Problem 31.8"
+}

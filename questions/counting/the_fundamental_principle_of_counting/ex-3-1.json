@@ -1,0 +1,13 @@
+{
+  "id": "ex-3-1",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§3 The Fundamental Principle of Counting",
+  "section": 3,
+  "difficulty": 2,
+  "subtopic": "Worked Example 3.1",
+  "question": "List all two-digit numbers that can be constructed from the digits 1,2, and 3.",
+  "answer": "",
+  "explanation": "The different numbers are $\\{11, 12, 13, 21, 22, 23, 31, 32, 33\\}$ Of course, trees are manageable as long as the number of outcomes is not large. If there are many stages to an experiment and several possibilities at each stage, the tree diagram associated with the experiment would become too large to be manageable. For such problems the counting of the outcomes is simplified by means of algebraic formulas. The commonly used formula is the Fundamental Principle of Counting, also known as the multiplication rule of counting, which states: Theorem 3.1 If a choice consists of $k$ steps, of which the first can be made in $n_1$ ways, for each of these the second can be made in $n_2$ ways, $\\dots$, and for each of these the $k$th can be made in $n_k$ ways, then the whole choice can be made in $n_1 \\cdot n_2 \\dots \\cdot n_k$ ways. Proof. In set-theoretic term, we let $S_i$ denote the set of outcomes for the $i$th task, $i = 1, 2, \\dots, k$. Note that $n(S_i) = n_i$. Then the set of outcomes for the entire job is the Cartesian product $S_1 \\times S_2 \\times \\dots \\times S_k = \\{(s_1, s_2, \\dots, s_k) : s_i \\in S_i, 1 \\le i \\le k\\}$. Thus, we just need to show that $n(S_1 \\times S_2 \\times \\dots \\times S_k) = n(S_1) \\cdot n(S_2) \\dots n(S_k)$. The proof is by induction on $k \\ge 2$. Basis of Induction This is just Theorem 2.4. Induction Hypothesis Suppose $n(S_1 \\times S_2 \\times \\dots \\times S_k) = n(S_1) \\cdot n(S_2) \\dots n(S_k)$. Induction Conclusion We must show $n(S_1 \\times S_2 \\times \\dots \\times S_{k+1}) = n(S_1) \\cdot n(S_2) \\dots n(S_{k+1})$. To see this, note that there is a one-to-one correspondence between the sets $S_1 \\times S_2 \\times \\dots \\times S_{k+1}$ and $(S_1 \\times S_2 \\times \\dots S_k) \\times S_{k+1}$ given by $f(s_1, s_2, \\dots, s_k, s_{k+1}) = ((s_1, s_2, \\dots, s_k), s_{k+1})$. Thus, $n(S_1 \\times S_2 \\times \\dots \\times S_{k+1}) = n((S_1 \\times S_2 \\times \\dots S_k) \\times S_{k+1}) = n(S_1 \\times S_2 \\times \\dots S_k) n(S_{k+1})$ (by Theorem 2.4). Now, applying the induction hypothesis gives $n(S_1 \\times S_2 \\times \\dots S_k \\times S_{k+1}) = n(S_1) \\cdot n(S_2) \\dots n(S_{k+1})$",
+  "source": "Finan §3 — Worked Example 3.1"
+}

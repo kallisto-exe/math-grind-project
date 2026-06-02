@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.5",
+  "question": "Gas molecules move about with varying velocity which has, according to the Maxwell-Boltzmann law, a probability density given by $f(v) = c v^2 e^{-\\beta v^2}$, $v \\ge 0$. The kinetic energy is given by $Y = E = \\frac{1}{2} m v^2$ where $m$ is the mass. What is the density function of $Y$?",
+  "answer": "For $y > 0$ we have $f_Y(y) = \\frac{c}{m} \\sqrt{\\frac{2y}{m}} e^{-\\frac{2\\beta y}{m}}$ and 0 otherwise",
+  "explanation": "Answer: For $y > 0$ we have $f_Y(y) = \\frac{c}{m} \\sqrt{\\frac{2y}{m}} e^{-\\frac{2\\beta y}{m}}$ and 0 otherwise.",
+  "source": "Finan §38 — Practice Problem 38.5"
+}

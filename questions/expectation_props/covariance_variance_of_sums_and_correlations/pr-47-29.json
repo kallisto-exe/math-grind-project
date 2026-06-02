@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-29",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.29",
+  "question": "Given $n$ independent random variables $X_1, X_2, \\ldots, X_n$ each having the same variance $\\sigma^2$. Define $U = 2X_1 + X_2 + \\ldots + X_{n-1}$ and $V = X_2 + X_3 + \\ldots + X_{n-1} + 2X_n$. Find $\\rho(U,V)$.",
+  "answer": "$\\frac{n-2}{n+2}$",
+  "explanation": "Answer: $\\frac{n-2}{n+2}$",
+  "source": "Finan §47 — Practice Problem 47.29"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-35-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§35 The Normal Approximation to the Binomial Distribution",
+  "section": 35,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 35.2",
+  "question": "A vote on whether to allow the use of medical marijuana is being held. A polling company will survey 200 individuals to measure support for the new law. If in fact 53% of the population oppose the new law, use the normal approximation to the binomial, with a continuity correction, to approximate the probability that the poll will show a majority in favor?",
+  "answer": "0.1788",
+  "explanation": "Answer: 0.1788",
+  "source": "Finan §35 — Practice Problem 35.2"
+}

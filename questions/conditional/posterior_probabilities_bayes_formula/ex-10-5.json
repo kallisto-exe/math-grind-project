@@ -1,0 +1,13 @@
+{
+  "id": "ex-10-5",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 3,
+  "subtopic": "Worked Example 10.5",
+  "question": "Passengers in Little Rock Airport rent cars from three rental companies: 60% from Avis, 30% from Enterprise, and 10% from National. Past statistics show that 9% of the cars from Avis, 20% of the cars from Enterprise, and 6% of the cars from National need oil change. If a rental car delivered to a passenger needs an oil change, what is the probability that it came from Enterprise?",
+  "answer": "",
+  "explanation": "Define the events $A = $ car comes from Avis, $E = $ car comes from Enterprise, $N = $ car comes from National, $O = $ car needs oil change. Then $\\Pr(A) = 0.6$, $\\Pr(E) = 0.3$, $\\Pr(N) = 0.1$, $\\Pr(O|A) = 0.09$, $\\Pr(O|E) = 0.2$, $\\Pr(O|N) = 0.06$. From Bayes' theorem we have $\\Pr(E|O) = \\frac{\\Pr(O|E)\\Pr(E)}{\\Pr(O|A)\\Pr(A) + \\Pr(O|E)\\Pr(E) + \\Pr(O|N)\\Pr(N)} = \\frac{0.2 \\times 0.3}{0.09 \\times 0.6 + 0.2 \\times 0.3 + 0.06 \\times 0.1} = 0.5$",
+  "source": "Finan §10 — Worked Example 10.5"
+}

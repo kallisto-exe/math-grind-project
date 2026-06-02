@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.1",
+  "question": "Let $X$ and $Y$ be random variables with joint pdf given by $f_{XY}(x,y) = \\begin{cases} e^{-(x+y)} & 0 \\le x, y \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Are $X$ and $Y$ independent? (b) Find $\\Pr(X < Y)$. (c) Find $\\Pr(X < a)$.",
+  "answer": "(a) Yes (b) 0.5 (c) $1 - e^{-a}$",
+  "explanation": "Answer: (a) Yes (b) 0.5 (c) $1 - e^{-a}$",
+  "source": "Finan §40 — Practice Problem 40.1"
+}

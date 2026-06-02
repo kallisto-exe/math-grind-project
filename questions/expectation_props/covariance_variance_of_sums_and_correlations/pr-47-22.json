@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-22",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.22",
+  "question": "Let $X$ and $Y$ be two random variables with joint density function $$f_{XY}(x,y) = \\begin{cases} 1 & 0<y<1-|x|,\\ -1<x\\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$$ Find $\\mathrm{Var}(X)$.",
+  "answer": "$\\frac{1}{6}$",
+  "explanation": "Answer: $\\frac{1}{6}$",
+  "source": "Finan §47 — Practice Problem 47.22"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-29-10",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 29.10",
+  "question": "Write as an iterated integral $\\int \\int_R f(x,y)\\,dx\\,dy$, where $R$ is the region inside the unit square in which both coordinates $x$ and $y$ are greater than 0.5.",
+  "answer": "$\\int^1$",
+  "explanation": "Answer: $\\int^1$",
+  "source": "Finan §29 — Practice Problem 29.10"
+}

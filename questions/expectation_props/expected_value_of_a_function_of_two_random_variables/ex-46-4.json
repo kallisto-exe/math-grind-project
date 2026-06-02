@@ -1,0 +1,13 @@
+{
+  "id": "ex-46-4",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 5,
+  "subtopic": "Worked Example 46.4",
+  "question": "Consider a single toss of a coin. We define the random variable $X$ to be 1 if heads turns up and 0 if tails turns up, and we set $Y = 1 - X$. Thus $X$ and $Y$ are dependent. Show that $E(XY) \\ne E(X)E(Y)$.",
+  "answer": "",
+  "explanation": "Clearly, $E(X) = E(Y) = \\frac{1}{2}$. But $XY = 0$ so that $E(XY) = 0 \\ne E(X)E(Y)$",
+  "source": "Finan §46 — Worked Example 46.4"
+}

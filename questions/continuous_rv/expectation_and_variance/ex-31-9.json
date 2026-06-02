@@ -1,0 +1,13 @@
+{
+  "id": "ex-31-9",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 4,
+  "subtopic": "Worked Example 31.9",
+  "question": "Let $X$ be the random variable representing the cost of maintaining a car. Suppose that $E(X) = 200$ and $\\mathrm{Var}(X) = 260$. If a tax of 20% is introduced on all items associated with the maintenance of the car, what will the variance of the cost of maintaining a car be?",
+  "answer": "",
+  "explanation": "The new cost is $1.2X$, so its variance is $\\mathrm{Var}(1.2X) = 1.2^2 \\mathrm{Var}(X) = (1.44)(260) = 374.4$. Finally, we define the standard deviation $X$ to be the square root of the variance.",
+  "source": "Finan §31 — Worked Example 31.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-3",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.3",
+  "question": "A lottery game consists of matching 6 numbers from the oﬃcial six drawn numbers out of 53 numbers. Let $X$ equal the number of matches. Find the probability distribution function.",
+  "answer": "$k$: 0, 1, 2, 3, 4, 5, 6; $\\Pr(X = k)$: $0.468$, $0.401$, $0.117$, $0.014$, $7.06 \\times 10^{-4}$, $1.22 \\times 10^{-5}$, $4.36 \\times 10^{-8}$",
+  "explanation": "Answer: $k$: 0, 1, 2, 3, 4, 5, 6; $\\Pr(X = k)$: $0.468$, $0.401$, $0.117$, $0.014$, $7.06 \\times 10^{-4}$, $1.22 \\times 10^{-5}$, $4.36 \\times 10^{-8}$",
+  "source": "Finan §24 — Practice Problem 24.3"
+}

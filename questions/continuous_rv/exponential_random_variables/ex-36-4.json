@@ -1,0 +1,13 @@
+{
+  "id": "ex-36-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 4,
+  "subtopic": "Worked Example 36.4",
+  "question": "Suppose that the time X (in hours) required to repair a car has an exponential distribution with parameter $\\lambda = 0.25$. Find (a) the cumulative distribution function of X. (b) $\\Pr(X > 4)$. (c) $\\Pr(X > 10 \\mid X > 8)$.",
+  "answer": "",
+  "explanation": "(a) It is easy to see that the cumulative distribution function is $F(x) = \\begin{cases} 1-e^{-x/4} & x\\ge 0 \\\\ 0 & \\text{elsewhere} \\end{cases}$ (b) $\\Pr(X > 4) = 1-\\Pr(X\\le 4) = 1-F(4) = 1-(1-e^{-4/4}) = e^{-1} \\approx 0.368$. (c) By the memoryless property, we find $\\Pr(X > 10 \\mid X > 8) = \\Pr(X > 8+2 \\mid X > 8) = \\Pr(X > 2) = 1-\\Pr(X\\le 2) = 1-F(2) = 1-(1-e^{-1/2}) = e^{-1/2} \\approx 0.6065$",
+  "source": "Finan §36 — Worked Example 36.4"
+}

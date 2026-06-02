@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.3",
+  "question": "Let $X$ and $Y$ be two independent random variables with probability density functions (p.d.f.), $f_X$ and $f_Y$ respectively. Find the pdf of $X + 2Y$.",
+  "answer": "$f_{X+2Y}(a) = \\int_{-\\infty}^{\\infty} f_X(a - 2y) f_Y(y)\\,dy$",
+  "explanation": "Answer: $f_{X+2Y}(a) = \\int_{-\\infty}^{\\infty} f_X(a - 2y) f_Y(y)\\,dy$",
+  "source": "Finan §42 — Practice Problem 42.3"
+}

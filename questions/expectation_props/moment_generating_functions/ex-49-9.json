@@ -1,0 +1,13 @@
+{
+  "id": "ex-49-9",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 5,
+  "subtopic": "Worked Example 49.9",
+  "question": "If $X$ and $Y$ are independent normal random variables with parameters $(\\mu_1, \\sigma_1^2)$ and $(\\mu_2, \\sigma_2^2)$, respectively, what is the distribution of $X + Y$?",
+  "answer": "",
+  "explanation": "We have $M_{X+Y}(t) = M_X(t)M_Y(t) = \\exp\\left\\{\\frac{\\sigma_1^2 t^2}{2} + \\mu_1 t\\right\\} \\cdot \\exp\\left\\{\\frac{\\sigma_2^2 t^2}{2} + \\mu_2 t\\right\\} = \\exp\\left\\{\\frac{(\\sigma_1^2 + \\sigma_2^2)t^2}{2} + (\\mu_1 + \\mu_2)t\\right\\}$ which is the moment generating function of a normal random variable with mean $\\mu_1 + \\mu_2$ and variance $\\sigma_1^2 + \\sigma_2^2$. Because the moment generating function uniquely determines the distribution then $X + Y$ is a normal random variable with the same distribution",
+  "source": "Finan §49 — Worked Example 49.9"
+}

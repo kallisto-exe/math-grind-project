@@ -1,0 +1,13 @@
+{
+  "id": "ex-36-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 4,
+  "subtopic": "Worked Example 36.2",
+  "question": "The time between hits to my website is an exponential distribution with an average of 2 minutes between hits. Suppose that a hit has just occurred to my website. Find the probability that the next hit won't happen within the next 5 minutes.",
+  "answer": "",
+  "explanation": "Let X denote the time (in minutes) between two hits. Then X is an exponential distribution with parameter $\\lambda = \\frac{1}{2} = 0.5$. Thus, $\\Pr(X > 5) = \\int_5^\\infty 0.5e^{-0.5x}\\,dx \\approx 0.082085$. The cumulative distribution function of an exponential random variable X is given by $F(x) = \\Pr(X\\le x) = \\int_0^x \\lambda e^{-\\lambda u}\\,du = -e^{-\\lambda u}\\big|_0^x = 1-e^{-\\lambda x}$ for $x\\ge 0$, and 0 otherwise.",
+  "source": "Finan §36 — Worked Example 36.2"
+}

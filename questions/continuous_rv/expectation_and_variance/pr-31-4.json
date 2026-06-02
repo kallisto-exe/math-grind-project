@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.4",
+  "question": "A continuous random variable has a pdf $f(x) = \\begin{cases} 1 - \\frac{x}{2} & 0 < x < 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the expected value and the variance.",
+  "answer": "$E(X) = \\frac{2}{3}$ and $\\mathrm{Var}(X) = \\frac{2}{9}$",
+  "explanation": "Answer: $E(X) = \\frac{2}{3}$ and $\\mathrm{Var}(X) = \\frac{2}{9}$",
+  "source": "Finan §31 — Practice Problem 31.4"
+}

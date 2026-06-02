@@ -1,0 +1,13 @@
+{
+  "id": "pr-25-10",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§25 The Cumulative Distribution Function",
+  "section": 25,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 25.10",
+  "question": "Let $X$ be a random variable with the following cumulative distribution function: $F(x) = \\begin{cases} 0 & x < 0 \\\\ x^2 & 0\\le x < 1 \\\\ \\alpha & x = 1 \\\\ 1-2^{-2x} & x > 1 \\end{cases}$ (a) Find $\\Pr(X > \\frac{3}{2})$. (b) Find $\\Pr(\\frac{1}{4} < X\\le \\frac{3}{4})$. (c) Find $\\alpha$. (d) Find $\\Pr(X = \\frac{1}{2})$. (e) Sketch the graph of $F(x)$.",
+  "answer": "(a) 0.125 (b) 0.584 (c) 0.5 (d) 0.25 (e)",
+  "explanation": "Answer: (a) 0.125 (b) 0.584 (c) 0.5 (d) 0.25 (e)",
+  "source": "Finan §25 — Practice Problem 25.10"
+}

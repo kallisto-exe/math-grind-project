@@ -1,0 +1,13 @@
+{
+  "id": "pr-9-9",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§9 Conditional Probabilities",
+  "section": 9,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 9.9",
+  "question": "An urn contains 225 white marbles and 15 black marbles. If we randomly pick (without replacement) two marbles in succession from the urn, what is the probability that they will both be black?",
+  "answer": "$\\frac{7}{1912}$",
+  "explanation": "Answer: $\\frac{7}{1912}$",
+  "source": "Finan §9 — Practice Problem 9.9"
+}

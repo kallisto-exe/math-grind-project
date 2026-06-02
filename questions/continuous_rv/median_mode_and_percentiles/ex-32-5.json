@@ -1,0 +1,13 @@
+{
+  "id": "ex-32-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 4,
+  "subtopic": "Worked Example 32.5",
+  "question": "A loss random variable X has the density function $f(x) = \\begin{cases} \\frac{2.5(200)^{2.5}}{x^{3.5}} & x > 200 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Calculate the difference between the 25th and 75th percentiles of X.",
+  "answer": "",
+  "explanation": "First, the cdf is given by $F(x) = \\int_{200}^x \\frac{2.5(200)^{2.5}}{t^{3.5}}\\,dt$. If $Q_1$ is the 25th percentile then it satisfies the equation $F(Q_1) = \\frac{1}{4}$ or equivalently $1-F(Q_1) = \\frac{3}{4}$. This leads to $\\frac{3}{4} = \\int_{Q_1}^\\infty \\frac{2.5(200)^{2.5}}{t^{3.5}}\\,dt = -\\left(\\frac{200}{t}\\right)^{2.5}\\Big|_{Q_1}^\\infty = \\left(\\frac{200}{Q_1}\\right)^{2.5}$. Solving for $Q_1$ we find $Q_1 = 200(4/3)^{0.4} \\approx 224.4$. Similarly, the third quartile (i.e. 75th percentile) is given by $Q_3 = 348.2$. The interquartile range (i.e., the difference between the 25th and 75th percentiles) is $Q_3-Q_1 = 348.2-224.4 = 123.8$",
+  "source": "Finan §32 — Worked Example 32.5"
+}

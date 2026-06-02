@@ -1,0 +1,13 @@
+{
+  "id": "ex-33-1",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§33 The Uniform Distribution Function",
+  "section": 33,
+  "difficulty": 4,
+  "subtopic": "Worked Example 33.1",
+  "question": "Find the survival function of a uniform distribution $X$ on the interval $[a, b]$.",
+  "answer": "",
+  "explanation": "The survival function is given by $S(x) = \\begin{cases} 1 & \\text{if } x \\le a \\\\ \\frac{b-x}{b-a} & \\text{if } a < x < b \\\\ 0 & \\text{if } x \\ge b \\end{cases}$.",
+  "source": "Finan §33 — Worked Example 33.1"
+}

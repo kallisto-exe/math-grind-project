@@ -1,0 +1,13 @@
+{
+  "id": "ex-31-10",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 4,
+  "subtopic": "Worked Example 31.10",
+  "question": "A random variable has a Pareto distribution with parameters $\\alpha > 0$ and $x_0 > 0$ if its density function has the form $f(x) = \\begin{cases} \\frac{\\alpha x_0^\\alpha}{x^{\\alpha+1}} & x > x_0 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Show that $f(x)$ is indeed a density function. (b) Find $E(X)$ and $\\mathrm{Var}(X)$.",
+  "answer": "",
+  "explanation": "(a) By definition $f(x) > 0$. Also, $\\int_{x_0}^\\infty f(x)\\,dx = \\int_{x_0}^\\infty \\frac{\\alpha x_0^\\alpha}{x^{\\alpha+1}}\\,dx = -\\left(\\frac{x_0}{x}\\right)^\\alpha\\Big|_{x_0}^\\infty = 1$. (b) We have $E(X) = \\int_{x_0}^\\infty x f(x)\\,dx = \\int_{x_0}^\\infty \\frac{\\alpha x_0^\\alpha}{x^\\alpha}\\,dx = \\frac{\\alpha}{1-\\alpha}\\left(\\frac{x_0^\\alpha}{x^{\\alpha-1}}\\right)\\Big|_{x_0}^\\infty = \\frac{\\alpha x_0}{\\alpha - 1}$ provided $\\alpha > 1$. Similarly, $E(X^2) = \\int_{x_0}^\\infty x^2 f(x)\\,dx = \\int_{x_0}^\\infty \\frac{\\alpha x_0^\\alpha}{x^{\\alpha-1}}\\,dx = \\frac{\\alpha}{2-\\alpha}\\left(\\frac{x_0^\\alpha}{x^{\\alpha-2}}\\right)\\Big|_{x_0}^\\infty = \\frac{\\alpha x_0^2}{\\alpha - 2}$ provided $\\alpha > 2$. Hence, $\\mathrm{Var}(X) = \\frac{\\alpha x_0^2}{\\alpha - 2} - \\frac{\\alpha^2 x_0^2}{(\\alpha - 1)^2} = \\frac{\\alpha x_0^2}{(\\alpha - 2)(\\alpha - 1)^2}$",
+  "source": "Finan §31 — Worked Example 31.10"
+}

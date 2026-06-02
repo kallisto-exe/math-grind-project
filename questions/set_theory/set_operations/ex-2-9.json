@@ -1,0 +1,13 @@
+{
+  "id": "ex-2-9",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 2,
+  "subtopic": "Worked Example 2.9",
+  "question": "An assisted living agency advertises its program through videos and booklets. Let U be the set of people solicited for the agency program. All participants were given a chance to watch a video and to read a booklet describing the program. Let V be the set of people who watched the video, B the set of people who read the booklet, and C the set of people who decided to enroll in the program. (a) Describe with set notation: \"The set of people who did not see the video or read the booklet but who still enrolled in the program\" (b) Rewrite your answer using De Morgan's law and and then restate the above.",
+  "answer": "",
+  "explanation": "(a) $(V\\cup B)^c\\cap C$. (b) $(V\\cup B)^c\\cap C = V^c\\cap B^c\\cap C =$ the set of people who did not watch the video, did not read the booklet, but did enroll If $A_i\\cap A_j = \\emptyset$ for all $i\\ne j$ then we say that the sets in the collection $\\{A_n\\}_{n=1}^\\infty$ are pairwise disjoint.",
+  "source": "Finan §2 — Worked Example 2.9"
+}

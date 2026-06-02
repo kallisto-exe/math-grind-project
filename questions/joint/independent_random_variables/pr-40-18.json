@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-18",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.18",
+  "question": "Suppose that discrete random variables $X$ and $Y$ each take only the values 0 and 1. It is known that $\\Pr(X = 0 \\mid Y = 1) = 0.6$ and $\\Pr(X = 1 \\mid Y = 0) = 0.7$. Is it possible that $X$ and $Y$ are independent? Justify your conclusion.",
+  "answer": "Suppose that $X$ and $Y$ are independent. Then $\\Pr(X = 0 \\mid Y = 1) = \\Pr(X = 0) = 0.6$ and $\\Pr(X = 1 \\mid Y = 0) = 0.7$. Since $\\Pr(X = 0) + \\Pr(X = 1) = 0.6 + 0.7 \\ne 1$, it follows that $X$ and $Y$ can not be independent.",
+  "explanation": "Answer: Suppose that $X$ and $Y$ are independent. Then $\\Pr(X = 0 \\mid Y = 1) = \\Pr(X = 0) = 0.6$ and $\\Pr(X = 1 \\mid Y = 0) = 0.7$. Since $\\Pr(X = 0) + \\Pr(X = 1) = 0.6 + 0.7 \\ne 1$, it follows that $X$ and $Y$ can not be independent.",
+  "source": "Finan §40 — Practice Problem 40.18"
+}

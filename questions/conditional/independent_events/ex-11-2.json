@@ -1,0 +1,13 @@
+{
+  "id": "ex-11-2",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 3,
+  "subtopic": "Worked Example 11.2",
+  "question": "A coal exploration company is set to look for coal mines in two states Virginia and New Mexico. Let $A$ be the event that a coal mine is found in Virginia and $B$ the event that a coal mine is found in New Mexico. Suppose that $A$ and $B$ are independent events with $\\Pr(A) = 0.4$ and $\\Pr(B) = 0.7$. What is the probability that at least one coal mine is found in one of the states?",
+  "answer": "",
+  "explanation": "The probability that at least one coal mine is found in one of the two states is $\\Pr(A \\cup B)$. Thus, $\\Pr(A \\cup B) = \\Pr(A) + \\Pr(B) - \\Pr(A \\cap B) = \\Pr(A) + \\Pr(B) - \\Pr(A)\\Pr(B) = 0.4 + 0.7 - 0.4(0.7) = 0.82$",
+  "source": "Finan §11 — Worked Example 11.2"
+}

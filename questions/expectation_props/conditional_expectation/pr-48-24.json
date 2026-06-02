@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-24",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.24",
+  "question": "The number of hurricanes that will hit a certain house in the next ten years is Poisson distributed with mean 4. Each hurricane results in a loss that is exponentially distributed with mean 1000. Losses are mutually independent and independent of the number of hurricanes. Calculate the variance of the total loss due to hurricanes hitting this house in the next ten years.",
+  "answer": "8,000,000",
+  "explanation": "Answer: 8,000,000",
+  "source": "Finan §48 — Practice Problem 48.24"
+}

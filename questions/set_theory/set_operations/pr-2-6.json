@@ -1,0 +1,13 @@
+{
+  "id": "pr-2-6",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§2 Set Operations",
+  "section": 2,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 2.6",
+  "question": "A marketing survey indicates that 60% of the population owns an automobile, 30% owns a house, and 20% owns both an automobile and a house. What percentage of the population owns an automobile or a house, but not both?",
+  "answer": "50%",
+  "explanation": "Answer: 50%",
+  "source": "Finan §2 — Practice Problem 2.6"
+}

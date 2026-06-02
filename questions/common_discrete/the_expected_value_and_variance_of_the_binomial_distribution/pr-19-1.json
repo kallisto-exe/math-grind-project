@@ -1,0 +1,13 @@
+{
+  "id": "pr-19-1",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§19 The Expected Value and Variance of the Binomial Distribution",
+  "section": 19,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 19.1",
+  "question": "If $X$ is the number of \"6\"'s that turn up when 72 ordinary dice are independently thrown, find the expected value of $X^2$.",
+  "answer": "154",
+  "explanation": "Answer: 154",
+  "source": "Finan §19 — Practice Problem 19.1"
+}

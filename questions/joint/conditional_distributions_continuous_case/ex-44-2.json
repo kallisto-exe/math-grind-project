@@ -1,0 +1,13 @@
+{
+  "id": "ex-44-2",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 5,
+  "subtopic": "Worked Example 44.2",
+  "question": "Suppose that $X$ is uniformly distributed on the interval $[0, 1]$ and that, given $X = x$, $Y$ is uniformly distributed on the interval $[1-x, 1]$. (a) Determine the joint density $f_{XY}(x,y)$. (b) Find the probability $\\Pr(Y \\ge \\frac{1}{2})$.",
+  "answer": "",
+  "explanation": "Since $X$ is uniformly distributed on $[0, 1]$, we have $f_X(x) = 1$, $0 \\le x \\le 1$. Similarly, since, given $X = x$, $Y$ is uniformly distributed on $[1-x, 1]$, the conditional density of $Y$ given $X = x$ is $\\frac{1}{1-(1-x)} = \\frac{1}{x}$ on the interval $[1-x, 1]$; i.e., $f_{Y|X}(y|x) = \\frac{1}{x}$, $1-x \\le y \\le 1$ for $0 \\le x \\le 1$. Thus $f_{XY}(x,y) = f_X(x) f_{Y|X}(y|x) = \\frac{1}{x}$, $0 < x < 1$, $1-x < y < 1$. (b) Using Figure 44.1 we find $\\Pr(Y \\ge \\frac{1}{2}) = \\int \\int_{1-x}^{1} \\frac{1}{x}\\,dy\\,dx + \\int \\int \\frac{1}{x}\\,dy\\,dx = \\int \\frac{1-(1-x)}{x}\\,dx + \\int_{1/2}^{1} \\frac{1}{x}\\,dx = 1 + \\ln 2$. Figure 44.1. Note that $\\int_{-\\infty}^{\\infty} f_{X|Y}(x|y)\\,dx = \\int_{-\\infty}^{\\infty} \\frac{f_{XY}(x,y)}{f_Y(y)}\\,dx = \\frac{f_Y(y)}{f_Y(y)} = 1$. The conditional cumulative distribution function of $X$ given $Y = y$ is defined by $F_{X|Y}(x|y) = \\Pr(X \\le x | Y = y) = \\int_{-\\infty}^{x} f_{X|Y}(t|y)\\,dt$. From this definition, it follows $f_{X|Y}(x|y) = \\frac{\\partial}{\\partial x} F_{X|Y}(x|y)$.",
+  "source": "Finan §44 — Worked Example 44.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-2",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.2",
+  "question": "Let $X$ be a geometric distribution function with $p_X(n) = p(1-p)^{n-1}$. Find the expected value and the variance of $X$ using moment generating functions.",
+  "answer": "$E(X) = \\frac{1}{p}$ and $\\mathrm{Var}(X) = \\frac{1-p}{p^2}$",
+  "explanation": "Answer: $E(X) = \\frac{1}{p}$ and $\\mathrm{Var}(X) = \\frac{1-p}{p^2}$",
+  "source": "Finan §49 — Practice Problem 49.2"
+}

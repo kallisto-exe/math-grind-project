@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-8",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.8",
+  "question": "Suppose that $E(X|Y) = 18 - \\frac{3}{5}Y$ and $E(Y|X) = 10 - \\frac{1}{3}X$. Find $E(X)$ and $E(Y)$.",
+  "answer": "$E(X) = 15$ and $E(Y) = 5$",
+  "explanation": "Answer: $E(X) = 15$ and $E(Y) = 5$",
+  "source": "Finan §48 — Practice Problem 48.8"
+}

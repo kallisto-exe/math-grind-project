@@ -1,0 +1,13 @@
+{
+  "id": "pr-51-5",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§51 The Central Limit Theorem",
+  "section": 51,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 51.5",
+  "question": "Let $X_i$, $i = 1, 2, \\dots, 10$ be independent random variables each uniformly distributed over $(0,1)$. Calculate an approximation to $\\Pr\\left(\\sum_{i=1}^{10} X_i > 6\\right)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §51 — Practice Problem 51.5"
+}

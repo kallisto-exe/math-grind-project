@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-5",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.5",
+  "question": "Show that for any events $A$ and $B$, $\\Pr(A \\cap B) \\ge \\Pr(A) + \\Pr(B) - 1$.",
+  "answer": "Since $\\Pr(A \\cup B) \\le 1$, we have $-\\Pr(A \\cup B) \\ge -1$. Add $\\Pr(A) + \\Pr(B)$ to both sides to obtain $\\Pr(A) + \\Pr(B) - \\Pr(A \\cup B) \\ge \\Pr(A) + \\Pr(B) - 1$. But the left hand side is just $\\Pr(A \\cap B)$.",
+  "explanation": "Answer: Since $\\Pr(A \\cup B) \\le 1$, we have $-\\Pr(A \\cup B) \\ge -1$. Add $\\Pr(A) + \\Pr(B)$ to both sides to obtain $\\Pr(A) + \\Pr(B) - \\Pr(A \\cup B) \\ge \\Pr(A) + \\Pr(B) - 1$. But the left hand side is just $\\Pr(A \\cap B)$.",
+  "source": "Finan §7 — Practice Problem 7.5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-26-1",
+  "type": "free",
+  "subject": "Cumulative and Survival Distribution Functions",
+  "topic": "§26 The Survival Distribution Function",
+  "section": 26,
+  "difficulty": 4,
+  "subtopic": "Worked Example 26.1",
+  "question": "Let $X$ be a continuous random variable with survival distribution defined by $S(x) = e^{-0.34x}$ for $x\\ge 0$ and 1 otherwise. Compute $\\Pr(5 < X\\le 10)$.",
+  "answer": "",
+  "explanation": "We have $\\Pr(5 < X\\le 10) = F(10)-F(5) = S(5)-S(10) = e^{-0.34\\times 5} - e^{-0.34\\times 10} = 0.149$",
+  "source": "Finan §26 — Worked Example 26.1"
+}

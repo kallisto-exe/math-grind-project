@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-19",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.19",
+  "question": "The number of workplace injuries, $N$, occurring in a factory on any given day is Poisson distributed with mean $\\lambda$. The parameter $\\lambda$ is a random variable that is determined by the level of activity in the factory, and is uniformly distributed on the interval $[0, 3]$. Calculate $\\mathrm{Var}(N)$.",
+  "answer": "2.25",
+  "explanation": "Answer: 2.25",
+  "source": "Finan §48 — Practice Problem 48.19"
+}

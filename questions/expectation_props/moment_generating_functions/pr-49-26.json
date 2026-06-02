@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-26",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.26",
+  "question": "Let $X_1$ and $X_2$ be random variables with joint moment generating function $M(t_1, t_2) = 0.3 + 0.1e^{t_1} + 0.2e^{t_2} + 0.4e^{t_1 + t_2}$ What is $E(2X_1 - X_2)$?",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.26"
+}

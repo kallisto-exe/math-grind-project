@@ -1,0 +1,13 @@
+{
+  "id": "pr-43-8",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§43 Conditional Distributions: Discrete Case",
+  "section": 43,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 43.8",
+  "question": "Let $X$ and $Y$ be random variables with joint probability mass function $p_{XY}(x,y) = c(1 - 2^{-x})^y$ where $x = 0, 1, \\ldots, N-1$ and $y = 0, 1, 2, \\ldots$ (a) Find $c$. (b) Find $p_X(x)$. (c) Find $p_{Y|X}(y|x)$, the conditional probability mass function of $Y$ given $X = x$.",
+  "answer": "(a) $\\frac{1}{2^N - 1}$ (b) $p_X(x) = \\frac{2^x}{2^N - 1}$ for $x = 0, 1, \\ldots, N-1$ and 0 otherwise. (c) $p_{Y|X}(y|x) = 2^{-x}(1 - 2^{-x})^y$ for $x = 0, 1, \\ldots, N-1$, $y = 0, 1, 2, \\ldots$ and 0 otherwise",
+  "explanation": "Answer: (a) $\\frac{1}{2^N - 1}$ (b) $p_X(x) = \\frac{2^x}{2^N - 1}$ for $x = 0, 1, \\ldots, N-1$ and 0 otherwise. (c) $p_{Y|X}(y|x) = 2^{-x}(1 - 2^{-x})^y$ for $x = 0, 1, \\ldots, N-1$, $y = 0, 1, 2, \\ldots$ and 0 otherwise",
+  "source": "Finan §43 — Practice Problem 43.8"
+}

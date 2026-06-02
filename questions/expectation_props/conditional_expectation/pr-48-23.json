@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-23",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.23",
+  "question": "A motorist makes three driving errors, each independently resulting in an accident with probability 0.25. Each accident results in a loss that is exponentially distributed with mean 0.80. Losses are mutually independent and independent of the number of accidents. The motorist's insurer reimburses 70% of each loss due to an accident. Calculate the variance of the total unreimbursed loss the motorist experiences due to accidents resulting from these driving errors.",
+  "answer": "0.0756",
+  "explanation": "Answer: 0.0756",
+  "source": "Finan §48 — Practice Problem 48.23"
+}

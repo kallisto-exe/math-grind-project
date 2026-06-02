@@ -1,0 +1,13 @@
+{
+  "id": "pr-38-11",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 38.11",
+  "question": "An actuary models the lifetime of a device using the random variable $Y = 10 X^{0.8}$, where $X$ is an exponential random variable with mean 1 year. Determine the probability density function $f_Y(y)$, for $y > 0$, of the random variable $Y$.",
+  "answer": "For $y > 0$ we have $f_Y(y) = \\frac{1}{8} \\left(\\frac{y}{10}\\right)^{1/4} e^{-\\left(\\frac{y}{10}\\right)^{5/4}}$ and 0 otherwise",
+  "explanation": "Answer: For $y > 0$ we have $f_Y(y) = \\frac{1}{8} \\left(\\frac{y}{10}\\right)^{1/4} e^{-\\left(\\frac{y}{10}\\right)^{5/4}}$ and 0 otherwise.",
+  "source": "Finan §38 — Practice Problem 38.11"
+}

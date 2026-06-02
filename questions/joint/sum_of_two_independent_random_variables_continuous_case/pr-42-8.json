@@ -1,0 +1,13 @@
+{
+  "id": "pr-42-8",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 42.8",
+  "question": "Let $X$ and $Y$ be independent random variables with density functions $f_X(x) = \\begin{cases} \\frac{1}{2} & -1 \\le x \\le 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ $f_Y(y) = \\begin{cases} \\frac{1}{2} & 3 \\le y \\le 5 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find the probability density function of $X + Y$.",
+  "answer": "If $2 \\le a \\le 4$ then $f_{X+Y}(a) = \\frac{a}{4} - \\frac{1}{2}$. If $4 \\le a \\le 6$, then $f_{X+Y}(a) = \\frac{3}{2} - \\frac{a}{4}$ and $f_{X+Y}(a) = 0$ otherwise.",
+  "explanation": "Answer: If $2 \\le a \\le 4$ then $f_{X+Y}(a) = \\frac{a}{4} - \\frac{1}{2}$. If $4 \\le a \\le 6$, then $f_{X+Y}(a) = \\frac{3}{2} - \\frac{a}{4}$ and $f_{X+Y}(a) = 0$ otherwise.",
+  "source": "Finan §42 — Practice Problem 42.8"
+}

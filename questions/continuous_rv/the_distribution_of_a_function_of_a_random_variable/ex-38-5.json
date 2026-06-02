@@ -1,0 +1,13 @@
+{
+  "id": "ex-38-5",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§38 The Distribution of a Function of a Random Variable",
+  "section": 38,
+  "difficulty": 4,
+  "subtopic": "Worked Example 38.5",
+  "question": "Suppose $X$ is a random variable with the following density: $f(x) = \\frac{1}{\\pi(x^2 + 1)}$, $-\\infty < x < \\infty$. (a) Find the cdf of $|X|$. (b) Find the pdf of $X^2$.",
+  "answer": "",
+  "explanation": "(a) $|X|$ takes values in $[0, \\infty)$. Thus, $F_{|X|}(x) = 0$ for $x \\le 0$. Now, for $x > 0$ we have $F_{|X|}(x) = \\Pr(|X| \\le x) = \\int_{-x}^{x} \\frac{1}{\\pi(x^2 + 1)}\\,dx = \\frac{2}{\\pi} \\tan^{-1} x$. Hence, $F_{|X|}(x) = \\begin{cases} 0 & x \\le 0 \\\\ \\frac{2}{\\pi} \\tan^{-1} x & x > 0 \\end{cases}$. (b) $X^2$ also takes only nonnegative values, so the density $f_{X^2}(x) = 0$ for $x \\le 0$. Furthermore, $F_{X^2}(x) = \\Pr(X^2 \\le x) = \\Pr(|X| \\le \\sqrt{x}) = \\frac{2}{\\pi} \\tan^{-1} \\sqrt{x}$. So by differentiating we get $f_{X^2}(x) = \\begin{cases} 0 & x \\le 0 \\\\ \\frac{1}{\\pi \\sqrt{x}(1+x)} & x > 0 \\end{cases}$. Remark 38.1: In general, if a function does not have a unique inverse, we must sum over all possible inverse values.",
+  "source": "Finan §38 — Worked Example 38.5"
+}

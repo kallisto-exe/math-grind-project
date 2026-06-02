@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-5",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.5",
+  "question": "Show that the sum of $n$ independently exponential random variable each with paramter $\\lambda$ is a gamma random variable with parameters $n$ and $\\lambda$.",
+  "answer": "Let $Y = X_1 + X_2 + \\ldots + X_n$ where each $X_i$ is an exponential random variable with parameter $\\lambda$. Then $M_Y(t) = \\prod_{k=1}^{n} M_{X_k}(t) = \\prod_{k=1}^{n} \\left(\\frac{\\lambda}{\\lambda - t}\\right) = \\left(\\frac{\\lambda}{\\lambda - t}\\right)^n$, $t < \\lambda$. Since this is the mgf of a gamma random variable with parameters $n$ and $\\lambda$ we can conclude that $Y$ is a gamma random variable with parameters $n$ and $\\lambda$.",
+  "explanation": "Answer: Let $Y = X_1 + X_2 + \\ldots + X_n$ where each $X_i$ is an exponential random variable with parameter $\\lambda$. Then $M_Y(t) = \\prod_{k=1}^{n} M_{X_k}(t) = \\prod_{k=1}^{n} \\left(\\frac{\\lambda}{\\lambda - t}\\right) = \\left(\\frac{\\lambda}{\\lambda - t}\\right)^n$, $t < \\lambda$. Since this is the mgf of a gamma random variable with parameters $n$ and $\\lambda$ we can conclude that $Y$ is a gamma random variable with parameters $n$ and $\\lambda$.",
+  "source": "Finan §49 — Practice Problem 49.5"
+}

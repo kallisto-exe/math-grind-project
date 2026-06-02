@@ -1,0 +1,13 @@
+{
+  "id": "pr-45-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 45.4",
+  "question": "Let $X$ and $Y$ be two random variables with joint pdf $f_{XY}(x, y)$. Let $Z = g(X, Y) = \\sqrt{X^2 + Y^2}$ and $W = \\frac{Y}{X}$. Find $f_{ZW}(z, w)$.",
+  "answer": "$f_{ZW}(z, w) = \\frac{z}{1 + w^2}\\left[f_{XY}\\left(z(\\sqrt{1 + w^2})^{-1}, wz(\\sqrt{1 + w^2})^{-1}\\right) + f_{XY}\\left(-z(\\sqrt{1 + w^2})^{-1}, -wz(\\sqrt{1 + w^2})^{-1}\\right)\\right]$",
+  "explanation": "Answer: $f_{ZW}(z, w) = \\frac{z}{1 + w^2}\\left[f_{XY}\\left(z(\\sqrt{1 + w^2})^{-1}, wz(\\sqrt{1 + w^2})^{-1}\\right) + f_{XY}\\left(-z(\\sqrt{1 + w^2})^{-1}, -wz(\\sqrt{1 + w^2})^{-1}\\right)\\right]$",
+  "source": "Finan §45 — Practice Problem 45.4"
+}

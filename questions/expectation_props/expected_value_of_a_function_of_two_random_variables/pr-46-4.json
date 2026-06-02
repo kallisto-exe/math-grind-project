@@ -1,0 +1,13 @@
+{
+  "id": "pr-46-4",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§46 Expected Value of a Function of Two Random Variables",
+  "section": 46,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 46.4",
+  "question": "Let $X$ and $Y$ be continuous random variables with joint pdf $f_{XY}(x,y) = \\begin{cases} 2(x + y) & 0 < x < y < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find $E(X^2 Y)$ and $E(X^2 + Y^2)$.",
+  "answer": "$E(X^2 Y) = \\frac{7}{36}$ and $E(X^2 + Y^2) = \\frac{5}{6}$.",
+  "explanation": "Answer: $E(X^2 Y) = \\frac{7}{36}$ and $E(X^2 + Y^2) = \\frac{5}{6}$.",
+  "source": "Finan §46 — Practice Problem 46.4"
+}

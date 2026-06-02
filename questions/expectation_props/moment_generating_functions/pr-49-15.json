@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-15",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.15",
+  "question": "Let $X_1, X_2, \\ldots, X_n$ be independent geometric random variables each with parameter $p$. Define $Y = X_1 + X_2 + \\ldots X_n$. (a) Find the moment generating function of $X_i$, $1 \\le i \\le n$. (b) Find the moment generating function of a negative binomial random variable with parameters $(n, p)$. (c) Show that $Y$ defined above is a negative binomial random variable with parameters $(n, p)$.",
+  "answer": "(a) $M_{X_i}(t) = \\frac{pe^t}{1 - (1-p)e^t}$, $t < -\\ln(1-p)$ (b) $M_X(t) = \\left(\\frac{pe^t}{1 - (1-p)e^t}\\right)^n$, $t < -\\ln(1-p)$. (c) Because $X_1, X_2, \\ldots, X_n$ are independent then $M_Y(t) = \\prod_{k=1}^{n} M_{X_i}(t) = \\prod_{k=1}^{n} \\frac{pe^t}{1 - (1-p)e^t} = \\left(\\frac{pe^t}{1 - (1-p)e^t}\\right)^n$",
+  "explanation": "Answer: (a) $M_{X_i}(t) = \\frac{pe^t}{1 - (1-p)e^t}$, $t < -\\ln(1-p)$ (b) $M_X(t) = \\left(\\frac{pe^t}{1 - (1-p)e^t}\\right)^n$, $t < -\\ln(1-p)$. (c) Because $X_1, X_2, \\ldots, X_n$ are independent then $M_Y(t) = \\prod_{k=1}^{n} M_{X_i}(t) = \\prod_{k=1}^{n} \\frac{pe^t}{1 - (1-p)e^t} = \\left(\\frac{pe^t}{1 - (1-p)e^t}\\right)^n$",
+  "source": "Finan §49 — Practice Problem 49.15"
+}

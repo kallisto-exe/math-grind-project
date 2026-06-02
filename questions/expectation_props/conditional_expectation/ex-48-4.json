@@ -1,0 +1,13 @@
+{
+  "id": "ex-48-4",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 5,
+  "subtopic": "Worked Example 48.4",
+  "question": "Let $X$ and $Y$ be random variables with joint pdf $$f_{XY} = \\begin{cases} \\frac{\\alpha-1}{y^\\alpha} & y > 1 \\\\ 0 & \\text{otherwise} \\end{cases}$$ where $\\alpha > 1$. Determine the best estimator $g(x)$ of $Y$ given $X$.",
+  "answer": "",
+  "explanation": "Given $Y = y$, let $X$ be a random variable which is Uniformly distributed on $(0,y)$. From",
+  "source": "Finan §48 — Worked Example 48.4"
+}

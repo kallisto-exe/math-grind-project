@@ -1,0 +1,13 @@
+{
+  "id": "pr-1-5",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 1.5",
+  "question": "Prove the following properties: (a) Reflexive Property: $A \\subseteq A$. (b) Antisymmetric Property: If $A \\subseteq B$ and $B \\subseteq A$ then $A = B$. (c) Transitive Property: If $A \\subseteq B$ and $B \\subseteq C$ then $A \\subseteq C$.",
+  "answer": "(a) Since every element of A is in A, $A \\subseteq A$. (b) Since every element in A is in B and every element in B is in A, $A = B$. (c) If $x$ is in A then $x$ is in B since $A \\subseteq B$. But $B \\subseteq C$ and this implies that $x$ is in C. Hence, every element of A is also in C. This shows that $A \\subseteq C$",
+  "explanation": "Answer: (a) Since every element of A is in A, $A \\subseteq A$. (b) Since every element in A is in B and every element in B is in A, $A = B$. (c) If $x$ is in A then $x$ is in B since $A \\subseteq B$. But $B \\subseteq C$ and this implies that $x$ is in C. Hence, every element of A is also in C. This shows that $A \\subseteq C$",
+  "source": "Finan §1 — Practice Problem 1.5"
+}

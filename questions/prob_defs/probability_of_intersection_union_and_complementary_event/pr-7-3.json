@@ -1,0 +1,13 @@
+{
+  "id": "pr-7-3",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 7.3",
+  "question": "Let $A$ be the event of \"drawing a king\" from a deck of cards and $B$ the event of \"drawing a diamond\". Are $A$ and $B$ mutually exclusive? Find $\\Pr(A \\cup B)$.",
+  "answer": "0.308",
+  "explanation": "Answer: 0.308",
+  "source": "Finan §7 — Practice Problem 7.3"
+}

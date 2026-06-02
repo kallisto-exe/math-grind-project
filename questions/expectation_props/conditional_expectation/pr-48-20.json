@@ -1,0 +1,13 @@
+{
+  "id": "pr-48-20",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§48 Conditional Expectation",
+  "section": 48,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 48.20",
+  "question": "A fair die is rolled repeatedly. Let $X$ be the number of rolls needed to obtain a 5 and $Y$ the number of rolls needed to obtain a 6. Calculate $E(X|Y = 2)$.",
+  "answer": "6.6",
+  "explanation": "Answer: 6.6",
+  "source": "Finan §48 — Practice Problem 48.20"
+}

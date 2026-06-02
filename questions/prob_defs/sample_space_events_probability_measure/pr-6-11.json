@@ -1,0 +1,13 @@
+{
+  "id": "pr-6-11",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 6.11",
+  "question": "A box contains 5 batteries of which 2 are defective. An inspector selects 2 batteries at random from the box. She/he tests the 2 items and observes whether the sampled items are defective. (a) Write out the sample space of all possible outcomes of this experiment. Be very specific when identifying these. (b) The box will not be accepted if both of the sampled items are defective. What is the probability the inspector will reject the box?",
+  "answer": "(a) $S = \\{D_1D_2, D_1N_1, D_1N_2, D_1N_3, D_2N_1, D_2N_2, D_2N_3, N_1N_2, N_1N_3, N_2N_3\\}$ (b) 10%",
+  "explanation": "Answer: (a) $S = \\{D_1D_2, D_1N_1, D_1N_2, D_1N_3, D_2N_1, D_2N_2, D_2N_3, N_1N_2, N_1N_3, N_2N_3\\}$ (b) 10%",
+  "source": "Finan §6 — Practice Problem 6.11"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-1",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.1",
+  "question": "Which of the following is a well-defined set. (a) The collection of good movies. (b) The collection of right-handed individuals in Russellville.",
+  "answer": "",
+  "explanation": "(a) The collection of good movies is not a well-defined set since the answer to the question: \"Is Les Miserables a good movie?\" may be subject to dispute. (b) This collection is a well-defined set since a person is either left-handed or right-handed. Of course, we are ignoring those few who can use both hands There are two different ways for representing a set. The first one is to list, without repetition, the elements of the set. For example, if A is the solution set to the equation $x^2 - 4 = 0$ then $A = \\{-2, 2\\}$. The other way to represent a set is to describe a property that characterizes the elements of the set. This is known as the set-builder representation of a set. For example, the set A above can be written as $A = \\{x \\mid x \\text{ is an integer satisfying } x^2 - 4 = 0\\}$. We define the empty set, denoted by $\\emptyset$, to be the set with no elements. A set which is not empty is called a non-empty set.",
+  "source": "Finan §1 — Worked Example 1.1"
+}

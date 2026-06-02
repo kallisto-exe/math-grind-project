@@ -1,0 +1,13 @@
+{
+  "id": "ex-13-2",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 3,
+  "subtopic": "Worked Example 13.2",
+  "question": "The sample space of the experiment of tossing a coin 3 times is given by $S = \\{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\\}$. Let $X = $ # of Heads in 3 tosses. Find the range of $X$.",
+  "answer": "",
+  "explanation": "We have that the range of $X$ consists of $\\{0, 1, 2, 3\\}$ so that $X$ is a discrete random variable. We use upper-case letters $X, Y, Z$, etc. to represent random variables. We use small letters $x, y, z$, etc. to represent possible values that the corresponding random variables $X, Y, Z$, etc. can take. The statement $X = x$ defines an event consisting of all outcomes with $X$-measurement equal to $x$ which is the set $\\{s \\in S : X(s) = x\\}$. For instance, considering the random variable of the previous example, the statement \"$X = 2$\" is the event $\\{HHT, HTH, THH\\}$. Because the value of a random variable is determined by the outcomes of the experiment, we may assign probabilities to the possible values of the random variable. For example, $\\Pr(X = 2) = \\frac{3}{8}$.",
+  "source": "Finan §13 — Worked Example 13.2"
+}

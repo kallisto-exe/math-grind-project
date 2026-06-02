@@ -1,0 +1,13 @@
+{
+  "id": "ex-50-1",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 5,
+  "subtopic": "Worked Example 50.1",
+  "question": "Suppose that a student's score on a test is a random variable with mean 75. Give an upper bound for the probability that a student's test score will exceed 85.",
+  "answer": "",
+  "explanation": "Let $X$ be the random variable denoting the student's score. Using Markov's inequality, we have $$\\Pr(X \\ge 85) \\le \\frac{E(X)}{85} = \\frac{75}{85} \\approx 0.882$$",
+  "source": "Finan §50 — Worked Example 50.1"
+}

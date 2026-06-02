@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-5",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.5",
+  "question": "In the experiment of rolling two dice, let $X$ be the random variable representing the number of even numbers that appear. Find the probability mass function of $X$.",
+  "answer": "$x$: 0, 1, 2; $p(x)$: $\\frac{1}{4}, \\frac{1}{2}, \\frac{1}{4}$",
+  "explanation": "Answer: $x$: 0, 1, 2; $p(x)$: $\\frac{1}{4}, \\frac{1}{2}, \\frac{1}{4}$",
+  "source": "Finan §14 — Practice Problem 14.5"
+}

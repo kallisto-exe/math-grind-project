@@ -1,0 +1,13 @@
+{
+  "id": "pr-41-5",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 41.5",
+  "question": "An insurance company determines that $N$, the number of claims received in a week, is a random variable with $P[N=n] = \\frac{1}{2^{n+1}}$, where $n \\ge 0$. The company also determines that the number of claims received in a given week is independent of the number of claims received in any other week. Determine the probability that exactly seven claims will be received during a given two-week period.",
+  "answer": "1",
+  "explanation": "Answer: 1",
+  "source": "Finan §41 — Practice Problem 41.5"
+}

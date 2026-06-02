@@ -1,0 +1,13 @@
+{
+  "id": "pr-4-5",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§4 Permutations",
+  "section": 4,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 4.5",
+  "question": "(a) 12 cabinet officials are to be seated in a row for a picture. How many different seating arrangements are there? (b) Seven of the cabinet members are women and 5 are men. In how many different ways can the 7 women be seated together on the left, and then the 5 men together on the right?",
+  "answer": "(a) 479,001,600 (b) 604,800",
+  "explanation": "Answer: (a) 479,001,600 (b) 604,800",
+  "source": "Finan §4 — Practice Problem 4.5"
+}

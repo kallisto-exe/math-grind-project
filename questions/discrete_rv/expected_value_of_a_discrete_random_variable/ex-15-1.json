@@ -1,0 +1,13 @@
+{
+  "id": "ex-15-1",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 3,
+  "subtopic": "Worked Example 15.1",
+  "question": "Suppose that an insurance company has broken down yearly automobile claims for drivers from age 16 through 21 as shown in the following table. Amount of claim Probability $0$ 0.80 $2000$ 0.10 $4000$ 0.05 $6000$ 0.03 $8000$ 0.01 $10000$ 0.01 How much should the company charge as its average premium in order to break even on costs for claims?",
+  "answer": "",
+  "explanation": "Let $X$ be the random variable of the amount of claim. Finding the expected value of $X$ we have $E(X) = 0(.80) + 2000(.10) + 4000(.05) + 6000(.03) + 8000(.01) + 10000(.01) = 760$ Since the average claim value is $760, the average automobile insurance premium should be set at $760 per year for the insurance company to break even",
+  "source": "Finan §15 — Worked Example 15.1"
+}

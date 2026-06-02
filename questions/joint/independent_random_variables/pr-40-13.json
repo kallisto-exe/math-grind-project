@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-13",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.13",
+  "question": "A family buys two policies from the same insurance company. Losses under the two policies are independent and have continuous uniform distributions on the interval from 0 to 10. One policy has a deductible of 1 and the other has a deductible of 2. The family experiences exactly one loss under each policy. Calculate the probability that the total benefit paid to the family does not exceed 5.",
+  "answer": "0.295",
+  "explanation": "Answer: 0.295",
+  "source": "Finan §40 — Practice Problem 40.13"
+}

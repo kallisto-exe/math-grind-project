@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.3",
+  "question": "Given: $X \\backslash Y$: row 0: $0.4, 0.12, 0.08$ with $p_X(\\cdot) = 0.6$; row 1: $0.15, 0.08, 0.03$ with $p_X(\\cdot) = 0.26$; row 2: $0.1, 0.03, 0.01$ with $p_X(\\cdot) = 0.14$; $p_Y(\\cdot) = 0.65, 0.23, 0.12$, total 1. Find the following: (a) $\\Pr(X = 0, Y = 2)$. (b) $\\Pr(X > 0, Y \\le 1)$. (c) $\\Pr(X \\le 1)$. (d) $\\Pr(Y > 0)$. (e) $\\Pr(X = 0)$. (f) $\\Pr(Y = 0)$. (g) $\\Pr(X = 0, Y = 0)$.",
+  "answer": "(a) 0.08 (b) 0.36 (c) 0.86 (d) 0.35 (e) 0.6 (f) 0.65 (g) 0.4",
+  "explanation": "Answer: (a) 0.08 (b) 0.36 (c) 0.86 (d) 0.35 (e) 0.6 (f) 0.65 (g) 0.4",
+  "source": "Finan §39 — Practice Problem 39.3"
+}

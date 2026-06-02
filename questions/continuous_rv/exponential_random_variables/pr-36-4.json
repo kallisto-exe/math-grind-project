@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.4",
+  "question": "Let X be an exponential random variable with mean equals to 4. Find $\\Pr(X\\le 0.5)$.",
+  "answer": "0.1175",
+  "explanation": "Answer: 0.1175",
+  "source": "Finan §36 — Practice Problem 36.4"
+}

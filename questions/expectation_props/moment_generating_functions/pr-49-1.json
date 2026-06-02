@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-1",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.1",
+  "question": "Let $X$ be a discrete random variable with range $\\{1, 2, \\ldots, n\\}$ so that its pmf is given by $p_X(j) = \\frac{1}{n}$ for $1 \\le j \\le n$. Find $E(X)$ and $\\mathrm{Var}(X)$ using moment generating functions.",
+  "answer": "$E(X) = \\frac{n+1}{2}$ and $\\mathrm{Var}(X) = \\frac{n^2 - 1}{12}$",
+  "explanation": "Answer: $E(X) = \\frac{n+1}{2}$ and $\\mathrm{Var}(X) = \\frac{n^2 - 1}{12}$",
+  "source": "Finan §49 — Practice Problem 49.1"
+}

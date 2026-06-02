@@ -1,0 +1,13 @@
+{
+  "id": "ex-10-1",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§10 Posterior Probabilities: Bayes’ Formula",
+  "section": 10,
+  "difficulty": 3,
+  "subtopic": "Worked Example 10.1",
+  "question": "The completion of a highway construction may be delayed because of a projected storm. The probabilities are 0.60 that there will be a storm, 0.85 that the construction job will be completed on time if there is no storm, and 0.35 that the construction will be completed on time if there is a storm. What is the probability that the construction job will be completed on time?",
+  "answer": "",
+  "explanation": "Let $A$ be the event that the construction job will be completed on time and $B$ is the event that there will be a storm. We are given $\\Pr(B) = 0.60$, $\\Pr(A|B^c) = 0.85$, and $\\Pr(A|B) = 0.35$. From Equation (10.1) we find $\\Pr(A) = \\Pr(B)\\Pr(A|B) + \\Pr(B^c)\\Pr(A|B^c) = (0.60)(0.35) + (0.4)(0.85) = 0.55$. From Equation (10.1) we can get Bayes' formula: $$\\Pr(B|A) = \\frac{\\Pr(A \\cap B)}{\\Pr(A \\cap B) + \\Pr(A \\cap B^c)} = \\frac{\\Pr(A|B)\\Pr(B)}{\\Pr(A|B)\\Pr(B) + \\Pr(A|B^c)\\Pr(B^c)}. \\quad (10.2)$$",
+  "source": "Finan §10 — Worked Example 10.1"
+}

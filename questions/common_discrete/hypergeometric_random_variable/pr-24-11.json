@@ -1,0 +1,13 @@
+{
+  "id": "pr-24-11",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§24 Hypergeometric Random Variable",
+  "section": 24,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 24.11",
+  "question": "A jar contains 10 white balls and 15 black balls. Let $X$ denote the number of white balls in a sample of 10 balls selected at random and without replacement. Find $\\frac{\\mathrm{Var}(X)}{E(X)}$.",
+  "answer": "$0.375$",
+  "explanation": "Answer: $0.375$",
+  "source": "Finan §24 — Practice Problem 24.11"
+}

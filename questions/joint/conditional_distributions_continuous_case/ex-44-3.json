@@ -1,0 +1,13 @@
+{
+  "id": "ex-44-3",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§44 Conditional Distributions: Continuous Case",
+  "section": 44,
+  "difficulty": 5,
+  "subtopic": "Worked Example 44.3",
+  "question": "The joint density of $X$ and $Y$ is given by $f_{XY}(x,y) = \\begin{cases} \\frac{15}{2}x(2-x-y) & 0 \\le x, y \\le 1 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Compute the conditional density of $X$, given that $Y = y$ for $0 \\le y \\le 1$.",
+  "answer": "",
+  "explanation": "The marginal density function of $Y$ is $f_Y(y) = \\int \\frac{15}{2}x(2-x-y)\\,dx = 15\\left(\\frac{2}{3} - \\frac{y}{2}\\right)$. Thus, $f_{X|Y}(x|y) = \\frac{f_{XY}(x,y)}{f_Y(y)} = \\frac{x(2-x-y)}{\\frac{2}{3} - \\frac{y}{2}} = \\frac{6x(2-x-y)}{4 - 3y}$",
+  "source": "Finan §44 — Worked Example 44.3"
+}

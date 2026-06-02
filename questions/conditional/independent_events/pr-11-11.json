@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-11",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.11",
+  "question": "Suppose $A, B,$ and $C$ are mutually independent events with probabilities $\\Pr(A) = 0.5$, $\\Pr(B) = 0.8$, and $\\Pr(C) = 0.3$. Find the probability that exactly two of the events $A, B, C$ occur.",
+  "answer": "0.43",
+  "explanation": "Answer: 0.43",
+  "source": "Finan §11 — Practice Problem 11.11"
+}

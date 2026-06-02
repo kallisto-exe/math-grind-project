@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-24",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.24",
+  "question": "The moment generating function for the joint distribution of random variables $X$ and $Y$ is $M(t_1, t_2) = \\frac{1}{3(1-t_2)} + \\frac{2}{3}e^{t_1} \\cdot \\frac{2}{(2-t_2)}$, $t_2 < 1$. Find $\\mathrm{Var}(X)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §49 — Practice Problem 49.24"
+}

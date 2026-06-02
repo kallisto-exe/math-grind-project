@@ -1,0 +1,13 @@
+{
+  "id": "pr-22-7",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 22.7",
+  "question": "Fifteen percent of the cars in a dealer's showroom have a sunroof. A salesperson starts showing you cars at random, one after the other. Let $X$ be the number of cars with a sunroof that you see, before the first car that has no sunroof. (a) What is the probability distribution function of $X$ (b) What is the probability distribution of $Y = X + 1$?",
+  "answer": "(a) $p_X(x) = (0.85)(0.15)^{x-1}$, $x = 1, 2, \\ldots$ and $0$ otherwise (b) $p_Y(y) = (0.85)(0.15)^{y-1}$, $y = 1, 2, 3, \\ldots$ and $0$ otherwise. Thus, $Y$ is a geometric random variable with parameter $0.85$",
+  "explanation": "Answer: (a) $p_X(x) = (0.85)(0.15)^{x-1}$, $x = 1, 2, \\ldots$ and $0$ otherwise (b) $p_Y(y) = (0.85)(0.15)^{y-1}$, $y = 1, 2, 3, \\ldots$ and $0$ otherwise. Thus, $Y$ is a geometric random variable with parameter $0.85$",
+  "source": "Finan §22 — Practice Problem 22.7"
+}

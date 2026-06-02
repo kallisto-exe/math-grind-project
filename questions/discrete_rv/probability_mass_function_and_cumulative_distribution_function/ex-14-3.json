@@ -1,0 +1,13 @@
+{
+  "id": "ex-14-3",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 3,
+  "subtopic": "Worked Example 14.3",
+  "question": "Consider the experiment of rolling a fair die twice. Let $X(i,j) = \\max\\{i, j\\}$. Find the equation of $\\Pr(x)$.",
+  "answer": "",
+  "explanation": "The pmf of $X$ is $p(x) = \\begin{cases} \\frac{2x-1}{36} & \\text{if } x = 1, 2, 3, 4, 5, 6 \\\\ 0 & \\text{otherwise} \\end{cases} = \\frac{2x-1}{36} I_{\\{1,2,3,4,5,6\\}}(x)$ where $I_{\\{1,2,3,4,5,6\\}}(x) = \\begin{cases} 1 & \\text{if } x \\in \\{1, 2, 3, 4, 5, 6\\} \\\\ 0 & \\text{otherwise} \\end{cases}$. In general, we define the indicator function of a set $A$ to be the function $I_A(x) = \\begin{cases} 1 & \\text{if } x \\in A \\\\ 0 & \\text{otherwise} \\end{cases}$. Note that if the range of a random variable is $\\Omega = \\{x_1, x_2, \\ldots\\}$ then $p(x) \\ge 0$, $x \\in \\Omega$ and $\\sum_{x \\in \\Omega} p(x) = 1$. All random variables (discrete, continuous or mixed) have a distribution function or a cumulative distribution function, abbreviated cdf. It is a function giving the probability that the random variable $X$ is less than or equal to $x$, for every value $x$. For a discrete random variable, the cumulative distribution function is found by summing up the probabilities. That is, $F(a) = \\Pr(X \\le a) = \\sum_{x \\le a} p(x)$.",
+  "source": "Finan §14 — Worked Example 14.3"
+}

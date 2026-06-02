@@ -1,0 +1,13 @@
+{
+  "id": "pr-5-9",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 5.9",
+  "question": "Use the binomial theorem and Pascal's triangle to find the expansion of $(a + b)^7$.",
+  "answer": "(a +b)7 =a7 + 7a6b + 21a5b2 + 35a4b3 + 35a3b4 + 21a2b5 + 7ab6 +b7",
+  "explanation": "Answer: $(a + b)^7 = a^7 + 7a^6 b + 21a^5 b^2 + 35a^4 b^3 + 35a^3 b^4 + 21a^2 b^5 + 7a b^6 + b^7$",
+  "source": "Finan §5 — Practice Problem 5.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-12-8",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§12 Odds and Conditional Probability",
+  "section": 12,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 12.8",
+  "question": "Find $\\Pr(E)$ in each case. (a) The odds in favor of $E$ are $3:4$ (b) The odds against $E$ are $7:3$",
+  "answer": "(a) 43% (b) 0.3",
+  "explanation": "Answer: (a) 43% (b) 0.3",
+  "source": "Finan §12 — Practice Problem 12.8"
+}

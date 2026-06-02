@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.2",
+  "question": "Suppose the random variable X has pdf $f(x) = \\begin{cases} e^{-x} & x\\ge 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ Find the 50th percentile.",
+  "answer": "0.693",
+  "explanation": "Answer: 0.693",
+  "source": "Finan §32 — Practice Problem 32.2"
+}

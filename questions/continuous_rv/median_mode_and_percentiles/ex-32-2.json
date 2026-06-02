@@ -1,0 +1,13 @@
+{
+  "id": "ex-32-2",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 4,
+  "subtopic": "Worked Example 32.2",
+  "question": "Let X be a continuous random variable with pdf $f(x) = \\frac{1}{b-a}$ for $a < x < b$ and 0 otherwise. Find the median of X.",
+  "answer": "",
+  "explanation": "We must find a number M such that $\\int_a^M \\frac{dx}{b-a} = 0.5$. This leads to the equation $\\frac{M-a}{b-a} = 0.5$. Solving this equation we find $M = \\frac{a+b}{2}$. Remark 32.1: A discrete random variable might have many medians. For example, let X be the discrete random variable with pmf given by $p(x) = \\left(\\frac{1}{2}\\right)^x$, $x = 1, 2,\\ldots$ and 0 otherwise. Then any number $1 < M < 2$ satisfies $\\Pr(X\\le M) = \\Pr(X\\ge M) = 0.5$. Mode of a Random Variable: The mode is defined as the value that maximizes the probability mass function $p(x)$ (discrete case) or the probability density function $f(x)$ (continuous case). In the discrete case, the mode is the value that is most likely to be sampled. In the continuous case, the mode is where $f(x)$ is at its peak.",
+  "source": "Finan §32 — Worked Example 32.2"
+}

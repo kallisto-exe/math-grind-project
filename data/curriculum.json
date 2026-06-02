@@ -1,20 +1,206 @@
 {
+  "exam": "P",
+  "examName": "SOA Exam P — Probability",
+  "subtitle": "Built on Finan's “A Probability Course for the Actuaries” · ADAPT + spaced repetition",
+  "passLevel": 7.0,
   "subjects": [
-    { "id": "calculus", "label": "Calculus", "icon": "∫", "color": "#534AB7", "light": "#EEEDFE",
-      "topics": ["Limits & Continuity","Derivatives","Integration","Multivariable Calculus","Series & Convergence"] },
-    { "id": "linear_algebra", "label": "Linear Algebra", "icon": "⊗", "color": "#0F6E56", "light": "#E1F5EE",
-      "topics": ["Vectors & Matrices","Systems of Equations","Determinants & Inverses","Eigenvalues & Eigenvectors","Projections & Least Squares"] },
-    { "id": "probability", "label": "Probability", "icon": "P", "color": "#993C1D", "light": "#FAECE7",
-      "topics": ["Axioms & Counting","Conditional Probability & Bayes","Random Variables & Distributions","Expectation & Variance","Joint Distributions","Limit Theorems"] },
-    { "id": "stat_theory", "label": "Stat Theory", "icon": "θ", "color": "#185FA5", "light": "#E6F1FB",
-      "topics": ["Point Estimation","Sufficient Statistics","Hypothesis Testing","Confidence Intervals"] }
+    {
+      "id": "set_theory",
+      "label": "A Review of Set Theory",
+      "icon": "∪",
+      "color": "#993C1D",
+      "light": "#FAECE7",
+      "topics": [
+        "§1 Basic Definitions",
+        "§2 Set Operations"
+      ]
+    },
+    {
+      "id": "counting",
+      "label": "Counting and Combinatorics",
+      "icon": "#",
+      "color": "#B25E00",
+      "light": "#FBEEE0",
+      "topics": [
+        "§3 The Fundamental Principle of Counting",
+        "§4 Permutations",
+        "§5 Combinations"
+      ]
+    },
+    {
+      "id": "prob_defs",
+      "label": "Probability: Definitions and Properties",
+      "icon": "P",
+      "color": "#9A6700",
+      "light": "#FFF4E0",
+      "topics": [
+        "§6 Sample Space, Events, Probability Measure",
+        "§7 Probability of Intersection, Union, and Complementary Event",
+        "§8 Probability and Counting Techniques"
+      ]
+    },
+    {
+      "id": "conditional",
+      "label": "Conditional Probability and Independence",
+      "icon": "∣",
+      "color": "#0F6E56",
+      "light": "#E1F5EE",
+      "topics": [
+        "§9 Conditional Probabilities",
+        "§10 Posterior Probabilities: Bayes’ Formula",
+        "§11 Independent Events",
+        "§12 Odds and Conditional Probability"
+      ]
+    },
+    {
+      "id": "discrete_rv",
+      "label": "Discrete Random Variables",
+      "icon": "▦",
+      "color": "#1E7A6F",
+      "light": "#E2F4F1",
+      "topics": [
+        "§13 Random Variables",
+        "§14 Probability Mass Function and Cumulative Distribution Function",
+        "§15 Expected Value of a Discrete Random Variable",
+        "§16 Expected Value of a Function of a Discrete Random Variable",
+        "§17 Variance and Standard Deviation"
+      ]
+    },
+    {
+      "id": "common_discrete",
+      "label": "Commonly Used Discrete Random Variables",
+      "icon": "🎲",
+      "color": "#185FA5",
+      "light": "#E6F1FB",
+      "topics": [
+        "§18 Bernoulli Trials and Binomial Distributions",
+        "§19 The Expected Value and Variance of the Binomial Distribution",
+        "§20 Poisson Random Variable",
+        "§21 Poisson Approximation to the Binomial Distribution",
+        "§22 Geometric Random Variable",
+        "§23 Negative Binomial Random Variable",
+        "§24 Hypergeometric Random Variable"
+      ]
+    },
+    {
+      "id": "cdf_survival",
+      "label": "Cumulative and Survival Distribution Functions",
+      "icon": "F",
+      "color": "#2A5BC8",
+      "light": "#E8EDFB",
+      "topics": [
+        "§25 The Cumulative Distribution Function",
+        "§26 The Survival Distribution Function"
+      ]
+    },
+    {
+      "id": "calc_prereq",
+      "label": "Calculus Prerequisite",
+      "icon": "∫",
+      "color": "#5B4BC4",
+      "light": "#ECEAFB",
+      "topics": [
+        "§27 Graphing Systems of Linear Inequalities in Two Variables",
+        "§28 Improper Integrals",
+        "§29 Iterated Double Integrals"
+      ]
+    },
+    {
+      "id": "continuous_rv",
+      "label": "Continuous Random Variables",
+      "icon": "∿",
+      "color": "#534AB7",
+      "light": "#EEEDFE",
+      "topics": [
+        "§30 Distribution Functions",
+        "§31 Expectation and Variance",
+        "§32 Median, Mode, and Percentiles",
+        "§33 The Uniform Distribution Function",
+        "§34 Normal Random Variables",
+        "§35 The Normal Approximation to the Binomial Distribution",
+        "§36 Exponential Random Variables",
+        "§37 Gamma Distribution",
+        "§38 The Distribution of a Function of a Random Variable"
+      ]
+    },
+    {
+      "id": "joint",
+      "label": "Joint Distributions",
+      "icon": "∬",
+      "color": "#7A3DAE",
+      "light": "#F1E9F9",
+      "topics": [
+        "§39 Jointly Distributed Random Variables",
+        "§40 Independent Random Variables",
+        "§41 Sum of Two Independent Random Variables: Discrete Case",
+        "§42 Sum of Two Independent Random Variables: Continuous Case",
+        "§43 Conditional Distributions: Discrete Case",
+        "§44 Conditional Distributions: Continuous Case",
+        "§45 Joint Probability Distributions of Functions of Random Variables"
+      ]
+    },
+    {
+      "id": "expectation_props",
+      "label": "Properties of Expectation",
+      "icon": "𝔼",
+      "color": "#A23A8D",
+      "light": "#F9E8F3",
+      "topics": [
+        "§46 Expected Value of a Function of Two Random Variables",
+        "§47 Covariance, Variance of Sums, and Correlations",
+        "§48 Conditional Expectation",
+        "§49 Moment Generating Functions"
+      ]
+    },
+    {
+      "id": "limit_theorems",
+      "label": "Limit Theorems",
+      "icon": "∞",
+      "color": "#9A2D5A",
+      "light": "#FBE7EF",
+      "topics": [
+        "§50 The Law of Large Numbers",
+        "§51 The Central Limit Theorem",
+        "§52 More Useful Probabilistic Inequalities"
+      ]
+    }
   ],
-  "milestones": [
-    { "xp": 30,  "label": "First Steps",      "icon": "🌱", "desc": "Got your first answer right" },
-    { "xp": 100, "label": "On a Roll",        "icon": "🔥", "desc": "100 XP earned" },
-    { "xp": 200, "label": "Calculus Capable", "icon": "∫",  "desc": "200 XP earned" },
-    { "xp": 350, "label": "Probability Pro",  "icon": "🎲", "desc": "350 XP earned" },
-    { "xp": 500, "label": "Algebra Ace",      "icon": "⊗",  "desc": "500 XP earned" },
-    { "xp": 700, "label": "Stat Theorist",    "icon": "θ",  "desc": "700 XP — you're ready!" }
+  "levels": [
+    {
+      "el": 1.0,
+      "label": "Getting Started",
+      "icon": "🌱",
+      "desc": "Working through the fundamentals"
+    },
+    {
+      "el": 3.0,
+      "label": "Building Up",
+      "icon": "🧱",
+      "desc": "Earned Level 3 — core ideas landing"
+    },
+    {
+      "el": 5.0,
+      "label": "Mid-Difficulty",
+      "icon": "⚙️",
+      "desc": "Earned Level 5 — handling real exam questions"
+    },
+    {
+      "el": 6.0,
+      "label": "Approaching Pass",
+      "icon": "📈",
+      "desc": "Earned Level 6 — closing in"
+    },
+    {
+      "el": 7.0,
+      "label": "Exam Ready",
+      "icon": "🎯",
+      "desc": "Earned Level 7 — CA's recommended pass threshold"
+    },
+    {
+      "el": 8.5,
+      "label": "Comfortably Above",
+      "icon": "🏆",
+      "desc": "Earned Level 8.5 — strong margin over passing"
+    }
   ]
 }

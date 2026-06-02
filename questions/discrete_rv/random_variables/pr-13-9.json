@@ -1,0 +1,13 @@
+{
+  "id": "pr-13-9",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§13 Random Variables",
+  "section": 13,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 13.9",
+  "question": "Shooting is one of the sports listed in the Olympic games. A contestant shoots three times, independently. The probability of hiting the target in the first try is 0.7, in the second try 0.5, and in the third try 0.4. Let $X$ be the discrete random variable representing the number of successful shots among these three. (a) Find a formula for the piecewise defined function $X : \\Omega \\to \\mathbb{R}$. (b) Find the event corresponding to $X = 0$. What is the probability that he misses all three shots; i.e., $\\Pr(X = 0)$? (c) What is the probability that he succeeds exactly once among these three shots; i.e. $\\Pr(X = 1)$? (d) What is the probability that he succeeds exactly twice among these three shots; i.e. $\\Pr(X = 2)$? (e) What is the probability that he makes all three shots; i.e. $\\Pr(X = 3)$?",
+  "answer": "(a) $X(s) = \\begin{cases} 0 & s \\in \\{(NS,NS,NS)\\} \\\\ 1 & s \\in \\{(S,NS,NS), (NS,S,NS), (NS,NS,S)\\} \\\\ 2 & s \\in \\{(S,S,NS), (S,NS,S), (NS,S,S)\\} \\\\ 3 & s \\in \\{(S,S,S)\\} \\end{cases}$ (b) 0.09 (c) 0.36 (d) 0.41 (e) 0.14",
+  "explanation": "Answer: (a) $X(s) = \\begin{cases} 0 & s \\in \\{(NS,NS,NS)\\} \\\\ 1 & s \\in \\{(S,NS,NS), (NS,S,NS), (NS,NS,S)\\} \\\\ 2 & s \\in \\{(S,S,NS), (S,NS,S), (NS,S,S)\\} \\\\ 3 & s \\in \\{(S,S,S)\\} \\end{cases}$ (b) 0.09 (c) 0.36 (d) 0.41 (e) 0.14",
+  "source": "Finan §13 — Practice Problem 13.9"
+}

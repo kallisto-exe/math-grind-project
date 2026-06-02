@@ -1,0 +1,13 @@
+{
+  "id": "pr-52-8",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 52.8",
+  "question": "Let $X$ be a random variable with density function $f(x) = \\frac{a}{x^{a+1}}$, $x \\ge 1$, $a > 1$. We call $X$ a Pareto random variable with parameter $a$. (a) Find $E(X)$. (b) Find $E\\left(\\frac{1}{X}\\right)$. (c) Show that $g(x) = \\frac{1}{x}$ is convex in $(0,\\infty)$. (d) Verify Jensen's inequality by comparing (b) and the reciprocal of (a).",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §52 — Practice Problem 52.8"
+}

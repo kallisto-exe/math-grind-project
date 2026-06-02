@@ -1,0 +1,13 @@
+{
+  "id": "pr-35-3",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§35 The Normal Approximation to the Binomial Distribution",
+  "section": 35,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 35.3",
+  "question": "A company manufactures 50,000 light bulbs a day. For every 1,000 bulbs produced there are 50 bulbs defective. Consider testing a random sample of 400 bulbs from today's production. Find the probability that the sample contains (a) At least 14 and no more than 25 defective bulbs. (b) At least 33 defective bulbs.",
+  "answer": "(a) 0.8281 (b) 0.0021",
+  "explanation": "Answer: (a) 0.8281 (b) 0.0021",
+  "source": "Finan §35 — Practice Problem 35.3"
+}

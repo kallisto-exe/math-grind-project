@@ -1,0 +1,13 @@
+{
+  "id": "ex-22-5",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§22 Geometric Random Variable",
+  "section": 22,
+  "difficulty": 4,
+  "subtopic": "Worked Example 22.5",
+  "question": "An archer shoots arrows at a circular target where the central portion of the target inside is called the bull. Suppose that an archer hits the target 70% of the time. Let $X$ be the number of shots until the first hit. Find the expected value and the standard deviation of $X$.",
+  "answer": "",
+  "explanation": "$X$ is a geometric random variable with $p = 0.7$. Thus, $E(X) = \\frac{1}{p} = \\frac{1}{0.7} = 1.43$ and $\\sigma_X = \\sqrt{\\frac{1-p}{p^2}} = \\sqrt{\\frac{0.3}{0.7^2}} = 0.78$",
+  "source": "Finan §22 — Worked Example 22.5"
+}

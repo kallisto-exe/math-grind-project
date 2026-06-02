@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-6",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.6",
+  "question": "Suppose the joint density of random variables $X$ and $Y$ is given by $f_{XY}(x, y) = \\begin{cases} kx^2 y^{-3} & 1 \\le x, y \\le 2 \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Find $k$. (b) Are $X$ and $Y$ independent? (c) Find $\\Pr(X > Y)$.",
+  "answer": "(a) $k = \\frac{8}{7}$ (b) Yes (c) 16",
+  "explanation": "Answer: (a) $k = \\frac{8}{7}$ (b) Yes (c) 16",
+  "source": "Finan §40 — Practice Problem 40.6"
+}

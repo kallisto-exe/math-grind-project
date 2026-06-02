@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-13",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.13",
+  "question": "Let X be a random variable with density function $f(x) = \\frac{4x}{(1+x^2)^3}$ for $x > 0$ and 0 otherwise. Calculate the mode of X.",
+  "answer": "0.4472",
+  "explanation": "Answer: 0.4472",
+  "source": "Finan §32 — Practice Problem 32.13"
+}

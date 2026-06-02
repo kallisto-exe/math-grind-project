@@ -1,0 +1,13 @@
+{
+  "id": "pr-27-4",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§27 Graphing Systems of Linear Inequalities in Two Variables",
+  "section": 27,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 27.4",
+  "question": "Solve graphically $2x + 5y > 20$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §27 — Practice Problem 27.4"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-52-1",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§52 More Useful Probabilistic Inequalities",
+  "section": 52,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 52.1",
+  "question": "Roll a single fair die and let $X$ be the outcome. Then, $E(X) = 3.5$ and $\\operatorname{Var}(X) = \\frac{35}{12}$. (a) Compute the exact value of $\\Pr(X \\ge 6)$. (b) Use Markov's inequality to find an upper bound of $\\Pr(X \\ge 6)$. (c) Use Chebyshev's inequality to find an upper bound of $\\Pr(X \\ge 6)$. (d) Use one-sided Chebyshev's inequality to find an upper bound of $\\Pr(X \\ge 6)$.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §52 — Practice Problem 52.1"
+}

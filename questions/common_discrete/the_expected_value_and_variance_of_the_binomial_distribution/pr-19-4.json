@@ -1,0 +1,13 @@
+{
+  "id": "pr-19-4",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§19 The Expected Value and Variance of the Binomial Distribution",
+  "section": 19,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 19.4",
+  "question": "A recent study shows that the probability of a marriage will end in a divorce within 10 years is 0.4. Letting a divorce be a success, find the mean and the standard deviation for the binomial distribution $X$ involving 1000 marriages.",
+  "answer": "$E(X) = 400$ and $\\sigma_X = 15.492$",
+  "explanation": "Answer: $E(X) = 400$ and $\\sigma_X = 15.492$",
+  "source": "Finan §19 — Practice Problem 19.4"
+}

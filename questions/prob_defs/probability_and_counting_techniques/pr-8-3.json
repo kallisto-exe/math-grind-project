@@ -1,0 +1,13 @@
+{
+  "id": "pr-8-3",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 8.3",
+  "question": "An urn contains three red marbles and two green marbles. An experiment consists of drawing one marble at a time without replacement, until a red one is obtained. Find the probability of the following events. $A$: Only one draw is needed. $B$: Exactly two draws are needed. $C$: Exactly three draws are needed.",
+  "answer": "$\\Pr(A) = 0.6$, $\\Pr(B) = 0.3$, $\\Pr(C) = 0.1$",
+  "explanation": "Answer: $\\Pr(A) = 0.6$, $\\Pr(B) = 0.3$, $\\Pr(C) = 0.1$",
+  "source": "Finan §8 — Practice Problem 8.3"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-13",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.13",
+  "question": "An insurance policy pays for a random loss $X$ subject to a deductible of $C$, where $0 < C < 1$. The loss amount is modeled as a continuous random variable with density function $f(x) = \\begin{cases} 2x & 0 < x < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$ Given a random loss $X$, the probability that the insurance payment is less than 0.5 is equal to 0.64. Calculate $C$.",
+  "answer": "0.3",
+  "explanation": "Answer: 0.3",
+  "source": "Finan §30 — Practice Problem 30.13"
+}

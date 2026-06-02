@@ -1,0 +1,13 @@
+{
+  "id": "pr-29-12",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§29 Iterated Double Integrals",
+  "section": 29,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 29.12",
+  "question": "Evaluate $\\int^1 \\int_0^1 x\\max(x,y)\\,dy\\,dx$.",
+  "answer": "3",
+  "explanation": "Answer: 3",
+  "source": "Finan §29 — Practice Problem 29.12"
+}

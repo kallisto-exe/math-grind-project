@@ -1,0 +1,13 @@
+{
+  "id": "pr-11-9",
+  "type": "free",
+  "subject": "Conditional Probability and Independence",
+  "topic": "§11 Independent Events",
+  "section": 11,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 11.9",
+  "question": "Assume $A$ and $B$ are independent events with $\\Pr(A) = 0.2$ and $\\Pr(B) = 0.3$. Let $C$ be the event that neither $A$ nor $B$ occurs, let $D$ be the event that exactly one of $A$ or $B$ occurs. Find $\\Pr(C)$ and $\\Pr(D)$.",
+  "answer": "$\\Pr(C) = 0.56$, $\\Pr(D) = 0.38$",
+  "explanation": "Answer: $\\Pr(C) = 0.56$, $\\Pr(D) = 0.38$",
+  "source": "Finan §11 — Practice Problem 11.9"
+}

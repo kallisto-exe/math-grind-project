@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-9",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.9",
+  "question": "Suppose that $X$ is a normal random variable with parameters $\\mu = 5$, $\\sigma^2 = 49$. Using the table of the normal distribution, compute: (a) $\\Pr(X > 5.5)$, (b) $\\Pr(4 < X < 6.5)$, (c) $\\Pr(X < 8)$, (d) $\\Pr(|X - 7| \\ge 4)$.",
+  "answer": "0.4721 (b) 0.1389 (c) 0.6664 (d) 0.58",
+  "explanation": "Answer: 0.4721 (b) 0.1389 (c) 0.6664 (d) 0.58",
+  "source": "Finan §34 — Practice Problem 34.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-41-1",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§41 Sum of Two Independent Random Variables: Discrete Case",
+  "section": 41,
+  "difficulty": 5,
+  "subtopic": "Worked Example 41.1",
+  "question": "A die is rolled twice. Let $X$ and $Y$ be the outcomes, and let $Z = X + Y$ be the sum of these outcomes. Find the probability mass function of $Z$.",
+  "answer": "",
+  "explanation": "Note that $X$ and $Y$ have the common pmf: $x = 1, 2, 3, 4, 5, 6$ with $p_X = \\frac{1}{6}$ for each. The probability mass function of $Z$ is then the convolution of $p_X$ with itself. Thus, $\\Pr(Z = 2) = p_X(1) p_X(1) = \\frac{1}{36}$; $\\Pr(Z = 3) = p_X(1) p_X(2) + p_X(2) p_X(1) = \\frac{2}{36}$; $\\Pr(Z = 4) = p_X(1) p_X(3) + p_X(2) p_X(2) + p_X(3) p_X(1) = \\frac{3}{36}$. Continuing in this way we would find $\\Pr(Z = 5) = \\frac{4}{36}$, $\\Pr(Z = 6) = \\frac{5}{36}$, $\\Pr(Z = 7) = \\frac{6}{36}$, $\\Pr(Z = 8) = \\frac{5}{36}$, $\\Pr(Z = 9) = \\frac{4}{36}$, $\\Pr(Z = 10) = \\frac{3}{36}$, $\\Pr(Z = 11) = \\frac{2}{36}$, and $\\Pr(Z = 12) = \\frac{1}{36}$",
+  "source": "Finan §41 — Worked Example 41.1"
+}

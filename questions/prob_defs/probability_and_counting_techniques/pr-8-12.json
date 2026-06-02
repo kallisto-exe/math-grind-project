@@ -1,0 +1,13 @@
+{
+  "id": "pr-8-12",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§8 Probability and Counting Techniques",
+  "section": 8,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 8.12",
+  "question": "From 27 pieces of luggage, an airline luggage handler damages a random sample of four. The probability that exactly one of the damaged pieces of luggage is insured is twice the probability that none of the damaged pieces are insured. Calculate the probability that exactly two of the four damaged pieces are insured.",
+  "answer": "0.27",
+  "explanation": "Answer: 0.27",
+  "source": "Finan §8 — Practice Problem 8.12"
+}

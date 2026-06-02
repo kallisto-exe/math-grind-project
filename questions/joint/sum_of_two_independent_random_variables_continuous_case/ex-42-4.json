@@ -1,0 +1,13 @@
+{
+  "id": "ex-42-4",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§42 Sum of Two Independent Random Variables: Continuous Case",
+  "section": 42,
+  "difficulty": 5,
+  "subtopic": "Worked Example 42.4",
+  "question": "Let $X$ and $Y$ be two independent random variables, each with the standard normal density. Compute $f_{X+Y}(a)$.",
+  "answer": "",
+  "explanation": "We have $f_X(a) = f_Y(a) = \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{x^2}{2}}$. By Theorem 42.1 we have $f_{X+Y}(a) = \\frac{1}{2\\pi} \\int_{-\\infty}^{\\infty} e^{-\\frac{(a-y)^2}{2}} e^{-\\frac{y^2}{2}}\\,dy = \\frac{1}{2\\pi} e^{-\\frac{a^2}{4}} \\int_{-\\infty}^{\\infty} e^{-\\left(y - \\frac{a}{2}\\right)^2}\\,dy = \\frac{1}{2\\pi} e^{-\\frac{a^2}{4}} \\sqrt{\\pi} \\left[\\frac{1}{\\sqrt{\\pi}} \\int_{-\\infty}^{\\infty} e^{-w^2}\\,dw\\right], w = y - \\frac{a}{2}$. The expression in the brackets equals 1, since it is the integral of the normal density function with $\\mu = 0$ and $\\sigma = \\frac{1}{\\sqrt{2}}$. Hence, $f_{X+Y}(a) = \\frac{1}{\\sqrt{4\\pi}} e^{-\\frac{a^2}{4}}$",
+  "source": "Finan §42 — Worked Example 42.4"
+}

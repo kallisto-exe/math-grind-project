@@ -1,0 +1,13 @@
+{
+  "id": "pr-36-9",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§36 Exponential Random Variables",
+  "section": 36,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 36.9",
+  "question": "The lifetime (in hours) of a battery installed in a radio is an exponentially distributed random variable with parameter $\\lambda = 0.01$. What is the probability that the battery is still in use one week after it is installed?",
+  "answer": "0.186",
+  "explanation": "Answer: 0.186",
+  "source": "Finan §36 — Practice Problem 36.9"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex-1-13",
+  "type": "free",
+  "subject": "A Review of Set Theory",
+  "topic": "§1 Basic Definitions",
+  "section": 1,
+  "difficulty": 2,
+  "subtopic": "Worked Example 1.13",
+  "question": "Use induction to show that $\\sum_{i=1}^{n} (2i - 1) = n^2$, $n \\in \\mathbb{N}$.",
+  "answer": "",
+  "explanation": "If $n = 1$ we have $1^2 = 2(1) - 1 = \\sum_{i=1}^{1} (2i - 1)$. Suppose that the result is true for up to $n$. We will show that it is true for $n + 1$. Indeed, $\\sum_{i=1}^{n+1} (2i - 1) = \\sum_{i=1}^{n} (2i - 1) + 2(n + 1) - 1 = n^2 + 2n + 2 - 1 = (n + 1)^2$",
+  "source": "Finan §1 — Worked Example 1.13"
+}

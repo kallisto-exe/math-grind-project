@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-10",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.10",
+  "question": "Find the pth quantile of the exponential distribution defined by the distribution function $F(x) = 1-e^{-x}$ for $x\\ge 0$ and 0 otherwise.",
+  "answer": "$-\\ln(1-p)$",
+  "explanation": "Answer: $-\\ln(1-p)$",
+  "source": "Finan §32 — Practice Problem 32.10"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-50-12",
+  "type": "free",
+  "subject": "Limit Theorems",
+  "topic": "§50 The Law of Large Numbers",
+  "section": 50,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 50.12",
+  "question": "The expected daily production of a DVD factory is 100 DVDs. (a) Find an upper bound to the probability that the factory's production will be more than 120 in a day. (b) Suppose that the variance of the daily production is known to be 5. Find a lower bound to the probability that the factory's production will be between 70 and 130 in a day.",
+  "answer": "",
+  "explanation": "Answer not listed in the book's key — work it through, then check Finan.",
+  "source": "Finan §50 — Practice Problem 50.12"
+}

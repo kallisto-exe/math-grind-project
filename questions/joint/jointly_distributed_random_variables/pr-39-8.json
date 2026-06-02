@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-8",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.8",
+  "question": "A device runs until either of two components fails, at which point the device stops running. The joint density function of the lifetimes of the two components, both measured in hours, is $f_{XY}(x, y) = \\begin{cases} \\frac{x+y}{8} & 0 < x, y < 2 \\\\ 0 & \\text{otherwise} \\end{cases}$ What is the probability that the device fails during its first hour of operation?",
+  "answer": "0.625",
+  "explanation": "Answer: 0.625",
+  "source": "Finan §39 — Practice Problem 39.8"
+}

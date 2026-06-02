@@ -1,0 +1,13 @@
+{
+  "id": "pr-31-16",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§31 Expectation and Variance",
+  "section": 31,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 31.16",
+  "question": "A man purchases a life insurance policy on his 40th birthday. The policy will pay 5000 only if he dies before his 50th birthday and will pay 0 otherwise. The length of lifetime, in years, of a male born the same year as the insured has the cumulative distribution function $F(t) = \\begin{cases} 1 - e^{\\frac{1 - 1.1^t}{1000}} & t > 0 \\\\ 0 & t \\le 0 \\end{cases}$ Calculate the expected payment to the man under this policy.",
+  "answer": "347.96",
+  "explanation": "Answer: 347.96",
+  "source": "Finan §31 — Practice Problem 31.16"
+}

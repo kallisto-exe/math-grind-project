@@ -1,0 +1,13 @@
+{
+  "id": "pr-20-14",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§20 Poisson Random Variable",
+  "section": 20,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 20.14",
+  "question": "The number of trucks arriving at a truck depot on a given day has a Poisson distribution with a mean of 2.5 per day. (a) What is the probability a day goes by with no more than one truck arriving? (b) Give the mean and standard deviation of the number of trucks arriving in an 8-day period.",
+  "answer": "(a) $0.2873$ (b) mean $= 20$ and standard deviation $= 4.47$",
+  "explanation": "Answer: (a) $0.2873$ (b) mean $= 20$ and standard deviation $= 4.47$",
+  "source": "Finan §20 — Practice Problem 20.14"
+}

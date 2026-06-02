@@ -1,0 +1,13 @@
+{
+  "id": "pr-39-5",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§39 Jointly Distributed Random Variables",
+  "section": 39,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 39.5",
+  "question": "Suppose the random variables $X$ and $Y$ have a joint pdf $f_{XY}(x, y) = \\begin{cases} \\frac{20 - x - y}{375} & 0 \\le x, y \\le 5 \\\\ 0 & \\text{otherwise.} \\end{cases}$ Find $\\Pr(1 \\le X \\le 2, 2 \\le Y \\le 3)$.",
+  "answer": "0.0423",
+  "explanation": "Answer: 0.0423",
+  "source": "Finan §39 — Practice Problem 39.5"
+}

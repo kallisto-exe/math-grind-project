@@ -1,0 +1,13 @@
+{
+  "id": "ex-15-3",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§15 Expected Value of a Discrete Random Variable",
+  "section": 15,
+  "difficulty": 3,
+  "subtopic": "Worked Example 15.3",
+  "question": "An insurance policy provides the policyholder with a payment of $1,000 if a death occurs within 5 years. Let $X$ be the random variable of the amount paid by an insurance company to the policyholder. Suppose that the probability of death of the policyholder within 5 years is estimated to be 0.15. (a) Find the probability distribution of $X$. (b) What is the most the policyholder should be willing to pay for this policy?",
+  "answer": "",
+  "explanation": "(a) $\\Pr(X = 1{,}000) = 0.15$ and $\\Pr(X = 0) = 0.85$. (b) $E(X) = 1000 \\times 0.15 + 0 \\times 0.85 = 150$. Thus, the policyholder expected payout is $150, so he/she should not be willing to pay more than $150 for the policy",
+  "source": "Finan §15 — Worked Example 15.3"
+}

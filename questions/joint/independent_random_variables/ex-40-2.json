@@ -1,0 +1,13 @@
+{
+  "id": "ex-40-2",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 5,
+  "subtopic": "Worked Example 40.2",
+  "question": "Automobile policies are separated into two groups: low-risk and high-risk. Actuary Rahul examines low-risk policies, continuing until a policy with a claim is found and then stopping. Actuary Toby follows the same procedure with high-risk policies. Each low-risk policy has a 10% probability of having a claim. Each high-risk policy has a 20% probability of having a claim. The claim statuses of polices are mutually independent. Calculate the probability that Actuary Rahul examines fewer policies than Actuary Toby.",
+  "answer": "",
+  "explanation": "Let $R$ be the random variable denoting the number of policies examined by Rahul until a claim is found. Then $R$ is a geometric random variable with pmf $p_R(r) = 0.1(0.9)^{r-1}$. Likewise, let $T$ be the random variable denoting the number of policies examined by Toby until a claim is found. Then $T$ is a geometric random variable with pmf $p_T(t) = 0.2(0.8)^{t-1}$. The joint distribution is given by $p_{RT}(r,t) = 0.02(0.9)^{r-1}(0.8)^{t-1}$. We want to find $\\Pr(R < T)$. We have $\\Pr(R < T) = \\sum_{r=1}^{\\infty} \\sum_{t=r+1}^{\\infty} 0.02(0.9)^{r-1}(0.8)^{t-1} = \\sum_{r=1}^{\\infty} 0.02(0.9)^{r-1} \\frac{0.8^r}{1 - 0.8} = \\frac{0.02}{0.2} \\frac{0.8}{0.9} \\sum_{r=1}^{\\infty} (0.72)^r = \\frac{0.72}{1 - 0.72} = 0.2857$. In the jointly continuous case the condition of independence is equivalent to $f_{XY}(x,y) = f_X(x)f_Y(y)$. It follows from the previous theorem, that if you are given the joint pdf of the random variables $X$ and $Y$, you can determine whether or not they are independent by calculating the marginal pdfs of $X$ and $Y$ and determining whether or not the relationship $f_{XY}(x,y) = f_X(x)f_Y(y)$ holds.",
+  "source": "Finan §40 — Worked Example 40.2"
+}

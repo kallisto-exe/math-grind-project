@@ -1,0 +1,13 @@
+{
+  "id": "ex-28-7",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 2,
+  "subtopic": "Worked Example 28.7",
+  "question": "Investigate the convergence of $\\int^2 \\frac{1}{(x-2)^2}\\,dx$.",
+  "answer": "",
+  "explanation": "We deal with this improper integral as follows $\\int^2 \\frac{1}{(x- 2)^2}\\,dx = \\lim_{t\\to 2^-} \\int^t \\frac{1}{(x- 2)^2}\\,dx = \\lim_{t\\to 2^-} -\\frac{1}{(x- 2)}\\Big|^t = \\lim_{t\\to 2^-} \\left(-\\frac{1}{t- 2} - \\frac{1}{2}\\right) = \\infty$. So that the given improper integral is divergent",
+  "source": "Finan §28 — Worked Example 28.7"
+}

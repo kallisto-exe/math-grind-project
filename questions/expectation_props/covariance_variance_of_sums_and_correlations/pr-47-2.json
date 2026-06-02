@@ -1,0 +1,13 @@
+{
+  "id": "pr-47-2",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§47 Covariance, Variance of Sums, and Correlations",
+  "section": 47,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 47.2",
+  "question": "Two cards are drawn without replacement from a pack of cards. The random variable $X$ measures the number of heart cards drawn, and the random variable $Y$ measures the number of club cards drawn. Find the covariance and correlation of $X$ and $Y$.",
+  "answer": "covariance is $-0.123$ and correlation is $-0.33$",
+  "explanation": "Answer: covariance is $-0.123$ and correlation is $-0.33$",
+  "source": "Finan §47 — Practice Problem 47.2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-40-8",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§40 Independent Random Variables",
+  "section": 40,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 40.8",
+  "question": "Let $X$ and $Y$ have joint density $f_{XY}(x, y) = \\begin{cases} \\frac{4}{9} & x \\le y \\le 3 - x, 0 \\le x \\\\ 0 & \\text{otherwise.} \\end{cases}$ (a) Compute the marginal densities of $X$ and $Y$. (b) Compute $\\Pr(Y > 2X)$. (c) Are $X$ and $Y$ independent?",
+  "answer": "(a) We have $f_X(x) = \\int_x^{3-x} \\frac{4}{9}\\,dy = \\frac{4}{3} - \\frac{8}{9}x, 0 \\le x \\le \\frac{3}{2}$, 0 otherwise and $f_Y(y) = \\begin{cases} \\frac{4}{9}y & 0 \\le y \\le \\frac{3}{2} \\\\ \\frac{4}{9}(3-y) & \\frac{3}{2} \\le y \\le 3 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) $\\frac{2}{3}$ (c) $X$ and $Y$ are dependent",
+  "explanation": "Answer: (a) We have $f_X(x) = \\int_x^{3-x} \\frac{4}{9}\\,dy = \\frac{4}{3} - \\frac{8}{9}x, 0 \\le x \\le \\frac{3}{2}$, 0 otherwise and $f_Y(y) = \\begin{cases} \\frac{4}{9}y & 0 \\le y \\le \\frac{3}{2} \\\\ \\frac{4}{9}(3-y) & \\frac{3}{2} \\le y \\le 3 \\\\ 0 & \\text{otherwise} \\end{cases}$ (b) $\\frac{2}{3}$ (c) $X$ and $Y$ are dependent",
+  "source": "Finan §40 — Practice Problem 40.8"
+}

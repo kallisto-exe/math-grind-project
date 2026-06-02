@@ -1,0 +1,13 @@
+{
+  "id": "pr-14-1",
+  "type": "free",
+  "subject": "Discrete Random Variables",
+  "topic": "§14 Probability Mass Function and Cumulative Distribution Function",
+  "section": 14,
+  "difficulty": 4,
+  "subtopic": "Practice Problem 14.1",
+  "question": "Consider the experiment of tossing a fair coin three times. Let $X$ denote the random variable representing the total number of heads. (a) Describe the probability mass function by a table. (b) Describe the probability mass function by a histogram.",
+  "answer": "(a) $x$: 0, 1, 2, 3; the corresponding $p(x)$ values are not fully recoverable from the source. (b)",
+  "explanation": "Answer: (a) $x$: 0, 1, 2, 3; the corresponding $p(x)$ values are not fully recoverable from the source. (b)",
+  "source": "Finan §14 — Practice Problem 14.1"
+}

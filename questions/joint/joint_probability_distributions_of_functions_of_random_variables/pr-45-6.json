@@ -1,0 +1,13 @@
+{
+  "id": "pr-45-6",
+  "type": "free",
+  "subject": "Joint Distributions",
+  "topic": "§45 Joint Probability Distributions of Functions of Random Variables",
+  "section": 45,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 45.6",
+  "question": "Let $X_1$ and $X_2$ be two continuous random variables with joint density function $f_{X_1 X_2}(x_1, x_2) = \\begin{cases} e^{-(x_1 + x_2)} & x_1 \\ge 0, x_2 \\ge 0 \\\\ 0 & \\text{otherwise} \\end{cases}$ Let $Y_1 = X_1 + X_2$ and $Y_2 = \\frac{X_1}{X_1 + X_2}$. Find the joint density function of $Y_1$ and $Y_2$.",
+  "answer": "$f_{Y_1 Y_2}(y_1, y_2) = \\begin{cases} e^{-y_1} y_1 & y_1 \\ge 0, 0 < y_2 < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "explanation": "Answer: $f_{Y_1 Y_2}(y_1, y_2) = \\begin{cases} e^{-y_1} y_1 & y_1 \\ge 0, 0 < y_2 < 1 \\\\ 0 & \\text{otherwise} \\end{cases}$",
+  "source": "Finan §45 — Practice Problem 45.6"
+}

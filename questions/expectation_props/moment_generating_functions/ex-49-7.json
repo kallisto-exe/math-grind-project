@@ -1,0 +1,13 @@
+{
+  "id": "ex-49-7",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 5,
+  "subtopic": "Worked Example 49.7",
+  "question": "If $X$ and $Y$ are independent binomial random variables with parameters $(n, p)$ and $(m, p)$, respectively, what is the pmf of $X + Y$?",
+  "answer": "",
+  "explanation": "We have $M_{X+Y}(t) = M_X(t)M_Y(t) = (pe^t + 1 - p)^n (pe^t + 1 - p)^m = (pe^t + 1 - p)^{n+m}$. Since $(pe^t + 1 - p)^{n+m}$ is the moment generating function of a binomial random variable having parameters $m + n$ and $p$, $X + Y$ is a binomial random variable with this same pmf",
+  "source": "Finan §49 — Worked Example 49.7"
+}

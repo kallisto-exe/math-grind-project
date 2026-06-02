@@ -1,0 +1,13 @@
+{
+  "id": "ex-7-8",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§7 Probability of Intersection, Union, and Complementary Event",
+  "section": 7,
+  "difficulty": 3,
+  "subtopic": "Worked Example 7.8",
+  "question": "If a person visits his primary care physician, suppose that the probability that he will have blood test work is 0.44, the probability that he will have an X-ray is 0.24, the probability that he will have an MRI is 0.21, the probability that he will have blood test and an X-ray is 0.08, the probability that he will have blood test and an MRI is 0.11, the probability that he will have an X-ray and an MRI is 0.07, and the probability that he will have blood test, an X-ray, and an MRI is 0.03. What is the probability that a person visiting his PCP will have at least one of these things done to him/her?",
+  "answer": "",
+  "explanation": "Let $B$ be the event that a person will have blood test, $X$ is the event that a person will have an X-ray, and $M$ is the event a person will have an MRI. We are given $\\Pr(B) = 0.44$, $\\Pr(X) = 0.24$, $\\Pr(M) = 0.21$, $\\Pr(B \\cap X) = 0.08$, $\\Pr(B \\cap M) = 0.11$, $\\Pr(X \\cap M) = 0.07$ and $\\Pr(B \\cap X \\cap M) = 0.03$. Thus, $\\Pr(B \\cup X \\cup M) = 0.44 + 0.24 + 0.21 - 0.08 - 0.11 - 0.07 + 0.03 = 0.66$.",
+  "source": "Finan §7 — Worked Example 7.8"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-30-10",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§30 Distribution Functions",
+  "section": 30,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 30.10",
+  "question": "The lifetime of a machine part has a continuous distribution on the interval $(0, 40)$ with probability density function $f$, where $f(x)$ is proportional to $(10+x)^{-2}$. Calculate the probability that the lifetime of the machine part is less than 6.",
+  "answer": "0.469",
+  "explanation": "Answer: 0.469",
+  "source": "Finan §30 — Practice Problem 30.10"
+}

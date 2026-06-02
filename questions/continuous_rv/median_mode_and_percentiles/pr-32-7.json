@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-7",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.7",
+  "question": "Using words, explain the meaning of $F(1120) = 0.2$ in terms of percentiles and quantiles.",
+  "answer": "1120 is the twentieth percentile or 1120 is the one-fifth quantile",
+  "explanation": "Answer: 1120 is the twentieth percentile or 1120 is the one-fifth quantile",
+  "source": "Finan §32 — Practice Problem 32.7"
+}

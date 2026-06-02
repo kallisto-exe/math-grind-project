@@ -1,0 +1,13 @@
+{
+  "id": "pr-34-4",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§34 Normal Random Variables",
+  "section": 34,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 34.4",
+  "question": "It has been determined that the lifetime of a certain light bulb has a normal distribution with $\\mu = 2000$ hours and $\\sigma = 200$ hours. (a) Find the probability that a bulb will last between 2000 and 2400 hours. (b) What is the probability that a light bulb will last less than 1470 hours?",
+  "answer": "(a) 0.4772 (b) 0.004",
+  "explanation": "Answer: (a) 0.4772 (b) 0.004",
+  "source": "Finan §34 — Practice Problem 34.4"
+}

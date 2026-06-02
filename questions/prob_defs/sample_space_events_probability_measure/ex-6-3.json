@@ -1,0 +1,13 @@
+{
+  "id": "ex-6-3",
+  "type": "free",
+  "subject": "Probability: Definitions and Properties",
+  "topic": "§6 Sample Space, Events, Probability Measure",
+  "section": 6,
+  "difficulty": 3,
+  "subtopic": "Worked Example 6.3",
+  "question": "If, for a given experiment, $O_1, O_2, O_3, \\dots$ is an infinite sequence of distinct outcomes, verify that $\\Pr(\\{O_i\\}) = \\left(\\frac{1}{2}\\right)^i$, $i = 1, 2, 3, \\dots$ is a probability measure.",
+  "answer": "",
+  "explanation": "Note that $\\Pr(E) > 0$ for any event $E$. Moreover, if $S$ is the sample space then $\\Pr(S) = \\sum_{i=1}^\\infty \\Pr(\\{O_i\\}) = \\frac{1}{2}\\sum_{i=0}^\\infty \\left(\\frac{1}{2}\\right)^i = \\frac{1}{2} \\cdot \\frac{1}{1 - \\frac{1}{2}} = 1$ where the infinite sum is the infinite geometric series $1 + a + a^2 + \\dots + a^n + \\dots = \\frac{1}{1-a}$, $|a| < 1$ with $a = \\frac{1}{2}$. Next, if $E_1, E_2, \\dots$ is a sequence of mutually exclusive events then $\\Pr\\left(\\bigcup_{n=1}^\\infty E_n\\right) = \\sum_{n=1}^\\infty \\sum_{j=1}^\\infty \\Pr(\\{O_{nj}\\}) = \\sum_{n=1}^\\infty \\Pr(E_n)$ where $E_n = \\bigcup_{i=1}^\\infty \\{O_{ni}\\}$. Thus, $\\Pr$ defines a probability function. Now, since $E \\cup E^c = S$, $E \\cap E^c = \\emptyset$, and $\\Pr(S) = 1$ we find $\\Pr(E^c) = 1 - \\Pr(E)$ where $E^c$ is the complementary event. When the outcome of an experiment is just as likely as another, as in the example of tossing a coin, the outcomes are said to be equally likely. The classical probability concept applies only when all possible outcomes are equally likely, in which case we use the formula $\\Pr(E) = \\frac{\\text{number of outcomes favorable to event}}{\\text{total number of outcomes}} = \\frac{n(E)}{n(S)}$. Since for any event $E$ we have $\\emptyset \\subseteq E \\subseteq S$, we can write $0 \\le n(E) \\le n(S)$ so that $0 \\le \\frac{n(E)}{n(S)} \\le 1$. It follows that $0 \\le \\Pr(E) \\le 1$. Clearly, $\\Pr(S) = 1$. Also, Axiom 3 is easy to check using a generalization of Theorem 2.3 (b).",
+  "source": "Finan §6 — Worked Example 6.3"
+}

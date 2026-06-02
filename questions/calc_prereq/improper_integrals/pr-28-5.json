@@ -1,0 +1,13 @@
+{
+  "id": "pr-28-5",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 28.5",
+  "question": "Determine if the following integral is convergent or divergent. If it is convergent find its value. $\\int_{-\\infty}^\\infty \\frac{dx}{e^x + e^{-x}}$.",
+  "answer": "$\\pi$",
+  "explanation": "Answer: $\\pi$",
+  "source": "Finan §28 — Practice Problem 28.5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-49-12",
+  "type": "free",
+  "subject": "Properties of Expectation",
+  "topic": "§49 Moment Generating Functions",
+  "section": 49,
+  "difficulty": 6,
+  "subtopic": "Practice Problem 49.12",
+  "question": "A company insures homes in three cities, J, K, and L. Since sufficient distance separates the cities, it is reasonable to assume that the losses occurring in these cities are independent. The moment generating functions for the loss distributions of the cities are: $M_J(t) = (1 - 2t)^{-3}$ $M_K(t) = (1 - 2t)^{-2.5}$ $M_L(t) = (1 - 2t)^{-4.5}$ Let $X$ represent the combined losses from the three cities. Calculate $E(X^3)$.",
+  "answer": "10,560",
+  "explanation": "Answer: 10,560",
+  "source": "Finan §49 — Practice Problem 49.12"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pr-32-6",
+  "type": "free",
+  "subject": "Continuous Random Variables",
+  "topic": "§32 Median, Mode, and Percentiles",
+  "section": 32,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 32.6",
+  "question": "An automobile insurance company issues a one-year policy with a deductible of 500. The probability is 0.8 that the insured automobile has no accident and 0.0 that the automobile has more than one accident. If there is an accident, the loss before application of the deductible is exponentially distributed with mean 3000. Calculate the 95th percentile of the insurance company payout on this policy.",
+  "answer": "3659",
+  "explanation": "Answer: 3659",
+  "source": "Finan §32 — Practice Problem 32.6"
+}

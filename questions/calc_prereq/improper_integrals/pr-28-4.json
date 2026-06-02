@@ -1,0 +1,13 @@
+{
+  "id": "pr-28-4",
+  "type": "free",
+  "subject": "Calculus Prerequisite",
+  "topic": "§28 Improper Integrals",
+  "section": 28,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 28.4",
+  "question": "Determine if the following integral is convergent or divergent. If it is convergent find its value. $\\int^{10} \\frac{dx}{\\sqrt{10-x}}$.",
+  "answer": "6",
+  "explanation": "Answer: 6",
+  "source": "Finan §28 — Practice Problem 28.4"
+}

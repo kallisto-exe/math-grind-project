@@ -1,0 +1,13 @@
+{
+  "id": "pr-5-6",
+  "type": "free",
+  "subject": "Counting and Combinatorics",
+  "topic": "§5 Combinations",
+  "section": 5,
+  "difficulty": 3,
+  "subtopic": "Practice Problem 5.6",
+  "question": "A consumer group has 30 members. In how many ways can the group choose 3 members to attend a national meeting?",
+  "answer": "4,060",
+  "explanation": "Answer: 4,060",
+  "source": "Finan §5 — Practice Problem 5.6"
+}

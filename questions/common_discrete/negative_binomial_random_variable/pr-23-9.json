@@ -1,0 +1,13 @@
+{
+  "id": "pr-23-9",
+  "type": "free",
+  "subject": "Commonly Used Discrete Random Variables",
+  "topic": "§23 Negative Binomial Random Variable",
+  "section": 23,
+  "difficulty": 5,
+  "subtopic": "Practice Problem 23.9",
+  "question": "A machine that produces computer chips produces 3 defective chips out of 100. Computer chips are delvered to retailers in packages of 20 chips each. (a) A package is selected randomly. What is the probability that the package will contain at least 2 defective chips? (b) What is the probability that the tenth package selected is the third to contain at least two defective chips?",
+  "answer": "(a) $0.1198$ (b) $0.0254$",
+  "explanation": "Answer: (a) $0.1198$ (b) $0.0254$",
+  "source": "Finan §23 — Practice Problem 23.9"
+}
