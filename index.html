@@ -28,31 +28,29 @@ function katexHTML(tex, display) {
   try { return window.katex.renderToString(tex, { displayMode: display, throwOnError: false }); }
   catch (e) { return tex; }
 }
-// Heuristic: does the text between two $ actually look like math (vs. a $50…$100 currency span)?
+// Decide whether the text between two $ is real math (vs. a "$50 and $100" currency span).
+// Keys on definitive math signals so digit-leading math ($1 + a$, $0 \le n(E)$) still renders.
 function looksMath(s) {
-  if (/[\\^_{}=<>]/.test(s)) return true;            // LaTeX command or relational/structural math
-  if (s.length < 30 && !/[A-Za-z]{4,}/.test(s)) return true; // short, no English words
-  return false;
+  if (/[\\^_{}]/.test(s)) return true;                    // LaTeX command, sub/superscript, or group
+  if (/[=<>]/.test(s) && /[A-Za-z]/.test(s)) return true; // relation involving a variable, e.g. P(X=4)
+  if (s.length <= 12 && !/[A-Za-z]{3,}/.test(s)) return true; // short symbolic token, no words
+  return false;                                            // prose between currency $ → leave literal
 }
 // Render a string that may contain $...$ (inline) or $$...$$ (display) LaTeX spans.
-const CURRENCY_SENTINEL = "";
 function Tex({ children }) {
-  const raw = children == null ? "" : String(children);
-  if (!window.katex || raw.indexOf("$") === -1) {
-    return <span style={{ whiteSpace: "pre-wrap" }}>{raw}</span>;
+  const text = children == null ? "" : String(children);
+  if (!window.katex || text.indexOf("$") === -1) {
+    return <span style={{ whiteSpace: "pre-wrap" }}>{text}</span>;
   }
-  // Shield currency ("$" immediately before a digit) so it never pairs as a math delimiter.
-  const text = raw.replace(/\$(?=\d)/g, CURRENCY_SENTINEL);
-  const restore = s => s.split(CURRENCY_SENTINEL).join("$");
   const parts = text.split(/(\$\$[\s\S]*?\$\$|\$[^$\n]+?\$)/g);
   return (
     <span style={{ whiteSpace: "pre-wrap" }}>
       {parts.map((p, i) => {
         if (p.length > 3 && p.startsWith("$$") && p.endsWith("$$"))
-          return <span key={i} dangerouslySetInnerHTML={{ __html: katexHTML(restore(p.slice(2, -2)), true) }} />;
+          return <span key={i} dangerouslySetInnerHTML={{ __html: katexHTML(p.slice(2, -2), true) }} />;
         if (p.length > 1 && p.startsWith("$") && p.endsWith("$") && looksMath(p.slice(1, -1)))
-          return <span key={i} dangerouslySetInnerHTML={{ __html: katexHTML(restore(p.slice(1, -1)), false) }} />;
-        return <span key={i}>{restore(p)}</span>;   // plain text (incl. currency like $50)
+          return <span key={i} dangerouslySetInnerHTML={{ __html: katexHTML(p.slice(1, -1), false) }} />;
+        return <span key={i}>{p}</span>;   // plain text (incl. currency like $50)
       })}
     </span>
   );
